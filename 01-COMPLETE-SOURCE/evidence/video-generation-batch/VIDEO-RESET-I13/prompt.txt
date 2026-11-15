@@ -1,0 +1,12 @@
+Create a fictional educational explainer for CYBERAWARE 3D about Account recovery. Scenario: You receive a password-reset SMS for a service while you are not attempting to reset your password. A second message asks you to approve the reset. Explain why the correct defensive response is: Ignore the link, navigate independently to the service and review account security or contact support if needed. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Only initiate recovery yourself through the official service; do not approve an unsolicited reset. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.
+
+VISUAL STYLE
+Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.
+
+GENERATION INSTRUCTIONS
+- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.
+- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.
+- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.
+- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.
+- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.
+- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.

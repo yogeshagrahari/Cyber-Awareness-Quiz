@@ -1,0 +1,63 @@
+{
+  "videoId": "VIDEO-SUP-E02",
+  "questionId": "SUP-E02",
+  "title": "The Critical Supplier Component",
+  "learningObjective": "Prioritize a supplier vulnerability using exposure, exploitability, criticality, provenance and compensating controls.",
+  "targetDurationSeconds": 60,
+  "format": "16:9 educational motion-graphics explainer with narration, separate captions and no autoplay audio",
+  "visualStyle": "Deep navy/charcoal with restrained cyan/electric-blue highlights, limited purple accents, high contrast, stable typography and reduced-motion transitions.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-12s",
+      "visual": "A supplier notifies the organization that a widely used authentication component has a critical vulnerability. The component appears in the software bill of materials for six services. Two services are internet-facing; one supports payroll. There is no confirmed exploitation in your environment, and the vendor has published a mitigation plus a target patch date.",
+      "direction": "Use a fictional organization, synthetic people and generic systems. Do not expose real identity, secrets or operational infrastructure.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Decision frame",
+      "time": "12-24s",
+      "visual": "Prioritize a supplier vulnerability using exposure, exploitability, criticality, provenance and compensating controls.",
+      "direction": "Show the decision context and the relevant business/security trade-off. Avoid unsupported claims.",
+      "onScreenText": "Decision frame"
+    },
+    {
+      "name": "Recommended response",
+      "time": "24-38s",
+      "visual": "Option C: Use the SBOM and asset inventory to identify deployed versions and reachable exposure, prioritize critical services, apply the vendor mitigation or approved compensating controls, test and deploy the patch through change control, and track residual risk. Correct. Component inventory, exposure and criticality support defensible prioritization; mitigation, controlled patching and residual-risk tracking maintain accountability.",
+      "direction": "Animate a safe, high-level decision sequence; do not provide attack steps or sensitive operational detail.",
+      "onScreenText": "Safest response: C"
+    },
+    {
+      "name": "Trade-offs",
+      "time": "38-52s",
+      "visual": "Option A: Disabling every service without triage can cause avoidable business harm. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option B: Waiting for confirmed compromise delays preventive risk treatment. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option D: Uncoordinated service-owner decisions can create remediation gaps. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.",
+      "direction": "Present the alternatives as decision cards and explain their risks without depicting an actual attack.",
+      "onScreenText": "Why the alternatives fail"
+    },
+    {
+      "name": "Takeaway",
+      "time": "52-60s",
+      "visual": "Correlate SBOM entries with asset and service inventories; validate affected versions; rank by exposure and business criticality; apply vendor guidance; test patches; coordinate change windows; document residual risk and supplier follow-up. A component inventory becomes actionable when it is connected to deployed assets, exposure, criticality and accountable remediation.",
+      "direction": "End with concise defensive action and keep text on screen long enough to read.",
+      "onScreenText": "Defensive next step"
+    }
+  ],
+  "narration": "Scenario: A vulnerable authentication component appears in six services; two are internet-facing and one supports payroll. A supplier has issued mitigation guidance and a patch date. Safest response: correlate the SBOM with live assets, prioritize by exposure and criticality, mitigate, patch through change control and track residual risk. Option A is unsafe because Disabling every service without triage can cause avoidable business harm. Option B is unsafe because Waiting for confirmed compromise delays preventive risk treatment. Option D is unsafe because Uncoordinated service-owner decisions can create remediation gaps. In practice: identify affected versions, apply vendor guidance, test updates and assign remediation owners. Key takeaway: turn component inventory into risk-prioritized action.",
+  "audioDirection": "Neutral, clear instructional narration; do not imitate a real person.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Supply-chain risk governance. Explain the safest defensive decision and the options' trade-offs. Use generic organizational visuals, no recognizable brands, real people, real data, real credentials or operational attack details. A component inventory becomes actionable when it is connected to deployed assets, exposure, criticality and accountable remediation.",
+  "generationInstructions": [
+    "Preserve narration meaning and do not add unsupported technical claims.",
+    "Render 16:9 1080p MP4 with safe margins and separate synchronized WebVTT captions.",
+    "Use synthetic fictional names and generic interfaces only.",
+    "Do not use flashing effects, strobing, rapid motion or autoplay audio.",
+    "Human-review technical accuracy, accessibility, captions, pronunciation and timing before marking ready."
+  ],
+  "accessibility": "Separate captions and transcript required. No color-only encoding; preserve readable contrast and provide written explanation if media fails.",
+  "references": [
+    "[17]",
+    "[18]",
+    "[37]"
+  ],
+  "outputFile": "public/videos/expert/sup-e02.mp4"
+}

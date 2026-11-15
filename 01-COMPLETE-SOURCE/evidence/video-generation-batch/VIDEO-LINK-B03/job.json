@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-LINK-B03",
+  "questionId": "LINK-B03",
+  "level": "Beginner",
+  "title": "Question explanation: The look-alike sign-in link",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "ed9363e036040c7597bf3524fad83a60c9d0268fab6a77f250eca32542e82031",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 49
+  },
+  "narration": "Scenario: A message says you must review a shared document. The visible text says “university portal,” but the underlying link points to a misspelled domain. Safest response: Option B: Do not use the link; open the known portal independently and locate the document there. Independent navigation avoids relying on a potentially deceptive destination. Option A is unsafe because Private browsing does not make a malicious destination safe. Option C is unsafe because Visible link text can conceal a different destination. Option D is unsafe because Search results may include look-alike or sponsored destinations and do not validate the message. In practice: Use a bookmark or manually enter the service’s known address. Report the suspicious message if it is unsolicited. Key takeaway: Treat a link’s actual destination—not its label—as the relevant address.",
+  "script": "# The look-alike sign-in link\n\n**Video ID:** `VIDEO-LINK-B03`  \n**Question ID:** `LINK-B03`  \n**Level:** Beginner  \n**Target duration:** 49 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nInspect a link destination before opening it and navigate independently when uncertain\n\n## Scenario\nA message says you must review a shared document. The visible text says “university portal,” but the underlying link points to a misspelled domain.\n\n## Narration transcript\nScenario: A message says you must review a shared document. The visible text says “university portal,” but the underlying link points to a misspelled domain. Safest response: Option B: Do not use the link; open the known portal independently and locate the document there. Independent navigation avoids relying on a potentially deceptive destination. Option A is unsafe because Private browsing does not make a malicious destination safe. Option C is unsafe because Visible link text can conceal a different destination. Option D is unsafe because Search results may include look-alike or sponsored destinations and do not validate the message. In practice: Use a bookmark or manually enter the service’s known address. Report the suspicious message if it is unsolicited. Key takeaway: Treat a link’s actual destination—not its label—as the relevant address.\n\n## Correct response\nB. Do not use the link; open the known portal independently and locate the document there.\n\n## Option-specific teaching notes\n- **A:** Private browsing does not make a malicious destination safe.\n- **B (correct):** Correct. Independent navigation avoids relying on a potentially deceptive destination.\n- **C:** Visible link text can conceal a different destination.\n- **D:** Search results may include look-alike or sponsored destinations and do not validate the message.\n\n## Key takeaway\nTreat a link’s actual destination—not its label—as the relevant address.\n\n## Recommended defensive action\nUse a bookmark or manually enter the service’s known address. Report the suspicious message if it is unsolicited.\n\n## On-screen text sequence\n- **0-9s — Scenario setup:** Fictional scenario\n- **9-18s — Learning objective and risk cue:** Suspicious links — key cue\n- **18-29s — Recommended response:** Safest response: B\n- **29-41s — Why the other options fail:** Why the alternatives are unsafe\n- **41-49s — Defensive takeaway:** Treat a link’s actual destination—not its label—as the relevant address.\n\n## Research references\n- [6]\n- [16]\n- [25]\n\n## Planned output\n`public/videos/beginner/link-b03.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-LINK-B03",
+    "questionId": "LINK-B03",
+    "title": "The look-alike sign-in link — question explanation",
+    "learningObjective": "Inspect a link destination before opening it and navigate independently when uncertain",
+    "targetDurationSeconds": 49,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-9s",
+        "visual": "A message says you must review a shared document. The visible text says “university portal,” but the underlying link points to a misspelled domain.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "9-18s",
+        "visual": "Inspect a link destination before opening it and navigate independently when uncertain",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Suspicious links — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "18-29s",
+        "visual": "Option B: Do not use the link; open the known portal independently and locate the document there. Independent navigation avoids relying on a potentially deceptive destination.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: B"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "29-41s",
+        "visual": "Option A: Private browsing does not make a malicious destination safe. Option C: Visible link text can conceal a different destination. Option D: Search results may include look-alike or sponsored destinations and do not validate the message.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "41-49s",
+        "visual": "Use a bookmark or manually enter the service’s known address. Report the suspicious message if it is unsolicited. Treat a link’s actual destination—not its label—as the relevant address.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Treat a link’s actual destination—not its label—as the relevant address."
+      }
+    ],
+    "narration": "Scenario: A message says you must review a shared document. The visible text says “university portal,” but the underlying link points to a misspelled domain. Safest response: Option B: Do not use the link; open the known portal independently and locate the document there. Independent navigation avoids relying on a potentially deceptive destination. Option A is unsafe because Private browsing does not make a malicious destination safe. Option C is unsafe because Visible link text can conceal a different destination. Option D is unsafe because Search results may include look-alike or sponsored destinations and do not validate the message. In practice: Use a bookmark or manually enter the service’s known address. Report the suspicious message if it is unsolicited. Key takeaway: Treat a link’s actual destination—not its label—as the relevant address.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Suspicious links. Scenario: A message says you must review a shared document. The visible text says “university portal,” but the underlying link points to a misspelled domain. Explain why Option B is the safest defensive response: Do not use the link; open the known portal independently and locate the document there. Contrast the unsafe alternatives with these concise reasons: Option A: Private browsing does not make a malicious destination safe.; Option C: Visible link text can conceal a different destination.; Option D: Search results may include look-alike or sponsored destinations and do not validate the message.. Conclude with: Treat a link’s actual destination—not its label—as the relevant address. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[6]",
+      "[16]",
+      "[25]"
+    ],
+    "outputFile": "public/videos/beginner/link-b03.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Suspicious links. Scenario: A message says you must review a shared document. The visible text says “university portal,” but the underlying link points to a misspelled domain. Explain why the correct defensive response is: Do not use the link; open the known portal independently and locate the document there. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Treat a link’s actual destination—not its label—as the relevant address. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.740\nScenario: A message says you must review a shared document.\n\n2\n00:00:03.740 --> 00:00:07.107\nThe visible text says “university portal,” but the underlying\n\n3\n00:00:07.107 --> 00:00:10.473\nlink points to a misspelled domain. Safest response: Option\n\n4\n00:00:10.473 --> 00:00:13.840\nB: Do not use the link; open the known\n\n5\n00:00:13.840 --> 00:00:17.206\nportal independently and locate the document there. Independent navigation\n\n6\n00:00:17.206 --> 00:00:20.573\navoids relying on a potentially deceptive destination. Option A\n\n7\n00:00:20.573 --> 00:00:23.939\nis unsafe because Private browsing does not make a\n\n8\n00:00:23.939 --> 00:00:27.305\nmalicious destination safe. Option C is unsafe because Visible\n\n9\n00:00:27.305 --> 00:00:30.672\nlink text can conceal a different destination. Option D\n\n10\n00:00:30.672 --> 00:00:34.038\nis unsafe because Search results may include look-alike or\n\n11\n00:00:34.038 --> 00:00:37.405\nsponsored destinations and do not validate the message. In\n\n12\n00:00:37.405 --> 00:00:41.519\npractice: Use a bookmark or manually enter the service’s known address.\n\n13\n00:00:41.519 --> 00:00:44.885\nReport the suspicious message if it is unsolicited. Key\n\n14\n00:00:44.885 --> 00:00:48.252\ntakeaway: Treat a link’s actual destination—not its label—as the\n\n15\n00:00:48.252 --> 00:00:49.000\nrelevant address.\n",
+  "referenceIds": [
+    "[6]",
+    "[16]",
+    "[25]"
+  ],
+  "question": {
+    "title": "The look-alike sign-in link",
+    "learningObjective": "Inspect a link destination before opening it and navigate independently when uncertain",
+    "scenario": "A message says you must review a shared document. The visible text says “university portal,” but the underlying link points to a misspelled domain.",
+    "correctOptionId": "B",
+    "correctAnswer": "Do not use the link; open the known portal independently and locate the document there.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Private browsing does not make a malicious destination safe."
+      },
+      "B": {
+        "isCorrect": true,
+        "explanation": "Correct. Independent navigation avoids relying on a potentially deceptive destination."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Visible link text can conceal a different destination."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Search results may include look-alike or sponsored destinations and do not validate the message."
+      }
+    },
+    "keyTakeaway": "Treat a link’s actual destination—not its label—as the relevant address.",
+    "recommendedDefensiveAction": "Use a bookmark or manually enter the service’s known address. Report the suspicious message if it is unsolicited."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "factualAccuracy": false,
+  "correctAnswerAndDistractors": false,
+  "referencesVerified": false,
+  "narrationMatchesExplanation": false,
+  "scriptAndStoryboardReviewed": false,
+  "noSensitiveData": false,
+  "accessibilityBriefReviewed": false,
+  "reviewNotes": "Replace each false value only after the named human review has actually been completed."
+}

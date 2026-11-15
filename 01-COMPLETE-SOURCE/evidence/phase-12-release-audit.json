@@ -1,0 +1,53 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.5",
+  "phase": 12,
+  "date": "2026-11-12",
+  "scope": "React browser acceptance and application release hardening; video work excluded.",
+  "locallyPassed": {
+    "legacyNodeTests": "35/35",
+    "reactDomainDataTests": "14/14",
+    "contentValidation": "51 scenarios, 204 answer rationales, 38 references",
+    "offlineTypeScript": "PASS (shim-based structural check only)",
+    "legacyStaticBuild": "PASS (copy-based, not Vite)",
+    "legacyDistributionSmoke": "215 routes",
+    "secretPatternScan": "PASS (high-confidence patterns only)"
+  },
+  "implementedButNotRunLocally": {
+    "playwright": "Content load, primary navigation, keyboard quiz, progress persistence, reduced-motion tests",
+    "axeCore": "WCAG 2.0/2.1/2.2 A/AA tagged scans; CI fails critical/serious findings",
+    "ci": "Network-enabled lockfile generation, npm ci, official typecheck/Vite build, Chromium browser tests"
+  },
+  "blocked": [
+    {
+      "item": "React package install and official build",
+      "reason": "npm registry DNS failure in this environment; run in network-enabled GitHub Actions."
+    },
+    {
+      "item": "Browser tests and axe scans",
+      "reason": "Chromium runtime blocked/timed out locally; CI execution is configured but not yet observed."
+    },
+    {
+      "item": "Committed package lock",
+      "reason": "Do not fabricate lockfile; obtain generated artifact from CI, review and commit."
+    },
+    {
+      "item": "Firefox/WebKit and manual WCAG acceptance",
+      "reason": "Not run."
+    },
+    {
+      "item": "Production TLS/monitoring/backup/rollback",
+      "reason": "Requires target deployment environment."
+    },
+    {
+      "item": "Independent expert review and learner evaluation",
+      "reason": "Requires qualified human reviewers and participants."
+    }
+  ],
+  "deferredByOwner": [
+    "video provider integration",
+    "MP4 generation",
+    "video review"
+  ],
+  "releaseDecision": "LEGACY_DEMONSTRATOR_LOCALLY_VERIFIED; REACT_MIGRATION_CANDIDATE_AWAITING_NETWORKED_CI_AND_BROWSER_ACCEPTANCE"
+}

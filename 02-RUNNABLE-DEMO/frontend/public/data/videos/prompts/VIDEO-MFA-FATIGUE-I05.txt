@@ -1,0 +1,12 @@
+Create a fictional educational explainer for CYBERAWARE 3D about Authentication. Scenario: Over ten minutes, your authenticator sends repeated sign-in approval prompts. You are not attempting to sign in, and a coworker says to approve one to stop them. Explain why the correct defensive response is: Deny the prompts, stop interacting with them and contact the security team immediately. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Repeated uninitiated prompts are a possible compromise signal, not a harmless notification problem. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.
+
+VISUAL STYLE
+Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.
+
+GENERATION INSTRUCTIONS
+- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.
+- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.
+- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.
+- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.
+- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.
+- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.

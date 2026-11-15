@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.375
+Scenario: A supplier asks for broad administrator access to
+
+2
+00:00:03.375 --> 00:00:06.750
+your cloud tenant to troubleshoot an integration. The contract
+
+3
+00:00:06.750 --> 00:00:10.500
+does not clearly describe data processing, logging or access termination.
+
+4
+00:00:10.500 --> 00:00:13.875
+Safest response: Option A: Complete supplier/security review, define data
+
+5
+00:00:13.875 --> 00:00:17.250
+and access scope, use named time-bound least-privilege accounts, log
+
+6
+00:00:17.250 --> 00:00:20.625
+activity and document offboarding. Supplier access should be constrained,
+
+7
+00:00:20.625 --> 00:00:24.375
+attributable, monitored and governed by explicit contractual and technical controls.
+
+8
+00:00:24.375 --> 00:00:27.750
+Option B is unsafe because Broad access before due
+
+9
+00:00:27.750 --> 00:00:31.125
+diligence expands exposure and can be difficult to unwind.
+
+10
+00:00:31.125 --> 00:00:34.500
+Option C is unsafe because Shared credentials reduce accountability
+
+11
+00:00:34.500 --> 00:00:37.875
+and create an insecure secret-distribution path. Option D is
+
+12
+00:00:37.875 --> 00:00:41.250
+unsafe because A verbal promise without enforceable scope and
+
+13
+00:00:41.250 --> 00:00:44.625
+technical controls is insufficient. In practice: Delay access until
+
+14
+00:00:44.625 --> 00:00:48.000
+procurement, security, privacy and system owners document the supplier’s
+
+15
+00:00:48.000 --> 00:00:51.375
+need, safeguards, data terms, account scope and revocation plan.
+
+16
+00:00:51.375 --> 00:00:54.750
+Key takeaway: Third-party trust must be supported by evidence,
+
+17
+00:00:54.750 --> 00:00:57.000
+scoped access, monitoring and lifecycle controls.

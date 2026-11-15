@@ -1,0 +1,65 @@
+{
+  "videoId": "VIDEO-ATTACH-MACRO-I06",
+  "questionId": "ATTACH-MACRO-I06",
+  "title": "The macro-enabled invoice — question explanation",
+  "learningObjective": "Avoid enabling active content in untrusted documents and verify the sender",
+  "targetDurationSeconds": 60,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-11s",
+      "visual": "A supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "11-22s",
+      "visual": "Avoid enabling active content in untrusted documents and verify the sender",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Malicious attachments — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "22-36s",
+      "visual": "Option B: Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content. Unexpected documents and requests to enable active content require independent verification.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: B"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "36-50s",
+      "visual": "Option A: Disconnecting does not make untrusted active content safe; it may still alter or persist on the device. Option C: Uploading a business document publicly may disclose confidential data; use organization-approved analysis channels. Option D: Unexpected active content can execute code and should not be enabled simply to view a document.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "50-60s",
+      "visual": "Close the document without enabling content. Verify with the supplier using a known contact method and use approved security analysis if needed. Do not enable macros or active content in an unexpected document to reveal what it contains.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Do not enable macros or active content in an unexpected document to reveal what it contains."
+    }
+  ],
+  "narration": "Scenario: A supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice. Safest response: Option B: Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content. Unexpected documents and requests to enable active content require independent verification. Option A is unsafe because Disconnecting does not make untrusted active content safe; it may still alter or persist on the device. Option C is unsafe because Uploading a business document publicly may disclose confidential data; use organization-approved analysis channels. Option D is unsafe because Unexpected active content can execute code and should not be enabled simply to view a document. In practice: Close the document without enabling content. Verify with the supplier using a known contact method and use approved security analysis if needed. Key takeaway: Do not enable macros or active content in an unexpected document to reveal what it contains.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Malicious attachments. Scenario: A supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice. Explain why Option B is the safest defensive response: Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content. Contrast the unsafe alternatives with these concise reasons: Option A: Disconnecting does not make untrusted active content safe; it may still alter or persist on the device.; Option C: Uploading a business document publicly may disclose confidential data; use organization-approved analysis channels.; Option D: Unexpected active content can execute code and should not be enabled simply to view a document.. Conclude with: Do not enable macros or active content in an unexpected document to reveal what it contains. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[1]",
+    "[7]",
+    "[17]",
+    "[25]"
+  ],
+  "outputFile": "public/videos/intermediate/attach-macro-i06.mp4"
+}

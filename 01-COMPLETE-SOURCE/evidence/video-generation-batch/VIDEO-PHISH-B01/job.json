@@ -1,0 +1,118 @@
+{
+  "videoId": "VIDEO-PHISH-B01",
+  "questionId": "PHISH-B01",
+  "level": "Beginner",
+  "title": "Question explanation: The urgent account warning",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "949e89bf88f6bf4d8953f911554ecce658f836fb3250ffdd33446d6e79691d74",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 59
+  },
+  "narration": "Scenario: A message says your learning-platform account will be disabled in 20 minutes unless you sign in through its embedded link. You were not expecting an account notice. Safest response: Option B: Open the platform using a saved bookmark or typed known address, then check notices; report the message if suspicious. Independently navigate to the known service instead of trusting the embedded link, and report suspicious mail through the approved channel. Option A is unsafe because Replying engages the sender and does not independently establish identity. Option C is unsafe because Wider forwarding can spread malicious links and expose recipients; use the approved reporting route. Option D is unsafe because This follows the message’s pressure and may disclose credentials to a look-alike site. In practice: Do not open the embedded link. Navigate independently to the service and report the message using the organization’s phishing-report process. Key takeaway: Pause when a message creates urgency; verify through a channel you already trust.",
+  "script": "# The urgent account warning\n\n**Video ID:** `VIDEO-PHISH-B01`  \n**Question ID:** `PHISH-B01`  \n**Level:** Beginner  \n**Target duration:** 59 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nIdentify urgency, unexpected requests and mismatched context in a suspicious message\n\n## Scenario\nA message says your learning-platform account will be disabled in 20 minutes unless you sign in through its embedded link. You were not expecting an account notice.\n\n## Narration transcript\nScenario: A message says your learning-platform account will be disabled in 20 minutes unless you sign in through its embedded link. You were not expecting an account notice. Safest response: Option B: Open the platform using a saved bookmark or typed known address, then check notices; report the message if suspicious. Independently navigate to the known service instead of trusting the embedded link, and report suspicious mail through the approved channel. Option A is unsafe because Replying engages the sender and does not independently establish identity. Option C is unsafe because Wider forwarding can spread malicious links and expose recipients; use the approved reporting route. Option D is unsafe because This follows the message’s pressure and may disclose credentials to a look-alike site. In practice: Do not open the embedded link. Navigate independently to the service and report the message using the organization’s phishing-report process. Key takeaway: Pause when a message creates urgency; verify through a channel you already trust.\n\n## Correct response\nB. Open the platform using a saved bookmark or typed known address, then check notices; report the message if suspicious.\n\n## Option-specific teaching notes\n- **A:** Replying engages the sender and does not independently establish identity.\n- **B (correct):** Correct. Independently navigate to the known service instead of trusting the embedded link, and report suspicious mail through the approved channel.\n- **C:** Wider forwarding can spread malicious links and expose recipients; use the approved reporting route.\n- **D:** This follows the message’s pressure and may disclose credentials to a look-alike site.\n\n## Key takeaway\nPause when a message creates urgency; verify through a channel you already trust.\n\n## Recommended defensive action\nDo not open the embedded link. Navigate independently to the service and report the message using the organization’s phishing-report process.\n\n## On-screen text sequence\n- **0-11s — Scenario setup:** Fictional scenario\n- **11-21s — Learning objective and risk cue:** Phishing indicators — key cue\n- **21-35s — Recommended response:** Safest response: B\n- **35-50s — Why the other options fail:** Why the alternatives are unsafe\n- **50-59s — Defensive takeaway:** Pause when a message creates urgency; verify through a channel you already trust.\n\n## Research references\n- [1]\n- [6]\n- [7]\n- [25]\n\n## Planned output\n`public/videos/beginner/phish-b01.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-PHISH-B01",
+    "questionId": "PHISH-B01",
+    "title": "The urgent account warning — question explanation",
+    "learningObjective": "Identify urgency, unexpected requests and mismatched context in a suspicious message",
+    "targetDurationSeconds": 59,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-11s",
+        "visual": "A message says your learning-platform account will be disabled in 20 minutes unless you sign in through its embedded link. You were not expecting an account notice.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "11-21s",
+        "visual": "Identify urgency, unexpected requests and mismatched context in a suspicious message",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Phishing indicators — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "21-35s",
+        "visual": "Option B: Open the platform using a saved bookmark or typed known address, then check notices; report the message if suspicious. Independently navigate to the known service instead of trusting the embedded link, and report suspicious mail through the approved channel.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: B"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "35-50s",
+        "visual": "Option A: Replying engages the sender and does not independently establish identity. Option C: Wider forwarding can spread malicious links and expose recipients; use the approved reporting route. Option D: This follows the message’s pressure and may disclose credentials to a look-alike site.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "50-59s",
+        "visual": "Do not open the embedded link. Navigate independently to the service and report the message using the organization’s phishing-report process. Pause when a message creates urgency; verify through a channel you already trust.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Pause when a message creates urgency; verify through a channel you already trust."
+      }
+    ],
+    "narration": "Scenario: A message says your learning-platform account will be disabled in 20 minutes unless you sign in through its embedded link. You were not expecting an account notice. Safest response: Option B: Open the platform using a saved bookmark or typed known address, then check notices; report the message if suspicious. Independently navigate to the known service instead of trusting the embedded link, and report suspicious mail through the approved channel. Option A is unsafe because Replying engages the sender and does not independently establish identity. Option C is unsafe because Wider forwarding can spread malicious links and expose recipients; use the approved reporting route. Option D is unsafe because This follows the message’s pressure and may disclose credentials to a look-alike site. In practice: Do not open the embedded link. Navigate independently to the service and report the message using the organization’s phishing-report process. Key takeaway: Pause when a message creates urgency; verify through a channel you already trust.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Phishing indicators. Scenario: A message says your learning-platform account will be disabled in 20 minutes unless you sign in through its embedded link. You were not expecting an account notice. Explain why Option B is the safest defensive response: Open the platform using a saved bookmark or typed known address, then check notices; report the message if suspicious. Contrast the unsafe alternatives with these concise reasons: Option A: Replying engages the sender and does not independently establish identity.; Option C: Wider forwarding can spread malicious links and expose recipients; use the approved reporting route.; Option D: This follows the message’s pressure and may disclose credentials to a look-alike site.. Conclude with: Pause when a message creates urgency; verify through a channel you already trust. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[6]",
+      "[7]",
+      "[25]"
+    ],
+    "outputFile": "public/videos/beginner/phish-b01.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Phishing indicators. Scenario: A message says your learning-platform account will be disabled in 20 minutes unless you sign in through its embedded link. You were not expecting an account notice. Explain why the correct defensive response is: Open the platform using a saved bookmark or typed known address, then check notices; report the message if suspicious. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Pause when a message creates urgency; verify through a channel you already trust. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.319\nScenario: A message says your learning-platform account will be\n\n2\n00:00:03.319 --> 00:00:06.638\ndisabled in 20 minutes unless you sign in through\n\n3\n00:00:06.638 --> 00:00:10.325\nits embedded link. You were not expecting an account notice.\n\n4\n00:00:10.325 --> 00:00:13.644\nSafest response: Option B: Open the platform using a\n\n5\n00:00:13.644 --> 00:00:16.962\nsaved bookmark or typed known address, then check notices;\n\n6\n00:00:16.962 --> 00:00:20.281\nreport the message if suspicious. Independently navigate to the\n\n7\n00:00:20.281 --> 00:00:23.600\nknown service instead of trusting the embedded link, and\n\n8\n00:00:23.600 --> 00:00:26.919\nreport suspicious mail through the approved channel. Option A\n\n9\n00:00:26.919 --> 00:00:30.238\nis unsafe because Replying engages the sender and does\n\n10\n00:00:30.238 --> 00:00:33.556\nnot independently establish identity. Option C is unsafe because\n\n11\n00:00:33.556 --> 00:00:36.875\nWider forwarding can spread malicious links and expose recipients;\n\n12\n00:00:36.875 --> 00:00:40.194\nuse the approved reporting route. Option D is unsafe\n\n13\n00:00:40.194 --> 00:00:43.513\nbecause This follows the message’s pressure and may disclose\n\n14\n00:00:43.513 --> 00:00:46.831\ncredentials to a look-alike site. In practice: Do not\n\n15\n00:00:46.831 --> 00:00:50.150\nopen the embedded link. Navigate independently to the service\n\n16\n00:00:50.150 --> 00:00:53.469\nand report the message using the organization’s phishing-report process.\n\n17\n00:00:53.469 --> 00:00:56.788\nKey takeaway: Pause when a message creates urgency; verify\n\n18\n00:00:56.788 --> 00:00:59.000\nthrough a channel you already trust.\n",
+  "referenceIds": [
+    "[1]",
+    "[6]",
+    "[7]",
+    "[25]"
+  ],
+  "question": {
+    "title": "The urgent account warning",
+    "learningObjective": "Identify urgency, unexpected requests and mismatched context in a suspicious message",
+    "scenario": "A message says your learning-platform account will be disabled in 20 minutes unless you sign in through its embedded link. You were not expecting an account notice.",
+    "correctOptionId": "B",
+    "correctAnswer": "Open the platform using a saved bookmark or typed known address, then check notices; report the message if suspicious.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Replying engages the sender and does not independently establish identity."
+      },
+      "B": {
+        "isCorrect": true,
+        "explanation": "Correct. Independently navigate to the known service instead of trusting the embedded link, and report suspicious mail through the approved channel."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Wider forwarding can spread malicious links and expose recipients; use the approved reporting route."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "This follows the message’s pressure and may disclose credentials to a look-alike site."
+      }
+    },
+    "keyTakeaway": "Pause when a message creates urgency; verify through a channel you already trust.",
+    "recommendedDefensiveAction": "Do not open the embedded link. Navigate independently to the service and report the message using the organization’s phishing-report process."
+  }
+}

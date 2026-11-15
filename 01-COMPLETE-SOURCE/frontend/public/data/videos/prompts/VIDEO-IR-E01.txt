@@ -1,0 +1,12 @@
+Create a fictional 60-second accessible educational motion-graphics explainer for CYBERAWARE 3D. Subject: Incident response governance. Use only generic fictional systems and synthetic values. Explain the correct defensive response, contrast the three unsafe alternatives at a high level, and end with: Act on credible indicators through the incident plan; do not wait for perfect attribution or take uncontrolled disruptive action.
+
+NARRATION
+Scenario: Alerts show file encryption, unusual service-account use and unusual outbound traffic. The initial access path is unknown. Safest response: activate the incident plan, isolate confirmed affected assets, preserve evidence and scope related hosts and accounts. Option B is unsafe because A blanket shutdown can destroy volatile evidence and disrupt unaffected services. Option C is unsafe because Waiting for attribution can allow active damage to continue. Option D is unsafe because Direct uncoordinated contact bypasses the authorized response structure. In practice: appoint an incident lead, preserve logs, contain proportionately and record decisions and unknowns. Key takeaway: respond to credible indicators without waiting for perfect attribution.
+
+FULL TEACHING NOTES
+Option A: Correct. Coordinated activation, proportionate containment, evidence preservation and scoping support an informed response while limiting unnecessary operational disruption.
+Option B: A blanket shutdown can destroy volatile evidence and disrupt unaffected services. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option C: Waiting for attribution can allow active damage to continue. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option D: Direct uncoordinated contact bypasses the authorized response structure. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+
+STYLE: Deep navy, charcoal, restrained cyan/electric blue, accessible typography, 16:9. No recognizable logos, real identities, credentials, live data, operational attack instructions, flashing, rapid motion or autoplay audio. Supply separate synchronized WebVTT and transcript. Human review is mandatory before release.

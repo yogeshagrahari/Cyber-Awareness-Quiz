@@ -1,0 +1,115 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.4",
+  "phase": 11,
+  "date": "2026-11-12",
+  "scope": "Application/deployment hardening; video generation and production excluded by project-owner direction.",
+  "checks": [
+    {
+      "name": "legacy-node-tests",
+      "result": "PASS",
+      "passed": 35,
+      "failed": 0
+    },
+    {
+      "name": "react-domain-data-tests",
+      "result": "PASS",
+      "passed": 14,
+      "failed": 0
+    },
+    {
+      "name": "offline-typescript-structural-check",
+      "result": "PASS",
+      "compiler": "local TypeScript 5.8",
+      "shimBased": true
+    },
+    {
+      "name": "canonical-content-and-schema-validation",
+      "result": "PASS",
+      "coreQuestions": 45,
+      "expertScenarios": 6,
+      "answerRationales": 204,
+      "references": 38
+    },
+    {
+      "name": "legacy-static-distribution-build",
+      "result": "PASS",
+      "kind": "copy-based static package",
+      "viteBundle": false
+    },
+    {
+      "name": "legacy-distribution-smoke",
+      "result": "PASS",
+      "routes": 215
+    },
+    {
+      "name": "node-readiness-endpoint",
+      "result": "PASS",
+      "methods": [
+        "GET",
+        "HEAD"
+      ],
+      "cacheControl": "no-store"
+    },
+    {
+      "name": "nginx-live-http-smoke",
+      "result": "PASS",
+      "checks": 8
+    },
+    {
+      "name": "nginx-legacy-proxy-config-syntax",
+      "result": "PASS"
+    },
+    {
+      "name": "systemd-unit-syntax",
+      "result": "PASS"
+    },
+    {
+      "name": "high-confidence-secret-pattern-scan",
+      "result": "PASS",
+      "scope": "Not a comprehensive secret-scanning product."
+    },
+    {
+      "name": "cyclonedx-sbom",
+      "result": "PASS",
+      "directDependencies": 8,
+      "transitiveResolved": false
+    }
+  ],
+  "blocked": [
+    {
+      "name": "committed-react-dependency-lockfile",
+      "status": "BLOCKED",
+      "reason": "Registry DNS resolution fails in this runtime (EAI_AGAIN). React CI now generates a lockfile in a network-enabled runner, uses npm ci, and uploads it for review; it is not yet committed."
+    },
+    {
+      "name": "react-official-typecheck-and-vite-production-build",
+      "status": "NOT_VERIFIED",
+      "reason": "No dependency-backed React/Vite build can be run in this environment."
+    },
+    {
+      "name": "real-browser-and-accessibility-acceptance",
+      "status": "NOT_VERIFIED",
+      "reason": "Direct Chromium headless navigation timed out; browser runtime restrictions prevent a reliable end-to-end result."
+    },
+    {
+      "name": "production-host-tls-monitoring-rollback",
+      "status": "NOT_VERIFIED",
+      "reason": "Deployment examples are syntax-checked; no target production host, TLS ingress, monitoring or rollback environment was supplied."
+    },
+    {
+      "name": "independent-expert-review",
+      "status": "PENDING"
+    },
+    {
+      "name": "learner-evaluation",
+      "status": "NOT_CONDUCTED"
+    }
+  ],
+  "deferredByOwner": [
+    "video-provider-integration",
+    "mp4-generation",
+    "video-caption-and-media-review"
+  ],
+  "releaseDecision": "VERIFIED_LEGACY_DEMONSTRATOR_WITH_DEPLOYMENT_GUIDANCE; REACT_MIGRATION_CANDIDATE_NOT_PRODUCTION_APPROVED"
+}

@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.346
+Scenario: A QR code on a delivery notice opens
+
+2
+00:00:03.346 --> 00:00:06.692
+a page asking you to download an Android package
+
+3
+00:00:06.692 --> 00:00:10.038
+file directly because the “official app store is unavailable.”
+
+4
+00:00:10.038 --> 00:00:13.385
+Safest response: Option A: Do not sideload it; verify
+
+5
+00:00:13.385 --> 00:00:17.474
+the delivery through the courier’s official app or independently located website.
+
+6
+00:00:17.474 --> 00:00:21.564
+Use an authenticated distribution channel and independently verify the delivery request.
+
+7
+00:00:21.564 --> 00:00:24.910
+Option B is unsafe because The printed notice does
+
+8
+00:00:24.910 --> 00:00:28.628
+not authenticate the source or integrity of the installation file.
+
+9
+00:00:28.628 --> 00:00:31.974
+Option C is unsafe because This transfers risk to
+
+10
+00:00:31.974 --> 00:00:35.321
+another person and may propagate malware. Option D is
+
+11
+00:00:35.321 --> 00:00:38.667
+unsafe because One permission choice does not make an
+
+12
+00:00:38.667 --> 00:00:42.013
+untrusted package safe; it may request more later or
+
+13
+00:00:42.013 --> 00:00:45.359
+contain malicious code. In practice: Close the page, do
+
+14
+00:00:45.359 --> 00:00:48.705
+not install the package, and verify shipment status through
+
+15
+00:00:48.705 --> 00:00:52.051
+the courier’s independently accessed official service. Key takeaway: Do
+
+16
+00:00:52.051 --> 00:00:55.397
+not install an unsolicited app package from a QR-linked
+
+17
+00:00:55.397 --> 00:00:58.000
+page; use a trusted app distribution channel.

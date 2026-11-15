@@ -1,0 +1,50 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.9.0",
+  "phase": 8,
+  "date": "2026-11-12",
+  "scope": "Local demo server security hardening, local progress sanitization, selected text contrast tokens, regression evidence",
+  "results": {
+    "nodeTests": { "passed": 35, "failed": 0 },
+    "coreQuestions": 45,
+    "expertChallengeScenarios": 6,
+    "totalQuestionVideoMappings": 51,
+    "registeredResearchReferences": 38,
+    "videoScriptsValidated": 51,
+    "storyboardsValidated": 51,
+    "promptsValidated": 51,
+    "webvttCaptionsValidated": 51,
+    "generatedMp4Files": 0,
+    "approvedPlayableVideos": 0,
+    "distributionRoutesSmokeTested": 215,
+    "selectedContrastPairsChecked": 5,
+    "secretPatternScan": "PASS - high-confidence patterns only"
+  },
+  "securityRegressions": {
+    "loopbackDefault": "PASS",
+    "symlinkEscapeRejected": "PASS",
+    "nulAndControlPathRejected": "PASS",
+    "unapprovedMethodsRejected": "PASS",
+    "errorResponsesCarrySecurityHeaders": "PASS",
+    "mp4GetRange": "PASS",
+    "mp4HeadRange": "PASS",
+    "localProgressSchemaSanitization": "PASS"
+  },
+  "build": {
+    "staticBuild": "PASS",
+    "distributionSmokeTest": "PASS",
+    "cycloneDxSbom": "REGENERATED",
+    "sha256Manifest": "REGENERATED"
+  },
+  "notVerified": [
+    "Browser UI navigation: Chromium returned net::ERR_BLOCKED_BY_ADMINISTRATOR on http://127.0.0.1:4174/ in this execution environment.",
+    "WebGL rendering and interaction in target browsers",
+    "Full WCAG 2.2 AA conformance, keyboard-only audit, screen-reader audit, 200%/400% zoom and reflow",
+    "Independent cybersecurity SME and instructional-design approval",
+    "AI video provider connection and actual MP4 generation",
+    "Actual educational video playback/caption validation",
+    "Production deployment and penetration test",
+    "Human-subject learning-effectiveness evaluation"
+  ],
+  "releaseDecision": "INTERNAL DEMONSTRATOR ONLY - NOT APPROVED FOR PRODUCTION RELEASE"
+}

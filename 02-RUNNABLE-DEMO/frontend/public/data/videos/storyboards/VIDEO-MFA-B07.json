@@ -1,0 +1,63 @@
+{
+  "videoId": "VIDEO-MFA-B07",
+  "questionId": "MFA-B07",
+  "title": "An unexpected sign-in prompt — question explanation",
+  "learningObjective": "Deny uninitiated authentication prompts and report repeated unexpected requests",
+  "targetDurationSeconds": 50,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-9s",
+      "visual": "You are not signing in, but your phone displays an approval request for your work account.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "9-18s",
+      "visual": "Deny uninitiated authentication prompts and report repeated unexpected requests",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Authentication — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "18-30s",
+      "visual": "Option B: Deny the request and report it to the helpdesk or security team. A prompt you did not initiate may indicate someone has your password or is attempting authentication.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: B"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "30-42s",
+      "visual": "Option A: Repeated prompts can be an authentication-fatigue tactic; approving a later one is unsafe. Option C: Public sharing may expose account identifiers or organizational information and does not report the incident appropriately. Option D: Approval may authorize an attacker’s login attempt.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "42-50s",
+      "visual": "Deny the request, do not disclose any code, and report unexpected or repeated prompts through the organization’s support channel. Only approve authentication you initiated and can confidently match to your sign-in.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Only approve authentication you initiated and can confidently match to your sign-in."
+    }
+  ],
+  "narration": "Scenario: You are not signing in, but your phone displays an approval request for your work account. Safest response: Option B: Deny the request and report it to the helpdesk or security team. A prompt you did not initiate may indicate someone has your password or is attempting authentication. Option A is unsafe because Repeated prompts can be an authentication-fatigue tactic; approving a later one is unsafe. Option C is unsafe because Public sharing may expose account identifiers or organizational information and does not report the incident appropriately. Option D is unsafe because Approval may authorize an attacker’s login attempt. In practice: Deny the request, do not disclose any code, and report unexpected or repeated prompts through the organization’s support channel. Key takeaway: Only approve authentication you initiated and can confidently match to your sign-in.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Authentication. Scenario: You are not signing in, but your phone displays an approval request for your work account. Explain why Option B is the safest defensive response: Deny the request and report it to the helpdesk or security team. Contrast the unsafe alternatives with these concise reasons: Option A: Repeated prompts can be an authentication-fatigue tactic; approving a later one is unsafe.; Option C: Public sharing may expose account identifiers or organizational information and does not report the incident appropriately.; Option D: Approval may authorize an attacker’s login attempt.. Conclude with: Only approve authentication you initiated and can confidently match to your sign-in. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[16]",
+    "[25]"
+  ],
+  "outputFile": "public/videos/beginner/mfa-b07.mp4"
+}

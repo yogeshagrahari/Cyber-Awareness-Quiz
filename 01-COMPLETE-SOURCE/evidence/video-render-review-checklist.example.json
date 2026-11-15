@@ -1,0 +1,11 @@
+{
+  "factualAccuracy": false,
+  "answerAndDistractorConsistency": false,
+  "narrationAndPronunciation": false,
+  "captionSynchronization": false,
+  "visualQuality": false,
+  "accessibility": false,
+  "rightsCleared": false,
+  "noSensitiveOrRealTargetData": false,
+  "reviewNotes": "Replace each false value only after reviewing the actual rendered MP4 and caption track."
+}

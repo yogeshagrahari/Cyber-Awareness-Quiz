@@ -1,0 +1,77 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.10",
+  "phase": 17,
+  "date": "2026-11-13",
+  "scope": [
+    "source manifest enforcement",
+    "archive membership and excluded-path checks",
+    "application demo input validation",
+    "expanded high-confidence secret scanning",
+    "Node.js LTS coverage"
+  ],
+  "implemented": [
+    "Added a fail-closed source manifest verifier that checks schema, duplicates, path inventory, exact size and SHA-256 digests and symbolic links.",
+    "Release packaging checks full-source archive membership against the verified manifest and rejects excluded/sensitive paths.",
+    "Removed the non-existent frontend/legacy.html path and verifies every application demo input before ZIP creation.",
+    "Expanded high-confidence secret scanning to .env dotfiles, configuration and key/certificate formats plus AWS, GitLab, Slack, Stripe, npm and OpenAI project/service token patterns.",
+    "Unified CI now covers Node.js 22.23.5, 24.22.3 and 26.13.1 for both legacy and React validation matrices.",
+    "Added manifest drift and demo package path regression tests."
+  ],
+  "localResults": {
+    "legacyTests": "43/43 passed",
+    "reactDomainAndSourceTests": "17/17 passed",
+    "contentValidation": "passed",
+    "expandedSecretPatternScan": "passed",
+    "legacyBuildAndRouteSmoke": "passed; 215 routes",
+    "packagedDistributionSmoke": "passed",
+    "nginxHttpSmoke": "8/8 passed",
+    "backupSmoke": "passed",
+    "systemdUnitSyntax": "passed",
+    "sourceManifestVerification": "passed",
+    "releaseArchiveMembershipAndExclusionScan": "passed",
+    "archiveIntegrityAndChecksums": "passed",
+    "sourceManifestVerifier": "passed; valid inventory accepted and tampered/untracked fixture files rejected",
+    "archiveMembershipAndExcludedPathScan": "passed",
+    "applicationDemoRequiredPathValidation": "passed",
+    "supportedNodeMatrix": [
+      "22.23.5",
+      "24.22.3",
+      "26.13.1"
+    ],
+    "extractedApplicationDemoRuntimeSmoke": "passed; extracted ZIP server launched and verified health, root, question bank, HEAD, 405 method guard, no-store and graceful shutdown"
+  },
+  "runtimeLimitations": {
+    "localNode": "v22.16.0",
+    "localNpm": "10.9.2",
+    "declaredNodeMinimum": ">=22.23.5",
+    "requiredCiNodeVersions": [
+      "22.23.5",
+      "24.22.3",
+      "26.13.1"
+    ],
+    "dependencyInstallation": "not run; no genuine committed React lockfile and runtime/registry access constraints",
+    "officialReactBuild": "not run",
+    "browserPlaywrightAndAxe": "not run in this local environment"
+  },
+  "externalGates": [
+    "Generate, inspect and commit the genuine React package-lock.json.",
+    "Pass three-version npm ci and npm audit CI matrix.",
+    "Pass official TypeScript 7/Vite build, build smoke, cross-browser/mobile Playwright and axe scans.",
+    "Configure stable branch protection checks.",
+    "Verify production TLS/HSTS, monitoring, off-host backup and restore/rollback.",
+    "Complete independent cybersecurity/instructional-design review and learner evaluation."
+  ],
+  "deferredByOwner": [
+    "Video provider integration",
+    "MP4 generation",
+    "Media/video review"
+  ],
+  "releaseDecision": "NOT_PRODUCTION_APPROVED; source-only and legacy demo artifacts may be handed off for internal review; no React production ZIP is issued.",
+  "constraints": [
+    "The authoring runtime is Node.js 22.16.0 and npm 10.9.2, below the declared Node.js minimum and npm CLI pin.",
+    "No genuine reviewed React package-lock.json is present; dependency-backed React build and browser CI were not run.",
+    "No GitHub repository or remote Actions run was accessed.",
+    "The React production distribution is not fabricated; only source-only and legacy-demo archives are issued locally."
+  ]
+}

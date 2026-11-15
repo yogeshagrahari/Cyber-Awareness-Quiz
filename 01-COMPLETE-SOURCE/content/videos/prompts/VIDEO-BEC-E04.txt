@@ -1,0 +1,12 @@
+Create a fictional 60-second accessible educational motion-graphics explainer for CYBERAWARE 3D. Subject: Business email compromise and financial controls. Use only generic fictional systems and synthetic values. Explain the correct defensive response, contrast the three unsafe alternatives at a high level, and end with: A payment-detail change is a high-risk request even when it arrives inside a familiar email conversation.
+
+NARRATION
+Scenario: A supplier email thread requests a new bank account and an executive asks finance to hurry. Safest response: pause payment, independently verify with a previously known supplier contact and follow dual approval. Option A is unsafe because A compromised mailbox can control replies in the same email thread. Option C is unsafe because A test transfer can still be lost without authenticating the new account. Option D is unsafe because A familiar thread and executive urgency do not authenticate changed bank details. In practice: use trusted contact details, retain evidence and escalate; contact the bank promptly if funds moved. Key takeaway: never let urgency bypass payment controls.
+
+FULL TEACHING NOTES
+Option A: A compromised mailbox can control replies in the same email thread. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option B: Correct. A trusted out-of-band verification path and separation of duties reduce the risk of payment diversion and create an auditable approval trail.
+Option C: A test transfer can still be lost without authenticating the new account. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option D: A familiar thread and executive urgency do not authenticate changed bank details. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+
+STYLE: Deep navy, charcoal, restrained cyan/electric blue, accessible typography, 16:9. No recognizable logos, real identities, credentials, live data, operational attack instructions, flashing, rapid motion or autoplay audio. Supply separate synchronized WebVTT and transcript. Human review is mandatory before release.

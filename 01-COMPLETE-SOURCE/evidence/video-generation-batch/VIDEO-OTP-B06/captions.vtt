@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.325
+Scenario: A caller claiming to be bank support says
+
+2
+00:00:03.325 --> 00:00:06.650
+a verification code has been sent to your phone
+
+3
+00:00:06.650 --> 00:00:09.975
+and asks you to read it aloud to stop
+
+4
+00:00:09.975 --> 00:00:13.299
+a suspicious transaction. Safest response: Option A: Hang up
+
+5
+00:00:13.299 --> 00:00:16.624
+and contact the bank using the number on your
+
+6
+00:00:16.624 --> 00:00:19.949
+card or official app; never share the code. An
+
+7
+00:00:19.949 --> 00:00:23.274
+unsolicited caller must not receive an authenticator output; independently
+
+8
+00:00:23.274 --> 00:00:26.599
+contact the institution. Option B is unsafe because Partial
+
+9
+00:00:26.599 --> 00:00:30.293
+disclosure can still help an attacker complete an authentication flow.
+
+10
+00:00:30.293 --> 00:00:33.618
+Option C is unsafe because Knowing personal details does
+
+11
+00:00:33.618 --> 00:00:37.312
+not authenticate the caller; the code may authorize an action.
+
+12
+00:00:37.312 --> 00:00:40.637
+Option D is unsafe because Changing the communication channel
+
+13
+00:00:40.637 --> 00:00:43.962
+does not make disclosure safe. In practice: End the
+
+14
+00:00:43.962 --> 00:00:47.656
+call and contact the bank through a known official channel.
+
+15
+00:00:47.656 --> 00:00:50.981
+Review account activity and report the attempted social engineering.
+
+16
+00:00:50.981 --> 00:00:54.306
+Key takeaway: An OTP is an authenticator output. Do
+
+17
+00:00:54.306 --> 00:00:57.631
+not disclose it to callers, chat contacts or anyone
+
+18
+00:00:57.631 --> 00:00:58.000
+else.

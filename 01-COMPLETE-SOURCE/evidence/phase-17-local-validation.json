@@ -1,0 +1,118 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.10",
+  "phase": 17,
+  "date": "2026-11-13",
+  "runtime": {
+    "node": "v22.16.0",
+    "npm": "10.9.2",
+    "globalTypeScript": "5.8.3",
+    "declaredNodeMinimum": ">=22.23.5",
+    "ciNodeMatrix": [
+      "22.23.5",
+      "24.22.3",
+      "26.13.1"
+    ],
+    "caveat": "The local runtime is below the declared engine floor and is not the pinned npm CLI. The supported-version matrix is configured for remote CI but has not been executed in this container."
+  },
+  "checks": {
+    "legacyNodeTests": {
+      "passed": true,
+      "result": "43/43"
+    },
+    "reactDomainAndSourceAccessibilityTests": {
+      "passed": true,
+      "result": "17/17",
+      "detail": "Domain/data tests and source assertions only; not browser accessibility evidence."
+    },
+    "offlineStructuralTypecheck": {
+      "passed": true,
+      "result": "TypeScript 5.8.3 with local ambient shims",
+      "detail": "Not the official TypeScript 7 project typecheck."
+    },
+    "canonicalContentValidation": {
+      "passed": true,
+      "result": "45 core questions, 6 Expert Challenge scenarios, 51 explanation mappings, 204 option rationales and 38 reference mappings."
+    },
+    "expandedHighConfidenceSecretPatternScan": {
+      "passed": true,
+      "detail": "Scanned source, Markdown, text, environment dotfiles, configuration, lock and key/certificate file types plus additional high-confidence token families; not a full SAST or dedicated secret-scanning product."
+    },
+    "legacyStaticBuild": {
+      "passed": true,
+      "detail": "Copy-based compatibility build; not Vite."
+    },
+    "legacyDistributionSmoke": {
+      "passed": true,
+      "result": "215 routes"
+    },
+    "packagedDistributionSmoke": {
+      "passed": true,
+      "detail": "Actual legacy dist server process tested for health, root, canonical data, GET/HEAD, 404, method guard, security headers and graceful shutdown."
+    },
+    "nginxLiveHttpSmoke": {
+      "passed": true,
+      "result": "8/8"
+    },
+    "backupSmoke": {
+      "passed": true,
+      "detail": "Checksum, exclusions, restrictive permissions and inside-tree refusal."
+    },
+    "systemdUnitSyntax": {
+      "passed": true
+    },
+    "backupAndNginxShellSyntax": {
+      "passed": true
+    },
+    "workflowYamlAndLtsMatrix": {
+      "passed": true,
+      "detail": "Main CI, manual lock refresh and Dependabot YAML parsed; Node 22/24/26 matrix and stable gate names checked."
+    },
+    "packageManifestVerifier": {
+      "passed": true,
+      "detail": "Positive fixture passed; tampered source and untracked file fixtures correctly rejected."
+    },
+    "applicationDemoInputValidation": {
+      "passed": true,
+      "detail": "Every explicit archive input path exists; stale nonexistent legacy HTML entry removed."
+    },
+    "sourceOnlyArchive": {
+      "passed": true,
+      "detail": "Full source ZIP and dependency-free legacy application demo ZIP created, archive integrity tested, source manifest membership and excluded-path scan passed; SHA-256 sidecars generated."
+    },
+    "reactLockfile": {
+      "passed": false,
+      "status": "not available",
+      "detail": "No genuine reviewed package-lock.json; CI correctly fails closed until it is committed."
+    },
+    "reactOfficialBuild": {
+      "passed": false,
+      "status": "not run",
+      "detail": "No locked npm ci installation; no Vite dist-react artifact."
+    },
+    "browserPlaywrightAndAxe": {
+      "passed": false,
+      "status": "not run",
+      "detail": "No dependency-backed installation or browser acceptance executed in this environment."
+    },
+    "productionHostValidation": {
+      "passed": false,
+      "status": "not run",
+      "detail": "Production TLS/HSTS, monitoring, off-host backup and restore/rollback must be verified on the target host."
+    },
+    "independentExpertAndLearnerReview": {
+      "passed": false,
+      "status": "pending"
+    },
+    "extractedApplicationDemoRuntimeSmoke": {
+      "passed": true,
+      "detail": "Launched frontend/dist/server.mjs from the extracted application-demo ZIP; health, root HTML, canonical 45-question bank, HEAD, POST=405, no-store readiness and graceful SIGTERM passed."
+    }
+  },
+  "releaseDecision": "NOT_PRODUCTION_APPROVED; source-only and legacy-demo handoff only.",
+  "deferredByOwner": [
+    "Video provider integration",
+    "MP4 generation",
+    "Media/video review"
+  ]
+}

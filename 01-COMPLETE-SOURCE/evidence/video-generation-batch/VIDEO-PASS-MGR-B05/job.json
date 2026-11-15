@@ -1,0 +1,114 @@
+{
+  "videoId": "VIDEO-PASS-MGR-B05",
+  "questionId": "PASS-MGR-B05",
+  "level": "Beginner",
+  "title": "Question explanation: Managing unique passwords",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "1f45c088738d2570993730a433726aa364632d3faa005ef118fc9b84dbe0c4fe",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 50
+  },
+  "narration": "Scenario: You have many accounts and struggle to remember a different strong password for each one. Safest response: Option D: Use an organization-approved password manager with a strong protected vault and unique generated passwords. An approved manager helps maintain distinct credentials without requiring people to memorize them all. Option A is unsafe because Reuse creates cross-account risk when any one service is breached. Option B is unsafe because A shared, unprotected note exposes multiple accounts to anyone with access to the device. Option C is unsafe because Email may be accessible to mailbox attackers and is not an appropriate password vault. In practice: Use an organization-approved password manager, secure its master authentication, and never store real passwords in the learning simulation. Key takeaway: A trusted password manager supports unique credentials; protect the vault itself carefully.",
+  "script": "# Managing unique passwords\n\n**Video ID:** `VIDEO-PASS-MGR-B05`  \n**Question ID:** `PASS-MGR-B05`  \n**Level:** Beginner  \n**Target duration:** 50 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nUse an approved password manager and unique generated credentials\n\n## Scenario\nYou have many accounts and struggle to remember a different strong password for each one.\n\n## Narration transcript\nScenario: You have many accounts and struggle to remember a different strong password for each one. Safest response: Option D: Use an organization-approved password manager with a strong protected vault and unique generated passwords. An approved manager helps maintain distinct credentials without requiring people to memorize them all. Option A is unsafe because Reuse creates cross-account risk when any one service is breached. Option B is unsafe because A shared, unprotected note exposes multiple accounts to anyone with access to the device. Option C is unsafe because Email may be accessible to mailbox attackers and is not an appropriate password vault. In practice: Use an organization-approved password manager, secure its master authentication, and never store real passwords in the learning simulation. Key takeaway: A trusted password manager supports unique credentials; protect the vault itself carefully.\n\n## Correct response\nD. Use an organization-approved password manager with a strong protected vault and unique generated passwords.\n\n## Option-specific teaching notes\n- **A:** Reuse creates cross-account risk when any one service is breached.\n- **B:** A shared, unprotected note exposes multiple accounts to anyone with access to the device.\n- **C:** Email may be accessible to mailbox attackers and is not an appropriate password vault.\n- **D (correct):** Correct. An approved manager helps maintain distinct credentials without requiring people to memorize them all.\n\n## Key takeaway\nA trusted password manager supports unique credentials; protect the vault itself carefully.\n\n## Recommended defensive action\nUse an organization-approved password manager, secure its master authentication, and never store real passwords in the learning simulation.\n\n## On-screen text sequence\n- **0-9s — Scenario setup:** Fictional scenario\n- **9-18s — Learning objective and risk cue:** Password hygiene — key cue\n- **18-30s — Recommended response:** Safest response: D\n- **30-42s — Why the other options fail:** Why the alternatives are unsafe\n- **42-50s — Defensive takeaway:** A trusted password manager supports unique credentials; protect the vault itself carefully.\n\n## Research references\n- [1]\n- [16]\n\n## Planned output\n`public/videos/beginner/pass-mgr-b05.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-PASS-MGR-B05",
+    "questionId": "PASS-MGR-B05",
+    "title": "Managing unique passwords — question explanation",
+    "learningObjective": "Use an approved password manager and unique generated credentials",
+    "targetDurationSeconds": 50,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-9s",
+        "visual": "You have many accounts and struggle to remember a different strong password for each one.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "9-18s",
+        "visual": "Use an approved password manager and unique generated credentials",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Password hygiene — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "18-30s",
+        "visual": "Option D: Use an organization-approved password manager with a strong protected vault and unique generated passwords. An approved manager helps maintain distinct credentials without requiring people to memorize them all.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: D"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "30-42s",
+        "visual": "Option A: Reuse creates cross-account risk when any one service is breached. Option B: A shared, unprotected note exposes multiple accounts to anyone with access to the device. Option C: Email may be accessible to mailbox attackers and is not an appropriate password vault.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "42-50s",
+        "visual": "Use an organization-approved password manager, secure its master authentication, and never store real passwords in the learning simulation. A trusted password manager supports unique credentials; protect the vault itself carefully.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "A trusted password manager supports unique credentials; protect the vault itself carefully."
+      }
+    ],
+    "narration": "Scenario: You have many accounts and struggle to remember a different strong password for each one. Safest response: Option D: Use an organization-approved password manager with a strong protected vault and unique generated passwords. An approved manager helps maintain distinct credentials without requiring people to memorize them all. Option A is unsafe because Reuse creates cross-account risk when any one service is breached. Option B is unsafe because A shared, unprotected note exposes multiple accounts to anyone with access to the device. Option C is unsafe because Email may be accessible to mailbox attackers and is not an appropriate password vault. In practice: Use an organization-approved password manager, secure its master authentication, and never store real passwords in the learning simulation. Key takeaway: A trusted password manager supports unique credentials; protect the vault itself carefully.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Password hygiene. Scenario: You have many accounts and struggle to remember a different strong password for each one. Explain why Option D is the safest defensive response: Use an organization-approved password manager with a strong protected vault and unique generated passwords. Contrast the unsafe alternatives with these concise reasons: Option A: Reuse creates cross-account risk when any one service is breached.; Option B: A shared, unprotected note exposes multiple accounts to anyone with access to the device.; Option C: Email may be accessible to mailbox attackers and is not an appropriate password vault.. Conclude with: A trusted password manager supports unique credentials; protect the vault itself carefully. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[16]"
+    ],
+    "outputFile": "public/videos/beginner/pass-mgr-b05.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Password hygiene. Scenario: You have many accounts and struggle to remember a different strong password for each one. Explain why the correct defensive response is: Use an organization-approved password manager with a strong protected vault and unique generated passwords. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: A trusted password manager supports unique credentials; protect the vault itself carefully. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.333\nScenario: You have many accounts and struggle to remember\n\n2\n00:00:03.333 --> 00:00:06.667\na different strong password for each one. Safest response:\n\n3\n00:00:06.667 --> 00:00:10.000\nOption D: Use an organization-approved password manager with a\n\n4\n00:00:10.000 --> 00:00:13.333\nstrong protected vault and unique generated passwords. An approved\n\n5\n00:00:13.333 --> 00:00:16.667\nmanager helps maintain distinct credentials without requiring people to\n\n6\n00:00:16.667 --> 00:00:20.000\nmemorize them all. Option A is unsafe because Reuse\n\n7\n00:00:20.000 --> 00:00:23.333\ncreates cross-account risk when any one service is breached.\n\n8\n00:00:23.333 --> 00:00:26.667\nOption B is unsafe because A shared, unprotected note\n\n9\n00:00:26.667 --> 00:00:30.370\nexposes multiple accounts to anyone with access to the device.\n\n10\n00:00:30.370 --> 00:00:33.704\nOption C is unsafe because Email may be accessible\n\n11\n00:00:33.704 --> 00:00:37.407\nto mailbox attackers and is not an appropriate password vault.\n\n12\n00:00:37.407 --> 00:00:40.741\nIn practice: Use an organization-approved password manager, secure its\n\n13\n00:00:40.741 --> 00:00:44.815\nmaster authentication, and never store real passwords in the learning simulation.\n\n14\n00:00:44.815 --> 00:00:48.148\nKey takeaway: A trusted password manager supports unique credentials;\n\n15\n00:00:48.148 --> 00:00:50.000\nprotect the vault itself carefully.\n",
+  "referenceIds": [
+    "[1]",
+    "[16]"
+  ],
+  "question": {
+    "title": "Managing unique passwords",
+    "learningObjective": "Use an approved password manager and unique generated credentials",
+    "scenario": "You have many accounts and struggle to remember a different strong password for each one.",
+    "correctOptionId": "D",
+    "correctAnswer": "Use an organization-approved password manager with a strong protected vault and unique generated passwords.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Reuse creates cross-account risk when any one service is breached."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "A shared, unprotected note exposes multiple accounts to anyone with access to the device."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Email may be accessible to mailbox attackers and is not an appropriate password vault."
+      },
+      "D": {
+        "isCorrect": true,
+        "explanation": "Correct. An approved manager helps maintain distinct credentials without requiring people to memorize them all."
+      }
+    },
+    "keyTakeaway": "A trusted password manager supports unique credentials; protect the vault itself carefully.",
+    "recommendedDefensiveAction": "Use an organization-approved password manager, secure its master authentication, and never store real passwords in the learning simulation."
+  }
+}

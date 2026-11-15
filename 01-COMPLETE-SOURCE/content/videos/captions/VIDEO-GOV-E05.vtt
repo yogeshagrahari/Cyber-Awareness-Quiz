@@ -1,0 +1,46 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.607
+Scenario: Two hosts are isolated after a suspected platform compromise,
+
+2
+00:00:05.607 --> 00:00:11.215
+but data-access scope and recovery time remain unknown. Safest response:
+
+3
+00:00:11.215 --> 00:00:16.822
+brief the board on verified facts, impacts, containment, uncertainties, owners
+
+4
+00:00:16.822 --> 00:00:22.430
+and the next update. Option A is unsafe because No
+
+5
+00:00:22.430 --> 00:00:28.037
+confirmed exfiltration does not prove that data was not accessed.
+
+6
+00:00:28.037 --> 00:00:33.645
+Option B is unsafe because Leadership needs timely decision-ready information
+
+7
+00:00:33.645 --> 00:00:39.252
+before attribution is complete. Option D is unsafe because Raw
+
+8
+00:00:39.252 --> 00:00:44.860
+logs and attacker speculation can expose sensitive information and mislead
+
+9
+00:00:44.860 --> 00:00:50.467
+leaders. In practice: separate facts, assumptions and unknowns, then record
+
+10
+00:00:50.467 --> 00:00:56.075
+decisions and the update cadence. Key takeaway: communicate uncertainty clearly;
+
+11
+00:00:56.075 --> 00:01:00.000
+do not promise what evidence cannot support.
+

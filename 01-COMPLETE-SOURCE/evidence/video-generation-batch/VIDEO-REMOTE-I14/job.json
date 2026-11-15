@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-REMOTE-I14",
+  "questionId": "REMOTE-I14",
+  "level": "Intermediate",
+  "title": "Question explanation: The shared-space work session",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "575d7c5476df1221b3aa5a20f99b119faacf8828c2a54cd9ad1b51eac437f905",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 52
+  },
+  "narration": "Scenario: You are working in a shared café. Your laptop is unlocked while you step away, a sensitive dashboard is visible, and you are connected to public Wi-Fi. Safest response: Option B: Lock the device before stepping away, keep it physically controlled, use a trusted connection and follow remote-access policy. Physical access, screen exposure and network risks require layered controls. Option A is unsafe because Minimizing a window does not protect the unattended device or session. Option C is unsafe because Removing automatic locking increases the opportunity for unauthorized access. Option D is unsafe because An unknown bystander is not an appropriate security control. In practice: Lock the screen whenever unattended, keep devices in your control, avoid exposing sensitive content and use the approved secure connection method. Key takeaway: Remote work combines physical, visual and network risks; use layered protection.",
+  "script": "# The shared-space work session\n\n**Video ID:** `VIDEO-REMOTE-I14`  \n**Question ID:** `REMOTE-I14`  \n**Level:** Intermediate  \n**Target duration:** 52 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nProtect remote sessions, devices and information in mixed work environments\n\n## Scenario\nYou are working in a shared café. Your laptop is unlocked while you step away, a sensitive dashboard is visible, and you are connected to public Wi-Fi.\n\n## Narration transcript\nScenario: You are working in a shared café. Your laptop is unlocked while you step away, a sensitive dashboard is visible, and you are connected to public Wi-Fi. Safest response: Option B: Lock the device before stepping away, keep it physically controlled, use a trusted connection and follow remote-access policy. Physical access, screen exposure and network risks require layered controls. Option A is unsafe because Minimizing a window does not protect the unattended device or session. Option C is unsafe because Removing automatic locking increases the opportunity for unauthorized access. Option D is unsafe because An unknown bystander is not an appropriate security control. In practice: Lock the screen whenever unattended, keep devices in your control, avoid exposing sensitive content and use the approved secure connection method. Key takeaway: Remote work combines physical, visual and network risks; use layered protection.\n\n## Correct response\nB. Lock the device before stepping away, keep it physically controlled, use a trusted connection and follow remote-access policy.\n\n## Option-specific teaching notes\n- **A:** Minimizing a window does not protect the unattended device or session.\n- **B (correct):** Correct. Physical access, screen exposure and network risks require layered controls.\n- **C:** Removing automatic locking increases the opportunity for unauthorized access.\n- **D:** An unknown bystander is not an appropriate security control.\n\n## Key takeaway\nRemote work combines physical, visual and network risks; use layered protection.\n\n## Recommended defensive action\nLock the screen whenever unattended, keep devices in your control, avoid exposing sensitive content and use the approved secure connection method.\n\n## On-screen text sequence\n- **0-9s — Scenario setup:** Fictional scenario\n- **9-19s — Learning objective and risk cue:** Remote-work security — key cue\n- **19-31s — Recommended response:** Safest response: B\n- **31-44s — Why the other options fail:** Why the alternatives are unsafe\n- **44-52s — Defensive takeaway:** Remote work combines physical, visual and network risks; use layered protection.\n\n## Research references\n- [1]\n- [17]\n- [30]\n\n## Planned output\n`public/videos/intermediate/remote-i14.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-REMOTE-I14",
+    "questionId": "REMOTE-I14",
+    "title": "The shared-space work session — question explanation",
+    "learningObjective": "Protect remote sessions, devices and information in mixed work environments",
+    "targetDurationSeconds": 52,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-9s",
+        "visual": "You are working in a shared café. Your laptop is unlocked while you step away, a sensitive dashboard is visible, and you are connected to public Wi-Fi.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "9-19s",
+        "visual": "Protect remote sessions, devices and information in mixed work environments",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Remote-work security — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "19-31s",
+        "visual": "Option B: Lock the device before stepping away, keep it physically controlled, use a trusted connection and follow remote-access policy. Physical access, screen exposure and network risks require layered controls.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: B"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "31-44s",
+        "visual": "Option A: Minimizing a window does not protect the unattended device or session. Option C: Removing automatic locking increases the opportunity for unauthorized access. Option D: An unknown bystander is not an appropriate security control.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "44-52s",
+        "visual": "Lock the screen whenever unattended, keep devices in your control, avoid exposing sensitive content and use the approved secure connection method. Remote work combines physical, visual and network risks; use layered protection.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Remote work combines physical, visual and network risks; use layered protection."
+      }
+    ],
+    "narration": "Scenario: You are working in a shared café. Your laptop is unlocked while you step away, a sensitive dashboard is visible, and you are connected to public Wi-Fi. Safest response: Option B: Lock the device before stepping away, keep it physically controlled, use a trusted connection and follow remote-access policy. Physical access, screen exposure and network risks require layered controls. Option A is unsafe because Minimizing a window does not protect the unattended device or session. Option C is unsafe because Removing automatic locking increases the opportunity for unauthorized access. Option D is unsafe because An unknown bystander is not an appropriate security control. In practice: Lock the screen whenever unattended, keep devices in your control, avoid exposing sensitive content and use the approved secure connection method. Key takeaway: Remote work combines physical, visual and network risks; use layered protection.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Remote-work security. Scenario: You are working in a shared café. Your laptop is unlocked while you step away, a sensitive dashboard is visible, and you are connected to public Wi-Fi. Explain why Option B is the safest defensive response: Lock the device before stepping away, keep it physically controlled, use a trusted connection and follow remote-access policy. Contrast the unsafe alternatives with these concise reasons: Option A: Minimizing a window does not protect the unattended device or session.; Option C: Removing automatic locking increases the opportunity for unauthorized access.; Option D: An unknown bystander is not an appropriate security control.. Conclude with: Remote work combines physical, visual and network risks; use layered protection. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[17]",
+      "[30]"
+    ],
+    "outputFile": "public/videos/intermediate/remote-i14.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Remote-work security. Scenario: You are working in a shared café. Your laptop is unlocked while you step away, a sensitive dashboard is visible, and you are connected to public Wi-Fi. Explain why the correct defensive response is: Lock the device before stepping away, keep it physically controlled, use a trusted connection and follow remote-access policy. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Remote work combines physical, visual and network risks; use layered protection. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.343\nScenario: You are working in a shared café. Your\n\n2\n00:00:03.343 --> 00:00:06.686\nlaptop is unlocked while you step away, a sensitive\n\n3\n00:00:06.686 --> 00:00:10.400\ndashboard is visible, and you are connected to public Wi-Fi.\n\n4\n00:00:10.400 --> 00:00:13.743\nSafest response: Option B: Lock the device before stepping\n\n5\n00:00:13.743 --> 00:00:17.086\naway, keep it physically controlled, use a trusted connection\n\n6\n00:00:17.086 --> 00:00:20.429\nand follow remote-access policy. Physical access, screen exposure and\n\n7\n00:00:20.429 --> 00:00:23.771\nnetwork risks require layered controls. Option A is unsafe\n\n8\n00:00:23.771 --> 00:00:27.114\nbecause Minimizing a window does not protect the unattended\n\n9\n00:00:27.114 --> 00:00:30.457\ndevice or session. Option C is unsafe because Removing\n\n10\n00:00:30.457 --> 00:00:33.800\nautomatic locking increases the opportunity for unauthorized access. Option\n\n11\n00:00:33.800 --> 00:00:37.143\nD is unsafe because An unknown bystander is not\n\n12\n00:00:37.143 --> 00:00:40.486\nan appropriate security control. In practice: Lock the screen\n\n13\n00:00:40.486 --> 00:00:43.829\nwhenever unattended, keep devices in your control, avoid exposing\n\n14\n00:00:43.829 --> 00:00:47.171\nsensitive content and use the approved secure connection method.\n\n15\n00:00:47.171 --> 00:00:50.514\nKey takeaway: Remote work combines physical, visual and network\n\n16\n00:00:50.514 --> 00:00:52.000\nrisks; use layered protection.\n",
+  "referenceIds": [
+    "[1]",
+    "[17]",
+    "[30]"
+  ],
+  "question": {
+    "title": "The shared-space work session",
+    "learningObjective": "Protect remote sessions, devices and information in mixed work environments",
+    "scenario": "You are working in a shared café. Your laptop is unlocked while you step away, a sensitive dashboard is visible, and you are connected to public Wi-Fi.",
+    "correctOptionId": "B",
+    "correctAnswer": "Lock the device before stepping away, keep it physically controlled, use a trusted connection and follow remote-access policy.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Minimizing a window does not protect the unattended device or session."
+      },
+      "B": {
+        "isCorrect": true,
+        "explanation": "Correct. Physical access, screen exposure and network risks require layered controls."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Removing automatic locking increases the opportunity for unauthorized access."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "An unknown bystander is not an appropriate security control."
+      }
+    },
+    "keyTakeaway": "Remote work combines physical, visual and network risks; use layered protection.",
+    "recommendedDefensiveAction": "Lock the screen whenever unattended, keep devices in your control, avoid exposing sensitive content and use the approved secure connection method."
+  }
+}

@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.360
+Scenario: A risk register lists a low-likelihood event that
+
+2
+00:00:03.360 --> 00:00:06.720
+could expose a large customer database. Existing controls are
+
+3
+00:00:06.720 --> 00:00:10.080
+documented, but their current effectiveness has not been tested.
+
+4
+00:00:10.080 --> 00:00:13.440
+Safest response: Option B: Assess likelihood and impact, validate
+
+5
+00:00:13.440 --> 00:00:17.547
+existing control effectiveness, estimate residual risk and record assumptions and uncertainty.
+
+6
+00:00:17.547 --> 00:00:20.907
+Risk assessment should consider both likelihood and consequence, then
+
+7
+00:00:20.907 --> 00:00:24.267
+evaluate how controls change residual exposure. Option A is
+
+8
+00:00:24.267 --> 00:00:27.627
+unsafe because Low likelihood alone ignores potentially severe impact
+
+9
+00:00:27.627 --> 00:00:30.987
+and uncertainty about control effectiveness. Option C is unsafe
+
+10
+00:00:30.987 --> 00:00:34.347
+because Automatic maximum ratings do not provide a consistent
+
+11
+00:00:34.347 --> 00:00:37.707
+or useful risk prioritization method. Option D is unsafe
+
+12
+00:00:37.707 --> 00:00:41.067
+because Documented controls are not necessarily effective; the risk
+
+13
+00:00:41.067 --> 00:00:44.427
+remains until assessed and treated appropriately. In practice: Validate
+
+14
+00:00:44.427 --> 00:00:47.787
+control operation, document evidence and uncertainty, calculate or qualitatively
+
+15
+00:00:47.787 --> 00:00:51.147
+rate residual risk, then assign treatment and ownership. Key
+
+16
+00:00:51.147 --> 00:00:54.507
+takeaway: Risk decisions require likelihood, impact, control evidence, residual
+
+17
+00:00:54.507 --> 00:00:56.000
+risk and explicit assumptions.

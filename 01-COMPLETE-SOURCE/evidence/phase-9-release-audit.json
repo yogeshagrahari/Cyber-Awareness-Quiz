@@ -1,0 +1,106 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.2",
+  "date": "2026-11-12",
+  "checks": [
+    {
+      "name": "legacy-node-tests",
+      "result": "PASS",
+      "passed": 35,
+      "failed": 0
+    },
+    {
+      "name": "react-domain-data-tests",
+      "result": "PASS",
+      "passed": 8,
+      "failed": 0
+    },
+    {
+      "name": "offline-typescript-structural-check",
+      "result": "PASS",
+      "compiler": "TypeScript 5.8",
+      "shimBased": true,
+      "note": "Not equivalent to dependency-backed typecheck with declared TypeScript/React types."
+    },
+    {
+      "name": "content-schema-traceability",
+      "result": "PASS",
+      "questions": 51,
+      "explanations": 51,
+      "optionRationales": 204,
+      "references": 38
+    },
+    {
+      "name": "video-package-validation",
+      "result": "PASS",
+      "scripts": 51,
+      "storyboards": 51,
+      "prompts": 51,
+      "captions": 51,
+      "mp4Generated": 0,
+      "ready": 0
+    },
+    {
+      "name": "secret-pattern-scan",
+      "result": "PASS",
+      "scope": "High-confidence pattern scan only; not a complete secret-scanning product."
+    },
+    {
+      "name": "canonical-react-asset-sync",
+      "result": "PASS"
+    },
+    {
+      "name": "legacy-copy-build",
+      "result": "PASS",
+      "viteBundle": false
+    },
+    {
+      "name": "legacy-distribution-smoke",
+      "result": "PASS",
+      "routes": 215
+    },
+    {
+      "name": "nginx-config-syntax",
+      "result": "PASS",
+      "liveDeploymentTest": false
+    },
+    {
+      "name": "cyclonedx-sbom",
+      "result": "PASS",
+      "directDependencies": 8,
+      "transitiveResolved": false
+    }
+  ],
+  "blocked": [
+    {
+      "name": "npm-lockfile-and-dependency-install",
+      "status": "BLOCKED",
+      "reason": "npm registry resolution timed out; no package-lock.json was generated."
+    },
+    {
+      "name": "react-vite-production-build",
+      "status": "NOT_VERIFIED",
+      "reason": "Requires resolved dependencies and lockfile."
+    },
+    {
+      "name": "browser-cross-browser-and-a11y",
+      "status": "NOT_VERIFIED",
+      "reason": "Browser runtime unavailable/blocked; requires Chromium, Firefox, WebKit and assistive technology."
+    },
+    {
+      "name": "actual-mp4-generation",
+      "status": "NOT_STARTED",
+      "reason": "No approved provider connection; 51 jobs remain pending review."
+    },
+    {
+      "name": "independent-expert-approval",
+      "status": "PENDING"
+    },
+    {
+      "name": "learner-evaluation",
+      "status": "NOT_CONDUCTED"
+    }
+  ],
+  "releaseDecision": "MIGRATION_RELEASE_CANDIDATE_NOT_PRODUCTION_APPROVED",
+  "fallback": "Dependency-free legacy demonstrator remains the verified runnable artifact."
+}

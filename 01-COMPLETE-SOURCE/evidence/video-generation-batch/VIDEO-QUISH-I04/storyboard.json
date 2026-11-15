@@ -1,0 +1,64 @@
+{
+  "videoId": "VIDEO-QUISH-I04",
+  "questionId": "QUISH-I04",
+  "title": "The meeting-room QR login — question explanation",
+  "learningObjective": "Evaluate QR-linked destinations before authentication or payment",
+  "targetDurationSeconds": 53,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-10s",
+      "visual": "A QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "10-19s",
+      "visual": "Evaluate QR-linked destinations before authentication or payment",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "QR-code phishing — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "19-32s",
+      "visual": "Option C: Check the displayed URL, close the page, and ask facilities/IT for the official network instructions. Verify the destination and obtain connection details through an approved internal source.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: C"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "32-45s",
+      "visual": "Option A: A different browser still submits credentials to the same untrusted site. Option B: The physical location does not validate the QR destination or page operator. Option D: Sharing credentials exposes the coworker’s account and does not validate the page.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "45-53s",
+      "visual": "Do not enter credentials. Confirm the poster with facilities or IT and use the authorized network onboarding process. QR codes conceal destinations; assess the actual URL before authenticating.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "QR codes conceal destinations; assess the actual URL before authenticating."
+    }
+  ],
+  "narration": "Scenario: A QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue. Safest response: Option C: Check the displayed URL, close the page, and ask facilities/IT for the official network instructions. Verify the destination and obtain connection details through an approved internal source. Option A is unsafe because A different browser still submits credentials to the same untrusted site. Option B is unsafe because The physical location does not validate the QR destination or page operator. Option D is unsafe because Sharing credentials exposes the coworker’s account and does not validate the page. In practice: Do not enter credentials. Confirm the poster with facilities or IT and use the authorized network onboarding process. Key takeaway: QR codes conceal destinations; assess the actual URL before authenticating.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about QR-code phishing. Scenario: A QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue. Explain why Option C is the safest defensive response: Check the displayed URL, close the page, and ask facilities/IT for the official network instructions. Contrast the unsafe alternatives with these concise reasons: Option A: A different browser still submits credentials to the same untrusted site.; Option B: The physical location does not validate the QR destination or page operator.; Option D: Sharing credentials exposes the coworker’s account and does not validate the page.. Conclude with: QR codes conceal destinations; assess the actual URL before authenticating. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[1]",
+    "[7]",
+    "[27]"
+  ],
+  "outputFile": "public/videos/intermediate/quish-i04.mp4"
+}

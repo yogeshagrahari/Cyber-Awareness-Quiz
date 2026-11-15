@@ -1,0 +1,11 @@
+CYBERAWARE 3D v0.10.0-rc.4 — Phase 11 deployment config checks
+Date: 2026-11-12
+
+PASS: systemd-analyze verify deploy/cyberaware3d.service
+PASS: nginx -t against deploy/nginx-legacy-proxy.conf in an isolated wrapper config
+PASS: tests/deploy/nginx-live-smoke.sh (8 checks: healthz, index, content JSON, missing data/media 404, byte range, legacy no-store, security headers)
+PASS: frontend server tests include /healthz GET, HEAD and Cache-Control: no-store
+
+Scope note:
+These are syntax and isolated loopback tests, not a live production deployment.
+TLS/HSTS, real ingress, monitoring and rollback remain deployment-specific.

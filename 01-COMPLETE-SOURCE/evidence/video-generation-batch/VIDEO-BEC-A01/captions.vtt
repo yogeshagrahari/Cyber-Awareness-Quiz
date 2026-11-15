@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.319
+Scenario: A senior executive emails finance from a plausible
+
+2
+00:00:03.319 --> 00:00:06.638
+account and asks for an urgent confidential transfer to
+
+3
+00:00:06.638 --> 00:00:09.956
+a new beneficiary. The message says normal approval can
+
+4
+00:00:09.956 --> 00:00:13.275
+be bypassed because the deal is sensitive. Safest response:
+
+5
+00:00:13.275 --> 00:00:16.594
+Option C: Hold the transfer and verify through a
+
+6
+00:00:16.594 --> 00:00:19.912
+pre-established independent channel and mandatory dual-authorization process. High-impact payment
+
+7
+00:00:19.912 --> 00:00:23.969
+instructions require independent corroboration and policy-based approval, regardless of apparent seniority.
+
+8
+00:00:23.969 --> 00:00:27.288
+Option A is unsafe because Authority and secrecy are
+
+9
+00:00:27.288 --> 00:00:30.606
+not substitutes for identity verification or delegated financial authorization.
+
+10
+00:00:30.606 --> 00:00:33.925
+Option B is unsafe because A smaller unverified transfer
+
+11
+00:00:33.925 --> 00:00:37.981
+is still unauthorized and may confirm that the account is active.
+
+12
+00:00:37.981 --> 00:00:41.300
+Option D is unsafe because A compromised mailbox can
+
+13
+00:00:41.300 --> 00:00:45.356
+be controlled by the attacker, including replies in the same thread.
+
+14
+00:00:45.356 --> 00:00:48.675
+In practice: Pause payment, use contact details already held
+
+15
+00:00:48.675 --> 00:00:51.994
+in trusted records, validate the beneficiary independently and retain
+
+16
+00:00:51.994 --> 00:00:55.313
+the approval trail. Key takeaway: For high-impact financial changes,
+
+17
+00:00:55.313 --> 00:00:58.631
+verify identity and authorization outside the channel carrying the
+
+18
+00:00:58.631 --> 00:00:59.000
+request.

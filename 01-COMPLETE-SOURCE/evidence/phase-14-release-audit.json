@@ -1,0 +1,50 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.7",
+  "phase": 14,
+  "date": "2026-11-13",
+  "scope": "Packaged distribution integration acceptance, deterministic release packaging, and CI reliability. Video work excluded.",
+  "implemented": [
+    "packaged distribution server smoke tests",
+    "dynamic-port source server integration tests",
+    "deterministic full-source and app-demo release packaging",
+    "SHA-256 sidecar generation and archive integrity verification",
+    "CI release artifact upload on main/master and manual dispatch"
+  ],
+  "localResults": {
+    "legacyNodeTests": "37/37 PASS",
+    "reactDomainDataTests": "17/17 PASS",
+    "offlineStructuralTypecheck": "PASS; TypeScript 5.8 with ambient shims, not official framework typecheck",
+    "contentValidation": "PASS",
+    "legacyStaticBuild": "PASS; copy-based distribution",
+    "distributionSmoke": "PASS; 215 routes",
+    "packagedDistributionSmoke": "PASS; exact dist server and HTTP behavior",
+    "nginxLiveSmoke": "PASS; 8/8; unprivileged temp-path isolation fixed",
+    "systemdUnit": "PASS",
+    "backupSmoke": "PASS",
+    "ciYaml": "PASS",
+    "secretPatternScan": "PASS",
+    "releaseZipIntegrity": "PASS",
+    "releasePackaging": "PASS; full project ZIP, application demo ZIP and SHA-256 sidecars",
+    "localValidationBatch": "PASS; 15/15 checks; evidence/phase-14-local-validation.json"
+  },
+  "externalGates": [
+    "npm registry DNS unavailable; lockfile not generated or committed",
+    "official dependency-backed React typecheck/Vite build and npm audit require network-enabled CI",
+    "Playwright/axe browser navigation blocked by administrator policy in local authoring runtime",
+    "manual accessibility and target-host deployment/restore tests pending",
+    "independent expert review and learner evaluation pending"
+  ],
+  "releaseDecision": "VERIFIED_LEGACY_DISTRIBUTION; REACT_CANDIDATE_NOT_PRODUCTION_APPROVED",
+  "deferredByOwner": [
+    "video provider integration",
+    "MP4 generation",
+    "media review"
+  ],
+  "runtimeConstraints": {
+    "node": "22.16.0 locally; CI matrix targets 24.22.3 and 26.13.1",
+    "npm": "10.9.2 locally; CI pins 12.2.2",
+    "npmRegistry": "registry.npmjs.org DNS lookup fails in this runtime; no lockfile generated",
+    "browser": "Chromium executable and Python Playwright package present; local navigation blocked by administrator policy"
+  }
+}

@@ -1,0 +1,66 @@
+name: CyberAware 3D React dependency lockfile refresh
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cyberaware-react-lock-refresh-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate-review-artifact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout selected branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up pinned lockfile-generation runtime
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '26.13.1'
+          package-manager-cache: false
+
+      - name: Pin npm CLI
+        run: |
+          npm install --global npm@12.2.2
+          test "$(npm --version)" = '12.2.2'
+
+      - name: Generate lockfile for human review
+        working-directory: frontend/react-app
+        run: |
+          npm install --package-lock-only --ignore-scripts --no-audit --no-fund
+          npm run verify:lockfile
+
+      - name: Capture dependency audit results for human review
+        id: audit
+        working-directory: frontend/react-app
+        shell: bash
+        run: |
+          set +e
+          npm audit --json > dependency-audit.json
+          audit_status=$?
+          set -e
+          echo "exit_code=$audit_status" >> "$GITHUB_OUTPUT"
+          echo "npm audit exit code: $audit_status"
+
+      - name: Upload lockfile and audit review artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: cyberaware-react-package-lock-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            frontend/react-app/package-lock.json
+            frontend/react-app/dependency-audit.json
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Print required review and commit steps
+        run: |
+          echo 'The lockfile and audit JSON are review candidates, not an approved dependency graph.'
+          echo 'Download the artifact, inspect the lockfile diff, dependency origins and audit JSON, then commit only frontend/react-app/package-lock.json.'
+          echo 'The main CI workflow intentionally fails until a valid committed lockfile exists.'

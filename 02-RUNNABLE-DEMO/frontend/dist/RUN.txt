@@ -1,0 +1,4 @@
+CYBERAWARE 3D static distribution
+Version: 0.10.0-rc.16
+Start: node server.mjs
+Open: http://localhost:4173

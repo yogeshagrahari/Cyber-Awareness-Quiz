@@ -1,0 +1,101 @@
+{
+  "project": "CYBERAWARE 3D",
+  "phase": 23,
+  "version": "0.10.0-rc.16",
+  "date": "2026-11-13",
+  "scope": "Library topic availability fix, question-bank expansion, supplied research-paper integration in Background, regression tests and staged archive preparation. Video work deferred by owner request.",
+  "environment": {
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "node": "v22.16.0",
+    "npm": "10.9.2",
+    "projectRequiredNode": ">=22.23.5",
+    "reactDependenciesInstalled": false,
+    "reactLockfilePresent": false,
+    "reactProductionDistributionPresent": false,
+    "npmRegistryDnsResolvable": false,
+    "chromiumVersion": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)"
+  },
+  "content": {
+    "coreQuestions": 115,
+    "expertChallengeQuestions": 18,
+    "totalQuestions": 133,
+    "topicCategories": 44,
+    "minimumQuestionsPerTopic": 3,
+    "explanations": 133,
+    "optionRationales": 532,
+    "references": 38,
+    "existingVideoScriptStoryboardCaptionPromptPackages": 51,
+    "newVideoRecordsDeferred": 82,
+    "mp4Generated": 0,
+    "researchPaper": "research/attachments/research-paper-preview.pdf",
+    "researchPaperStatus": "Draft v0.1 preview layout; not submitted; no empirical results"
+  },
+  "checks": [
+    {
+      "name": "Canonical content and reference validation",
+      "status": "PASS",
+      "result": "115 core + 18 expert; 133 explanations; 532 option rationales; 38 IEEE/BibTeX mappings; all 44 topic categories have at least 3 questions."
+    },
+    {
+      "name": "Legacy application tests",
+      "status": "PASS",
+      "result": "52/52."
+    },
+    {
+      "name": "React source/domain tests",
+      "status": "PASS",
+      "result": "23/23 including topic availability and research-paper background regressions."
+    },
+    {
+      "name": "Offline structural TypeScript check",
+      "status": "PASS",
+      "result": "react:offline-typecheck passed; uses local structural shims, not project TS7/Vite build."
+    },
+    {
+      "name": "Dependency-free static build",
+      "status": "PASS",
+      "result": "frontend/dist created; copy-based legacy app distribution, not React/Vite bundle."
+    },
+    {
+      "name": "Static distribution smoke",
+      "status": "PASS",
+      "result": "216 HTTP routes; 133 video-question mappings; 51 existing script/storyboard/prompt/caption packages; 82 deferred entries; attached PDF returns application/pdf."
+    },
+    {
+      "name": "Packaged distribution smoke",
+      "status": "PASS",
+      "result": "health and root endpoints; 115 core + 18 expert questions; attached research PDF; headers and graceful shutdown."
+    },
+    {
+      "name": "Secret-pattern scan",
+      "status": "PASS",
+      "result": "High-confidence pattern scan; not full SAST or external secret-scanning service."
+    },
+    {
+      "name": "Question-level video manifest validation",
+      "status": "PASS",
+      "result": "133 question/video mappings; 51 existing scripts/storyboards/captions/prompts; 82 correctly deferred; no MP4 generation claimed."
+    },
+    {
+      "name": "React official production install/build",
+      "status": "BLOCKED",
+      "result": "No lockfile or dependencies; package host DNS unavailable; no lockfile fabricated."
+    },
+    {
+      "name": "Playwright/axe and manual WCAG acceptance",
+      "status": "PENDING_EXTERNAL",
+      "result": "Requires installed browser test dependencies and manual keyboard/screen-reader/zoom assessment."
+    },
+    {
+      "name": "Human content review",
+      "status": "PENDING_EXTERNAL",
+      "result": "New questions are draft content pending cybersecurity SME and instructional-design review."
+    },
+    {
+      "name": "Production-host acceptance",
+      "status": "PENDING_EXTERNAL",
+      "result": "TLS/HSTS, monitoring, backups/restore and rollback on actual target infrastructure remain untested."
+    }
+  ],
+  "releaseInterpretation": "RC.16 is a locally validated source and legacy demonstrator update. It is not production-approved. The research paper is linked in the application background with its source disclaimer preserved. Video generation remains deferred."
+}

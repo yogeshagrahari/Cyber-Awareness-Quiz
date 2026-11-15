@@ -1,0 +1,118 @@
+{
+  "videoId": "VIDEO-VISH-I03",
+  "questionId": "VISH-I03",
+  "level": "Intermediate",
+  "title": "Question explanation: The “IT support” caller",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "6444e8df6e28dda77f3c278ac56558c8a5c0037888d29d0d047e542b030f837f",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 53
+  },
+  "narration": "Scenario: A caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code. Safest response: Option C: End the call and contact IT using the organization’s published helpdesk route. Independently verify support requests; never disclose authentication outputs to an unsolicited caller. Option A is unsafe because The code may authorize account access even without remote-control software. Option B is unsafe because Unverified remote access can give the caller control of the device. Option D is unsafe because A photo can be fabricated or copied and is not reliable identity verification. In practice: End the call. Contact the helpdesk using a known directory or portal and report the attempted remote-access and code request. Key takeaway: Caller ID, technical language and urgency are not proof that a caller is authorized.",
+  "script": "# The “IT support” caller\n\n**Video ID:** `VIDEO-VISH-I03`  \n**Question ID:** `VISH-I03`  \n**Level:** Intermediate  \n**Target duration:** 53 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nVerify caller identity and resist verbal pressure to disclose data or approve actions\n\n## Scenario\nA caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code.\n\n## Narration transcript\nScenario: A caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code. Safest response: Option C: End the call and contact IT using the organization’s published helpdesk route. Independently verify support requests; never disclose authentication outputs to an unsolicited caller. Option A is unsafe because The code may authorize account access even without remote-control software. Option B is unsafe because Unverified remote access can give the caller control of the device. Option D is unsafe because A photo can be fabricated or copied and is not reliable identity verification. In practice: End the call. Contact the helpdesk using a known directory or portal and report the attempted remote-access and code request. Key takeaway: Caller ID, technical language and urgency are not proof that a caller is authorized.\n\n## Correct response\nC. End the call and contact IT using the organization’s published helpdesk route.\n\n## Option-specific teaching notes\n- **A:** The code may authorize account access even without remote-control software.\n- **B:** Unverified remote access can give the caller control of the device.\n- **C (correct):** Correct. Independently verify support requests; never disclose authentication outputs to an unsolicited caller.\n- **D:** A photo can be fabricated or copied and is not reliable identity verification.\n\n## Key takeaway\nCaller ID, technical language and urgency are not proof that a caller is authorized.\n\n## Recommended defensive action\nEnd the call. Contact the helpdesk using a known directory or portal and report the attempted remote-access and code request.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-19s — Learning objective and risk cue:** Vishing — key cue\n- **19-32s — Recommended response:** Safest response: C\n- **32-45s — Why the other options fail:** Why the alternatives are unsafe\n- **45-53s — Defensive takeaway:** Caller ID, technical language and urgency are not proof that a caller is authorized.\n\n## Research references\n- [3]\n- [4]\n- [16]\n- [25]\n\n## Planned output\n`public/videos/intermediate/vish-i03.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-VISH-I03",
+    "questionId": "VISH-I03",
+    "title": "The “IT support” caller — question explanation",
+    "learningObjective": "Verify caller identity and resist verbal pressure to disclose data or approve actions",
+    "targetDurationSeconds": 53,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "A caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-19s",
+        "visual": "Verify caller identity and resist verbal pressure to disclose data or approve actions",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Vishing — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "19-32s",
+        "visual": "Option C: End the call and contact IT using the organization’s published helpdesk route. Independently verify support requests; never disclose authentication outputs to an unsolicited caller.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: C"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "32-45s",
+        "visual": "Option A: The code may authorize account access even without remote-control software. Option B: Unverified remote access can give the caller control of the device. Option D: A photo can be fabricated or copied and is not reliable identity verification.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "45-53s",
+        "visual": "End the call. Contact the helpdesk using a known directory or portal and report the attempted remote-access and code request. Caller ID, technical language and urgency are not proof that a caller is authorized.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Caller ID, technical language and urgency are not proof that a caller is authorized."
+      }
+    ],
+    "narration": "Scenario: A caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code. Safest response: Option C: End the call and contact IT using the organization’s published helpdesk route. Independently verify support requests; never disclose authentication outputs to an unsolicited caller. Option A is unsafe because The code may authorize account access even without remote-control software. Option B is unsafe because Unverified remote access can give the caller control of the device. Option D is unsafe because A photo can be fabricated or copied and is not reliable identity verification. In practice: End the call. Contact the helpdesk using a known directory or portal and report the attempted remote-access and code request. Key takeaway: Caller ID, technical language and urgency are not proof that a caller is authorized.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Vishing. Scenario: A caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code. Explain why Option C is the safest defensive response: End the call and contact IT using the organization’s published helpdesk route. Contrast the unsafe alternatives with these concise reasons: Option A: The code may authorize account access even without remote-control software.; Option B: Unverified remote access can give the caller control of the device.; Option D: A photo can be fabricated or copied and is not reliable identity verification.. Conclude with: Caller ID, technical language and urgency are not proof that a caller is authorized. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[3]",
+      "[4]",
+      "[16]",
+      "[25]"
+    ],
+    "outputFile": "public/videos/intermediate/vish-i03.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Vishing. Scenario: A caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code. Explain why the correct defensive response is: End the call and contact IT using the organization’s published helpdesk route. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Caller ID, technical language and urgency are not proof that a caller is authorized. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.359\nScenario: A caller claiming to be IT support says\n\n2\n00:00:03.359 --> 00:00:06.718\nyour laptop is infected and asks you to install\n\n3\n00:00:06.718 --> 00:00:10.077\na remote-access tool and read out an authentication code.\n\n4\n00:00:10.077 --> 00:00:13.437\nSafest response: Option C: End the call and contact\n\n5\n00:00:13.437 --> 00:00:16.796\nIT using the organization’s published helpdesk route. Independently verify\n\n6\n00:00:16.796 --> 00:00:20.528\nsupport requests; never disclose authentication outputs to an unsolicited caller.\n\n7\n00:00:20.528 --> 00:00:23.887\nOption A is unsafe because The code may authorize\n\n8\n00:00:23.887 --> 00:00:27.246\naccount access even without remote-control software. Option B is\n\n9\n00:00:27.246 --> 00:00:30.606\nunsafe because Unverified remote access can give the caller\n\n10\n00:00:30.606 --> 00:00:33.965\ncontrol of the device. Option D is unsafe because\n\n11\n00:00:33.965 --> 00:00:37.324\nA photo can be fabricated or copied and is\n\n12\n00:00:37.324 --> 00:00:40.683\nnot reliable identity verification. In practice: End the call.\n\n13\n00:00:40.683 --> 00:00:44.042\nContact the helpdesk using a known directory or portal\n\n14\n00:00:44.042 --> 00:00:47.401\nand report the attempted remote-access and code request. Key\n\n15\n00:00:47.401 --> 00:00:50.761\ntakeaway: Caller ID, technical language and urgency are not\n\n16\n00:00:50.761 --> 00:00:53.000\nproof that a caller is authorized.\n",
+  "referenceIds": [
+    "[3]",
+    "[4]",
+    "[16]",
+    "[25]"
+  ],
+  "question": {
+    "title": "The “IT support” caller",
+    "learningObjective": "Verify caller identity and resist verbal pressure to disclose data or approve actions",
+    "scenario": "A caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code.",
+    "correctOptionId": "C",
+    "correctAnswer": "End the call and contact IT using the organization’s published helpdesk route.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "The code may authorize account access even without remote-control software."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "Unverified remote access can give the caller control of the device."
+      },
+      "C": {
+        "isCorrect": true,
+        "explanation": "Correct. Independently verify support requests; never disclose authentication outputs to an unsolicited caller."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "A photo can be fabricated or copied and is not reliable identity verification."
+      }
+    },
+    "keyTakeaway": "Caller ID, technical language and urgency are not proof that a caller is authorized.",
+    "recommendedDefensiveAction": "End the call. Contact the helpdesk using a known directory or portal and report the attempted remote-access and code request."
+  }
+}

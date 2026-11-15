@@ -1,0 +1,26 @@
+{
+  "release": "0.10.0-rc.8",
+  "phase": 15,
+  "date": "2026-11-13",
+  "checks": {
+    "legacyNodeTests": {"passed": true, "result": "37/37"},
+    "reactDomainAndAccessibilitySourceTests": {"passed": true, "result": "17/17; source-level only"},
+    "offlineStructuralTypecheck": {"passed": true, "result": "shim-based check; not official TypeScript project build"},
+    "contentValidation": {"passed": true},
+    "secretPatternScan": {"passed": true, "scope": "high-confidence patterns only"},
+    "legacyStaticBuild": {"passed": true, "scope": "copy-based static distribution"},
+    "distributionSmoke": {"passed": true, "result": "215 routes"},
+    "packagedDistributionSmoke": {"passed": true},
+    "backupSmoke": {"passed": true},
+    "nginxLiveSmoke": {"passed": true, "result": "8/8"},
+    "systemdUnit": {"passed": true},
+    "workflowYaml": {"passed": true, "files": [".github/workflows/cyberaware-ci.yml", ".github/workflows/react-frontend-ci.yml", ".github/dependabot.yml"]},
+    "releasePackaging": {"passed": true},
+    "releaseZipIntegrity": {"passed": true},
+    "sha256Sidecars": {"passed": true},
+    "sbom": {"passed": true, "scope": "declared direct dependencies; no transitive lock resolution"}
+  },
+  "notRun": [
+    "npm ci", "npm audit --audit-level=high", "official TypeScript project build", "Vite production build", "React distribution smoke", "Playwright cross-browser/mobile tests", "browser axe accessibility scans", "production-host deployment and restore/rollback"
+  ]
+}

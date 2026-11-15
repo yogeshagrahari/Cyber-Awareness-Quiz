@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.071
+Scenario: A sticker covers the QR code on a parking meter.
+
+2
+00:00:04.071 --> 00:00:07.403
+The replacement code opens a page asking for card
+
+3
+00:00:07.403 --> 00:00:10.734
+details and vehicle information. Safest response: Option A: Use
+
+4
+00:00:10.734 --> 00:00:14.065
+the official payment app or website reached independently and
+
+5
+00:00:14.065 --> 00:00:17.396
+inspect/report the altered code. QR codes conceal URLs; use
+
+6
+00:00:17.396 --> 00:00:20.727
+a known official payment route and report suspected tampering.
+
+7
+00:00:20.727 --> 00:00:24.058
+Option B is unsafe because Sharing can spread the
+
+8
+00:00:24.058 --> 00:00:27.390
+malicious destination and does not verify its operator. Option
+
+9
+00:00:27.390 --> 00:00:30.721
+C is unsafe because A sticker can be placed
+
+10
+00:00:30.721 --> 00:00:34.792
+over a legitimate QR code; physical placement does not prove authenticity.
+
+11
+00:00:34.792 --> 00:00:38.123
+Option D is unsafe because Logos can be copied
+
+12
+00:00:38.123 --> 00:00:41.455
+and do not prove the destination is legitimate. In
+
+13
+00:00:41.455 --> 00:00:44.786
+practice: Do not enter details on the linked page.
+
+14
+00:00:44.786 --> 00:00:48.117
+Use the operator’s official app or a known address
+
+15
+00:00:48.117 --> 00:00:51.448
+and report the altered sticker. Key takeaway: A QR
+
+16
+00:00:51.448 --> 00:00:54.779
+code is simply a link in a different format;
+
+17
+00:00:54.779 --> 00:00:57.000
+inspect and verify it before acting.

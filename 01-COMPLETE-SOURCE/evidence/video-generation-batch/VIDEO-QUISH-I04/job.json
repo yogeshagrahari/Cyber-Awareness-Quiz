@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-QUISH-I04",
+  "questionId": "QUISH-I04",
+  "level": "Intermediate",
+  "title": "Question explanation: The meeting-room QR login",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "4108d267b4bc6a3ca4d9f4231f829ca07d6f2ca051b5b39af441fb84550fd84e",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 53
+  },
+  "narration": "Scenario: A QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue. Safest response: Option C: Check the displayed URL, close the page, and ask facilities/IT for the official network instructions. Verify the destination and obtain connection details through an approved internal source. Option A is unsafe because A different browser still submits credentials to the same untrusted site. Option B is unsafe because The physical location does not validate the QR destination or page operator. Option D is unsafe because Sharing credentials exposes the coworker’s account and does not validate the page. In practice: Do not enter credentials. Confirm the poster with facilities or IT and use the authorized network onboarding process. Key takeaway: QR codes conceal destinations; assess the actual URL before authenticating.",
+  "script": "# The meeting-room QR login\n\n**Video ID:** `VIDEO-QUISH-I04`  \n**Question ID:** `QUISH-I04`  \n**Level:** Intermediate  \n**Target duration:** 53 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nEvaluate QR-linked destinations before authentication or payment\n\n## Scenario\nA QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue.\n\n## Narration transcript\nScenario: A QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue. Safest response: Option C: Check the displayed URL, close the page, and ask facilities/IT for the official network instructions. Verify the destination and obtain connection details through an approved internal source. Option A is unsafe because A different browser still submits credentials to the same untrusted site. Option B is unsafe because The physical location does not validate the QR destination or page operator. Option D is unsafe because Sharing credentials exposes the coworker’s account and does not validate the page. In practice: Do not enter credentials. Confirm the poster with facilities or IT and use the authorized network onboarding process. Key takeaway: QR codes conceal destinations; assess the actual URL before authenticating.\n\n## Correct response\nC. Check the displayed URL, close the page, and ask facilities/IT for the official network instructions.\n\n## Option-specific teaching notes\n- **A:** A different browser still submits credentials to the same untrusted site.\n- **B:** The physical location does not validate the QR destination or page operator.\n- **C (correct):** Correct. Verify the destination and obtain connection details through an approved internal source.\n- **D:** Sharing credentials exposes the coworker’s account and does not validate the page.\n\n## Key takeaway\nQR codes conceal destinations; assess the actual URL before authenticating.\n\n## Recommended defensive action\nDo not enter credentials. Confirm the poster with facilities or IT and use the authorized network onboarding process.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-19s — Learning objective and risk cue:** QR-code phishing — key cue\n- **19-32s — Recommended response:** Safest response: C\n- **32-45s — Why the other options fail:** Why the alternatives are unsafe\n- **45-53s — Defensive takeaway:** QR codes conceal destinations; assess the actual URL before authenticating.\n\n## Research references\n- [1]\n- [7]\n- [27]\n\n## Planned output\n`public/videos/intermediate/quish-i04.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-QUISH-I04",
+    "questionId": "QUISH-I04",
+    "title": "The meeting-room QR login — question explanation",
+    "learningObjective": "Evaluate QR-linked destinations before authentication or payment",
+    "targetDurationSeconds": 53,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "A QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-19s",
+        "visual": "Evaluate QR-linked destinations before authentication or payment",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "QR-code phishing — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "19-32s",
+        "visual": "Option C: Check the displayed URL, close the page, and ask facilities/IT for the official network instructions. Verify the destination and obtain connection details through an approved internal source.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: C"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "32-45s",
+        "visual": "Option A: A different browser still submits credentials to the same untrusted site. Option B: The physical location does not validate the QR destination or page operator. Option D: Sharing credentials exposes the coworker’s account and does not validate the page.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "45-53s",
+        "visual": "Do not enter credentials. Confirm the poster with facilities or IT and use the authorized network onboarding process. QR codes conceal destinations; assess the actual URL before authenticating.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "QR codes conceal destinations; assess the actual URL before authenticating."
+      }
+    ],
+    "narration": "Scenario: A QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue. Safest response: Option C: Check the displayed URL, close the page, and ask facilities/IT for the official network instructions. Verify the destination and obtain connection details through an approved internal source. Option A is unsafe because A different browser still submits credentials to the same untrusted site. Option B is unsafe because The physical location does not validate the QR destination or page operator. Option D is unsafe because Sharing credentials exposes the coworker’s account and does not validate the page. In practice: Do not enter credentials. Confirm the poster with facilities or IT and use the authorized network onboarding process. Key takeaway: QR codes conceal destinations; assess the actual URL before authenticating.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about QR-code phishing. Scenario: A QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue. Explain why Option C is the safest defensive response: Check the displayed URL, close the page, and ask facilities/IT for the official network instructions. Contrast the unsafe alternatives with these concise reasons: Option A: A different browser still submits credentials to the same untrusted site.; Option B: The physical location does not validate the QR destination or page operator.; Option D: Sharing credentials exposes the coworker’s account and does not validate the page.. Conclude with: QR codes conceal destinations; assess the actual URL before authenticating. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[7]",
+      "[27]"
+    ],
+    "outputFile": "public/videos/intermediate/quish-i04.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about QR-code phishing. Scenario: A QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue. Explain why the correct defensive response is: Check the displayed URL, close the page, and ask facilities/IT for the official network instructions. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: QR codes conceal destinations; assess the actual URL before authenticating. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.383\nScenario: A QR code on a meeting-room poster promises\n\n2\n00:00:03.383 --> 00:00:06.766\naccess to the conference Wi-Fi. After scanning, it opens\n\n3\n00:00:06.766 --> 00:00:10.525\na sign-in page on a domain unrelated to the venue.\n\n4\n00:00:10.525 --> 00:00:13.908\nSafest response: Option C: Check the displayed URL, close\n\n5\n00:00:13.908 --> 00:00:17.667\nthe page, and ask facilities/IT for the official network instructions.\n\n6\n00:00:17.667 --> 00:00:21.050\nVerify the destination and obtain connection details through an\n\n7\n00:00:21.050 --> 00:00:24.433\napproved internal source. Option A is unsafe because A\n\n8\n00:00:24.433 --> 00:00:28.191\ndifferent browser still submits credentials to the same untrusted site.\n\n9\n00:00:28.191 --> 00:00:31.574\nOption B is unsafe because The physical location does\n\n10\n00:00:31.574 --> 00:00:34.957\nnot validate the QR destination or page operator. Option\n\n11\n00:00:34.957 --> 00:00:38.340\nD is unsafe because Sharing credentials exposes the coworker’s\n\n12\n00:00:38.340 --> 00:00:41.723\naccount and does not validate the page. In practice:\n\n13\n00:00:41.723 --> 00:00:45.106\nDo not enter credentials. Confirm the poster with facilities\n\n14\n00:00:45.106 --> 00:00:48.489\nor IT and use the authorized network onboarding process.\n\n15\n00:00:48.489 --> 00:00:51.872\nKey takeaway: QR codes conceal destinations; assess the actual\n\n16\n00:00:51.872 --> 00:00:53.000\nURL before authenticating.\n",
+  "referenceIds": [
+    "[1]",
+    "[7]",
+    "[27]"
+  ],
+  "question": {
+    "title": "The meeting-room QR login",
+    "learningObjective": "Evaluate QR-linked destinations before authentication or payment",
+    "scenario": "A QR code on a meeting-room poster promises access to the conference Wi-Fi. After scanning, it opens a sign-in page on a domain unrelated to the venue.",
+    "correctOptionId": "C",
+    "correctAnswer": "Check the displayed URL, close the page, and ask facilities/IT for the official network instructions.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "A different browser still submits credentials to the same untrusted site."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "The physical location does not validate the QR destination or page operator."
+      },
+      "C": {
+        "isCorrect": true,
+        "explanation": "Correct. Verify the destination and obtain connection details through an approved internal source."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Sharing credentials exposes the coworker’s account and does not validate the page."
+      }
+    },
+    "keyTakeaway": "QR codes conceal destinations; assess the actual URL before authenticating.",
+    "recommendedDefensiveAction": "Do not enter credentials. Confirm the poster with facilities or IT and use the authorized network onboarding process."
+  }
+}

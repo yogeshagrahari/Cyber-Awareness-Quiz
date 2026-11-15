@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.106
+Scenario: At an airport, several similarly named free Wi-Fi networks appear.
+
+2
+00:00:04.106 --> 00:00:07.465
+You need to access a sensitive work account. Safest
+
+3
+00:00:07.465 --> 00:00:10.824
+response: Option C: Use a personal or organization-approved hotspot,
+
+4
+00:00:10.824 --> 00:00:14.183
+or a verified network with required protections. Prefer a
+
+5
+00:00:14.183 --> 00:00:17.542
+trusted connection; public wireless networks can expose devices and
+
+6
+00:00:17.542 --> 00:00:20.901
+traffic to additional risk. Option A is unsafe because
+
+7
+00:00:20.901 --> 00:00:24.261
+HTTPS protects data in transit to a valid site
+
+8
+00:00:24.261 --> 00:00:27.620
+but does not authenticate the Wi-Fi operator or protect
+
+9
+00:00:27.620 --> 00:00:30.979
+against every threat. Option B is unsafe because Signal
+
+10
+00:00:30.979 --> 00:00:34.338
+strength does not verify who operates the network. Option
+
+11
+00:00:34.338 --> 00:00:37.697
+D is unsafe because Disabling a security control does
+
+12
+00:00:37.697 --> 00:00:41.056
+not improve trust in the network and increases exposure.
+
+13
+00:00:41.056 --> 00:00:44.415
+In practice: Prefer mobile data or an organization-approved hotspot.
+
+14
+00:00:44.415 --> 00:00:47.775
+Follow your organization’s VPN and remote-access requirements. Key takeaway:
+
+15
+00:00:47.775 --> 00:00:51.134
+Network names and signal strength do not prove that
+
+16
+00:00:51.134 --> 00:00:53.000
+a Wi-Fi network is legitimate.

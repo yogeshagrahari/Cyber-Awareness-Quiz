@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-AI-CONTENT-A11",
+  "questionId": "AI-CONTENT-A11",
+  "level": "Advanced",
+  "title": "Question explanation: The AI-generated incident advisory",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "2d03cc340ca243ee1c51c0b9a09478f1b6fbef6f0b53c5d1f5f553de6c4468a4",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 60
+  },
+  "narration": "Scenario: An AI assistant produces an incident-response memo citing a non-existent CVE and recommending a command that would disable endpoint protection across all workstations. Safest response: Option B: Treat it as an unverified draft, validate every source and recommendation against authoritative advisories and approved procedures, and reject unsafe actions. AI output needs provenance, technical validation, and human approval before it informs operational response. Option A is unsafe because Citations and fluent technical prose do not establish factual accuracy or safety. Option C is unsafe because Testing an unsafe command on production may still cause harm; validate in a controlled environment after expert review. Option D is unsafe because Self-confirmation by the same model is not independent evidence and may reproduce the original error. In practice: Check identifiers in authoritative vulnerability databases and vendor advisories, test any safe proposed steps in a controlled environment, and require qualified human sign-off. Key takeaway: Generative AI can produce plausible but false or unsafe security guidance; verify independently before action.",
+  "script": "# The AI-generated incident advisory\n\n**Video ID:** `VIDEO-AI-CONTENT-A11`  \n**Question ID:** `AI-CONTENT-A11`  \n**Level:** Advanced  \n**Target duration:** 60 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nReview AI-generated security guidance for fabricated claims, bias and unsafe recommendations\n\n## Scenario\nAn AI assistant produces an incident-response memo citing a non-existent CVE and recommending a command that would disable endpoint protection across all workstations.\n\n## Narration transcript\nScenario: An AI assistant produces an incident-response memo citing a non-existent CVE and recommending a command that would disable endpoint protection across all workstations. Safest response: Option B: Treat it as an unverified draft, validate every source and recommendation against authoritative advisories and approved procedures, and reject unsafe actions. AI output needs provenance, technical validation, and human approval before it informs operational response. Option A is unsafe because Citations and fluent technical prose do not establish factual accuracy or safety. Option C is unsafe because Testing an unsafe command on production may still cause harm; validate in a controlled environment after expert review. Option D is unsafe because Self-confirmation by the same model is not independent evidence and may reproduce the original error. In practice: Check identifiers in authoritative vulnerability databases and vendor advisories, test any safe proposed steps in a controlled environment, and require qualified human sign-off. Key takeaway: Generative AI can produce plausible but false or unsafe security guidance; verify independently before action.\n\n## Correct response\nB. Treat it as an unverified draft, validate every source and recommendation against authoritative advisories and approved procedures, and reject unsafe actions.\n\n## Option-specific teaching notes\n- **A:** Citations and fluent technical prose do not establish factual accuracy or safety.\n- **B (correct):** Correct. AI output needs provenance, technical validation, and human approval before it informs operational response.\n- **C:** Testing an unsafe command on production may still cause harm; validate in a controlled environment after expert review.\n- **D:** Self-confirmation by the same model is not independent evidence and may reproduce the original error.\n\n## Key takeaway\nGenerative AI can produce plausible but false or unsafe security guidance; verify independently before action.\n\n## Recommended defensive action\nCheck identifiers in authoritative vulnerability databases and vendor advisories, test any safe proposed steps in a controlled environment, and require qualified human sign-off.\n\n## On-screen text sequence\n- **0-11s — Scenario setup:** Fictional scenario\n- **11-22s — Learning objective and risk cue:** AI-enabled threats — key cue\n- **22-36s — Recommended response:** Safest response: B\n- **36-50s — Why the other options fail:** Why the alternatives are unsafe\n- **50-60s — Defensive takeaway:** Generative AI can produce plausible but false or unsafe security guidance; verify independently before action.\n\n## Research references\n- [15]\n- [17]\n- [18]\n\n## Planned output\n`public/videos/advanced/ai-content-a11.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-AI-CONTENT-A11",
+    "questionId": "AI-CONTENT-A11",
+    "title": "The AI-generated incident advisory — question explanation",
+    "learningObjective": "Review AI-generated security guidance for fabricated claims, bias and unsafe recommendations",
+    "targetDurationSeconds": 60,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-11s",
+        "visual": "An AI assistant produces an incident-response memo citing a non-existent CVE and recommending a command that would disable endpoint protection across all workstations.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "11-22s",
+        "visual": "Review AI-generated security guidance for fabricated claims, bias and unsafe recommendations",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "AI-enabled threats — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "22-36s",
+        "visual": "Option B: Treat it as an unverified draft, validate every source and recommendation against authoritative advisories and approved procedures, and reject unsafe actions. AI output needs provenance, technical validation, and human approval before it informs operational response.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: B"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "36-50s",
+        "visual": "Option A: Citations and fluent technical prose do not establish factual accuracy or safety. Option C: Testing an unsafe command on production may still cause harm; validate in a controlled environment after expert review. Option D: Self-confirmation by the same model is not independent evidence and may reproduce the original error.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "50-60s",
+        "visual": "Check identifiers in authoritative vulnerability databases and vendor advisories, test any safe proposed steps in a controlled environment, and require qualified human sign-off. Generative AI can produce plausible but false or unsafe security guidance; verify independently before action.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Generative AI can produce plausible but false or unsafe security guidance; verify independently before action."
+      }
+    ],
+    "narration": "Scenario: An AI assistant produces an incident-response memo citing a non-existent CVE and recommending a command that would disable endpoint protection across all workstations. Safest response: Option B: Treat it as an unverified draft, validate every source and recommendation against authoritative advisories and approved procedures, and reject unsafe actions. AI output needs provenance, technical validation, and human approval before it informs operational response. Option A is unsafe because Citations and fluent technical prose do not establish factual accuracy or safety. Option C is unsafe because Testing an unsafe command on production may still cause harm; validate in a controlled environment after expert review. Option D is unsafe because Self-confirmation by the same model is not independent evidence and may reproduce the original error. In practice: Check identifiers in authoritative vulnerability databases and vendor advisories, test any safe proposed steps in a controlled environment, and require qualified human sign-off. Key takeaway: Generative AI can produce plausible but false or unsafe security guidance; verify independently before action.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about AI-enabled threats. Scenario: An AI assistant produces an incident-response memo citing a non-existent CVE and recommending a command that would disable endpoint protection across all workstations. Explain why Option B is the safest defensive response: Treat it as an unverified draft, validate every source and recommendation against authoritative advisories and approved procedures, and reject unsafe actions. Contrast the unsafe alternatives with these concise reasons: Option A: Citations and fluent technical prose do not establish factual accuracy or safety.; Option C: Testing an unsafe command on production may still cause harm; validate in a controlled environment after expert review.; Option D: Self-confirmation by the same model is not independent evidence and may reproduce the original error.. Conclude with: Generative AI can produce plausible but false or unsafe security guidance; verify independently before action. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[15]",
+      "[17]",
+      "[18]"
+    ],
+    "outputFile": "public/videos/advanced/ai-content-a11.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about AI-enabled threats. Scenario: An AI assistant produces an incident-response memo citing a non-existent CVE and recommending a command that would disable endpoint protection across all workstations. Explain why the correct defensive response is: Treat it as an unverified draft, validate every source and recommendation against authoritative advisories and approved procedures, and reject unsafe actions. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Generative AI can produce plausible but false or unsafe security guidance; verify independently before action. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.273\nScenario: An AI assistant produces an incident-response memo citing\n\n2\n00:00:03.273 --> 00:00:06.545\na non-existent CVE and recommending a command that would\n\n3\n00:00:06.545 --> 00:00:09.818\ndisable endpoint protection across all workstations. Safest response: Option\n\n4\n00:00:09.818 --> 00:00:13.091\nB: Treat it as an unverified draft, validate every\n\n5\n00:00:13.091 --> 00:00:16.364\nsource and recommendation against authoritative advisories and approved procedures,\n\n6\n00:00:16.364 --> 00:00:19.636\nand reject unsafe actions. AI output needs provenance, technical\n\n7\n00:00:19.636 --> 00:00:22.909\nvalidation, and human approval before it informs operational response.\n\n8\n00:00:22.909 --> 00:00:26.182\nOption A is unsafe because Citations and fluent technical\n\n9\n00:00:26.182 --> 00:00:29.455\nprose do not establish factual accuracy or safety. Option\n\n10\n00:00:29.455 --> 00:00:32.727\nC is unsafe because Testing an unsafe command on\n\n11\n00:00:32.727 --> 00:00:36.000\nproduction may still cause harm; validate in a controlled\n\n12\n00:00:36.000 --> 00:00:39.273\nenvironment after expert review. Option D is unsafe because\n\n13\n00:00:39.273 --> 00:00:42.545\nSelf-confirmation by the same model is not independent evidence\n\n14\n00:00:42.545 --> 00:00:45.818\nand may reproduce the original error. In practice: Check\n\n15\n00:00:45.818 --> 00:00:49.091\nidentifiers in authoritative vulnerability databases and vendor advisories, test\n\n16\n00:00:49.091 --> 00:00:52.364\nany safe proposed steps in a controlled environment, and\n\n17\n00:00:52.364 --> 00:00:55.636\nrequire qualified human sign-off. Key takeaway: Generative AI can\n\n18\n00:00:55.636 --> 00:00:58.909\nproduce plausible but false or unsafe security guidance; verify\n\n19\n00:00:58.909 --> 00:01:00.000\nindependently before action.\n",
+  "referenceIds": [
+    "[15]",
+    "[17]",
+    "[18]"
+  ],
+  "question": {
+    "title": "The AI-generated incident advisory",
+    "learningObjective": "Review AI-generated security guidance for fabricated claims, bias and unsafe recommendations",
+    "scenario": "An AI assistant produces an incident-response memo citing a non-existent CVE and recommending a command that would disable endpoint protection across all workstations.",
+    "correctOptionId": "B",
+    "correctAnswer": "Treat it as an unverified draft, validate every source and recommendation against authoritative advisories and approved procedures, and reject unsafe actions.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Citations and fluent technical prose do not establish factual accuracy or safety."
+      },
+      "B": {
+        "isCorrect": true,
+        "explanation": "Correct. AI output needs provenance, technical validation, and human approval before it informs operational response."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Testing an unsafe command on production may still cause harm; validate in a controlled environment after expert review."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Self-confirmation by the same model is not independent evidence and may reproduce the original error."
+      }
+    },
+    "keyTakeaway": "Generative AI can produce plausible but false or unsafe security guidance; verify independently before action.",
+    "recommendedDefensiveAction": "Check identifiers in authoritative vulnerability databases and vendor advisories, test any safe proposed steps in a controlled environment, and require qualified human sign-off."
+  }
+}

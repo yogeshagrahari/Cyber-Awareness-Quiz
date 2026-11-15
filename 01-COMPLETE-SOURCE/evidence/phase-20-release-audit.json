@@ -1,0 +1,76 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.13",
+  "phase": 20,
+  "date": "2026-11-13",
+  "findings": [
+    {
+      "id": "REL-20-001",
+      "severity": "medium",
+      "area": "release-metadata",
+      "title": "User-visible application release string lagged behind package metadata",
+      "status": "fixed",
+      "verification": "49/49 legacy tests; explicit release-version regression test."
+    },
+    {
+      "id": "REL-20-002",
+      "severity": "medium",
+      "area": "deployment-docs",
+      "title": "Deployment instructions documented an obsolete Node.js baseline",
+      "status": "fixed",
+      "verification": "Current user/deployment docs align with Node >=22.23.5 and declared CI matrix; historical phase note retained as history."
+    },
+    {
+      "id": "REL-20-003",
+      "severity": "high",
+      "area": "static-deployment",
+      "title": "No explicit Nginx static profile and smoke coverage for the dependency-free demo",
+      "status": "fixed",
+      "verification": "New Nginx static configuration and 10/10 live smoke checks; wired into CI and application demo archive."
+    },
+    {
+      "id": "REL-20-004",
+      "severity": "high",
+      "area": "react-build",
+      "title": "React lockfile, official build and dependency audit remain unverified",
+      "status": "external-blocker",
+      "verification": "No reviewed package-lock.json; official npm ci/audit/TypeScript 7/Vite run remains required."
+    },
+    {
+      "id": "REL-20-005",
+      "severity": "high",
+      "area": "accessibility",
+      "title": "Real-browser E2E and axe accessibility acceptance has not run",
+      "status": "external-blocker",
+      "verification": "Local Chromium loopback navigation blocked by environment; Playwright/axe and manual assistive-technology review remain required."
+    },
+    {
+      "id": "REL-20-006",
+      "severity": "high",
+      "area": "production-deployment",
+      "title": "Production ingress and operational controls are not validated on target host",
+      "status": "external-blocker",
+      "verification": "No target-host proof for HTTPS/TLS, HSTS, monitoring, off-host backup restore and rollback."
+    },
+    {
+      "id": "REL-20-007",
+      "severity": "medium",
+      "area": "independent-review",
+      "title": "Independent cybersecurity, instructional-design and learner evaluation is pending",
+      "status": "pending",
+      "verification": "No independent review artifacts supplied."
+    }
+  ],
+  "decision": "NOT_PRODUCTION_APPROVED",
+  "deliverables": [
+    "full-source ZIP (1,151 manifest-tracked files)",
+    "dependency-free legacy application demo ZIP (496 files)",
+    "SHA-256 checksums",
+    "phase-20 validation and release evidence"
+  ],
+  "deferred": [
+    "video provider integration",
+    "MP4 generation",
+    "video/media review"
+  ]
+}

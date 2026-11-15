@@ -1,0 +1,153 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.7.0",
+  "phase": 6,
+  "auditDate": "2026-11-12",
+  "status": "internal_demonstrator_simulation_lab_candidate",
+  "simulations": [
+    {
+      "id": "phishing",
+      "name": "Phishing inspection",
+      "mode": "multi-select evidence identification",
+      "questionIds": [
+        "PHISH-B01",
+        "SENDER-B02",
+        "LINK-B03"
+      ],
+      "references": [
+        "[1]",
+        "[6]",
+        "[7]",
+        "[25]"
+      ],
+      "scene": "native WebGL wireframe + CSS 2D fallback"
+    },
+    {
+      "id": "password",
+      "name": "Password security lab",
+      "mode": "non-secret profile characteristic checklist",
+      "questionIds": [
+        "PASS-UNIQ-B04",
+        "PASS-MGR-B05",
+        "OTP-B06"
+      ],
+      "references": [
+        "[1]",
+        "[16]"
+      ],
+      "secretInput": false,
+      "secretPersistence": false
+    },
+    {
+      "id": "mfa",
+      "name": "MFA fatigue response",
+      "mode": "three-step defensive decision sequence",
+      "questionIds": [
+        "MFA-FATIGUE-I05",
+        "ATO-I07",
+        "RESET-I13"
+      ],
+      "references": [
+        "[16]",
+        "[25]"
+      ],
+      "scene": "native WebGL wireframe + CSS 2D fallback"
+    },
+    {
+      "id": "incident",
+      "name": "Incident response command",
+      "mode": "three-step ransomware response sequence",
+      "questionIds": [
+        "IR-PRIORITY-A05",
+        "RANSOM-A12",
+        "LOGS-A10"
+      ],
+      "references": [
+        "[17]",
+        "[28]",
+        "[35]"
+      ],
+      "scene": "native WebGL wireframe + CSS 2D fallback"
+    }
+  ],
+  "automatedChecks": {
+    "nodeTests": {
+      "status": "pass",
+      "passed": 22,
+      "failed": 0
+    },
+    "contentValidation": {
+      "status": "pass",
+      "coreQuestions": 45,
+      "expertQuestions": 6,
+      "totalQuestions": 51,
+      "optionRationales": 204,
+      "references": 38
+    },
+    "simulationModelTests": {
+      "status": "pass",
+      "simulations": 4,
+      "checks": [
+        "unique IDs and mappings",
+        "phishing indicators",
+        "password profile score",
+        "MFA safe action uniqueness",
+        "incident response safe action uniqueness",
+        "local progress sanitization",
+        "finite WebGL geometry buffers",
+        "phishing known-domain and destination-preview context"
+      ]
+    },
+    "secretPatternScan": {
+      "status": "pass",
+      "scope": "high-confidence regex scan only"
+    },
+    "javascriptSyntax": {
+      "status": "pass",
+      "files": [
+        "frontend/src/app.js",
+        "frontend/src/core.js",
+        "frontend/src/globe.js",
+        "frontend/src/simulations.js",
+        "frontend/server.mjs"
+      ]
+    },
+    "staticDistributionBuild": {
+      "status": "pass",
+      "type": "copy-based static distribution; not Vite"
+    },
+    "builtDistributionSmoke": {
+      "status": "pass",
+      "routesHttp200": 14,
+      "headHttp200": true,
+      "postHttp405": true,
+      "defensiveHeaders": true
+    },
+    "cycloneDxSbom": {
+      "status": "regenerated"
+    },
+    "sha256PackageManifest": {
+      "status": "regenerated",
+      "selfExcluded": true
+    }
+  },
+  "browserValidation": {
+    "status": "blocked",
+    "reason": "System Chromium navigation to localhost returned ERR_BLOCKED_BY_ADMINISTRATOR; standalone headless screenshot attempts stalled with EGL/ANGLE and DBus errors; bundled Playwright browser missing."
+  },
+  "openReleaseGates": [
+    "Independent cybersecurity SME review",
+    "Instructional-design review",
+    "Browser runtime verification of WebGL and all simulation interactions",
+    "Full WCAG 2.2 AA manual and assistive-technology audit",
+    "React TypeScript Vite migration if required by evaluator",
+    "51 actual MP4 videos generated and playback-tested",
+    "Production hosting, HTTPS and monitoring",
+    "Human-subject evaluation"
+  ],
+  "releaseApproved": false,
+  "claimsOfEmpiricalEffectiveness": false,
+  "claimsOfWcagConformance": false,
+  "claimsOfGeneratedMp4": false,
+  "claimsOfBrowserWebGLRuntimeValidation": false
+}

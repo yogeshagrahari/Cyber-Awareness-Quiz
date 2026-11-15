@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.352
+Scenario: You receive a password-reset SMS for a service
+
+2
+00:00:03.352 --> 00:00:06.703
+while you are not attempting to reset your password.
+
+3
+00:00:06.703 --> 00:00:10.055
+A second message asks you to approve the reset.
+
+4
+00:00:10.055 --> 00:00:13.407
+Safest response: Option B: Ignore the link, navigate independently
+
+5
+00:00:13.407 --> 00:00:16.759
+to the service and review account security or contact
+
+6
+00:00:16.759 --> 00:00:20.110
+support if needed. Unsolicited reset messages should be verified
+
+7
+00:00:20.110 --> 00:00:23.462
+through the official service rather than followed. Option A
+
+8
+00:00:23.462 --> 00:00:27.186
+is unsafe because The code may authorize an attacker-controlled reset.
+
+9
+00:00:27.186 --> 00:00:30.538
+Option C is unsafe because Approving a reset you
+
+10
+00:00:30.538 --> 00:00:34.634
+did not request may give another party control of the account.
+
+11
+00:00:34.634 --> 00:00:37.986
+Option D is unsafe because The link could lead
+
+12
+00:00:37.986 --> 00:00:41.338
+to a credential-harvesting site. In practice: Do not open
+
+13
+00:00:41.338 --> 00:00:44.690
+the SMS link or share a code. Access the
+
+14
+00:00:44.690 --> 00:00:48.041
+service independently and report repeated or suspicious recovery activity.
+
+15
+00:00:48.041 --> 00:00:51.393
+Key takeaway: Only initiate recovery yourself through the official
+
+16
+00:00:51.393 --> 00:00:54.000
+service; do not approve an unsolicited reset.

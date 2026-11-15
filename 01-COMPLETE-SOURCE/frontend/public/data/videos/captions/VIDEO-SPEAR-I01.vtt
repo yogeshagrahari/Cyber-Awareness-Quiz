@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.313
+Scenario: A message uses your real project name and
+
+2
+00:00:03.313 --> 00:00:06.626
+mentions a current deadline. It asks you to open
+
+3
+00:00:06.626 --> 00:00:09.939
+a shared document and sign in again, but the
+
+4
+00:00:09.939 --> 00:00:13.252
+sender domain differs from the partner’s known domain. Safest
+
+5
+00:00:13.252 --> 00:00:16.564
+response: Option A: Verify the request with the partner
+
+6
+00:00:16.564 --> 00:00:19.877
+using a previously established contact channel, and access the
+
+7
+00:00:19.877 --> 00:00:23.190
+project system independently. Use relationship and workflow context as
+
+8
+00:00:23.190 --> 00:00:26.503
+signals, but authenticate through an independent channel. Option B
+
+9
+00:00:26.503 --> 00:00:29.816
+is unsafe because Changing devices does not make a
+
+10
+00:00:29.816 --> 00:00:33.129
+deceptive link or credential prompt trustworthy. Option C is
+
+11
+00:00:33.129 --> 00:00:36.442
+unsafe because A response goes to the potentially compromised
+
+12
+00:00:36.442 --> 00:00:39.755
+sender and does not independently verify the request. Option
+
+13
+00:00:39.755 --> 00:00:43.067
+D is unsafe because Public or compromised information can
+
+14
+00:00:43.067 --> 00:00:46.380
+make targeted deception convincing; context alone is not authentication.
+
+15
+00:00:46.380 --> 00:00:49.693
+In practice: Pause the sign-in request, contact the partner
+
+16
+00:00:49.693 --> 00:00:53.006
+through known contact details, and report the mismatch to
+
+17
+00:00:53.006 --> 00:00:56.319
+the security team. Key takeaway: Targeted content can be
+
+18
+00:00:56.319 --> 00:00:59.632
+accurate and still fraudulent; independently verify the sender and
+
+19
+00:00:59.632 --> 00:01:00.000
+workflow.

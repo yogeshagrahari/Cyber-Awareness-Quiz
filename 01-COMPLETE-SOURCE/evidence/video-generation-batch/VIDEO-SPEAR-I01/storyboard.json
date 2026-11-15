@@ -1,0 +1,64 @@
+{
+  "videoId": "VIDEO-SPEAR-I01",
+  "questionId": "SPEAR-I01",
+  "title": "The targeted project request — question explanation",
+  "learningObjective": "Use context, relationship and business-process checks to detect targeted deception",
+  "targetDurationSeconds": 60,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-11s",
+      "visual": "A message uses your real project name and mentions a current deadline. It asks you to open a shared document and sign in again, but the sender domain differs from the partner’s known domain.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "11-22s",
+      "visual": "Use context, relationship and business-process checks to detect targeted deception",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Spear phishing — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "22-36s",
+      "visual": "Option A: Verify the request with the partner using a previously established contact channel, and access the project system independently. Use relationship and workflow context as signals, but authenticate through an independent channel.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: A"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "36-50s",
+      "visual": "Option B: Changing devices does not make a deceptive link or credential prompt trustworthy. Option C: A response goes to the potentially compromised sender and does not independently verify the request. Option D: Public or compromised information can make targeted deception convincing; context alone is not authentication.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "50-60s",
+      "visual": "Pause the sign-in request, contact the partner through known contact details, and report the mismatch to the security team. Targeted content can be accurate and still fraudulent; independently verify the sender and workflow.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Targeted content can be accurate and still fraudulent; independently verify the sender and workflow."
+    }
+  ],
+  "narration": "Scenario: A message uses your real project name and mentions a current deadline. It asks you to open a shared document and sign in again, but the sender domain differs from the partner’s known domain. Safest response: Option A: Verify the request with the partner using a previously established contact channel, and access the project system independently. Use relationship and workflow context as signals, but authenticate through an independent channel. Option B is unsafe because Changing devices does not make a deceptive link or credential prompt trustworthy. Option C is unsafe because A response goes to the potentially compromised sender and does not independently verify the request. Option D is unsafe because Public or compromised information can make targeted deception convincing; context alone is not authentication. In practice: Pause the sign-in request, contact the partner through known contact details, and report the mismatch to the security team. Key takeaway: Targeted content can be accurate and still fraudulent; independently verify the sender and workflow.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Spear phishing. Scenario: A message uses your real project name and mentions a current deadline. It asks you to open a shared document and sign in again, but the sender domain differs from the partner’s known domain. Explain why Option A is the safest defensive response: Verify the request with the partner using a previously established contact channel, and access the project system independently. Contrast the unsafe alternatives with these concise reasons: Option B: Changing devices does not make a deceptive link or credential prompt trustworthy.; Option C: A response goes to the potentially compromised sender and does not independently verify the request.; Option D: Public or compromised information can make targeted deception convincing; context alone is not authentication.. Conclude with: Targeted content can be accurate and still fraudulent; independently verify the sender and workflow. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[1]",
+    "[7]",
+    "[25]"
+  ],
+  "outputFile": "public/videos/intermediate/spear-i01.mp4"
+}

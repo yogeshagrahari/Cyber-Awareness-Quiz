@@ -1,0 +1,39 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.6.0",
+  "phase": 5,
+  "auditDate": "2026-11-12",
+  "status": "internal_demonstrator_expert_review_candidate",
+  "automatedChecks": {
+    "nodeTests": {"status": "pass", "passed": 13, "failed": 0},
+    "contentValidation": {"status": "pass", "coreQuestions": 45, "expertQuestions": 6, "totalQuestions": 51, "optionRationales": 204, "explanations": 51, "ieeeReferences": 38, "bibtexKeys": 38},
+    "mediaTraceability": {"status": "pass", "scripts": 51, "storyboards": 51, "prompts": 51, "webvttCaptions": 51, "mp4Generated": 0, "mediaGenerationClaim": false},
+    "jsonSchemaValidation": {"status": "pass", "schemas": 2, "validator": "jsonschema 4.26.0", "scope": "local environment"},
+    "secretPatternScan": {"status": "pass", "scope": "high-confidence regex scan only"},
+    "javascriptSyntax": {"status": "pass"},
+    "staticDistributionBuild": {"status": "pass", "type": "copy-based; not Vite"},
+    "builtDistributionSmoke": {"status": "pass", "routesHttp200": 11, "headHttp200": true, "postHttp405": true, "defensiveHeaders": true},
+    "cycloneDxSbom": {"status": "generated"},
+    "sha256PackageManifest": {"status": "generated", "manifestSelfExcluded": true}
+  },
+  "accessibilitySourceImprovements": [
+    "Visible keyboard focus indicator",
+    "Semantic quiz and pathway progressbar roles and value text",
+    "Existing skip link, landmarks, reduced-motion setting and 2D fallback retained"
+  ],
+  "openReleaseGates": [
+    "Independent cybersecurity SME review",
+    "Instructional-design review",
+    "51 actual MP4 videos generated and validated",
+    "Full WCAG 2.2 AA manual and assistive-technology audit",
+    "Visual browser and end-to-end testing",
+    "React TypeScript Vite migration",
+    "Full interactive 3D learning environments",
+    "Production hosting, HTTPS, monitoring and backend decisions",
+    "Human-subject evaluation"
+  ],
+  "releaseApproved": false,
+  "claimsOfEmpiricalEffectiveness": false,
+  "claimsOfWcagConformance": false,
+  "claimsOfGeneratedMp4": false
+}

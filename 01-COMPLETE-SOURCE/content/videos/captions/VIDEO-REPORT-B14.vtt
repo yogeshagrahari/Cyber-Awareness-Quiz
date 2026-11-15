@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.350
+Scenario: You clicked a suspicious link and entered your
+
+2
+00:00:03.350 --> 00:00:06.701
+work password before realizing the page was fake. Safest
+
+3
+00:00:06.701 --> 00:00:10.051
+response: Option D: Report immediately through the approved security
+
+4
+00:00:10.051 --> 00:00:13.401
+channel and follow instructions to secure the account from
+
+5
+00:00:13.401 --> 00:00:16.752
+a trusted device. Prompt reporting enables the organization to
+
+6
+00:00:16.752 --> 00:00:20.102
+contain possible credential compromise and assess impact. Option A
+
+7
+00:00:20.102 --> 00:00:23.453
+is unsafe because Public posting may expose organizational details
+
+8
+00:00:23.453 --> 00:00:26.803
+and does not trigger incident response. Option B is
+
+9
+00:00:26.803 --> 00:00:30.153
+unsafe because Non-reporting delays containment and may allow the
+
+10
+00:00:30.153 --> 00:00:33.504
+account to be misused. Option C is unsafe because
+
+11
+00:00:33.504 --> 00:00:37.599
+Waiting can give an attacker more time to use exposed credentials.
+
+12
+00:00:37.599 --> 00:00:40.949
+In practice: Contact the security/helpdesk team immediately. From a
+
+13
+00:00:40.949 --> 00:00:44.299
+trusted device, follow their direction to reset credentials, revoke
+
+14
+00:00:44.299 --> 00:00:47.650
+sessions and inspect account activity. Key takeaway: Fast, accurate
+
+15
+00:00:47.650 --> 00:00:51.000
+reporting helps limit harm; do not hide accidental interaction.

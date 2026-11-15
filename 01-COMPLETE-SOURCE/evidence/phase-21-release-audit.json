@@ -1,0 +1,30 @@
+{
+  "project": "CYBERAWARE 3D",
+  "phase": 21,
+  "version": "0.10.0-rc.14",
+  "decision": "STAGING_SOURCE_CANDIDATE_NOT_PRODUCTION_APPROVED",
+  "scope": [
+    "React accessibility markup",
+    "Accessibility regression tests",
+    "CISA 2026 insider-threat reference metadata"
+  ],
+  "completed": [
+    "19/19 React source/domain tests",
+    "49/49 legacy tests",
+    "offline shimmed TypeScript check",
+    "content/traceability validator",
+    "high-confidence secret-pattern scan"
+  ],
+  "blocked": [
+    "reviewed React lockfile",
+    "npm ci",
+    "npm audit",
+    "official TypeScript 7 typecheck",
+    "Vite production build",
+    "React Playwright/axe",
+    "manual accessibility review",
+    "target-host operations/security acceptance",
+    "independent content review and learner evaluation"
+  ],
+  "video": "Deferred by owner; no video generation or review performed."
+}

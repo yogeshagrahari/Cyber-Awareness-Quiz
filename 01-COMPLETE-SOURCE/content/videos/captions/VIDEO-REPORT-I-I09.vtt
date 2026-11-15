@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.676
+Scenario: You opened a suspicious attachment on a managed laptop.
+
+2
+00:00:03.676 --> 00:00:06.985
+The device is behaving unusually, and your organization has
+
+3
+00:00:06.985 --> 00:00:10.294
+an incident-response number. Safest response: Option B: Immediately follow
+
+4
+00:00:10.294 --> 00:00:13.603
+the organization’s incident procedure, report the event, and isolate
+
+5
+00:00:13.603 --> 00:00:16.912
+the device if policy or responders direct you to.
+
+6
+00:00:16.912 --> 00:00:20.588
+Prompt reporting and coordinated containment are safer than improvising remediation.
+
+7
+00:00:20.588 --> 00:00:23.897
+Option A is unsafe because Public upload may disclose
+
+8
+00:00:23.897 --> 00:00:27.206
+confidential information and spread malware. Option C is unsafe
+
+9
+00:00:27.206 --> 00:00:31.250
+because Deleting files or logs can destroy evidence needed for investigation.
+
+10
+00:00:31.250 --> 00:00:34.559
+Option D is unsafe because Continuing activity or using
+
+11
+00:00:34.559 --> 00:00:37.868
+unapproved tools can worsen impact or interfere with response.
+
+12
+00:00:37.868 --> 00:00:41.176
+In practice: Contact the organization’s security team immediately. Follow
+
+13
+00:00:41.176 --> 00:00:44.853
+their containment instructions and preserve the device and relevant details.
+
+14
+00:00:44.853 --> 00:00:48.162
+Key takeaway: Report quickly and follow the incident-response plan;
+
+15
+00:00:48.162 --> 00:00:50.000
+do not improvise forensic actions.

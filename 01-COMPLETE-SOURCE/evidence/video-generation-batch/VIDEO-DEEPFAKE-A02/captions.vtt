@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.353
+Scenario: An audio message sounds like the CFO and
+
+2
+00:00:03.353 --> 00:00:06.706
+requests an urgent transfer. The voice is convincing, but
+
+3
+00:00:06.706 --> 00:00:10.804
+the request is unusual and asks you to bypass standard approvals.
+
+4
+00:00:10.804 --> 00:00:14.157
+Safest response: Option D: Verify through a separate known
+
+5
+00:00:14.157 --> 00:00:17.510
+channel and enforce normal payment approvals; treat the recording
+
+6
+00:00:17.510 --> 00:00:20.863
+as untrusted evidence. Independent identity checks and process controls
+
+7
+00:00:20.863 --> 00:00:24.216
+remain effective even when media appears convincing. Option A
+
+8
+00:00:24.216 --> 00:00:27.569
+is unsafe because Public details may be available to
+
+9
+00:00:27.569 --> 00:00:30.922
+an impersonator and provide weak authentication. Option B is
+
+10
+00:00:30.922 --> 00:00:34.275
+unsafe because Human familiarity is not reliable deepfake detection
+
+11
+00:00:34.275 --> 00:00:37.627
+and crowdsourcing delays the control response. Option C is
+
+12
+00:00:37.627 --> 00:00:40.980
+unsafe because Voice similarity is not sufficient proof when
+
+13
+00:00:40.980 --> 00:00:44.333
+synthetic impersonation is possible. In practice: Use a known
+
+14
+00:00:44.333 --> 00:00:47.686
+number or in-person confirmation, a pre-agreed verification phrase where
+
+15
+00:00:47.686 --> 00:00:51.039
+appropriate, and standard dual controls; report the impersonation attempt.
+
+16
+00:00:51.039 --> 00:00:54.392
+Key takeaway: Authentic-sounding audio or video is not a
+
+17
+00:00:54.392 --> 00:00:57.000
+trusted authentication factor for a high-impact request.

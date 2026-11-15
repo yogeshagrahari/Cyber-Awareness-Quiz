@@ -1,0 +1,120 @@
+{
+  "videoId": "VIDEO-ACCESS-A13",
+  "questionId": "ACCESS-A13",
+  "level": "Advanced",
+  "title": "Question explanation: The over-privileged analyst",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "ebffedc015c3c78351dea5993789fb1904785651588d7e7bbb94633dcad78ab2",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 54
+  },
+  "narration": "Scenario: A data analyst has permanent administrator access to payroll, identity management and production infrastructure, although their role only requires read-only access to one reporting dataset. Safest response: Option B: Remove unnecessary privileges, grant a named read-only role for the required dataset and review access periodically. Access should be limited to the minimum necessary resources and authorizations for assigned tasks. Option A is unsafe because Shared privileged accounts reduce accountability and do not implement least privilege. Option C is unsafe because Trust does not replace role-based need, segregation of duties or periodic authorization review. Option D is unsafe because Unused privilege remains available for accidental misuse or account compromise. In practice: Use named accounts and scoped roles, remove excess privileges, segregate incompatible duties and schedule access recertification. Key takeaway: Grant each identity only the access needed for its assigned function, and review it as roles change.",
+  "script": "# The over-privileged analyst\n\n**Video ID:** `VIDEO-ACCESS-A13`  \n**Question ID:** `ACCESS-A13`  \n**Level:** Advanced  \n**Target duration:** 54 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nApply least privilege, segregation of duties and timely access review\n\n## Scenario\nA data analyst has permanent administrator access to payroll, identity management and production infrastructure, although their role only requires read-only access to one reporting dataset.\n\n## Narration transcript\nScenario: A data analyst has permanent administrator access to payroll, identity management and production infrastructure, although their role only requires read-only access to one reporting dataset. Safest response: Option B: Remove unnecessary privileges, grant a named read-only role for the required dataset and review access periodically. Access should be limited to the minimum necessary resources and authorizations for assigned tasks. Option A is unsafe because Shared privileged accounts reduce accountability and do not implement least privilege. Option C is unsafe because Trust does not replace role-based need, segregation of duties or periodic authorization review. Option D is unsafe because Unused privilege remains available for accidental misuse or account compromise. In practice: Use named accounts and scoped roles, remove excess privileges, segregate incompatible duties and schedule access recertification. Key takeaway: Grant each identity only the access needed for its assigned function, and review it as roles change.\n\n## Correct response\nB. Remove unnecessary privileges, grant a named read-only role for the required dataset and review access periodically.\n\n## Option-specific teaching notes\n- **A:** Shared privileged accounts reduce accountability and do not implement least privilege.\n- **B (correct):** Correct. Access should be limited to the minimum necessary resources and authorizations for assigned tasks.\n- **C:** Trust does not replace role-based need, segregation of duties or periodic authorization review.\n- **D:** Unused privilege remains available for accidental misuse or account compromise.\n\n## Key takeaway\nGrant each identity only the access needed for its assigned function, and review it as roles change.\n\n## Recommended defensive action\nUse named accounts and scoped roles, remove excess privileges, segregate incompatible duties and schedule access recertification.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-19s — Learning objective and risk cue:** Access governance — key cue\n- **19-32s — Recommended response:** Safest response: B\n- **32-45s — Why the other options fail:** Why the alternatives are unsafe\n- **45-54s — Defensive takeaway:** Grant each identity only the access needed for its assigned function, and review it as roles change.\n\n## Research references\n- [17]\n- [19]\n- [31]\n- [33]\n- [36]\n\n## Planned output\n`public/videos/advanced/access-a13.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-ACCESS-A13",
+    "questionId": "ACCESS-A13",
+    "title": "The over-privileged analyst — question explanation",
+    "learningObjective": "Apply least privilege, segregation of duties and timely access review",
+    "targetDurationSeconds": 54,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "A data analyst has permanent administrator access to payroll, identity management and production infrastructure, although their role only requires read-only access to one reporting dataset.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-19s",
+        "visual": "Apply least privilege, segregation of duties and timely access review",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Access governance — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "19-32s",
+        "visual": "Option B: Remove unnecessary privileges, grant a named read-only role for the required dataset and review access periodically. Access should be limited to the minimum necessary resources and authorizations for assigned tasks.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: B"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "32-45s",
+        "visual": "Option A: Shared privileged accounts reduce accountability and do not implement least privilege. Option C: Trust does not replace role-based need, segregation of duties or periodic authorization review. Option D: Unused privilege remains available for accidental misuse or account compromise.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "45-54s",
+        "visual": "Use named accounts and scoped roles, remove excess privileges, segregate incompatible duties and schedule access recertification. Grant each identity only the access needed for its assigned function, and review it as roles change.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Grant each identity only the access needed for its assigned function, and review it as roles change."
+      }
+    ],
+    "narration": "Scenario: A data analyst has permanent administrator access to payroll, identity management and production infrastructure, although their role only requires read-only access to one reporting dataset. Safest response: Option B: Remove unnecessary privileges, grant a named read-only role for the required dataset and review access periodically. Access should be limited to the minimum necessary resources and authorizations for assigned tasks. Option A is unsafe because Shared privileged accounts reduce accountability and do not implement least privilege. Option C is unsafe because Trust does not replace role-based need, segregation of duties or periodic authorization review. Option D is unsafe because Unused privilege remains available for accidental misuse or account compromise. In practice: Use named accounts and scoped roles, remove excess privileges, segregate incompatible duties and schedule access recertification. Key takeaway: Grant each identity only the access needed for its assigned function, and review it as roles change.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Access governance. Scenario: A data analyst has permanent administrator access to payroll, identity management and production infrastructure, although their role only requires read-only access to one reporting dataset. Explain why Option B is the safest defensive response: Remove unnecessary privileges, grant a named read-only role for the required dataset and review access periodically. Contrast the unsafe alternatives with these concise reasons: Option A: Shared privileged accounts reduce accountability and do not implement least privilege.; Option C: Trust does not replace role-based need, segregation of duties or periodic authorization review.; Option D: Unused privilege remains available for accidental misuse or account compromise.. Conclude with: Grant each identity only the access needed for its assigned function, and review it as roles change. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[17]",
+      "[19]",
+      "[31]",
+      "[33]",
+      "[36]"
+    ],
+    "outputFile": "public/videos/advanced/access-a13.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Access governance. Scenario: A data analyst has permanent administrator access to payroll, identity management and production infrastructure, although their role only requires read-only access to one reporting dataset. Explain why the correct defensive response is: Remove unnecessary privileges, grant a named read-only role for the required dataset and review access periodically. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Grant each identity only the access needed for its assigned function, and review it as roles change. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.329\nScenario: A data analyst has permanent administrator access to\n\n2\n00:00:03.329 --> 00:00:06.658\npayroll, identity management and production infrastructure, although their role\n\n3\n00:00:06.658 --> 00:00:09.986\nonly requires read-only access to one reporting dataset. Safest\n\n4\n00:00:09.986 --> 00:00:13.315\nresponse: Option B: Remove unnecessary privileges, grant a named\n\n5\n00:00:13.315 --> 00:00:17.014\nread-only role for the required dataset and review access periodically.\n\n6\n00:00:17.014 --> 00:00:20.342\nAccess should be limited to the minimum necessary resources\n\n7\n00:00:20.342 --> 00:00:23.671\nand authorizations for assigned tasks. Option A is unsafe\n\n8\n00:00:23.671 --> 00:00:27.000\nbecause Shared privileged accounts reduce accountability and do not\n\n9\n00:00:27.000 --> 00:00:30.329\nimplement least privilege. Option C is unsafe because Trust\n\n10\n00:00:30.329 --> 00:00:33.658\ndoes not replace role-based need, segregation of duties or\n\n11\n00:00:33.658 --> 00:00:36.986\nperiodic authorization review. Option D is unsafe because Unused\n\n12\n00:00:36.986 --> 00:00:40.315\nprivilege remains available for accidental misuse or account compromise.\n\n13\n00:00:40.315 --> 00:00:43.644\nIn practice: Use named accounts and scoped roles, remove\n\n14\n00:00:43.644 --> 00:00:46.973\nexcess privileges, segregate incompatible duties and schedule access recertification.\n\n15\n00:00:46.973 --> 00:00:50.301\nKey takeaway: Grant each identity only the access needed\n\n16\n00:00:50.301 --> 00:00:53.630\nfor its assigned function, and review it as roles\n\n17\n00:00:53.630 --> 00:00:54.000\nchange.\n",
+  "referenceIds": [
+    "[17]",
+    "[19]",
+    "[31]",
+    "[33]",
+    "[36]"
+  ],
+  "question": {
+    "title": "The over-privileged analyst",
+    "learningObjective": "Apply least privilege, segregation of duties and timely access review",
+    "scenario": "A data analyst has permanent administrator access to payroll, identity management and production infrastructure, although their role only requires read-only access to one reporting dataset.",
+    "correctOptionId": "B",
+    "correctAnswer": "Remove unnecessary privileges, grant a named read-only role for the required dataset and review access periodically.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Shared privileged accounts reduce accountability and do not implement least privilege."
+      },
+      "B": {
+        "isCorrect": true,
+        "explanation": "Correct. Access should be limited to the minimum necessary resources and authorizations for assigned tasks."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Trust does not replace role-based need, segregation of duties or periodic authorization review."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Unused privilege remains available for accidental misuse or account compromise."
+      }
+    },
+    "keyTakeaway": "Grant each identity only the access needed for its assigned function, and review it as roles change.",
+    "recommendedDefensiveAction": "Use named accounts and scoped roles, remove excess privileges, segregate incompatible duties and schedule access recertification."
+  }
+}

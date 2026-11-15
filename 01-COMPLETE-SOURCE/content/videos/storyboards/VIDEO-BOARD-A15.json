@@ -1,0 +1,66 @@
+{
+  "videoId": "VIDEO-BOARD-A15",
+  "questionId": "BOARD-A15",
+  "title": "The board awareness report — question explanation",
+  "learningObjective": "Translate security-awareness evidence into risk, outcome and investment decisions",
+  "targetDurationSeconds": 60,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-11s",
+      "visual": "A board dashboard reports only course completion and total quiz points. Leadership asks whether the programme has reduced risky behaviour and improved incident readiness.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "11-22s",
+      "visual": "Translate security-awareness evidence into risk, outcome and investment decisions",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Security programme governance — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "22-36s",
+      "visual": "Option A: A balanced measurement set: pre/post knowledge, delayed retention, novel-scenario decisions, reporting behaviour, qualitative feedback and incident context, with limitations. A defensible programme uses multiple measures and avoids claiming that quiz scores alone prove real-world competency.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: A"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "36-50s",
+      "visual": "Option B: Completion is an activity measure and cannot by itself establish behaviour change or risk reduction. Option C: Passing a quiz does not demonstrate prevention of real attacks or causal impact on incident rates. Option D: A leaderboard may reflect participation or test-taking and does not show organizational risk outcomes.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "50-60s",
+      "visual": "Report baseline and follow-up measures, delayed retention, scenario transfer, reporting quality and limitations. Use privacy-preserving aggregation and avoid unsupported causal claims. Measure knowledge, retention and observed decisions with context; do not equate completion or quiz scores with security outcomes.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Measure knowledge, retention and observed decisions with context; do not equate completion or quiz scores with security outcomes."
+    }
+  ],
+  "narration": "Scenario: A board dashboard reports only course completion and total quiz points. Leadership asks whether the programme has reduced risky behaviour and improved incident readiness. Safest response: Option A: A balanced measurement set: pre/post knowledge, delayed retention, novel-scenario decisions, reporting behaviour, qualitative feedback and incident context, with limitations. A defensible programme uses multiple measures and avoids claiming that quiz scores alone prove real-world competency. Option B is unsafe because Completion is an activity measure and cannot by itself establish behaviour change or risk reduction. Option C is unsafe because Passing a quiz does not demonstrate prevention of real attacks or causal impact on incident rates. Option D is unsafe because A leaderboard may reflect participation or test-taking and does not show organizational risk outcomes. In practice: Report baseline and follow-up measures, delayed retention, scenario transfer, reporting quality and limitations. Use privacy-preserving aggregation and avoid unsupported causal claims. Key takeaway: Measure knowledge, retention and observed decisions with context; do not equate completion or quiz scores with security outcomes.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Security programme governance. Scenario: A board dashboard reports only course completion and total quiz points. Leadership asks whether the programme has reduced risky behaviour and improved incident readiness. Explain why Option A is the safest defensive response: A balanced measurement set: pre/post knowledge, delayed retention, novel-scenario decisions, reporting behaviour, qualitative feedback and incident context, with limitations. Contrast the unsafe alternatives with these concise reasons: Option B: Completion is an activity measure and cannot by itself establish behaviour change or risk reduction.; Option C: Passing a quiz does not demonstrate prevention of real attacks or causal impact on incident rates.; Option D: A leaderboard may reflect participation or test-taking and does not show organizational risk outcomes.. Conclude with: Measure knowledge, retention and observed decisions with context; do not equate completion or quiz scores with security outcomes. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[1]",
+    "[4]",
+    "[5]",
+    "[7]",
+    "[17]"
+  ],
+  "outputFile": "public/videos/advanced/board-a15.mp4"
+}

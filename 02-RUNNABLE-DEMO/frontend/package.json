@@ -1,0 +1,32 @@
+{
+  "name": "cyberaware-3d-frontend",
+  "version": "0.10.0-rc.16",
+  "private": true,
+  "type": "module",
+  "description": "Legacy compatibility demonstrator; React + TypeScript + Vite migration is maintained in react-app.",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate:content": "python3 ../tests/content/validate_content.py",
+    "sbom": "node scripts/generate-sbom.mjs",
+    "build": "node scripts/build.mjs",
+    "security": "python3 ../tests/security/scan_secrets.py",
+    "smoke:dist": "node scripts/smoke-dist.mjs",
+    "video:validate": "node scripts/video-pipeline.mjs validate",
+    "video:sync": "node scripts/video-pipeline.mjs validate --sync-narration",
+    "video:queue": "node scripts/video-pipeline.mjs queue",
+    "video:import": "node scripts/video-pipeline.mjs import",
+    "video:approve": "node scripts/video-pipeline.mjs approve",
+    "video:review-content": "node scripts/video-pipeline.mjs review-content",
+    "react:sync": "node scripts/sync-react-assets.mjs",
+    "react:offline-typecheck": "tsc --noEmit -p react-app/tsconfig.local.json",
+    "react:test": "npm --prefix react-app run test",
+    "smoke:packaged": "node scripts/smoke-packaged-dist.mjs",
+    "package:release": "node ../scripts/package-release.mjs"
+  },
+  "engines": {
+    "node": ">=22.23.5"
+  },
+  "packageManager": "npm@12.2.2"
+}

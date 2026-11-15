@@ -1,0 +1,75 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.12",
+  "phase": 19,
+  "date": "2026-11-13",
+  "findings": [
+    {
+      "id": "REL-19-001",
+      "severity": "high",
+      "area": "release-workflow",
+      "title": "Clean release job did not rebuild ignored legacy distribution",
+      "status": "fixed",
+      "verification": "CI topology regression test and local build/package smoke pass"
+    },
+    {
+      "id": "REL-19-002",
+      "severity": "high",
+      "area": "release-artifact",
+      "title": "Packaged demo was not tested from its exact extracted ZIP in release CI",
+      "status": "fixed",
+      "verification": "CI extracts the demo ZIP and runs packaged-server smoke before upload; local extraction smoke pass"
+    },
+    {
+      "id": "REL-19-003",
+      "severity": "medium",
+      "area": "source-integrity",
+      "title": "Python bytecode and tool caches polluted package inventory",
+      "status": "fixed",
+      "verification": "Generator, verifier and archive exclusions aligned; regression tests pass"
+    },
+    {
+      "id": "REL-19-004",
+      "severity": "high",
+      "area": "source-integrity",
+      "title": "Archive verification did not reject extra files or re-hash extracted ZIP contents",
+      "status": "fixed",
+      "verification": "Exact archive file-set comparison and extracted SHA-256/size re-verification pass"
+    },
+    {
+      "id": "REL-19-005",
+      "severity": "critical",
+      "area": "react-build",
+      "title": "React dependency lockfile and official production build remain unverified",
+      "status": "external-blocker",
+      "verification": "No registry-backed lockfile, npm ci, official TypeScript 7/Vite build or React archive exists locally"
+    },
+    {
+      "id": "REL-19-006",
+      "severity": "high",
+      "area": "accessibility",
+      "title": "Real-browser Playwright and axe acceptance has not run",
+      "status": "external-blocker",
+      "verification": "Requires network-enabled GitHub CI and manual assistive-technology review"
+    },
+    {
+      "id": "REL-19-007",
+      "severity": "high",
+      "area": "production-deployment",
+      "title": "Production TLS, monitoring and backup restoration are not tested on target host",
+      "status": "external-blocker",
+      "verification": "Requires production environment access"
+    },
+    {
+      "id": "REL-19-008",
+      "severity": "medium",
+      "area": "independent-review",
+      "title": "Independent cybersecurity/instructional-design and learner reviews remain pending",
+      "status": "pending",
+      "verification": "No independent review evidence supplied"
+    }
+  ],
+  "decision": "NOT_PRODUCTION_APPROVED",
+  "deliverables": ["full-source ZIP", "dependency-free legacy application demo ZIP", "SHA-256 checksums"],
+  "deferred": ["video provider integration", "MP4 generation", "media review"]
+}

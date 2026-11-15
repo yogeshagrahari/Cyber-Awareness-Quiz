@@ -1,0 +1,118 @@
+{
+  "videoId": "VIDEO-CLOUD-I11",
+  "questionId": "CLOUD-I11",
+  "level": "Intermediate",
+  "title": "Question explanation: The anonymous cloud folder",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "8221f4bbb392a6b626ece4dbc4438cea717ae884e5e7430b018542f7291b7fe0",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 48
+  },
+  "narration": "Scenario: A team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used. Safest response: Option A: Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access. Restrict identities and duration, and review existing permissions according to data sensitivity. Option B is unsafe because A folder name does not change who can access its content. Option C is unsafe because Wider distribution increases exposure and does not establish authorization. Option D is unsafe because Convenience does not justify indefinite anonymous access. In practice: Remove anonymous access, grant only necessary users or groups, set expiry where available and periodically review permissions. Key takeaway: Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate.",
+  "script": "# The anonymous cloud folder\n\n**Video ID:** `VIDEO-CLOUD-I11`  \n**Question ID:** `CLOUD-I11`  \n**Level:** Intermediate  \n**Target duration:** 48 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nConfigure sharing permissions and expiry consistent with data sensitivity\n\n## Scenario\nA team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used.\n\n## Narration transcript\nScenario: A team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used. Safest response: Option A: Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access. Restrict identities and duration, and review existing permissions according to data sensitivity. Option B is unsafe because A folder name does not change who can access its content. Option C is unsafe because Wider distribution increases exposure and does not establish authorization. Option D is unsafe because Convenience does not justify indefinite anonymous access. In practice: Remove anonymous access, grant only necessary users or groups, set expiry where available and periodically review permissions. Key takeaway: Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate.\n\n## Correct response\nA. Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access.\n\n## Option-specific teaching notes\n- **A (correct):** Correct. Restrict identities and duration, and review existing permissions according to data sensitivity.\n- **B:** A folder name does not change who can access its content.\n- **C:** Wider distribution increases exposure and does not establish authorization.\n- **D:** Convenience does not justify indefinite anonymous access.\n\n## Key takeaway\nCloud sharing should be identity-bound, least-privilege and time-limited when appropriate.\n\n## Recommended defensive action\nRemove anonymous access, grant only necessary users or groups, set expiry where available and periodically review permissions.\n\n## On-screen text sequence\n- **0-9s — Scenario setup:** Fictional scenario\n- **9-17s — Learning objective and risk cue:** Cloud security — key cue\n- **17-29s — Recommended response:** Safest response: A\n- **29-40s — Why the other options fail:** Why the alternatives are unsafe\n- **40-48s — Defensive takeaway:** Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate.\n\n## Research references\n- [1]\n- [17]\n- [31]\n- [33]\n\n## Planned output\n`public/videos/intermediate/cloud-i11.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-CLOUD-I11",
+    "questionId": "CLOUD-I11",
+    "title": "The anonymous cloud folder — question explanation",
+    "learningObjective": "Configure sharing permissions and expiry consistent with data sensitivity",
+    "targetDurationSeconds": 48,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-9s",
+        "visual": "A team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "9-17s",
+        "visual": "Configure sharing permissions and expiry consistent with data sensitivity",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Cloud security — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "17-29s",
+        "visual": "Option A: Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access. Restrict identities and duration, and review existing permissions according to data sensitivity.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: A"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "29-40s",
+        "visual": "Option B: A folder name does not change who can access its content. Option C: Wider distribution increases exposure and does not establish authorization. Option D: Convenience does not justify indefinite anonymous access.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "40-48s",
+        "visual": "Remove anonymous access, grant only necessary users or groups, set expiry where available and periodically review permissions. Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate."
+      }
+    ],
+    "narration": "Scenario: A team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used. Safest response: Option A: Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access. Restrict identities and duration, and review existing permissions according to data sensitivity. Option B is unsafe because A folder name does not change who can access its content. Option C is unsafe because Wider distribution increases exposure and does not establish authorization. Option D is unsafe because Convenience does not justify indefinite anonymous access. In practice: Remove anonymous access, grant only necessary users or groups, set expiry where available and periodically review permissions. Key takeaway: Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Cloud security. Scenario: A team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used. Explain why Option A is the safest defensive response: Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access. Contrast the unsafe alternatives with these concise reasons: Option B: A folder name does not change who can access its content.; Option C: Wider distribution increases exposure and does not establish authorization.; Option D: Convenience does not justify indefinite anonymous access.. Conclude with: Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[17]",
+      "[31]",
+      "[33]"
+    ],
+    "outputFile": "public/videos/intermediate/cloud-i11.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Cloud security. Scenario: A team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used. Explain why the correct defensive response is: Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.375\nScenario: A team shares a folder containing internal project\n\n2\n00:00:03.375 --> 00:00:06.750\ndocuments through an anonymous link that never expires. The\n\n3\n00:00:06.750 --> 00:00:10.125\nfolder is no longer being actively used. Safest response:\n\n4\n00:00:10.125 --> 00:00:13.500\nOption A: Restrict access to named authorized accounts, set\n\n5\n00:00:13.500 --> 00:00:16.875\nan expiry/review date and remove obsolete access. Restrict identities\n\n6\n00:00:16.875 --> 00:00:20.625\nand duration, and review existing permissions according to data sensitivity.\n\n7\n00:00:20.625 --> 00:00:24.000\nOption B is unsafe because A folder name does\n\n8\n00:00:24.000 --> 00:00:27.375\nnot change who can access its content. Option C\n\n9\n00:00:27.375 --> 00:00:30.750\nis unsafe because Wider distribution increases exposure and does\n\n10\n00:00:30.750 --> 00:00:34.125\nnot establish authorization. Option D is unsafe because Convenience\n\n11\n00:00:34.125 --> 00:00:37.500\ndoes not justify indefinite anonymous access. In practice: Remove\n\n12\n00:00:37.500 --> 00:00:40.875\nanonymous access, grant only necessary users or groups, set\n\n13\n00:00:40.875 --> 00:00:44.250\nexpiry where available and periodically review permissions. Key takeaway:\n\n14\n00:00:44.250 --> 00:00:47.625\nCloud sharing should be identity-bound, least-privilege and time-limited when\n\n15\n00:00:47.625 --> 00:00:48.000\nappropriate.\n",
+  "referenceIds": [
+    "[1]",
+    "[17]",
+    "[31]",
+    "[33]"
+  ],
+  "question": {
+    "title": "The anonymous cloud folder",
+    "learningObjective": "Configure sharing permissions and expiry consistent with data sensitivity",
+    "scenario": "A team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used.",
+    "correctOptionId": "A",
+    "correctAnswer": "Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": true,
+        "explanation": "Correct. Restrict identities and duration, and review existing permissions according to data sensitivity."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "A folder name does not change who can access its content."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Wider distribution increases exposure and does not establish authorization."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Convenience does not justify indefinite anonymous access."
+      }
+    },
+    "keyTakeaway": "Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate.",
+    "recommendedDefensiveAction": "Remove anonymous access, grant only necessary users or groups, set expiry where available and periodically review permissions."
+  }
+}

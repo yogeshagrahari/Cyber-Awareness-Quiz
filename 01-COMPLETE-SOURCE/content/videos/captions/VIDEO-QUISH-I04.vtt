@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.383
+Scenario: A QR code on a meeting-room poster promises
+
+2
+00:00:03.383 --> 00:00:06.766
+access to the conference Wi-Fi. After scanning, it opens
+
+3
+00:00:06.766 --> 00:00:10.525
+a sign-in page on a domain unrelated to the venue.
+
+4
+00:00:10.525 --> 00:00:13.908
+Safest response: Option C: Check the displayed URL, close
+
+5
+00:00:13.908 --> 00:00:17.667
+the page, and ask facilities/IT for the official network instructions.
+
+6
+00:00:17.667 --> 00:00:21.050
+Verify the destination and obtain connection details through an
+
+7
+00:00:21.050 --> 00:00:24.433
+approved internal source. Option A is unsafe because A
+
+8
+00:00:24.433 --> 00:00:28.191
+different browser still submits credentials to the same untrusted site.
+
+9
+00:00:28.191 --> 00:00:31.574
+Option B is unsafe because The physical location does
+
+10
+00:00:31.574 --> 00:00:34.957
+not validate the QR destination or page operator. Option
+
+11
+00:00:34.957 --> 00:00:38.340
+D is unsafe because Sharing credentials exposes the coworker’s
+
+12
+00:00:38.340 --> 00:00:41.723
+account and does not validate the page. In practice:
+
+13
+00:00:41.723 --> 00:00:45.106
+Do not enter credentials. Confirm the poster with facilities
+
+14
+00:00:45.106 --> 00:00:48.489
+or IT and use the authorized network onboarding process.
+
+15
+00:00:48.489 --> 00:00:51.872
+Key takeaway: QR codes conceal destinations; assess the actual
+
+16
+00:00:51.872 --> 00:00:53.000
+URL before authenticating.

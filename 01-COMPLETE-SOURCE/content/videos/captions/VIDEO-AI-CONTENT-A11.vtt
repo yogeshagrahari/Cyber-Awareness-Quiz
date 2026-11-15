@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.273
+Scenario: An AI assistant produces an incident-response memo citing
+
+2
+00:00:03.273 --> 00:00:06.545
+a non-existent CVE and recommending a command that would
+
+3
+00:00:06.545 --> 00:00:09.818
+disable endpoint protection across all workstations. Safest response: Option
+
+4
+00:00:09.818 --> 00:00:13.091
+B: Treat it as an unverified draft, validate every
+
+5
+00:00:13.091 --> 00:00:16.364
+source and recommendation against authoritative advisories and approved procedures,
+
+6
+00:00:16.364 --> 00:00:19.636
+and reject unsafe actions. AI output needs provenance, technical
+
+7
+00:00:19.636 --> 00:00:22.909
+validation, and human approval before it informs operational response.
+
+8
+00:00:22.909 --> 00:00:26.182
+Option A is unsafe because Citations and fluent technical
+
+9
+00:00:26.182 --> 00:00:29.455
+prose do not establish factual accuracy or safety. Option
+
+10
+00:00:29.455 --> 00:00:32.727
+C is unsafe because Testing an unsafe command on
+
+11
+00:00:32.727 --> 00:00:36.000
+production may still cause harm; validate in a controlled
+
+12
+00:00:36.000 --> 00:00:39.273
+environment after expert review. Option D is unsafe because
+
+13
+00:00:39.273 --> 00:00:42.545
+Self-confirmation by the same model is not independent evidence
+
+14
+00:00:42.545 --> 00:00:45.818
+and may reproduce the original error. In practice: Check
+
+15
+00:00:45.818 --> 00:00:49.091
+identifiers in authoritative vulnerability databases and vendor advisories, test
+
+16
+00:00:49.091 --> 00:00:52.364
+any safe proposed steps in a controlled environment, and
+
+17
+00:00:52.364 --> 00:00:55.636
+require qualified human sign-off. Key takeaway: Generative AI can
+
+18
+00:00:55.636 --> 00:00:58.909
+produce plausible but false or unsafe security guidance; verify
+
+19
+00:00:58.909 --> 00:01:00.000
+independently before action.

@@ -1,0 +1,62 @@
+{
+  "videoId": "VIDEO-REC-E06",
+  "questionId": "REC-E06",
+  "title": "Recovering After Ransomware",
+  "learningObjective": "Sequence recovery using containment, clean restoration sources, identity assurance, validation and monitored return to service.",
+  "targetDurationSeconds": 60,
+  "format": "16:9 educational motion-graphics explainer with narration, separate captions and no autoplay audio",
+  "visualStyle": "Deep navy/charcoal with restrained cyan/electric-blue highlights, limited purple accents, high contrast, stable typography and reduced-motion transitions.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-12s",
+      "visual": "A ransomware incident has been contained. Several production servers are encrypted, the backup platform was reachable from part of the affected environment, and an offline backup set is available. Executives want the customer portal restored first. The incident team has not yet validated the backup set or rotated potentially exposed credentials.",
+      "direction": "Use a fictional organization, synthetic people and generic systems. Do not expose real identity, secrets or operational infrastructure.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Decision frame",
+      "time": "12-24s",
+      "visual": "Sequence recovery using containment, clean restoration sources, identity assurance, validation and monitored return to service.",
+      "direction": "Show the decision context and the relevant business/security trade-off. Avoid unsupported claims.",
+      "onScreenText": "Decision frame"
+    },
+    {
+      "name": "Recommended response",
+      "time": "24-38s",
+      "visual": "Option A: Validate and protect clean backup sources, establish a trusted recovery environment, address compromised identities and access paths, restore prioritized services in a controlled order, test integrity and security, then monitor closely before declaring recovery. Correct. Recovery depends on trustworthy restoration sources, a clean environment, identity/access remediation, prioritized validation and monitoring.",
+      "direction": "Animate a safe, high-level decision sequence; do not provide attack steps or sensitive operational detail.",
+      "onScreenText": "Safest response: A"
+    },
+    {
+      "name": "Trade-offs",
+      "time": "38-52s",
+      "visual": "Option B: The newest backup may also be encrypted, compromised or contaminated. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option C: Payment does not guarantee decryption, recovery or prevention of data disclosure. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option D: Stopped encryption does not prove attacker access or persistence is gone. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.",
+      "direction": "Present the alternatives as decision cards and explain their risks without depicting an actual attack.",
+      "onScreenText": "Why the alternatives fail"
+    },
+    {
+      "name": "Takeaway",
+      "time": "52-60s",
+      "visual": "Follow the organization’s recovery plan, validate offline or otherwise trusted backups, rebuild or restore in a clean environment, reset affected credentials and tokens as appropriate, prioritize services by business impact, test security and integrity, and monitor after restoration. Recovery is not simply restoring files; it is returning services to a known-good, validated and monitored state.",
+      "direction": "End with concise defensive action and keep text on screen long enough to read.",
+      "onScreenText": "Defensive next step"
+    }
+  ],
+  "narration": "Scenario: Ransomware encrypted production servers. An offline backup exists, but it has not been validated; credentials may be exposed. Safest response: validate clean backups, establish a trusted recovery environment, remediate identities, restore prioritized services, test and monitor. Option B is unsafe because The newest backup may also be encrypted, compromised or contaminated. Option C is unsafe because Payment does not guarantee decryption, recovery or prevention of data disclosure. Option D is unsafe because Stopped encryption does not prove attacker access or persistence is gone. In practice: follow the recovery plan and confirm integrity and security before return to service. Key takeaway: restore only to a known-good, monitored state.",
+  "audioDirection": "Neutral, clear instructional narration; do not imitate a real person.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Ransomware recovery and resilience. Explain the safest defensive decision and the options' trade-offs. Use generic organizational visuals, no recognizable brands, real people, real data, real credentials or operational attack details. Recovery is not simply restoring files; it is returning services to a known-good, validated and monitored state.",
+  "generationInstructions": [
+    "Preserve narration meaning and do not add unsupported technical claims.",
+    "Render 16:9 1080p MP4 with safe margins and separate synchronized WebVTT captions.",
+    "Use synthetic fictional names and generic interfaces only.",
+    "Do not use flashing effects, strobing, rapid motion or autoplay audio.",
+    "Human-review technical accuracy, accessibility, captions, pronunciation and timing before marking ready."
+  ],
+  "accessibility": "Separate captions and transcript required. No color-only encoding; preserve readable contrast and provide written explanation if media fails.",
+  "references": [
+    "[28]",
+    "[35]"
+  ],
+  "outputFile": "public/videos/expert/rec-e06.mp4"
+}

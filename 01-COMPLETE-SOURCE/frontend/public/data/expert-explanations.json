@@ -1,0 +1,553 @@
+{
+  "project": "CYBERAWARE 3D",
+  "schemaVersion": "1.0.0",
+  "status": "expert_challenge_full_content_draft_pending_expert_review",
+  "explanations": [
+    {
+      "questionId": "IR-E01",
+      "explanationId": "EXPL-IR-E01",
+      "videoId": "VIDEO-IR-E01",
+      "correctOptionId": "A",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": true,
+          "explanation": "Correct. Coordinated activation, proportionate containment, evidence preservation and scoping support an informed response while limiting unnecessary operational disruption."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "A blanket shutdown can destroy volatile evidence and disrupt unaffected services. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Waiting for attribution can allow active damage to continue. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Direct uncoordinated contact bypasses the authorized response structure. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        }
+      },
+      "explanation": "Correct. Coordinated activation, proportionate containment, evidence preservation and scoping support an informed response while limiting unnecessary operational disruption.",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ]
+    },
+    {
+      "questionId": "SUP-E02",
+      "explanationId": "EXPL-SUP-E02",
+      "videoId": "VIDEO-SUP-E02",
+      "correctOptionId": "C",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "Disabling every service without triage can cause avoidable business harm. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Waiting for confirmed compromise delays preventive risk treatment. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "C": {
+          "isCorrect": true,
+          "explanation": "Correct. Component inventory, exposure and criticality support defensible prioritization; mitigation, controlled patching and residual-risk tracking maintain accountability."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Uncoordinated service-owner decisions can create remediation gaps. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        }
+      },
+      "explanation": "Correct. Component inventory, exposure and criticality support defensible prioritization; mitigation, controlled patching and residual-risk tracking maintain accountability.",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[37]"
+      ]
+    },
+    {
+      "questionId": "INS-E03",
+      "explanationId": "EXPL-INS-E03",
+      "videoId": "VIDEO-INS-E03",
+      "correctOptionId": "D",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "Public accusation and informal searches can violate privacy and compromise evidence. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Alerts alone do not establish malicious intent. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Authorized access does not make anomalous activity automatically benign. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "D": {
+          "isCorrect": true,
+          "explanation": "Correct. Objective validation, evidence preservation, multidisciplinary oversight and proportionate controls protect both the organization and individual rights."
+        }
+      },
+      "explanation": "Correct. Objective validation, evidence preservation, multidisciplinary oversight and proportionate controls protect both the organization and individual rights.",
+      "referenceIds": [
+        "[32]",
+        "[33]",
+        "[38]"
+      ]
+    },
+    {
+      "questionId": "BEC-E04",
+      "explanationId": "EXPL-BEC-E04",
+      "videoId": "VIDEO-BEC-E04",
+      "correctOptionId": "B",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A compromised mailbox can control replies in the same email thread. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "B": {
+          "isCorrect": true,
+          "explanation": "Correct. A trusted out-of-band verification path and separation of duties reduce the risk of payment diversion and create an auditable approval trail."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "A test transfer can still be lost without authenticating the new account. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "A familiar thread and executive urgency do not authenticate changed bank details. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        }
+      },
+      "explanation": "Correct. A trusted out-of-band verification path and separation of duties reduce the risk of payment diversion and create an auditable approval trail.",
+      "referenceIds": [
+        "[17]",
+        "[26]"
+      ]
+    },
+    {
+      "questionId": "GOV-E05",
+      "explanationId": "EXPL-GOV-E05",
+      "videoId": "VIDEO-GOV-E05",
+      "correctOptionId": "C",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "No confirmed exfiltration does not prove that data was not accessed. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Leadership needs timely decision-ready information before attribution is complete. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "C": {
+          "isCorrect": true,
+          "explanation": "Correct. Clear separation of verified facts, assumptions and unknowns supports governance decisions without overstating certainty."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Raw logs and attacker speculation can expose sensitive information and mislead leaders. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        }
+      },
+      "explanation": "Correct. Clear separation of verified facts, assumptions and unknowns supports governance decisions without overstating certainty.",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ]
+    },
+    {
+      "questionId": "REC-E06",
+      "explanationId": "EXPL-REC-E06",
+      "videoId": "VIDEO-REC-E06",
+      "correctOptionId": "A",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": true,
+          "explanation": "Correct. Recovery depends on trustworthy restoration sources, a clean environment, identity/access remediation, prioritized validation and monitoring."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "The newest backup may also be encrypted, compromised or contaminated. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Payment does not guarantee decryption, recovery or prevention of data disclosure. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Stopped encryption does not prove attacker access or persistence is gone. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        }
+      },
+      "explanation": "Correct. Recovery depends on trustworthy restoration sources, a clean environment, identity/access remediation, prioritized validation and monitoring.",
+      "referenceIds": [
+        "[28]",
+        "[35]"
+      ]
+    },
+    {
+      "questionId": "LIB-IRG-01",
+      "explanationId": "EXPL-LIB-IRG-01",
+      "videoId": "VIDEO-LIB-IRG-01",
+      "correctOptionId": "D",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        },
+        "D": {
+          "isCorrect": true,
+          "explanation": "This directly addresses multiple correlated alerts require coordinated response before the full cause is known. The proposed action uses approved, independently verifiable controls: Declare and coordinate the incident, isolate confirmed affected assets using approved procedures, preserve telemetry and scope identities and systems before broader disruptive action."
+        }
+      },
+      "explanation": "This directly addresses multiple correlated alerts require coordinated response before the full cause is known. The proposed action uses approved, independently verifiable controls: Declare and coordinate the incident, isolate confirmed affected assets using approved procedures, preserve telemetry and scope identities and systems before broader disruptive action.",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-IRG-02",
+      "explanationId": "EXPL-LIB-IRG-02",
+      "videoId": "VIDEO-LIB-IRG-02",
+      "correctOptionId": "A",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for multiple correlated alerts require coordinated response before the full cause is known and supports an auditable decision."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of multiple correlated alerts require coordinated response before the full cause is known or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for multiple correlated alerts require coordinated response before the full cause is known and supports an auditable decision.",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-SCG-01",
+      "explanationId": "EXPL-LIB-SCG-01",
+      "videoId": "VIDEO-LIB-SCG-01",
+      "correctOptionId": "B",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": true,
+          "explanation": "This directly addresses a supplier with privileged access or sensitive data can create systemic organizational exposure. The proposed action uses approved, independently verifiable controls: Do not grant persistent broad access until risk owners review evidence, define a time-bound least-privilege alternative and record residual-risk acceptance through governance."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        }
+      },
+      "explanation": "This directly addresses a supplier with privileged access or sensitive data can create systemic organizational exposure. The proposed action uses approved, independently verifiable controls: Do not grant persistent broad access until risk owners review evidence, define a time-bound least-privilege alternative and record residual-risk acceptance through governance.",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[37]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-SCG-02",
+      "explanationId": "EXPL-LIB-SCG-02",
+      "videoId": "VIDEO-LIB-SCG-02",
+      "correctOptionId": "C",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "C": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for a supplier with privileged access or sensitive data can create systemic organizational exposure and supports an auditable decision."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of a supplier with privileged access or sensitive data can create systemic organizational exposure or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for a supplier with privileged access or sensitive data can create systemic organizational exposure and supports an auditable decision.",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[37]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-IGV-01",
+      "explanationId": "EXPL-LIB-IGV-01",
+      "videoId": "VIDEO-LIB-IGV-01",
+      "correctOptionId": "D",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        },
+        "D": {
+          "isCorrect": true,
+          "explanation": "This directly addresses uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation. The proposed action uses approved, independently verifiable controls: Preserve the objective access records, refer the concern through the authorized insider-risk process and require legal/privacy and HR governance before any intrusive review."
+        }
+      },
+      "explanation": "This directly addresses uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation. The proposed action uses approved, independently verifiable controls: Preserve the objective access records, refer the concern through the authorized insider-risk process and require legal/privacy and HR governance before any intrusive review.",
+      "referenceIds": [
+        "[32]",
+        "[33]",
+        "[38]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-IGV-02",
+      "explanationId": "EXPL-LIB-IGV-02",
+      "videoId": "VIDEO-LIB-IGV-02",
+      "correctOptionId": "A",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation and supports an auditable decision."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation and supports an auditable decision.",
+      "referenceIds": [
+        "[32]",
+        "[33]",
+        "[38]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-BECG-01",
+      "explanationId": "EXPL-LIB-BECG-01",
+      "videoId": "VIDEO-LIB-BECG-01",
+      "correctOptionId": "B",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": true,
+          "explanation": "This directly addresses a compromised communication channel can redirect payments despite apparently valid correspondence. The proposed action uses approved, independently verifiable controls: Freeze the change, verify using an independently sourced supplier contact, require dual approval and reconcile the change in the controlled vendor-master workflow."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        }
+      },
+      "explanation": "This directly addresses a compromised communication channel can redirect payments despite apparently valid correspondence. The proposed action uses approved, independently verifiable controls: Freeze the change, verify using an independently sourced supplier contact, require dual approval and reconcile the change in the controlled vendor-master workflow.",
+      "referenceIds": [
+        "[17]",
+        "[26]",
+        "[28]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-BECG-02",
+      "explanationId": "EXPL-LIB-BECG-02",
+      "videoId": "VIDEO-LIB-BECG-02",
+      "correctOptionId": "C",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "C": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for a compromised communication channel can redirect payments despite apparently valid correspondence and supports an auditable decision."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of a compromised communication channel can redirect payments despite apparently valid correspondence or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for a compromised communication channel can redirect payments despite apparently valid correspondence and supports an auditable decision.",
+      "referenceIds": [
+        "[17]",
+        "[26]",
+        "[28]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-GRC-01",
+      "explanationId": "EXPL-LIB-GRC-01",
+      "videoId": "VIDEO-LIB-GRC-01",
+      "correctOptionId": "D",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        },
+        "D": {
+          "isCorrect": true,
+          "explanation": "This directly addresses executives may make poor decisions when risk reports omit uncertainty or decision requests. The proposed action uses approved, independently verifiable controls: Reframe the briefing around business impact, confirmed facts versus assumptions, response status, options, accountable owners and the specific decisions required."
+        }
+      },
+      "explanation": "This directly addresses executives may make poor decisions when risk reports omit uncertainty or decision requests. The proposed action uses approved, independently verifiable controls: Reframe the briefing around business impact, confirmed facts versus assumptions, response status, options, accountable owners and the specific decisions required.",
+      "referenceIds": [
+        "[17]",
+        "[28]",
+        "[18]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-GRC-02",
+      "explanationId": "EXPL-LIB-GRC-02",
+      "videoId": "VIDEO-LIB-GRC-02",
+      "correctOptionId": "A",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for executives may make poor decisions when risk reports omit uncertainty or decision requests and supports an auditable decision."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of executives may make poor decisions when risk reports omit uncertainty or decision requests or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for executives may make poor decisions when risk reports omit uncertainty or decision requests and supports an auditable decision.",
+      "referenceIds": [
+        "[17]",
+        "[28]",
+        "[18]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-RCR-01",
+      "explanationId": "EXPL-LIB-RCR-01",
+      "videoId": "VIDEO-LIB-RCR-01",
+      "correctOptionId": "B",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": true,
+          "explanation": "This directly addresses restoring too early or from compromised backups can reintroduce malware and data loss. The proposed action uses approved, independently verifiable controls: Prioritize recovery with the incident commander, validate backup integrity and isolation, confirm clean recovery infrastructure, address persistence and obtain service-owner approval before restoration."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        }
+      },
+      "explanation": "This directly addresses restoring too early or from compromised backups can reintroduce malware and data loss. The proposed action uses approved, independently verifiable controls: Prioritize recovery with the incident commander, validate backup integrity and isolation, confirm clean recovery infrastructure, address persistence and obtain service-owner approval before restoration.",
+      "referenceIds": [
+        "[28]",
+        "[35]",
+        "[17]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    },
+    {
+      "questionId": "LIB-RCR-02",
+      "explanationId": "EXPL-LIB-RCR-02",
+      "videoId": "VIDEO-LIB-RCR-02",
+      "correctOptionId": "C",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "C": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for restoring too early or from compromised backups can reintroduce malware and data loss and supports an auditable decision."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of restoring too early or from compromised backups can reintroduce malware and data loss or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for restoring too early or from compromised backups can reintroduce malware and data loss and supports an auditable decision.",
+      "referenceIds": [
+        "[28]",
+        "[35]",
+        "[17]"
+      ],
+      "reviewStatus": "pending_cybersecurity_and_instructional_design_review"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Create a fictional educational explainer for CYBERAWARE 3D about Authentication. Scenario: You are not signing in, but your phone displays an approval request for your work account. Explain why the correct defensive response is: Deny the request and report it to the helpdesk or security team. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Only approve authentication you initiated and can confidently match to your sign-in. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.
+
+VISUAL STYLE
+Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.
+
+GENERATION INSTRUCTIONS
+- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.
+- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.
+- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.
+- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.
+- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.
+- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.

@@ -1,0 +1,15 @@
+CYBERAWARE 3D Phase 10 Nginx live HTTP smoke
+Date: 2026-11-12
+Environment: Nginx isolated temporary prefix, loopback port 4190, staged Vite-style web root and test-only 16-byte media fixture.
+
+nginx -t: PASS
+1. /healthz returns HTTP 200 and `ok`: PASS
+2. / serves the staged app shell: PASS
+3. /data/question-bank.json returns HTTP 200 application/json: PASS
+4. missing /data/* resource returns HTTP 404: PASS
+5. missing /videos/* resource returns HTTP 404: PASS
+6. /videos/range-fixture.mp4 Range bytes=4-7 returns 206, Content-Range bytes 4-7/16 and expected body: PASS
+7. /legacy.html includes Cache-Control no-store: PASS
+8. app shell sends X-Frame-Options DENY, X-Content-Type-Options nosniff and CSP frame-ancestors 'none': PASS
+
+Result: 8/8 live HTTP checks PASS. The media fixture was synthetic and temporary; it is not a generated project video and was not included in project assets. This validates the authored Nginx server behavior, not an actual production container, TLS/HSTS termination, or public deployment.

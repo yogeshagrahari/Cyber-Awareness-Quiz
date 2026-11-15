@@ -1,0 +1,60 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.11",
+  "phase": 18,
+  "date": "2026-11-13",
+  "scope": [
+    "manifest generator/verifier policy parity",
+    "symlink rejection",
+    "manifest regression coverage",
+    "React dependency SBOM transfer into gated release"
+  ],
+  "implemented": [
+    "Python manifest generator excludes .DS_Store and .env* consistently with verifier.",
+    "Manifest generator rejects symbolic links.",
+    "Added Python regression tests and required CI step.",
+    "Release job downloads the successful React dependency CycloneDX SBOM and validates its format and non-empty component list before generating the source manifest.",
+    "Advanced project metadata to 0.10.0-rc.11."
+  ],
+  "localResults": {
+    "legacyTests": "44/44 passed",
+    "reactDomainAndSourceTests": "17/17 passed",
+    "pythonManifestTests": "2/2 passed",
+    "contentValidation": "passed",
+    "secretPatternScan": "passed",
+    "offlineStructuralTypecheck": "passed; TypeScript 5.8.3 ambient shims only",
+    "legacyBuildAndRouteSmoke": "passed; 215 routes",
+    "packagedDistributionSmoke": "passed",
+    "nginxHttpSmoke": "8/8 passed",
+    "backupSmoke": "passed",
+    "systemdUnitSyntax": "passed",
+    "sourceManifest": "passed; 1,143 files",
+    "sourceAndDemoArchives": "passed; ZIP integrity, manifest membership, exclusions and checksums",
+    "extractedAppDemoRuntime": "passed; health/root/question-bank/method guard/graceful shutdown"
+  },
+  "externalGates": [
+    "Generate, review and commit genuine React package-lock.json.",
+    "Pass npm ci and npm audit --audit-level=high on Node 22.23.5, 24.22.3 and 26.13.1.",
+    "Pass official TypeScript 7, Vite build and React distribution smoke.",
+    "Pass desktop/mobile Playwright and axe; complete manual accessibility review.",
+    "Confirm successful React build and SBOM artifact transfer into release job.",
+    "Verify production TLS/HSTS, monitoring, off-host backup and restore/rollback.",
+    "Obtain independent cybersecurity/instructional-design review and learner evaluation."
+  ],
+  "runtimeLimitations": {
+    "localNode": "v22.16.0",
+    "localNpm": "10.9.2",
+    "declaredNodeMinimum": ">=22.23.5",
+    "pinnedNpm": "12.2.2",
+    "reactLockfile": "not available",
+    "reactSbom": "not available locally; produced in successful Node 26 CI leg",
+    "officialReactBuild": "not run",
+    "browserPlaywrightAndAxe": "not run"
+  },
+  "deferredByOwner": [
+    "Video provider integration",
+    "MP4 generation",
+    "Media/video review"
+  ],
+  "releaseDecision": "NOT_PRODUCTION_APPROVED; source-only and legacy demo artifacts are internal handoff only."
+}

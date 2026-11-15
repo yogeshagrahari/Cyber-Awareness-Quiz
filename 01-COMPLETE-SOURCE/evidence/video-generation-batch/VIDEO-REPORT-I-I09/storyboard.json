@@ -1,0 +1,64 @@
+{
+  "videoId": "VIDEO-REPORT-I-I09",
+  "questionId": "REPORT-I-I09",
+  "title": "The suspected malware click — question explanation",
+  "learningObjective": "Select appropriate reporting, containment and evidence-preservation steps",
+  "targetDurationSeconds": 50,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-9s",
+      "visual": "You opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "9-18s",
+      "visual": "Select appropriate reporting, containment and evidence-preservation steps",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Incident response — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "18-30s",
+      "visual": "Option B: Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to. Prompt reporting and coordinated containment are safer than improvising remediation.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: B"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "30-42s",
+      "visual": "Option A: Public upload may disclose confidential information and spread malware. Option C: Deleting files or logs can destroy evidence needed for investigation. Option D: Continuing activity or using unapproved tools can worsen impact or interfere with response.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "42-50s",
+      "visual": "Contact the organization’s security team immediately. Follow their containment instructions and preserve the device and relevant details. Report quickly and follow the incident-response plan; do not improvise forensic actions.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Report quickly and follow the incident-response plan; do not improvise forensic actions."
+    }
+  ],
+  "narration": "Scenario: You opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number. Safest response: Option B: Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to. Prompt reporting and coordinated containment are safer than improvising remediation. Option A is unsafe because Public upload may disclose confidential information and spread malware. Option C is unsafe because Deleting files or logs can destroy evidence needed for investigation. Option D is unsafe because Continuing activity or using unapproved tools can worsen impact or interfere with response. In practice: Contact the organization’s security team immediately. Follow their containment instructions and preserve the device and relevant details. Key takeaway: Report quickly and follow the incident-response plan; do not improvise forensic actions.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Incident response. Scenario: You opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number. Explain why Option B is the safest defensive response: Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to. Contrast the unsafe alternatives with these concise reasons: Option A: Public upload may disclose confidential information and spread malware.; Option C: Deleting files or logs can destroy evidence needed for investigation.; Option D: Continuing activity or using unapproved tools can worsen impact or interfere with response.. Conclude with: Report quickly and follow the incident-response plan; do not improvise forensic actions. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[1]",
+    "[17]",
+    "[28]"
+  ],
+  "outputFile": "public/videos/intermediate/report-i-i09.mp4"
+}

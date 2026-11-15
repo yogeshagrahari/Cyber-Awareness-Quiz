@@ -1,0 +1,114 @@
+{
+  "videoId": "VIDEO-BROWSE-B08",
+  "questionId": "BROWSE-B08",
+  "level": "Beginner",
+  "title": "Question explanation: The browser certificate warning",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "0cc223190b54e099c8467dec12238a6b577402b3353c2ce86419653411ab9ee0",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 51
+  },
+  "narration": "Scenario: While opening a site to pay a fee, the browser displays a certificate warning and says the connection may not be private. Safest response: Option C: Stop and access the service later through its known official address or contact its support team. Do not bypass a browser security warning for a sensitive transaction; verify independently. Option A is unsafe because A familiar-looking page does not resolve a certificate or connection warning. Option B is unsafe because Disabling protections increases exposure and is not an appropriate way to complete a payment. Option D is unsafe because Repeated attempts do not establish that the site is trustworthy. In practice: Close the page, avoid entering credentials or payment data, and verify the service through a known official route. Key takeaway: Do not bypass a security warning to complete a sensitive task.",
+  "script": "# The browser certificate warning\n\n**Video ID:** `VIDEO-BROWSE-B08`  \n**Question ID:** `BROWSE-B08`  \n**Level:** Beginner  \n**Target duration:** 51 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nRespond safely to browser certificate and security warnings\n\n## Scenario\nWhile opening a site to pay a fee, the browser displays a certificate warning and says the connection may not be private.\n\n## Narration transcript\nScenario: While opening a site to pay a fee, the browser displays a certificate warning and says the connection may not be private. Safest response: Option C: Stop and access the service later through its known official address or contact its support team. Do not bypass a browser security warning for a sensitive transaction; verify independently. Option A is unsafe because A familiar-looking page does not resolve a certificate or connection warning. Option B is unsafe because Disabling protections increases exposure and is not an appropriate way to complete a payment. Option D is unsafe because Repeated attempts do not establish that the site is trustworthy. In practice: Close the page, avoid entering credentials or payment data, and verify the service through a known official route. Key takeaway: Do not bypass a security warning to complete a sensitive task.\n\n## Correct response\nC. Stop and access the service later through its known official address or contact its support team.\n\n## Option-specific teaching notes\n- **A:** A familiar-looking page does not resolve a certificate or connection warning.\n- **B:** Disabling protections increases exposure and is not an appropriate way to complete a payment.\n- **C (correct):** Correct. Do not bypass a browser security warning for a sensitive transaction; verify independently.\n- **D:** Repeated attempts do not establish that the site is trustworthy.\n\n## Key takeaway\nDo not bypass a security warning to complete a sensitive task.\n\n## Recommended defensive action\nClose the page, avoid entering credentials or payment data, and verify the service through a known official route.\n\n## On-screen text sequence\n- **0-9s — Scenario setup:** Fictional scenario\n- **9-18s — Learning objective and risk cue:** Safe browsing — key cue\n- **18-31s — Recommended response:** Safest response: C\n- **31-43s — Why the other options fail:** Why the alternatives are unsafe\n- **43-51s — Defensive takeaway:** Do not bypass a security warning to complete a sensitive task.\n\n## Research references\n- [1]\n- [17]\n\n## Planned output\n`public/videos/beginner/browse-b08.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-BROWSE-B08",
+    "questionId": "BROWSE-B08",
+    "title": "The browser certificate warning — question explanation",
+    "learningObjective": "Respond safely to browser certificate and security warnings",
+    "targetDurationSeconds": 51,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-9s",
+        "visual": "While opening a site to pay a fee, the browser displays a certificate warning and says the connection may not be private.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "9-18s",
+        "visual": "Respond safely to browser certificate and security warnings",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Safe browsing — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "18-31s",
+        "visual": "Option C: Stop and access the service later through its known official address or contact its support team. Do not bypass a browser security warning for a sensitive transaction; verify independently.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: C"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "31-43s",
+        "visual": "Option A: A familiar-looking page does not resolve a certificate or connection warning. Option B: Disabling protections increases exposure and is not an appropriate way to complete a payment. Option D: Repeated attempts do not establish that the site is trustworthy.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "43-51s",
+        "visual": "Close the page, avoid entering credentials or payment data, and verify the service through a known official route. Do not bypass a security warning to complete a sensitive task.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Do not bypass a security warning to complete a sensitive task."
+      }
+    ],
+    "narration": "Scenario: While opening a site to pay a fee, the browser displays a certificate warning and says the connection may not be private. Safest response: Option C: Stop and access the service later through its known official address or contact its support team. Do not bypass a browser security warning for a sensitive transaction; verify independently. Option A is unsafe because A familiar-looking page does not resolve a certificate or connection warning. Option B is unsafe because Disabling protections increases exposure and is not an appropriate way to complete a payment. Option D is unsafe because Repeated attempts do not establish that the site is trustworthy. In practice: Close the page, avoid entering credentials or payment data, and verify the service through a known official route. Key takeaway: Do not bypass a security warning to complete a sensitive task.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Safe browsing. Scenario: While opening a site to pay a fee, the browser displays a certificate warning and says the connection may not be private. Explain why Option C is the safest defensive response: Stop and access the service later through its known official address or contact its support team. Contrast the unsafe alternatives with these concise reasons: Option A: A familiar-looking page does not resolve a certificate or connection warning.; Option B: Disabling protections increases exposure and is not an appropriate way to complete a payment.; Option D: Repeated attempts do not establish that the site is trustworthy.. Conclude with: Do not bypass a security warning to complete a sensitive task. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[17]"
+    ],
+    "outputFile": "public/videos/beginner/browse-b08.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Safe browsing. Scenario: While opening a site to pay a fee, the browser displays a certificate warning and says the connection may not be private. Explain why the correct defensive response is: Stop and access the service later through its known official address or contact its support team. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Do not bypass a security warning to complete a sensitive task. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.302\nScenario: While opening a site to pay a fee,\n\n2\n00:00:03.302 --> 00:00:06.604\nthe browser displays a certificate warning and says the\n\n3\n00:00:06.604 --> 00:00:09.906\nconnection may not be private. Safest response: Option C:\n\n4\n00:00:09.906 --> 00:00:13.209\nStop and access the service later through its known\n\n5\n00:00:13.209 --> 00:00:16.511\nofficial address or contact its support team. Do not\n\n6\n00:00:16.511 --> 00:00:20.547\nbypass a browser security warning for a sensitive transaction; verify independently.\n\n7\n00:00:20.547 --> 00:00:23.849\nOption A is unsafe because A familiar-looking page does\n\n8\n00:00:23.849 --> 00:00:27.151\nnot resolve a certificate or connection warning. Option B\n\n9\n00:00:27.151 --> 00:00:30.453\nis unsafe because Disabling protections increases exposure and is\n\n10\n00:00:30.453 --> 00:00:33.755\nnot an appropriate way to complete a payment. Option\n\n11\n00:00:33.755 --> 00:00:37.058\nD is unsafe because Repeated attempts do not establish\n\n12\n00:00:37.058 --> 00:00:40.360\nthat the site is trustworthy. In practice: Close the\n\n13\n00:00:40.360 --> 00:00:43.662\npage, avoid entering credentials or payment data, and verify\n\n14\n00:00:43.662 --> 00:00:46.964\nthe service through a known official route. Key takeaway:\n\n15\n00:00:46.964 --> 00:00:50.266\nDo not bypass a security warning to complete a\n\n16\n00:00:50.266 --> 00:00:51.000\nsensitive task.\n",
+  "referenceIds": [
+    "[1]",
+    "[17]"
+  ],
+  "question": {
+    "title": "The browser certificate warning",
+    "learningObjective": "Respond safely to browser certificate and security warnings",
+    "scenario": "While opening a site to pay a fee, the browser displays a certificate warning and says the connection may not be private.",
+    "correctOptionId": "C",
+    "correctAnswer": "Stop and access the service later through its known official address or contact its support team.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "A familiar-looking page does not resolve a certificate or connection warning."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "Disabling protections increases exposure and is not an appropriate way to complete a payment."
+      },
+      "C": {
+        "isCorrect": true,
+        "explanation": "Correct. Do not bypass a browser security warning for a sensitive transaction; verify independently."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Repeated attempts do not establish that the site is trustworthy."
+      }
+    },
+    "keyTakeaway": "Do not bypass a security warning to complete a sensitive task.",
+    "recommendedDefensiveAction": "Close the page, avoid entering credentials or payment data, and verify the service through a known official route."
+  }
+}

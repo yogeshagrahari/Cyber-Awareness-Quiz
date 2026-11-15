@@ -1,0 +1,62 @@
+{
+  "videoId": "VIDEO-BEC-E04",
+  "questionId": "BEC-E04",
+  "title": "The Executive Payment Change",
+  "learningObjective": "Interrupt payment diversion using independent verification, separation of duties and timely financial institution notification.",
+  "targetDurationSeconds": 60,
+  "format": "16:9 educational motion-graphics explainer with narration, separate captions and no autoplay audio",
+  "visualStyle": "Deep navy/charcoal with restrained cyan/electric-blue highlights, limited purple accents, high contrast, stable typography and reduced-motion transitions.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-12s",
+      "visual": "Finance receives an email in an existing supplier thread requesting that a large invoice be paid to a new bank account. The message appears to come from the supplier’s known address. The CFO separately messages the finance lead asking for the payment to be expedited and says the supplier is waiting.",
+      "direction": "Use a fictional organization, synthetic people and generic systems. Do not expose real identity, secrets or operational infrastructure.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Decision frame",
+      "time": "12-24s",
+      "visual": "Interrupt payment diversion using independent verification, separation of duties and timely financial institution notification.",
+      "direction": "Show the decision context and the relevant business/security trade-off. Avoid unsupported claims.",
+      "onScreenText": "Decision frame"
+    },
+    {
+      "name": "Recommended response",
+      "time": "24-38s",
+      "visual": "Option B: Pause the payment and verify the change through a previously established, independently sourced supplier contact; require the organization’s documented dual-approval process and report the suspicious request through security and finance channels. Correct. A trusted out-of-band verification path and separation of duties reduce the risk of payment diversion and create an auditable approval trail.",
+      "direction": "Animate a safe, high-level decision sequence; do not provide attack steps or sensitive operational detail.",
+      "onScreenText": "Safest response: B"
+    },
+    {
+      "name": "Trade-offs",
+      "time": "38-52s",
+      "visual": "Option A: A compromised mailbox can control replies in the same email thread. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option C: A test transfer can still be lost without authenticating the new account. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option D: A familiar thread and executive urgency do not authenticate changed bank details. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.",
+      "direction": "Present the alternatives as decision cards and explain their risks without depicting an actual attack.",
+      "onScreenText": "Why the alternatives fail"
+    },
+    {
+      "name": "Takeaway",
+      "time": "52-60s",
+      "visual": "Place the payment on hold, call a previously verified supplier contact using a trusted directory or existing contract record, follow dual authorization, retain evidence and notify the organization’s security/finance process. If money has already moved, contact the bank immediately and report through the appropriate channels. A payment-detail change is a high-risk request even when it arrives inside a familiar email conversation.",
+      "direction": "End with concise defensive action and keep text on screen long enough to read.",
+      "onScreenText": "Defensive next step"
+    }
+  ],
+  "narration": "Scenario: A supplier email thread requests a new bank account and an executive asks finance to hurry. Safest response: pause payment, independently verify with a previously known supplier contact and follow dual approval. Option A is unsafe because A compromised mailbox can control replies in the same email thread. Option C is unsafe because A test transfer can still be lost without authenticating the new account. Option D is unsafe because A familiar thread and executive urgency do not authenticate changed bank details. In practice: use trusted contact details, retain evidence and escalate; contact the bank promptly if funds moved. Key takeaway: never let urgency bypass payment controls.",
+  "audioDirection": "Neutral, clear instructional narration; do not imitate a real person.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Business email compromise and financial controls. Explain the safest defensive decision and the options' trade-offs. Use generic organizational visuals, no recognizable brands, real people, real data, real credentials or operational attack details. A payment-detail change is a high-risk request even when it arrives inside a familiar email conversation.",
+  "generationInstructions": [
+    "Preserve narration meaning and do not add unsupported technical claims.",
+    "Render 16:9 1080p MP4 with safe margins and separate synchronized WebVTT captions.",
+    "Use synthetic fictional names and generic interfaces only.",
+    "Do not use flashing effects, strobing, rapid motion or autoplay audio.",
+    "Human-review technical accuracy, accessibility, captions, pronunciation and timing before marking ready."
+  ],
+  "accessibility": "Separate captions and transcript required. No color-only encoding; preserve readable contrast and provide written explanation if media fails.",
+  "references": [
+    "[17]",
+    "[26]"
+  ],
+  "outputFile": "public/videos/expert/bec-e04.mp4"
+}

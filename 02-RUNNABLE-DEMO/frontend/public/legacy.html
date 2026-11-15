@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="CYBERAWARE 3D — research-driven cybersecurity awareness learning." />
+  <title>CYBERAWARE 3D · Security Learning</title>
+  <link rel="stylesheet" href="/legacy-src/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <a class="brand" href="#dashboard" aria-label="CyberAware 3D dashboard">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span class="brand-copy"><strong>CYBERAWARE</strong><small>3D LEARNING SYSTEM</small></span>
+      </a>
+      <div class="sidebar-label">WORKSPACE</div>
+      <nav class="nav-list" aria-label="Primary">
+        <button class="nav-item active" data-view="dashboard"><span class="nav-icon">⌂</span>Overview</button>
+        <button class="nav-item" data-view="paths"><span class="nav-icon">◈</span>Learning paths</button>
+        <button class="nav-item" data-view="topics"><span class="nav-icon">▦</span>Topic library</button>
+        <button class="nav-item" data-view="simulations"><span class="nav-icon">◉</span>Simulations</button>
+        <button class="nav-item" data-view="results"><span class="nav-icon">◷</span>My progress</button>
+        <button class="nav-item" data-view="research"><span class="nav-icon">⌕</span>Research sources</button>
+      </nav>
+      <div class="sidebar-label side-label-lower">SYSTEM</div>
+      <nav class="nav-list" aria-label="System">
+        <button class="nav-item" data-view="achievements"><span class="nav-icon">✧</span>Achievements</button>
+        <button class="nav-item" data-view="settings"><span class="nav-icon">⚙</span>Settings</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="secure-status"><span class="status-dot"></span><div><strong>Local learning mode</strong><small>Progress stays on this device</small></div></div>
+        <div class="profile-row"><div class="avatar">YK</div><div class="profile-meta"><strong>Security Learner</strong><small>Group E · CYBERAWARE</small></div><span class="profile-more">···</span></div>
+      </div>
+    </aside>
+    <main id="main-content" class="main-content" tabindex="-1">
+      <header class="topbar">
+        <div class="breadcrumbs"><span>Workspace</span><b>/</b><strong id="page-label">Overview</strong></div>
+        <div class="topbar-actions">
+          <span class="topbar-date" id="today-label"></span>
+          <button class="icon-button" id="motion-toggle" title="Toggle reduced motion" aria-label="Toggle reduced motion">◌</button>
+          <div class="top-avatar">YK</div>
+        </div>
+      </header>
+      <section id="app-view" class="view-content" aria-busy="true">
+        <div class="loading-state"><div class="loader-orbit"></div><p>Loading learning environment…</p></div>
+      </section>
+      <footer class="app-footer"><span>CYBERAWARE 3D <i>·</i> RESEARCH-DRIVEN SECURITY EDUCATION</span><span>APPLICATION <b>v0.10.0-rc.16</b></span></footer>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/legacy-src/app.js"></script>
+</body>
+</html>

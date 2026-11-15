@@ -1,0 +1,118 @@
+{
+  "videoId": "VIDEO-REPORT-B14",
+  "questionId": "REPORT-B14",
+  "level": "Beginner",
+  "title": "Question explanation: You clicked a suspicious link",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "d1838d510e834ee117c5ca7545906bb75527332a446c6e59d7cc214e54b8f489",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 51
+  },
+  "narration": "Scenario: You clicked a suspicious link and entered your work password before realizing the page was fake. Safest response: Option D: Report immediately through the approved security channel and follow instructions to secure the account from a trusted device. Prompt reporting enables the organization to contain possible credential compromise and assess impact. Option A is unsafe because Public posting may expose organizational details and does not trigger incident response. Option B is unsafe because Non-reporting delays containment and may allow the account to be misused. Option C is unsafe because Waiting can give an attacker more time to use exposed credentials. In practice: Contact the security/helpdesk team immediately. From a trusted device, follow their direction to reset credentials, revoke sessions and inspect account activity. Key takeaway: Fast, accurate reporting helps limit harm; do not hide accidental interaction.",
+  "script": "# You clicked a suspicious link\n\n**Video ID:** `VIDEO-REPORT-B14`  \n**Question ID:** `REPORT-B14`  \n**Level:** Beginner  \n**Target duration:** 51 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nReport suspected phishing or accidental interaction promptly through the approved channel\n\n## Scenario\nYou clicked a suspicious link and entered your work password before realizing the page was fake.\n\n## Narration transcript\nScenario: You clicked a suspicious link and entered your work password before realizing the page was fake. Safest response: Option D: Report immediately through the approved security channel and follow instructions to secure the account from a trusted device. Prompt reporting enables the organization to contain possible credential compromise and assess impact. Option A is unsafe because Public posting may expose organizational details and does not trigger incident response. Option B is unsafe because Non-reporting delays containment and may allow the account to be misused. Option C is unsafe because Waiting can give an attacker more time to use exposed credentials. In practice: Contact the security/helpdesk team immediately. From a trusted device, follow their direction to reset credentials, revoke sessions and inspect account activity. Key takeaway: Fast, accurate reporting helps limit harm; do not hide accidental interaction.\n\n## Correct response\nD. Report immediately through the approved security channel and follow instructions to secure the account from a trusted device.\n\n## Option-specific teaching notes\n- **A:** Public posting may expose organizational details and does not trigger incident response.\n- **B:** Non-reporting delays containment and may allow the account to be misused.\n- **C:** Waiting can give an attacker more time to use exposed credentials.\n- **D (correct):** Correct. Prompt reporting enables the organization to contain possible credential compromise and assess impact.\n\n## Key takeaway\nFast, accurate reporting helps limit harm; do not hide accidental interaction.\n\n## Recommended defensive action\nContact the security/helpdesk team immediately. From a trusted device, follow their direction to reset credentials, revoke sessions and inspect account activity.\n\n## On-screen text sequence\n- **0-9s — Scenario setup:** Fictional scenario\n- **9-18s — Learning objective and risk cue:** Incident reporting — key cue\n- **18-31s — Recommended response:** Safest response: D\n- **31-43s — Why the other options fail:** Why the alternatives are unsafe\n- **43-51s — Defensive takeaway:** Fast, accurate reporting helps limit harm; do not hide accidental interaction.\n\n## Research references\n- [1]\n- [17]\n- [24]\n- [28]\n\n## Planned output\n`public/videos/beginner/report-b14.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-REPORT-B14",
+    "questionId": "REPORT-B14",
+    "title": "You clicked a suspicious link — question explanation",
+    "learningObjective": "Report suspected phishing or accidental interaction promptly through the approved channel",
+    "targetDurationSeconds": 51,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-9s",
+        "visual": "You clicked a suspicious link and entered your work password before realizing the page was fake.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "9-18s",
+        "visual": "Report suspected phishing or accidental interaction promptly through the approved channel",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Incident reporting — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "18-31s",
+        "visual": "Option D: Report immediately through the approved security channel and follow instructions to secure the account from a trusted device. Prompt reporting enables the organization to contain possible credential compromise and assess impact.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: D"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "31-43s",
+        "visual": "Option A: Public posting may expose organizational details and does not trigger incident response. Option B: Non-reporting delays containment and may allow the account to be misused. Option C: Waiting can give an attacker more time to use exposed credentials.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "43-51s",
+        "visual": "Contact the security/helpdesk team immediately. From a trusted device, follow their direction to reset credentials, revoke sessions and inspect account activity. Fast, accurate reporting helps limit harm; do not hide accidental interaction.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Fast, accurate reporting helps limit harm; do not hide accidental interaction."
+      }
+    ],
+    "narration": "Scenario: You clicked a suspicious link and entered your work password before realizing the page was fake. Safest response: Option D: Report immediately through the approved security channel and follow instructions to secure the account from a trusted device. Prompt reporting enables the organization to contain possible credential compromise and assess impact. Option A is unsafe because Public posting may expose organizational details and does not trigger incident response. Option B is unsafe because Non-reporting delays containment and may allow the account to be misused. Option C is unsafe because Waiting can give an attacker more time to use exposed credentials. In practice: Contact the security/helpdesk team immediately. From a trusted device, follow their direction to reset credentials, revoke sessions and inspect account activity. Key takeaway: Fast, accurate reporting helps limit harm; do not hide accidental interaction.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Incident reporting. Scenario: You clicked a suspicious link and entered your work password before realizing the page was fake. Explain why Option D is the safest defensive response: Report immediately through the approved security channel and follow instructions to secure the account from a trusted device. Contrast the unsafe alternatives with these concise reasons: Option A: Public posting may expose organizational details and does not trigger incident response.; Option B: Non-reporting delays containment and may allow the account to be misused.; Option C: Waiting can give an attacker more time to use exposed credentials.. Conclude with: Fast, accurate reporting helps limit harm; do not hide accidental interaction. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[17]",
+      "[24]",
+      "[28]"
+    ],
+    "outputFile": "public/videos/beginner/report-b14.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Incident reporting. Scenario: You clicked a suspicious link and entered your work password before realizing the page was fake. Explain why the correct defensive response is: Report immediately through the approved security channel and follow instructions to secure the account from a trusted device. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Fast, accurate reporting helps limit harm; do not hide accidental interaction. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.350\nScenario: You clicked a suspicious link and entered your\n\n2\n00:00:03.350 --> 00:00:06.701\nwork password before realizing the page was fake. Safest\n\n3\n00:00:06.701 --> 00:00:10.051\nresponse: Option D: Report immediately through the approved security\n\n4\n00:00:10.051 --> 00:00:13.401\nchannel and follow instructions to secure the account from\n\n5\n00:00:13.401 --> 00:00:16.752\na trusted device. Prompt reporting enables the organization to\n\n6\n00:00:16.752 --> 00:00:20.102\ncontain possible credential compromise and assess impact. Option A\n\n7\n00:00:20.102 --> 00:00:23.453\nis unsafe because Public posting may expose organizational details\n\n8\n00:00:23.453 --> 00:00:26.803\nand does not trigger incident response. Option B is\n\n9\n00:00:26.803 --> 00:00:30.153\nunsafe because Non-reporting delays containment and may allow the\n\n10\n00:00:30.153 --> 00:00:33.504\naccount to be misused. Option C is unsafe because\n\n11\n00:00:33.504 --> 00:00:37.599\nWaiting can give an attacker more time to use exposed credentials.\n\n12\n00:00:37.599 --> 00:00:40.949\nIn practice: Contact the security/helpdesk team immediately. From a\n\n13\n00:00:40.949 --> 00:00:44.299\ntrusted device, follow their direction to reset credentials, revoke\n\n14\n00:00:44.299 --> 00:00:47.650\nsessions and inspect account activity. Key takeaway: Fast, accurate\n\n15\n00:00:47.650 --> 00:00:51.000\nreporting helps limit harm; do not hide accidental interaction.\n",
+  "referenceIds": [
+    "[1]",
+    "[17]",
+    "[24]",
+    "[28]"
+  ],
+  "question": {
+    "title": "You clicked a suspicious link",
+    "learningObjective": "Report suspected phishing or accidental interaction promptly through the approved channel",
+    "scenario": "You clicked a suspicious link and entered your work password before realizing the page was fake.",
+    "correctOptionId": "D",
+    "correctAnswer": "Report immediately through the approved security channel and follow instructions to secure the account from a trusted device.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Public posting may expose organizational details and does not trigger incident response."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "Non-reporting delays containment and may allow the account to be misused."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Waiting can give an attacker more time to use exposed credentials."
+      },
+      "D": {
+        "isCorrect": true,
+        "explanation": "Correct. Prompt reporting enables the organization to contain possible credential compromise and assess impact."
+      }
+    },
+    "keyTakeaway": "Fast, accurate reporting helps limit harm; do not hide accidental interaction.",
+    "recommendedDefensiveAction": "Contact the security/helpdesk team immediately. From a trusted device, follow their direction to reset credentials, revoke sessions and inspect account activity."
+  }
+}

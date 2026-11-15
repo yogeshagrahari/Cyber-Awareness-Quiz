@@ -1,0 +1,114 @@
+{
+  "videoId": "VIDEO-RESET-I13",
+  "questionId": "RESET-I13",
+  "level": "Intermediate",
+  "title": "Question explanation: The unsolicited password-reset link",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "135594b131a444c39472484f6a229cefb74eaeb48f7442376d7f2a36f094d5a5",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 54
+  },
+  "narration": "Scenario: You receive a password-reset SMS for a service while you are not attempting to reset your password. A second message asks you to approve the reset. Safest response: Option B: Ignore the link, navigate independently to the service and review account security or contact support if needed. Unsolicited reset messages should be verified through the official service rather than followed. Option A is unsafe because The code may authorize an attacker-controlled reset. Option C is unsafe because Approving a reset you did not request may give another party control of the account. Option D is unsafe because The link could lead to a credential-harvesting site. In practice: Do not open the SMS link or share a code. Access the service independently and report repeated or suspicious recovery activity. Key takeaway: Only initiate recovery yourself through the official service; do not approve an unsolicited reset.",
+  "script": "# The unsolicited password-reset link\n\n**Video ID:** `VIDEO-RESET-I13`  \n**Question ID:** `RESET-I13`  \n**Level:** Intermediate  \n**Target duration:** 54 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nUse official account-recovery paths and reject unsolicited reset links\n\n## Scenario\nYou receive a password-reset SMS for a service while you are not attempting to reset your password. A second message asks you to approve the reset.\n\n## Narration transcript\nScenario: You receive a password-reset SMS for a service while you are not attempting to reset your password. A second message asks you to approve the reset. Safest response: Option B: Ignore the link, navigate independently to the service and review account security or contact support if needed. Unsolicited reset messages should be verified through the official service rather than followed. Option A is unsafe because The code may authorize an attacker-controlled reset. Option C is unsafe because Approving a reset you did not request may give another party control of the account. Option D is unsafe because The link could lead to a credential-harvesting site. In practice: Do not open the SMS link or share a code. Access the service independently and report repeated or suspicious recovery activity. Key takeaway: Only initiate recovery yourself through the official service; do not approve an unsolicited reset.\n\n## Correct response\nB. Ignore the link, navigate independently to the service and review account security or contact support if needed.\n\n## Option-specific teaching notes\n- **A:** The code may authorize an attacker-controlled reset.\n- **B (correct):** Correct. Unsolicited reset messages should be verified through the official service rather than followed.\n- **C:** Approving a reset you did not request may give another party control of the account.\n- **D:** The link could lead to a credential-harvesting site.\n\n## Key takeaway\nOnly initiate recovery yourself through the official service; do not approve an unsolicited reset.\n\n## Recommended defensive action\nDo not open the SMS link or share a code. Access the service independently and report repeated or suspicious recovery activity.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-19s — Learning objective and risk cue:** Account recovery — key cue\n- **19-32s — Recommended response:** Safest response: B\n- **32-45s — Why the other options fail:** Why the alternatives are unsafe\n- **45-54s — Defensive takeaway:** Only initiate recovery yourself through the official service; do not approve an unsolicited reset.\n\n## Research references\n- [16]\n- [25]\n\n## Planned output\n`public/videos/intermediate/reset-i13.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-RESET-I13",
+    "questionId": "RESET-I13",
+    "title": "The unsolicited password-reset link — question explanation",
+    "learningObjective": "Use official account-recovery paths and reject unsolicited reset links",
+    "targetDurationSeconds": 54,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "You receive a password-reset SMS for a service while you are not attempting to reset your password. A second message asks you to approve the reset.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-19s",
+        "visual": "Use official account-recovery paths and reject unsolicited reset links",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Account recovery — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "19-32s",
+        "visual": "Option B: Ignore the link, navigate independently to the service and review account security or contact support if needed. Unsolicited reset messages should be verified through the official service rather than followed.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: B"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "32-45s",
+        "visual": "Option A: The code may authorize an attacker-controlled reset. Option C: Approving a reset you did not request may give another party control of the account. Option D: The link could lead to a credential-harvesting site.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "45-54s",
+        "visual": "Do not open the SMS link or share a code. Access the service independently and report repeated or suspicious recovery activity. Only initiate recovery yourself through the official service; do not approve an unsolicited reset.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Only initiate recovery yourself through the official service; do not approve an unsolicited reset."
+      }
+    ],
+    "narration": "Scenario: You receive a password-reset SMS for a service while you are not attempting to reset your password. A second message asks you to approve the reset. Safest response: Option B: Ignore the link, navigate independently to the service and review account security or contact support if needed. Unsolicited reset messages should be verified through the official service rather than followed. Option A is unsafe because The code may authorize an attacker-controlled reset. Option C is unsafe because Approving a reset you did not request may give another party control of the account. Option D is unsafe because The link could lead to a credential-harvesting site. In practice: Do not open the SMS link or share a code. Access the service independently and report repeated or suspicious recovery activity. Key takeaway: Only initiate recovery yourself through the official service; do not approve an unsolicited reset.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Account recovery. Scenario: You receive a password-reset SMS for a service while you are not attempting to reset your password. A second message asks you to approve the reset. Explain why Option B is the safest defensive response: Ignore the link, navigate independently to the service and review account security or contact support if needed. Contrast the unsafe alternatives with these concise reasons: Option A: The code may authorize an attacker-controlled reset.; Option C: Approving a reset you did not request may give another party control of the account.; Option D: The link could lead to a credential-harvesting site.. Conclude with: Only initiate recovery yourself through the official service; do not approve an unsolicited reset. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[16]",
+      "[25]"
+    ],
+    "outputFile": "public/videos/intermediate/reset-i13.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Account recovery. Scenario: You receive a password-reset SMS for a service while you are not attempting to reset your password. A second message asks you to approve the reset. Explain why the correct defensive response is: Ignore the link, navigate independently to the service and review account security or contact support if needed. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Only initiate recovery yourself through the official service; do not approve an unsolicited reset. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.352\nScenario: You receive a password-reset SMS for a service\n\n2\n00:00:03.352 --> 00:00:06.703\nwhile you are not attempting to reset your password.\n\n3\n00:00:06.703 --> 00:00:10.055\nA second message asks you to approve the reset.\n\n4\n00:00:10.055 --> 00:00:13.407\nSafest response: Option B: Ignore the link, navigate independently\n\n5\n00:00:13.407 --> 00:00:16.759\nto the service and review account security or contact\n\n6\n00:00:16.759 --> 00:00:20.110\nsupport if needed. Unsolicited reset messages should be verified\n\n7\n00:00:20.110 --> 00:00:23.462\nthrough the official service rather than followed. Option A\n\n8\n00:00:23.462 --> 00:00:27.186\nis unsafe because The code may authorize an attacker-controlled reset.\n\n9\n00:00:27.186 --> 00:00:30.538\nOption C is unsafe because Approving a reset you\n\n10\n00:00:30.538 --> 00:00:34.634\ndid not request may give another party control of the account.\n\n11\n00:00:34.634 --> 00:00:37.986\nOption D is unsafe because The link could lead\n\n12\n00:00:37.986 --> 00:00:41.338\nto a credential-harvesting site. In practice: Do not open\n\n13\n00:00:41.338 --> 00:00:44.690\nthe SMS link or share a code. Access the\n\n14\n00:00:44.690 --> 00:00:48.041\nservice independently and report repeated or suspicious recovery activity.\n\n15\n00:00:48.041 --> 00:00:51.393\nKey takeaway: Only initiate recovery yourself through the official\n\n16\n00:00:51.393 --> 00:00:54.000\nservice; do not approve an unsolicited reset.\n",
+  "referenceIds": [
+    "[16]",
+    "[25]"
+  ],
+  "question": {
+    "title": "The unsolicited password-reset link",
+    "learningObjective": "Use official account-recovery paths and reject unsolicited reset links",
+    "scenario": "You receive a password-reset SMS for a service while you are not attempting to reset your password. A second message asks you to approve the reset.",
+    "correctOptionId": "B",
+    "correctAnswer": "Ignore the link, navigate independently to the service and review account security or contact support if needed.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "The code may authorize an attacker-controlled reset."
+      },
+      "B": {
+        "isCorrect": true,
+        "explanation": "Correct. Unsolicited reset messages should be verified through the official service rather than followed."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Approving a reset you did not request may give another party control of the account."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "The link could lead to a credential-harvesting site."
+      }
+    },
+    "keyTakeaway": "Only initiate recovery yourself through the official service; do not approve an unsolicited reset.",
+    "recommendedDefensiveAction": "Do not open the SMS link or share a code. Access the service independently and report repeated or suspicious recovery activity."
+  }
+}

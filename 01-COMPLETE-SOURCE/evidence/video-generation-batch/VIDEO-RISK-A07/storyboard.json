@@ -1,0 +1,63 @@
+{
+  "videoId": "VIDEO-RISK-A07",
+  "questionId": "RISK-A07",
+  "title": "The risk register decision — question explanation",
+  "learningObjective": "Evaluate likelihood, impact, existing controls and residual risk systematically",
+  "targetDurationSeconds": 56,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-10s",
+      "visual": "A risk register lists a low-likelihood event that could expose a large customer database. Existing controls are documented, but their current effectiveness has not been tested.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "10-20s",
+      "visual": "Evaluate likelihood, impact, existing controls and residual risk systematically",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Risk management — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "20-34s",
+      "visual": "Option B: Assess likelihood and impact, validate existing control effectiveness, estimate residual risk and record assumptions and uncertainty. Risk assessment should consider both likelihood and consequence, then evaluate how controls change residual exposure.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: B"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "34-47s",
+      "visual": "Option A: Low likelihood alone ignores potentially severe impact and uncertainty about control effectiveness. Option C: Automatic maximum ratings do not provide a consistent or useful risk prioritization method. Option D: Documented controls are not necessarily effective; the risk remains until assessed and treated appropriately.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "47-56s",
+      "visual": "Validate control operation, document evidence and uncertainty, calculate or qualitatively rate residual risk, then assign treatment and ownership. Risk decisions require likelihood, impact, control evidence, residual risk and explicit assumptions.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Risk decisions require likelihood, impact, control evidence, residual risk and explicit assumptions."
+    }
+  ],
+  "narration": "Scenario: A risk register lists a low-likelihood event that could expose a large customer database. Existing controls are documented, but their current effectiveness has not been tested. Safest response: Option B: Assess likelihood and impact, validate existing control effectiveness, estimate residual risk and record assumptions and uncertainty. Risk assessment should consider both likelihood and consequence, then evaluate how controls change residual exposure. Option A is unsafe because Low likelihood alone ignores potentially severe impact and uncertainty about control effectiveness. Option C is unsafe because Automatic maximum ratings do not provide a consistent or useful risk prioritization method. Option D is unsafe because Documented controls are not necessarily effective; the risk remains until assessed and treated appropriately. In practice: Validate control operation, document evidence and uncertainty, calculate or qualitatively rate residual risk, then assign treatment and ownership. Key takeaway: Risk decisions require likelihood, impact, control evidence, residual risk and explicit assumptions.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Risk management. Scenario: A risk register lists a low-likelihood event that could expose a large customer database. Existing controls are documented, but their current effectiveness has not been tested. Explain why Option B is the safest defensive response: Assess likelihood and impact, validate existing control effectiveness, estimate residual risk and record assumptions and uncertainty. Contrast the unsafe alternatives with these concise reasons: Option A: Low likelihood alone ignores potentially severe impact and uncertainty about control effectiveness.; Option C: Automatic maximum ratings do not provide a consistent or useful risk prioritization method.; Option D: Documented controls are not necessarily effective; the risk remains until assessed and treated appropriately.. Conclude with: Risk decisions require likelihood, impact, control evidence, residual risk and explicit assumptions. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[17]",
+    "[36]"
+  ],
+  "outputFile": "public/videos/advanced/risk-a07.mp4"
+}

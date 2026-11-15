@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.346
+Scenario: A privileged administrator reports a suspicious login. Audit
+
+2
+00:00:03.346 --> 00:00:07.064
+records show a new session and unfamiliar mailbox forwarding rule.
+
+3
+00:00:07.064 --> 00:00:10.410
+The user’s password may be compromised. Safest response: Option
+
+4
+00:00:10.410 --> 00:00:13.756
+D: Coordinate incident response: contain access, revoke affected sessions/tokens,
+
+5
+00:00:13.756 --> 00:00:17.474
+secure credentials and recovery factors, preserve evidence, and investigate persistence.
+
+6
+00:00:17.474 --> 00:00:20.821
+Account compromise requires coordinated containment and recovery, not only
+
+7
+00:00:20.821 --> 00:00:24.167
+a password change. Option A is unsafe because Deleting
+
+8
+00:00:24.167 --> 00:00:27.885
+evidence can obstruct investigation and may remove only visible indicators.
+
+9
+00:00:27.885 --> 00:00:31.231
+Option B is unsafe because Password change alone may
+
+10
+00:00:31.231 --> 00:00:35.321
+leave active sessions, tokens, forwarding rules or attacker persistence in place.
+
+11
+00:00:35.321 --> 00:00:38.667
+Option C is unsafe because A broad disruptive response
+
+12
+00:00:38.667 --> 00:00:42.756
+without scope assessment may cause unnecessary outage and is not proportionate.
+
+13
+00:00:42.756 --> 00:00:46.103
+In practice: Activate the incident-response process, coordinate identity and
+
+14
+00:00:46.103 --> 00:00:49.449
+system owners, contain the affected account, preserve evidence and
+
+15
+00:00:49.449 --> 00:00:52.795
+verify recovery before restoring access. Key takeaway: After suspected
+
+16
+00:00:52.795 --> 00:00:56.141
+credential compromise, address sessions, tokens, recovery paths and persistence
+
+17
+00:00:56.141 --> 00:00:58.000
+as well as the password.

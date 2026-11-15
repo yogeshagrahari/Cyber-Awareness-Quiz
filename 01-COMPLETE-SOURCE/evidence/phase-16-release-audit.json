@@ -1,0 +1,59 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.9",
+  "phase": 16,
+  "date": "2026-11-13",
+  "scope": [
+    "React dependency lockfile enforcement",
+    "GitHub Actions release-gate architecture",
+    "workflow artifact-path correctness",
+    "CI contract regression tests",
+    "release archive integrity and source-only handoff",
+    "lockfile integrity validation and dependency SBOM evidence"
+  ],
+  "implemented": [
+    "Main CI requires a committed npm package-lock before npm ci and never regenerates it during routine builds.",
+    "Lockfile verifier checks lockfile version, root package identity, dependency metadata, exact package entries, approved HTTPS npm registry origin, package versions and valid strong SRI digests; workspace and bundled-package bypasses are rejected.",
+    "Manual-only lockfile refresh workflow emits lockfile and npm audit JSON artifacts for human review and cannot package a release.",
+    "Legacy and React CI matrices run in one workflow, with stable non-matrix aggregator gates.",
+    "Release packaging depends on both stable gates and packages the exact React build artifact uploaded after browser/axe acceptance.",
+    "CI release artifact upload path was corrected to match the root release-artifacts output directory.",
+    "Four regression tests cover release archive upload path, downstream gate dependencies, React acceptance order and manual lock refresh.",
+    "Full resolved CycloneDX dependency SBOM generation is configured for the successful locked CI installation; local direct-only SBOM remains clearly scoped."
+  ],
+  "localResults": {
+    "legacyTests": "41/41 passed",
+    "reactDomainAndSourceTests": "17/17 passed",
+    "contentValidation": "passed",
+    "offlineStructuralTypecheck": "passed with TypeScript 5.8.3 ambient shims only",
+    "legacyStaticBuildAndSmoke": "passed; 215 routes",
+    "packagedServerSmoke": "passed",
+    "nginxLiveSmoke": "8/8 passed",
+    "backupSmoke": "passed",
+    "systemdSyntax": "passed",
+    "workflowParseAndTopology": "passed",
+    "lockfileVerifierFixtureTests": "passed; synthetic fixture only",
+    "sourceOnlyPackage": "passed; full-source and legacy demo ZIPs built and integrity-verified with SHA-256 sidecar",
+    "strictReactPackage": "correctly blocked without real Vite dist"
+  },
+  "externalGates": [
+    "Dispatch the manual lockfile refresh workflow, inspect dependency/audit artifacts and commit package-lock.json.",
+    "Pass npm ci and npm audit --audit-level=high on both supported Node.js matrix versions.",
+    "Pass official TypeScript 7, Vite production build, React distribution smoke, all five Playwright projects and axe scans.",
+    "Configure branch protection requiring Legacy validation gate and React, browser and accessibility gate.",
+    "Verify production TLS/HSTS, monitoring, off-host backups and a restore/rollback drill.",
+    "Complete independent cybersecurity/instructional-design review and learner evaluation."
+  ],
+  "releaseDecision": "NOT_PRODUCTION_APPROVED. The local artifact may be handed off as a SOURCE-ONLY package plus the legacy demo. No React production app archive is issued. CI release packaging will create the third ZIP only after both required gates pass.",
+  "deferredByOwner": [
+    "Video provider integration",
+    "MP4 generation",
+    "Media/video review"
+  ],
+  "constraints": [
+    "No real lockfile was fabricated because the npm registry is unreachable in this runtime.",
+    "No real React build artifact was fabricated. A temporary synthetic folder was used only to test archive creation and then deleted.",
+    "No GitHub repository or remote Actions run was accessed.",
+    "Local Node version is below the declared engine minimum."
+  ]
+}

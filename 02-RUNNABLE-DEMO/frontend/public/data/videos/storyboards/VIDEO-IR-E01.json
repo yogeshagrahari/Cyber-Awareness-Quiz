@@ -1,0 +1,62 @@
+{
+  "videoId": "VIDEO-IR-E01",
+  "questionId": "IR-E01",
+  "title": "Containment Under Uncertainty",
+  "learningObjective": "Prioritize coordinated containment, evidence preservation and decision ownership during an active multi-system incident.",
+  "targetDurationSeconds": 60,
+  "format": "16:9 educational motion-graphics explainer with narration, separate captions and no autoplay audio",
+  "visualStyle": "Deep navy/charcoal with restrained cyan/electric-blue highlights, limited purple accents, high contrast, stable typography and reduced-motion transitions.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-12s",
+      "visual": "At 09:10, the security operations centre receives three correlated alerts: an endpoint has begun encrypting files, a service account has authenticated from an unusual location, and outbound traffic from a file server has increased sharply. The incident commander has not yet confirmed the initial access path. A business unit asks to power off every server immediately.",
+      "direction": "Use a fictional organization, synthetic people and generic systems. Do not expose real identity, secrets or operational infrastructure.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Decision frame",
+      "time": "12-24s",
+      "visual": "Prioritize coordinated containment, evidence preservation and decision ownership during an active multi-system incident.",
+      "direction": "Show the decision context and the relevant business/security trade-off. Avoid unsupported claims.",
+      "onScreenText": "Decision frame"
+    },
+    {
+      "name": "Recommended response",
+      "time": "24-38s",
+      "visual": "Option A: Declare a major incident, activate the response plan, isolate confirmed affected systems using approved procedures, preserve relevant telemetry, and scope related accounts and hosts before broader disruptive action. Correct. Coordinated activation, proportionate containment, evidence preservation and scoping support an informed response while limiting unnecessary operational disruption.",
+      "direction": "Animate a safe, high-level decision sequence; do not provide attack steps or sensitive operational detail.",
+      "onScreenText": "Safest response: A"
+    },
+    {
+      "name": "Trade-offs",
+      "time": "38-52s",
+      "visual": "Option B: A blanket shutdown can destroy volatile evidence and disrupt unaffected services. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option C: Waiting for attribution can allow active damage to continue. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option D: Direct uncoordinated contact bypasses the authorized response structure. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.",
+      "direction": "Present the alternatives as decision cards and explain their risks without depicting an actual attack.",
+      "onScreenText": "Why the alternatives fail"
+    },
+    {
+      "name": "Takeaway",
+      "time": "52-60s",
+      "visual": "Activate the approved incident-response process, appoint a decision owner, preserve logs and volatile evidence where feasible, isolate confirmed affected assets, scope identity and network activity, and record decisions and uncertainties. Act on credible indicators through the incident plan; do not wait for perfect attribution or take uncontrolled disruptive action.",
+      "direction": "End with concise defensive action and keep text on screen long enough to read.",
+      "onScreenText": "Defensive next step"
+    }
+  ],
+  "narration": "Scenario: Alerts show file encryption, unusual service-account use and unusual outbound traffic. The initial access path is unknown. Safest response: activate the incident plan, isolate confirmed affected assets, preserve evidence and scope related hosts and accounts. Option B is unsafe because A blanket shutdown can destroy volatile evidence and disrupt unaffected services. Option C is unsafe because Waiting for attribution can allow active damage to continue. Option D is unsafe because Direct uncoordinated contact bypasses the authorized response structure. In practice: appoint an incident lead, preserve logs, contain proportionately and record decisions and unknowns. Key takeaway: respond to credible indicators without waiting for perfect attribution.",
+  "audioDirection": "Neutral, clear instructional narration; do not imitate a real person.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Incident response governance. Explain the safest defensive decision and the options' trade-offs. Use generic organizational visuals, no recognizable brands, real people, real data, real credentials or operational attack details. Act on credible indicators through the incident plan; do not wait for perfect attribution or take uncontrolled disruptive action.",
+  "generationInstructions": [
+    "Preserve narration meaning and do not add unsupported technical claims.",
+    "Render 16:9 1080p MP4 with safe margins and separate synchronized WebVTT captions.",
+    "Use synthetic fictional names and generic interfaces only.",
+    "Do not use flashing effects, strobing, rapid motion or autoplay audio.",
+    "Human-review technical accuracy, accessibility, captions, pronunciation and timing before marking ready."
+  ],
+  "accessibility": "Separate captions and transcript required. No color-only encoding; preserve readable contrast and provide written explanation if media fails.",
+  "references": [
+    "[17]",
+    "[28]"
+  ],
+  "outputFile": "public/videos/expert/ir-e01.mp4"
+}

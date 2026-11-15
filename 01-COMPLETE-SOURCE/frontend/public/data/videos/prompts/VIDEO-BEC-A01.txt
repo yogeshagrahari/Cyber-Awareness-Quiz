@@ -1,0 +1,12 @@
+Create a fictional educational explainer for CYBERAWARE 3D about Business email compromise. Scenario: A senior executive emails finance from a plausible account and asks for an urgent confidential transfer to a new beneficiary. The message says normal approval can be bypassed because the deal is sensitive. Explain why the correct defensive response is: Hold the transfer and verify through a pre-established independent channel and mandatory dual-authorization process. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: For high-impact financial changes, verify identity and authorization outside the channel carrying the request. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.
+
+VISUAL STYLE
+Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.
+
+GENERATION INSTRUCTIONS
+- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.
+- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.
+- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.
+- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.
+- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.
+- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.

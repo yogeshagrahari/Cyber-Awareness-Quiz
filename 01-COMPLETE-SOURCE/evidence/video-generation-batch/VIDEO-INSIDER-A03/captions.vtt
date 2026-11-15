@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.375
+Scenario: A staff member with legitimate access downloads an
+
+2
+00:00:03.375 --> 00:00:07.500
+unusually large volume of project files outside their normal work pattern.
+
+3
+00:00:07.500 --> 00:00:11.625
+There is no evidence yet of data exfiltration or malicious intent.
+
+4
+00:00:11.625 --> 00:00:15.000
+Safest response: Option A: Preserve relevant authorized telemetry and
+
+5
+00:00:15.000 --> 00:00:18.375
+route the observable anomaly to the designated security/insider-risk process
+
+6
+00:00:18.375 --> 00:00:21.750
+for proportionate review. Focus on verifiable behavior, policy and
+
+7
+00:00:21.750 --> 00:00:25.125
+authorized investigation, not unsupported personal assumptions. Option B is
+
+8
+00:00:25.125 --> 00:00:28.500
+unsafe because Unapproved surveillance or access can violate law,
+
+9
+00:00:28.500 --> 00:00:31.875
+policy and privacy; follow authorized procedures. Option C is
+
+10
+00:00:31.875 --> 00:00:35.250
+unsafe because Anomalous activity is not proof of intent;
+
+11
+00:00:35.250 --> 00:00:38.625
+public accusation can harm fairness and compromise an investigation.
+
+12
+00:00:38.625 --> 00:00:42.000
+Option D is unsafe because Authorized access can still
+
+13
+00:00:42.000 --> 00:00:45.750
+be misused or become anomalous; the activity may warrant review.
+
+14
+00:00:45.750 --> 00:00:49.125
+In practice: Preserve relevant logs according to policy, report
+
+15
+00:00:49.125 --> 00:00:52.500
+through designated channels, limit information to need-to-know reviewers and
+
+16
+00:00:52.500 --> 00:00:55.875
+involve HR/legal/privacy as required. Key takeaway: An indicator is
+
+17
+00:00:55.875 --> 00:00:59.250
+a reason for proportionate review—not a diagnosis of motive
+
+18
+00:00:59.250 --> 00:01:00.000
+or guilt.

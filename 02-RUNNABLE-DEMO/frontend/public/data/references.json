@@ -1,0 +1,192 @@
+[
+  {
+    "id": "1",
+    "text": "M. Merritt, S. Hansche, B. Ellis, K. Sanchez-Cherry, J. Nethery Snyder, and D. Walden, *Building a Cybersecurity and Privacy Learning Program*, NIST Special Publication 800-50 Rev. 1, Sep. 2024, doi: 10.6028/NIST.SP.800-50r1.",
+    "url": null
+  },
+  {
+    "id": "2",
+    "text": "K. Peffers, T. Tuunanen, M. A. Rothenberger, and S. Chatterjee, “A Design Science Research Methodology for Information Systems Research,” *Journal of Management Information Systems*, vol. 24, no. 3, pp. 45–77, 2007, doi: 10.2753/MIS0742-1222240302.",
+    "url": null
+  },
+  {
+    "id": "3",
+    "text": "P. Puhakainen and M. Siponen, “Improving Employees' Compliance Through Information Systems Security Training: An Action Research Study,” *MIS Quarterly*, vol. 34, no. 4, pp. 757–778, 2010, doi: 10.2307/25750704.",
+    "url": null
+  },
+  {
+    "id": "4",
+    "text": "K. Parsons, A. McCormac, M. Butavicius, M. Pattinson, and C. Jerram, “Determining employee awareness using the Human Aspects of Information Security Questionnaire (HAIS-Q),” *Computers & Security*, vol. 42, pp. 165–176, 2014, doi: 10.1016/j.cose.2013.12.003.",
+    "url": null
+  },
+  {
+    "id": "5",
+    "text": "K. Parsons, D. Calic, M. Pattinson, M. Butavicius, A. McCormac, and T. Zwaans, “The Human Aspects of Information Security Questionnaire (HAIS-Q): Two further validation studies,” *Computers & Security*, vol. 66, pp. 40–51, 2017, doi: 10.1016/j.cose.2017.01.004.",
+    "url": null
+  },
+  {
+    "id": "6",
+    "text": "P. Kumaraguru, Y. Rhee, S. Sheng, S. Hasan, A. Acquisti, L. F. Cranor, and J. Hong, “Getting users to pay attention to anti-phishing education: evaluation of retention and transfer,” in *Proc. 2nd Annual eCrime Researchers Summit*, 2007, pp. 70–81, doi: 10.1145/1299015.1299022.",
+    "url": null
+  },
+  {
+    "id": "7",
+    "text": "L. Liu, G. Ho, A. Mirian, E. Luo, K. Tong, E. Lee, C. A. Longhurst, C. Dameff, S. Savage, and G. M. Voelker, “Understanding the Efficacy of Phishing Training in Practice,” in *Proc. IEEE Symposium on Security and Privacy*, 2025, pp. 37–54, doi: 10.1109/SP61157.2025.00076.",
+    "url": null
+  },
+  {
+    "id": "8",
+    "text": "C. Y. Ng and M. K. B. Hasan, “Cybersecurity serious games development: A systematic review,” *Computers & Security*, vol. 150, Art. no. 104307, 2025, doi: 10.1016/j.cose.2024.104307.",
+    "url": null
+  },
+  {
+    "id": "9",
+    "text": "N. H. Weeratunge, R. Hjelsvold, and B. Katt, “A systematic scoping review on game-based cybersecurity awareness education,” *International Journal of Information Security*, vol. 25, Art. no. 71, 2026, doi: 10.1007/s10207-026-01239-9.",
+    "url": null
+  },
+  {
+    "id": "10",
+    "text": "M. A. Khan, A. Merabet, S. Alkaabi, and H. El Sayed, “Game-based learning platform to enhance cybersecurity education,” *Education and Information Technologies*, vol. 27, no. 4, pp. 5153–5177, 2022, doi: 10.1007/s10639-021-10807-6.",
+    "url": null
+  },
+  {
+    "id": "11",
+    "text": "H. Alqahtani and M. Kavakli-Thorne, “Design and Evaluation of an Augmented Reality Game for Cybersecurity Awareness (CybAR),” *Information*, vol. 11, no. 2, Art. no. 121, 2020, doi: 10.3390/info11020121.",
+    "url": null
+  },
+  {
+    "id": "12",
+    "text": "M. Conrad, D. Kablitz, and S. Schumann, “Learning effectiveness of immersive virtual reality in education and training: A systematic review of findings,” *Computers & Education: X Reality*, vol. 4, Art. no. 100053, 2024, doi: 10.1016/j.cexr.2024.100053.",
+    "url": null
+  },
+  {
+    "id": "13",
+    "text": "T. Netland, O. von Dzengelevski, K. Tesch, and D. Kwasnitschka, “Comparing human-made and AI-generated teaching videos: An experimental study on learning effects,” *Computers & Education*, vol. 224, Art. no. 105164, 2025, doi: 10.1016/j.compedu.2024.105164.",
+    "url": null
+  },
+  {
+    "id": "14",
+    "text": "J. Shu et al., “AI-Generated Instructional Videos: A Systematic Review of Learning Impacts, Applications, and Research Perspectives,” in *Proc. 7th International Conference on Computer Science and Technologies in Education (CSTE)*, 2025, doi: 10.1109/CSTE64638.2025.11091997.",
+    "url": null
+  },
+  {
+    "id": "15",
+    "text": "M. Arpaci, M. Khan, A. Qayyum, and M. Baloglu, “Generative AI and Cybersecurity Education, Training, and Awareness: A Systematic Mapping Study,” *IEEE Access*, vol. 14, pp. 150806–150827, 2026, doi: 10.1109/ACCESS.2026.3738195.",
+    "url": null
+  },
+  {
+    "id": "16",
+    "text": "D. Temoshok et al., *Digital Identity Guidelines: Authentication and Authenticator Management*, NIST Special Publication 800-63B-4, 2025, doi: 10.6028/NIST.SP.800-63B-4.",
+    "url": null
+  },
+  {
+    "id": "17",
+    "text": "M. P. Pascoe, S. Quinn, and K. Scarfone, *The NIST Cybersecurity Framework (CSF) 2.0*, NIST Cybersecurity White Paper 29, Feb. 2024, doi: 10.6028/NIST.CSWP.29.",
+    "url": null
+  },
+  {
+    "id": "18",
+    "text": "M. Souppaya, K. Scarfone, and D. Dodson, *Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities*, NIST SP 800-218, Feb. 2022, doi: 10.6028/NIST.SP.800-218.",
+    "url": null
+  },
+  {
+    "id": "19",
+    "text": "OWASP Foundation, “OWASP Top 10:2025,” 2025. [Online]. Available: https://owasp.org/www-project-top-ten/.",
+    "url": null
+  },
+  {
+    "id": "20",
+    "text": "World Wide Web Consortium, “Web Content Accessibility Guidelines (WCAG) 2.2,” W3C Recommendation, Oct. 5, 2023. [Online]. Available: https://www.w3.org/TR/WCAG22/.",
+    "url": null
+  },
+  {
+    "id": "21",
+    "text": "P. Pramod, “Gamification in cybersecurity education; a state of the art review and research agenda,” *Journal of Applied Research in Higher Education*, 2024, doi: 10.1108/JARHE-02-2024-0072.",
+    "url": null
+  },
+  {
+    "id": "22",
+    "text": "Google, “Be Internet Awesome: Interland,” [Online]. Available: https://beinternetawesome.withgoogle.com/en_us/interland. Accessed: Nov. 12, 2026.",
+    "url": null
+  },
+  {
+    "id": "23",
+    "text": "KnowBe4, “AI-Native Security Awareness Training,” product information, [Online]. Available: https://www.knowbe4.com/products/security-awareness-training. Accessed: Nov. 12, 2026. Vendor description; not independent efficacy evidence.",
+    "url": null
+  },
+  {
+    "id": "24",
+    "text": "Indian Cyber Crime Coordination Centre, Government of India, “National Cyber Crime Reporting Portal: FAQ,” [Online]. Available: https://cybercrime.gov.in/Webform/FAQ.aspx. Accessed: Nov. 12, 2026.",
+    "url": null
+  },
+  {
+    "id": "25",
+    "text": "Cybersecurity and Infrastructure Security Agency, National Security Agency, Federal Bureau of Investigation, and Multi-State Information Sharing and Analysis Center, *Phishing Guidance: Stopping the Attack Cycle at Phase One*, Oct. 2023. [Online]. Available: https://www.cisa.gov/sites/default/files/2025-03/Phishing%20Guidance%20-%20Stopping%20the%20Attack%20Cycle%20at%20Phase%20One%20508.pdf.",
+    "url": "https://www.cisa.gov/sites/default/files/2025-03/Phishing%20Guidance%20-%20Stopping%20the%20Attack%20Cycle%20at%20Phase%20One%20508.pdf"
+  },
+  {
+    "id": "26",
+    "text": "Federal Bureau of Investigation, “Business Email Compromise,” [Online]. Available: https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise. Accessed: Nov. 12, 2026.",
+    "url": "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise"
+  },
+  {
+    "id": "27",
+    "text": "Federal Trade Commission, “See a QR code parked somewhere? Don’t scan it…yet!,” *Consumer Advice*, Sep. 2026. [Online]. Available: https://consumer.ftc.gov/consumer-alerts/2026/09/see-qr-code-parked-somewhere-dont-scan-ityet.",
+    "url": "https://consumer.ftc.gov/consumer-alerts/2026/09/see-qr-code-parked-somewhere-dont-scan-ityet"
+  },
+  {
+    "id": "28",
+    "text": "A. Nelson, S. Rekhi, M. Souppaya, and K. Scarfone, *Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile*, NIST SP 800-61 Rev. 3, Apr. 2025, doi: 10.6028/NIST.SP.800-61r3.",
+    "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final"
+  },
+  {
+    "id": "29",
+    "text": "Federal Bureau of Investigation, “Senior U.S. Officials Continue To Be Impersonated in Malicious Messaging Campaign,” Public Service Announcement, Dec. 19, 2025. [Online]. Available: https://www.fbi.gov/investigate/cyber/alerts/2025/senior-us-officials-continue-to-be-impersonated-in-malicious-messaging-campaign.",
+    "url": "https://www.fbi.gov/investigate/cyber/alerts/2025/senior-us-officials-continue-to-be-impersonated-in-malicious-messaging-campaign"
+  },
+  {
+    "id": "30",
+    "text": "National Security Agency, *Securing Wireless Devices in Public Settings*, Cybersecurity Information Sheet, Jul. 29, 2021. [Online]. Available: https://media.defense.gov/2021/Jul/29/2002815141/-1/1/0/CSI_SECURING_WIRELESS_DEVICES_IN_PUBLIC.PDF.",
+    "url": "https://media.defense.gov/2021/Jul/29/2002815141/-1/1/0/CSI_SECURING_WIRELESS_DEVICES_IN_PUBLIC.PDF"
+  },
+  {
+    "id": "31",
+    "text": "S. Rose, O. Borchert, S. Mitchell, and S. Connelly, *Zero Trust Architecture*, NIST SP 800-207, Aug. 2020, doi: 10.6028/NIST.SP.800-207.",
+    "url": "https://csrc.nist.gov/pubs/sp/800/207/final"
+  },
+  {
+    "id": "32",
+    "text": "Cybersecurity and Infrastructure Security Agency, *Insider Threats 101: What You Need To Know*, Fact Sheet, Jul. 29, 2024. [Online]. Available: https://www.cisa.gov/sites/default/files/2024-07/insider-threat-101-fact-sheet_07-29-2024_508.pdf.",
+    "url": "https://www.cisa.gov/sites/default/files/2024-07/insider-threat-101-fact-sheet_07-29-2024_508.pdf"
+  },
+  {
+    "id": "33",
+    "text": "R. Ross and V. Pillitteri, *Security and Privacy Controls for Information Systems and Organizations*, NIST SP 800-53 Rev. 5, incl. Release 5.2.0 update, 2025, doi: 10.6028/NIST.SP.800-53r5.",
+    "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+  },
+  {
+    "id": "34",
+    "text": "M. Souppaya and K. Scarfone, *Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology*, NIST SP 800-40 Rev. 4, Apr. 2022, doi: 10.6028/NIST.SP.800-40r4.",
+    "url": "https://csrc.nist.gov/pubs/sp/800/40/r4/final"
+  },
+  {
+    "id": "35",
+    "text": "Cybersecurity and Infrastructure Security Agency, Federal Bureau of Investigation, National Security Agency, and Multi-State Information Sharing and Analysis Center, *#StopRansomware Guide*, May 23, 2023. [Online]. Available: https://www.cisa.gov/sites/default/files/2023-05/StopRansomware_Guide_508c.pdf.",
+    "url": "https://www.cisa.gov/sites/default/files/2023-05/StopRansomware_Guide_508c.pdf"
+  },
+  {
+    "id": "36",
+    "text": "E. McCallister, T. Grance, and K. Scarfone, *Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)*, NIST SP 800-122, Apr. 2010, doi: 10.6028/NIST.SP.800-122.",
+    "url": "https://csrc.nist.gov/pubs/sp/800/122/final"
+  },
+  {
+    "id": "37",
+    "text": "J. Boyens, A. Smith, N. Bartol, K. Winkler, A. Holbrook, and M. Fallon, *Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations*, NIST SP 800-161 Rev. 1, Update 1, 2024, doi: 10.6028/NIST.SP.800-161r1-upd1.",
+    "url": "https://www.nist.gov/publications/cybersecurity-supply-chain-risk-management-practices-systems-and-organizations"
+  },
+  {
+    "id": "38",
+    "text": "Cybersecurity and Infrastructure Security Agency, *Insider Threat Mitigation Guide (2026 Edition)*, Sep. 2026. [Online]. Available: https://www.cisa.gov/resources-tools/resources/insider-threat-mitigation-guide. Note: CISA’s resource listing and publication summary were verified; the linked full PDF was not independently reviewed in this project.",
+    "url": "https://www.cisa.gov/resources-tools/resources/insider-threat-mitigation-guide"
+  }
+]

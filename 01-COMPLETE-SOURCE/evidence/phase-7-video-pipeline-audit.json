@@ -1,0 +1,61 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.8.0",
+  "phase": 7,
+  "generatedAt": "2026-11-12T16:40:01.187008+00:00",
+  "videoPackageAudit": {
+    "questions": 51,
+    "videoEntries": 51,
+    "scripts": 51,
+    "storyboards": 51,
+    "prompts": 51,
+    "captions": 51,
+    "contentReviewApproved": 0,
+    "mediaFilesPresent": 0,
+    "mediaEntriesImported": 0,
+    "mediaEntriesReady": 0,
+    "storyboardNarrationDrift": 0,
+    "captionCoverageMinimum": 0.95,
+    "captionCoverageAllPassed": true,
+    "referencesResolved": true,
+    "queueTotal": 51,
+    "queueEligible": 0,
+    "queueBlockedPendingReview": 51,
+    "providerConfigured": false,
+    "mediaGenerationClaim": false
+  },
+  "verification": {
+    "nodeTests": {
+      "passed": 33,
+      "failed": 0
+    },
+    "pythonContentAndSchemaValidation": "PASS",
+    "highConfidenceSecretPatternScan": "PASS",
+    "videoPreflight": "PASS",
+    "staticBuild": "PASS",
+    "distributionSmokeTest": {
+      "status": "PASS",
+      "routes": 215,
+      "coverage": "all 51 scripts, storyboards, prompts, captions and application data endpoints"
+    },
+    "cycloneDxSbom": "regenerated",
+    "isolatedSyntheticMediaImportApprovalE2E": "PASS",
+    "syntheticFixtureIncludedInProject": false,
+    "browserVisualAndAssistiveTechnologyAudit": "NOT COMPLETED — headless Chromium stalled in this runtime"
+  },
+  "openReleaseGates": [
+    "Independent cybersecurity SME approval of all 51 questions, answers, explanations and citations",
+    "Instructional-design approval and completed pre-generation review checklists",
+    "Connect and configure a video provider; no provider is connected in this delivery",
+    "Generate, import and human-review all 51 actual AI-produced MP4 assets",
+    "Real MP4 playback and caption testing across target browsers",
+    "Full WCAG 2.2 AA keyboard, screen-reader, contrast and zoom audit",
+    "React + TypeScript + Vite migration and production backend/deployment",
+    "Human-subject learning evaluation"
+  ],
+  "limitations": [
+    "Static demonstrator, not a production service.",
+    "No AI-generated media is claimed.",
+    "Automated tests do not substitute for expert review, browser testing or learner evaluation."
+  ]
+}

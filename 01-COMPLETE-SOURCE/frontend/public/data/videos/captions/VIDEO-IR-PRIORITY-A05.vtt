@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.331
+Scenario: An organization has two alerts: (A) malware is
+
+2
+00:00:03.331 --> 00:00:06.662
+actively encrypting files on a shared operational server; (B)
+
+3
+00:00:06.662 --> 00:00:09.994
+a single employee received a suspicious email but did
+
+4
+00:00:09.994 --> 00:00:13.325
+not open it. Both require triage. Safest response: Option
+
+5
+00:00:13.325 --> 00:00:16.656
+D: Prioritize the active encryption event for immediate coordinated
+
+6
+00:00:16.656 --> 00:00:19.987
+containment while ensuring the email is reported and triaged.
+
+7
+00:00:19.987 --> 00:00:23.318
+Active disruption and potential spread represent immediate operational risk;
+
+8
+00:00:23.318 --> 00:00:26.649
+the lower-impact email still needs handling. Option A is
+
+9
+00:00:26.649 --> 00:00:30.351
+unsafe because Delaying containment during active encryption may increase damage.
+
+10
+00:00:30.351 --> 00:00:33.682
+Option B is unsafe because General prevalence does not
+
+11
+00:00:33.682 --> 00:00:37.013
+outweigh evidence of active encryption and immediate operational impact.
+
+12
+00:00:37.013 --> 00:00:40.344
+Option C is unsafe because Incidents differ in impact,
+
+13
+00:00:40.344 --> 00:00:44.045
+scope, active harm and urgency; equal priority is not risk-based.
+
+14
+00:00:44.045 --> 00:00:47.377
+In practice: Activate the incident-response plan, coordinate containment of
+
+15
+00:00:47.377 --> 00:00:50.708
+the actively affected system, assign triage to the email
+
+16
+00:00:50.708 --> 00:00:54.039
+and document priority rationale. Key takeaway: Prioritization considers current
+
+17
+00:00:54.039 --> 00:00:57.000
+impact, scope, exposure, time sensitivity and containment opportunity.

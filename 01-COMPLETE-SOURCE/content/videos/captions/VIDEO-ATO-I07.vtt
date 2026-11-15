@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.375
+Scenario: You receive an email alert for a successful
+
+2
+00:00:03.375 --> 00:00:06.750
+login from an unfamiliar location. Your account recovery email
+
+3
+00:00:06.750 --> 00:00:10.125
+and forwarding rules also appear to have changed. Safest
+
+4
+00:00:10.125 --> 00:00:13.500
+response: Option C: Use a known official account-recovery route
+
+5
+00:00:13.500 --> 00:00:17.625
+from a trusted device, contact support/security and report the unauthorized changes.
+
+6
+00:00:17.625 --> 00:00:21.000
+Treat the signals as possible account compromise and use
+
+7
+00:00:21.000 --> 00:00:24.375
+trusted recovery and containment procedures. Option A is unsafe
+
+8
+00:00:24.375 --> 00:00:27.750
+because The alert itself may be spoofed; its link
+
+9
+00:00:27.750 --> 00:00:31.125
+should not be trusted without verification. Option B is
+
+10
+00:00:31.125 --> 00:00:34.500
+unsafe because A single change does not address potentially
+
+11
+00:00:34.500 --> 00:00:37.875
+stolen credentials, active sessions or other persistence. Option D
+
+12
+00:00:37.875 --> 00:00:41.250
+is unsafe because Waiting may allow the intruder to
+
+13
+00:00:41.250 --> 00:00:44.625
+maintain access or intercept future messages. In practice: Contact
+
+14
+00:00:44.625 --> 00:00:48.375
+the service or organizational identity team using a known route.
+
+15
+00:00:48.375 --> 00:00:52.500
+Follow instructions to secure credentials, sessions, recovery methods and mailbox rules.
+
+16
+00:00:52.500 --> 00:00:55.875
+Key takeaway: Unexpected logins plus changed recovery settings are
+
+17
+00:00:55.875 --> 00:00:57.000
+strong account-compromise indicators.

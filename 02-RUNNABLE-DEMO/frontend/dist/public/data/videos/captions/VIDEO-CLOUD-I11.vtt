@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.375
+Scenario: A team shares a folder containing internal project
+
+2
+00:00:03.375 --> 00:00:06.750
+documents through an anonymous link that never expires. The
+
+3
+00:00:06.750 --> 00:00:10.125
+folder is no longer being actively used. Safest response:
+
+4
+00:00:10.125 --> 00:00:13.500
+Option A: Restrict access to named authorized accounts, set
+
+5
+00:00:13.500 --> 00:00:16.875
+an expiry/review date and remove obsolete access. Restrict identities
+
+6
+00:00:16.875 --> 00:00:20.625
+and duration, and review existing permissions according to data sensitivity.
+
+7
+00:00:20.625 --> 00:00:24.000
+Option B is unsafe because A folder name does
+
+8
+00:00:24.000 --> 00:00:27.375
+not change who can access its content. Option C
+
+9
+00:00:27.375 --> 00:00:30.750
+is unsafe because Wider distribution increases exposure and does
+
+10
+00:00:30.750 --> 00:00:34.125
+not establish authorization. Option D is unsafe because Convenience
+
+11
+00:00:34.125 --> 00:00:37.500
+does not justify indefinite anonymous access. In practice: Remove
+
+12
+00:00:37.500 --> 00:00:40.875
+anonymous access, grant only necessary users or groups, set
+
+13
+00:00:40.875 --> 00:00:44.250
+expiry where available and periodically review permissions. Key takeaway:
+
+14
+00:00:44.250 --> 00:00:47.625
+Cloud sharing should be identity-bound, least-privilege and time-limited when
+
+15
+00:00:47.625 --> 00:00:48.000
+appropriate.

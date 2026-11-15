@@ -1,0 +1,29 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.3",
+  "phase": 10,
+  "date": "2026-11-12",
+  "checks": [
+    {"name": "react-domain-data-tests", "result": "PASS", "passed": 14, "failed": 0},
+    {"name": "legacy-node-tests", "result": "PASS", "passed": 35, "failed": 0},
+    {"name": "offline-typescript-structural-check", "result": "PASS", "compiler": "local TypeScript 5.8", "shimBased": true, "note": "Not equivalent to official React/Vite typecheck with declared TypeScript and framework types."},
+    {"name": "content-schema-traceability", "result": "PASS", "questions": 51, "explanations": 51, "optionRationales": 204, "references": 38},
+    {"name": "video-package-validation", "result": "PASS", "scripts": 51, "storyboards": 51, "prompts": 51, "captions": 51, "mp4Generated": 0, "ready": 0},
+    {"name": "secret-pattern-scan", "result": "PASS", "scope": "High-confidence pattern scan only; not a complete secret-scanning product."},
+    {"name": "legacy-copy-build", "result": "PASS", "viteBundle": false},
+    {"name": "legacy-distribution-smoke", "result": "PASS", "routes": 215},
+    {"name": "nginx-syntax-and-live-http", "result": "PASS", "liveHttpChecks": 8, "liveDeployment": false, "evidence": "evidence/nginx-phase10-live-http.txt"},
+    {"name": "cyclonedx-sbom", "result": "PASS", "directDependencies": 8, "transitiveResolved": false}
+  ],
+  "blocked": [
+    {"name": "npm-lockfile-and-dependency-install", "status": "BLOCKED", "reason": "npm registry resolution timed out; no package-lock.json is available. npm ci cannot yet be used."},
+    {"name": "react-vite-production-build", "status": "NOT_VERIFIED", "reason": "Requires a reviewed lockfile, installed dependencies, official framework typecheck and Vite build."},
+    {"name": "browser-cross-browser-and-accessibility", "status": "NOT_VERIFIED", "reason": "Playwright navigation to data:, file:, localhost and 127.0.0.1 was blocked by the runtime administrator policy; browser binaries are also not present in the Playwright cache.", "evidence": "evidence/browser-runtime-phase10.txt"},
+    {"name": "nginx-production-container-tls-and-operations", "status": "NOT_VERIFIED", "reason": "Temporary isolated Nginx configuration and loopback routes passed; target deployment image, TLS/HSTS, monitoring and rollback were not tested."},
+    {"name": "actual-mp4-generation", "status": "NOT_STARTED", "reason": "No video provider approved or connected; 51 jobs remain pending human review."},
+    {"name": "independent-expert-approval", "status": "PENDING"},
+    {"name": "learner-evaluation", "status": "NOT_CONDUCTED"}
+  ],
+  "releaseDecision": "MIGRATION_RELEASE_CANDIDATE_NOT_PRODUCTION_APPROVED",
+  "fallback": "Dependency-free legacy demonstrator remains the verified runnable artifact."
+}

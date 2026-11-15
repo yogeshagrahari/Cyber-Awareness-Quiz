@@ -1,0 +1,141 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.13",
+  "phase": 20,
+  "date": "2026-11-13",
+  "scope": "Non-video release hardening and local handoff validation.",
+  "runtime": {
+    "node": "v22.16.0",
+    "npm": "10.9.2",
+    "declaredNodeMinimum": ">=22.23.5",
+    "pinnedNpm": "12.2.2",
+    "ciNodeMatrix": [
+      "22.23.5",
+      "24.22.3",
+      "26.13.1"
+    ],
+    "caveat": "Local Node.js/npm are below the declared and pinned versions; no registry-backed dependency install or official React build was run."
+  },
+  "checks": {
+    "legacyNodeTests": {
+      "passed": true,
+      "result": "49/49"
+    },
+    "reactDomainTests": {
+      "passed": true,
+      "result": "17/17",
+      "detail": "Domain/content/source assertions; not real-browser E2E."
+    },
+    "pythonManifestTests": {
+      "passed": true,
+      "result": "2/2",
+      "detail": "Manifest exclusions and symlink rejection."
+    },
+    "offlineStructuralTypecheck": {
+      "passed": true,
+      "result": "TypeScript 5.8.3 local ambient-shim configuration",
+      "detail": "Not the official TypeScript 7 project build."
+    },
+    "canonicalContentValidation": {
+      "passed": true,
+      "detail": "45 core questions (15 each at Beginner, Intermediate, Advanced), 6 Expert Challenge scenarios, 51 explanations, 204 answer-option rationales, and 38 sequential IEEE references/BibTeX mappings."
+    },
+    "highConfidenceSecretPatternScan": {
+      "passed": true,
+      "detail": "High-confidence pattern guardrail only; not comprehensive SAST or external secret scanning."
+    },
+    "legacyStaticBuild": {
+      "passed": true,
+      "detail": "Copy-based distribution, not bundled/minified Vite production build."
+    },
+    "legacyDistributionSmoke": {
+      "passed": true,
+      "result": "215 routes"
+    },
+    "packagedDistributionSmoke": {
+      "passed": true,
+      "detail": "Health, root, canonical content, GET/HEAD, 404, method guard, security headers and graceful shutdown."
+    },
+    "nginxExistingHttpSmoke": {
+      "passed": true,
+      "result": "8/8"
+    },
+    "nginxLegacyStaticSmoke": {
+      "passed": true,
+      "result": "10/10"
+    },
+    "backupSmoke": {
+      "passed": true,
+      "detail": "Checksum, exclusions, permissions and inside-tree refusal."
+    },
+    "systemdUnitSyntax": {
+      "passed": true,
+      "detail": "Syntax verification only; not installed on a production host."
+    },
+    "javascriptSyntaxChecks": {
+      "passed": true,
+      "detail": "Legacy app modules, server and packaging script."
+    },
+    "sourceManifest": {
+      "passed": true,
+      "result": "1,151 files",
+      "detail": "SHA-256 and byte-size inventory verified against the extracted final full-source ZIP."
+    },
+    "fullSourceArchive": {
+      "passed": true,
+      "result": "1,151 manifest-tracked files + package-manifest.json",
+      "detail": "Exact archive file-set comparison, excluded-path/path-traversal checks, ZIP integrity, extracted SHA-256/size re-verification and final checksum verification."
+    },
+    "applicationDemoArchive": {
+      "passed": true,
+      "result": "496 files",
+      "detail": "Every extracted demo file matches the corresponding source file; packaged-server smoke passed; extracted static Nginx config passed 10/10 live checks."
+    },
+    "browserPlaywrightAndAxe": {
+      "passed": false,
+      "status": "not run",
+      "detail": "Local Chromium loopback navigation was blocked by the runtime (ERR_BLOCKED_BY_ADMINISTRATOR); browser/axe CI remains a release gate."
+    },
+    "reactLockfile": {
+      "passed": false,
+      "status": "not available",
+      "detail": "No reviewed frontend/react-app/package-lock.json."
+    },
+    "npmCiAndAudit": {
+      "passed": false,
+      "status": "not run",
+      "detail": "Cannot establish a lockfile-backed install/audit in this runtime."
+    },
+    "officialReactTypeScriptViteBuild": {
+      "passed": false,
+      "status": "not run",
+      "detail": "Requires committed reviewed lockfile and declared CI runtime."
+    },
+    "reactArchive": {
+      "passed": false,
+      "status": "not produced",
+      "detail": "React migration remains source-only until official production build succeeds."
+    },
+    "productionHostValidation": {
+      "passed": false,
+      "status": "not run",
+      "detail": "TLS/HSTS, host allow-list, monitoring, off-host backup, restore and rollback require target-host access."
+    },
+    "independentExpertAndLearnerReview": {
+      "passed": false,
+      "status": "pending",
+      "detail": "No independent SME/instructional-design or learner-evaluation evidence supplied."
+    },
+    "releaseChecksums": {
+      "passed": true,
+      "detail": "Final source and application-demo ZIPs verified with sha256sum -c."
+    }
+  },
+  "releaseDecision": "NOT_PRODUCTION_APPROVED; validated staging/deployment candidate only.",
+  "deferredByOwner": [
+    "Video provider integration",
+    "MP4 generation",
+    "Video/media review",
+    "Video player acceptance"
+  ]
+}

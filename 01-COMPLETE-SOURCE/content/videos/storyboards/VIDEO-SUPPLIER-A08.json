@@ -1,0 +1,67 @@
+{
+  "videoId": "VIDEO-SUPPLIER-A08",
+  "questionId": "SUPPLIER-A08",
+  "title": "The vendor integration request — question explanation",
+  "learningObjective": "Assess supplier access, assurance evidence and data-handling obligations",
+  "targetDurationSeconds": 57,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-10s",
+      "visual": "A supplier asks for broad administrator access to your cloud tenant to troubleshoot an integration. The contract does not clearly describe data processing, logging or access termination.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "10-21s",
+      "visual": "Assess supplier access, assurance evidence and data-handling obligations",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Third-party risk — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "21-34s",
+      "visual": "Option A: Complete supplier/security review, define data and access scope, use named time-bound least-privilege accounts, log activity and document offboarding. Supplier access should be constrained, attributable, monitored and governed by explicit contractual and technical controls.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: A"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "34-48s",
+      "visual": "Option B: Broad access before due diligence expands exposure and can be difficult to unwind. Option C: Shared credentials reduce accountability and create an insecure secret-distribution path. Option D: A verbal promise without enforceable scope and technical controls is insufficient.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "48-57s",
+      "visual": "Delay access until procurement, security, privacy and system owners document the supplier’s need, safeguards, data terms, account scope and revocation plan. Third-party trust must be supported by evidence, scoped access, monitoring and lifecycle controls.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Third-party trust must be supported by evidence, scoped access, monitoring and lifecycle controls."
+    }
+  ],
+  "narration": "Scenario: A supplier asks for broad administrator access to your cloud tenant to troubleshoot an integration. The contract does not clearly describe data processing, logging or access termination. Safest response: Option A: Complete supplier/security review, define data and access scope, use named time-bound least-privilege accounts, log activity and document offboarding. Supplier access should be constrained, attributable, monitored and governed by explicit contractual and technical controls. Option B is unsafe because Broad access before due diligence expands exposure and can be difficult to unwind. Option C is unsafe because Shared credentials reduce accountability and create an insecure secret-distribution path. Option D is unsafe because A verbal promise without enforceable scope and technical controls is insufficient. In practice: Delay access until procurement, security, privacy and system owners document the supplier’s need, safeguards, data terms, account scope and revocation plan. Key takeaway: Third-party trust must be supported by evidence, scoped access, monitoring and lifecycle controls.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Third-party risk. Scenario: A supplier asks for broad administrator access to your cloud tenant to troubleshoot an integration. The contract does not clearly describe data processing, logging or access termination. Explain why Option A is the safest defensive response: Complete supplier/security review, define data and access scope, use named time-bound least-privilege accounts, log activity and document offboarding. Contrast the unsafe alternatives with these concise reasons: Option B: Broad access before due diligence expands exposure and can be difficult to unwind.; Option C: Shared credentials reduce accountability and create an insecure secret-distribution path.; Option D: A verbal promise without enforceable scope and technical controls is insufficient.. Conclude with: Third-party trust must be supported by evidence, scoped access, monitoring and lifecycle controls. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[17]",
+    "[18]",
+    "[19]",
+    "[31]",
+    "[33]",
+    "[37]"
+  ],
+  "outputFile": "public/videos/advanced/supplier-a08.mp4"
+}

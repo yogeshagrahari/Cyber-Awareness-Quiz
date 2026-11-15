@@ -1,0 +1,63 @@
+{
+  "videoId": "VIDEO-INS-E03",
+  "questionId": "INS-E03",
+  "title": "An Insider-Risk Signal",
+  "learningObjective": "Respond to potential insider-risk indicators using objective evidence, privacy safeguards, least privilege and authorized processes.",
+  "targetDurationSeconds": 60,
+  "format": "16:9 educational motion-graphics explainer with narration, separate captions and no autoplay audio",
+  "visualStyle": "Deep navy/charcoal with restrained cyan/electric-blue highlights, limited purple accents, high contrast, stable typography and reduced-motion transitions.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-12s",
+      "visual": "A manager reports that an employee has downloaded an unusually large number of project files shortly before transferring teams. The employee’s role includes legitimate access to many of those files. A second alert shows that a removable device was connected, but the device contents are not yet known.",
+      "direction": "Use a fictional organization, synthetic people and generic systems. Do not expose real identity, secrets or operational infrastructure.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Decision frame",
+      "time": "12-24s",
+      "visual": "Respond to potential insider-risk indicators using objective evidence, privacy safeguards, least privilege and authorized processes.",
+      "direction": "Show the decision context and the relevant business/security trade-off. Avoid unsupported claims.",
+      "onScreenText": "Decision frame"
+    },
+    {
+      "name": "Recommended response",
+      "time": "24-38s",
+      "visual": "Option D: Preserve relevant audit records, validate the activity against role and business context, involve the authorized security, HR, privacy and legal stakeholders under policy, and apply proportionate, approved access controls while the facts are assessed. Correct. Objective validation, evidence preservation, multidisciplinary oversight and proportionate controls protect both the organization and individual rights.",
+      "direction": "Animate a safe, high-level decision sequence; do not provide attack steps or sensitive operational detail.",
+      "onScreenText": "Safest response: D"
+    },
+    {
+      "name": "Trade-offs",
+      "time": "38-52s",
+      "visual": "Option A: Public accusation and informal searches can violate privacy and compromise evidence. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option B: Alerts alone do not establish malicious intent. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option C: Authorized access does not make anomalous activity automatically benign. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.",
+      "direction": "Present the alternatives as decision cards and explain their risks without depicting an actual attack.",
+      "onScreenText": "Why the alternatives fail"
+    },
+    {
+      "name": "Takeaway",
+      "time": "52-60s",
+      "visual": "Preserve relevant logs, validate activity against job duties and approved work, restrict access only when authorized and proportionate, and coordinate with designated security, HR, privacy and legal functions. Insider-risk indicators require evidence-led assessment, not assumptions about intent or identity.",
+      "direction": "End with concise defensive action and keep text on screen long enough to read.",
+      "onScreenText": "Defensive next step"
+    }
+  ],
+  "narration": "Scenario: An employee downloads an unusual volume of project files and connects a removable device before moving teams. Access is authorized, but context is incomplete. Safest response: preserve audit records, validate context and involve designated security, HR, privacy and legal stakeholders. Option A is unsafe because Public accusation and informal searches can violate privacy and compromise evidence. Option B is unsafe because Alerts alone do not establish malicious intent. Option C is unsafe because Authorized access does not make anomalous activity automatically benign. In practice: investigate objectively and apply proportionate, approved controls. Key takeaway: assess insider-risk indicators through evidence and due process.",
+  "audioDirection": "Neutral, clear instructional narration; do not imitate a real person.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Insider risk and governance. Explain the safest defensive decision and the options' trade-offs. Use generic organizational visuals, no recognizable brands, real people, real data, real credentials or operational attack details. Insider-risk indicators require evidence-led assessment, not assumptions about intent or identity.",
+  "generationInstructions": [
+    "Preserve narration meaning and do not add unsupported technical claims.",
+    "Render 16:9 1080p MP4 with safe margins and separate synchronized WebVTT captions.",
+    "Use synthetic fictional names and generic interfaces only.",
+    "Do not use flashing effects, strobing, rapid motion or autoplay audio.",
+    "Human-review technical accuracy, accessibility, captions, pronunciation and timing before marking ready."
+  ],
+  "accessibility": "Separate captions and transcript required. No color-only encoding; preserve readable contrast and provide written explanation if media fails.",
+  "references": [
+    "[32]",
+    "[33]",
+    "[38]"
+  ],
+  "outputFile": "public/videos/expert/ins-e03.mp4"
+}

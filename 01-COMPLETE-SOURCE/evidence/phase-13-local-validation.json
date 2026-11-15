@@ -1,0 +1,67 @@
+{
+  "legacy Node tests": {
+    "passed": true,
+    "returncode": 0,
+    "tail": " duration_ms: 0.51008\n  type: 'test'\n  ...\n# Subtest: rejects overlapping or out-of-order WebVTT cues\nok 29 - rejects overlapping or out-of-order WebVTT cues\n  ---\n  duration_ms: 0.426487\n  type: 'test'\n  ...\n# Subtest: validates canonical script, storyboard and caption synchronization\nok 30 - validates canonical script, storyboard and caption synchronization\n  ---\n  duration_ms: 2.255839\n  type: 'test'\n  ...\n# Subtest: rejects storyboard narration drift\nok 31 - rejects storyboard narration drift\n  ---\n  duration_ms: 0.400309\n  type: 'test'\n  ...\n# Subtest: rejects caption omissions even when cue timing is valid\nok 32 - rejects caption omissions even when cue timing is valid\n  ---\n  duration_ms: 0.189249\n  type: 'test'\n  ...\n# Subtest: accepts an H.264/AAC 16:9 1080p MP4 probe\nok 33 - accepts an H.264/AAC 16:9 1080p MP4 probe\n  ---\n  duration_ms: 0.468659\n  type: 'test'\n  ...\n# Subtest: rejects media that is not browser-compatible\nok 34 - rejects media that is not browser-compatible\n  ---\n  duration_ms: 0.158924\n  type: 'test'\n  ...\n# Subtest: all 51 project video packages pass script/storyboard/caption/reference validation\nok 35 - all 51 project video packages pass script/storyboard/caption/reference validation\n  ---\n  duration_ms: 115.367454\n  type: 'test'\n  ...\n# Subtest: provider adapter contract accepts the three required backend methods\nok 36 - provider adapter contract accepts the three required backend methods\n  ---\n  duration_ms: 1.171964\n  type: 'test'\n  ...\n# Subtest: unconfigured provider fails safely without making a network call\nok 37 - unconfigured provider fails safely without making a network call\n  ---\n  duration_ms: 0.408681\n  type: 'test'\n  ...\n1..37\n# tests 37\n# suites 0\n# pass 37\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 778.098932\n"
+  },
+  "React domain/data tests": {
+    "passed": true,
+    "returncode": 0,
+    "tail": " and might change at any time\n# (Use `node --trace-warnings ...` to show where the warning was created)\n# Subtest: malformed and oversized local progress fails closed\nok 10 - malformed and oversized local progress fails closed\n  ---\n  duration_ms: 2.56954\n  type: 'test'\n  ...\n# Subtest: progress parser normalizes first-attempt mastery and rejects poisoned records\nok 11 - progress parser normalizes first-attempt mastery and rejects poisoned records\n  ---\n  duration_ms: 0.552072\n  type: 'test'\n  ...\n# Subtest: repeat attempts do not inflate first-attempt accuracy\nok 12 - repeat attempts do not inflate first-attempt accuracy\n  ---\n  duration_ms: 1.226104\n  type: 'test'\n  ...\n# Subtest: unlock threshold is 10 first attempts with at least 75% accuracy\nok 13 - unlock threshold is 10 first attempts with at least 75% accuracy\n  ---\n  duration_ms: 0.93846\n  type: 'test'\n  ...\n# Subtest: invalid option cannot be committed\nok 14 - invalid option cannot be committed\n  ---\n  duration_ms: 0.866605\n  type: 'test'\n  ...\n# Subtest: quiz progress export round-trips validated records and recomputes mastery flags\nok 15 - quiz progress export round-trips validated records and recomputes mastery flags\n  ---\n  duration_ms: 0.737605\n  type: 'test'\n  ...\n# Subtest: quiz progress import rejects wrong formats, poisoned records and oversized files\nok 16 - quiz progress import rejects wrong formats, poisoned records and oversized files\n  ---\n  duration_ms: 0.559523\n  type: 'test'\n  ...\n# Subtest: imported progress must map to canonical questions, options and scoring\nok 17 - imported progress must map to canonical questions, options and scoring\n  ---\n  duration_ms: 2.13486\n  type: 'test'\n  ...\n1..17\n# tests 17\n# suites 0\n# pass 17\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 253.875838\n"
+  },
+  "offline structural TypeScript check": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "\n> cyberaware-3d-frontend@0.10.0-rc.6 react:offline-typecheck\n> tsc --noEmit -p react-app/tsconfig.local.json\n\n"
+  },
+  "canonical content validation": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "\n> cyberaware-3d-frontend@0.10.0-rc.6 validate:content\n> python3 ../tests/content/validate_content.py\n\nCONTENT QA: PASS\nCore and Expert Challenge JSON Schema root/item contracts are synchronized.\n45 core questions (15 per level) + 6 Expert Challenge scenarios; 204 answer-option rationales; 51 matching explanations; 38 sequential IEEE references mapped to 38 BibTeX keys.\nAll core and Expert Challenge question/explanation/manifest/storyboard/script/caption reference mappings match; all 51 scripts include rationales for every incorrect option; all 51 VTT caption files match narration text and timing.\nMP4 files generated: 0 (correctly not claimed). Human expert review remains pending.\nSpreadsheet runtime warmup failed during python startup\nTraceback (most recent call last):\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 718, in _warm_feature_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 509, in _warm_drawing_and_image_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py\", line 32861, in bring_to_front\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py\", line 764, in __call__\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py\", line 175, in call\nartifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.\n"
+  },
+  "legacy static build": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "\n> cyberaware-3d-frontend@0.10.0-rc.6 build\n> node scripts/build.mjs\n\nStatic distribution created at /mnt/data/cyberaware-phase13-work/CYBERAWARE-3D-v0.10.0-rc.6/frontend/dist\nCanonical question-level video assets synchronized before packaging.\nNote: this is a copy-based static package, not a bundled/minified Vite build.\n"
+  },
+  "legacy distribution smoke": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "\n> cyberaware-3d-frontend@0.10.0-rc.6 smoke:dist\n> node scripts/smoke-dist.mjs\n\nDIST SMOKE: PASS (215 routes, all 51 script/storyboard/prompt/caption records, ready-media HEAD checks, HEAD, security headers, method rejection)\n"
+  },
+  "high-confidence secret scan": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "SECRET PATTERN SCAN: PASS (high-confidence patterns only; not a full secret-scanning product).\nSpreadsheet runtime warmup failed during python startup\nTraceback (most recent call last):\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 718, in _warm_feature_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 509, in _warm_drawing_and_image_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py\", line 32861, in bring_to_front\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py\", line 764, in __call__\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py\", line 175, in call\nartifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.\n"
+  },
+  "backup smoke": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "BACKUP SMOKE: PASS (checksum, exclusions, permissions, inside-tree refusal)\n"
+  },
+  "Nginx live HTTP smoke": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "18, in _warm_feature_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 509, in _warm_drawing_and_image_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py\", line 32861, in bring_to_front\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py\", line 764, in __call__\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py\", line 175, in call\nartifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.\nnginx: the configuration file /tmp/tmp.m5F50jslNc/nginx.conf syntax is ok\nnginx: configuration file /tmp/tmp.m5F50jslNc/nginx.conf test is successful\nSpreadsheet runtime warmup failed during python startup\nTraceback (most recent call last):\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 785, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 718, in _warm_feature_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 509, in _warm_drawing_and_image_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py\", line 32861, in bring_to_front\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py\", line 764, in __call__\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py\", line 175, in call\nartifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.\n"
+  },
+  "systemd unit syntax": {
+    "passed": true,
+    "returncode": 0,
+    "tail": ""
+  },
+  "backup script shell syntax": {
+    "passed": true,
+    "returncode": 0,
+    "tail": ""
+  },
+  "workflow and Dependabot YAML": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "YAML PASS .github/workflows/cyberaware-ci.yml\nYAML PASS .github/workflows/react-frontend-ci.yml\nYAML PASS .github/dependabot.yml\n"
+  },
+  "CycloneDX SBOM": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "\n> cyberaware-3d-frontend@0.10.0-rc.6 sbom\n> node scripts/generate-sbom.mjs\n\nWrote evidence/cyberaware3d-sbom.cdx.json (10 declared direct React toolchain dependencies; transitive resolution pending lockfile).\n"
+  }
+}

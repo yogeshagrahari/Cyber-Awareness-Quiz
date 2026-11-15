@@ -1,0 +1,287 @@
+name: CyberAware 3D CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cyberaware-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ['22.23.5', '24.22.3', '26.13.1']
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up supported Node.js LTS
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: ${{ matrix.node-version }}
+          package-manager-cache: false
+
+      - name: Pin npm CLI
+        run: |
+          npm install --global npm@12.2.2
+          test "$(npm --version)" = '12.2.2'
+          node --version
+
+      - name: Install Nginx validation tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y nginx
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check frontend/src/app.js
+          node --check frontend/src/core.js
+          node --check frontend/src/globe.js
+          node --check frontend/src/simulations.js
+          node --check frontend/server.mjs
+
+      - name: Run application tests
+        working-directory: frontend
+        run: npm test
+
+      - name: Test deterministic source manifest generation
+        run: python3 -m unittest discover -s tests/release -p 'test_*.py' -v
+
+      - name: Validate canonical cybersecurity content and research traceability
+        run: python3 tests/content/validate_content.py
+
+      - name: Build static compatibility distribution
+        working-directory: frontend
+        run: npm run build
+
+      - name: Smoke-test distribution routes and security headers
+        working-directory: frontend
+        run: npm run smoke:dist
+
+      - name: Smoke-test the packaged static distribution server
+        working-directory: frontend
+        run: npm run smoke:packaged
+
+      - name: Validate Nginx security, content and media response behavior
+        run: tests/deploy/nginx-live-smoke.sh
+
+      - name: Validate dependency-free legacy static deployment
+        run: tests/deploy/nginx-legacy-static-smoke.sh
+
+      - name: Validate systemd service unit
+        run: systemd-analyze verify deploy/cyberaware3d.service
+
+      - name: Smoke-test protected project backup and recovery archive
+        run: tests/deploy/backup-smoke.sh
+
+      - name: Scan source for high-confidence secret patterns
+        run: python3 tests/security/scan_secrets.py
+
+  react-build-browser-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ['22.23.5', '24.22.3', '26.13.1']
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up supported Node.js LTS
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: ${{ matrix.node-version }}
+          package-manager-cache: false
+
+      - name: Pin npm CLI
+        run: |
+          npm install --global npm@12.2.2
+          test "$(npm --version)" = '12.2.2'
+          node --version
+
+      - name: Verify committed lockfile matches package metadata
+        working-directory: frontend/react-app
+        run: npm run verify:lockfile
+
+      - name: Install only from committed lockfile
+        working-directory: frontend/react-app
+        run: npm ci --no-audit --no-fund
+
+      - name: Check installed dependency security advisories
+        working-directory: frontend/react-app
+        run: npm audit --audit-level=high
+
+      - name: Run React domain and canonical-content tests
+        working-directory: frontend/react-app
+        run: npm run test
+
+      - name: Official TypeScript framework type-check
+        working-directory: frontend/react-app
+        run: npm run typecheck
+
+      - name: Build the React production distribution
+        working-directory: frontend/react-app
+        run: npm run build
+
+      - name: Smoke-test the React distribution and content integrity
+        working-directory: frontend/react-app
+        run: npm run smoke:build
+
+      - name: Generate a complete resolved dependency SBOM
+        if: matrix.node-version == '26.13.1'
+        working-directory: frontend/react-app
+        run: |
+          npm sbom --sbom-format=cyclonedx > ../../evidence/cyberaware3d-react-dependency-sbom.cdx.json
+          node --input-type=module -e "import { readFileSync } from 'node:fs'; const bom = JSON.parse(readFileSync('../../evidence/cyberaware3d-react-dependency-sbom.cdx.json', 'utf8')); if (bom.bomFormat !== 'CycloneDX' || !Array.isArray(bom.components) || bom.components.length === 0) process.exit(1); console.log('Resolved dependency SBOM: PASS (' + bom.components.length + ' components)')"
+
+      - name: Install Chromium, Firefox and WebKit for browser acceptance
+        working-directory: frontend/react-app
+        run: npx playwright install --with-deps chromium firefox webkit
+
+      - name: Run desktop/mobile browser and accessibility acceptance
+        working-directory: frontend/react-app
+        run: npm run test:e2e
+
+      - name: Validate canonical cybersecurity content and research traceability
+        run: python3 tests/content/validate_content.py
+
+      - name: Scan source for high-confidence secret patterns
+        run: python3 tests/security/scan_secrets.py
+
+      - name: Upload production React build
+        if: success() && matrix.node-version == '26.13.1'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: cyberaware-react-dist-node-26
+          path: frontend/dist-react/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload full resolved dependency SBOM
+        if: success() && matrix.node-version == '26.13.1'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: cyberaware-react-dependency-sbom-node-26
+          path: evidence/cyberaware3d-react-dependency-sbom.cdx.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload Playwright failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: cyberaware-playwright-diagnostics-node-${{ matrix.node-version }}
+          path: |
+            frontend/react-app/test-results/
+            frontend/react-app/playwright-report/
+          if-no-files-found: ignore
+          retention-days: 14
+
+  legacy-gate:
+    name: Legacy validation gate
+    needs: [validate-and-test]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require every legacy Node.js matrix leg to pass
+        run: test "${{ needs.validate-and-test.result }}" = "success"
+
+  react-gate:
+    name: React, browser and accessibility gate
+    needs: [react-build-browser-and-test]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require every React Node.js/browser matrix leg to pass
+        run: test "${{ needs.react-build-browser-and-test.result }}" = "success"
+
+  package-release:
+    needs: [legacy-gate, react-gate]
+    if: success() && (github.ref_name == 'main' || github.ref_name == 'master')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up release packaging runtime
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '26.13.1'
+          package-manager-cache: false
+
+      - name: Download the successful React production distribution
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: cyberaware-react-dist-node-26
+          path: frontend/dist-react
+
+      - name: Download the successful React dependency SBOM
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: cyberaware-react-dependency-sbom-node-26
+          path: evidence
+
+      - name: Verify the React dependency SBOM before release packaging
+        run: |
+          node --input-type=module -e "import { readFileSync } from 'node:fs'; const path = 'evidence/cyberaware3d-react-dependency-sbom.cdx.json'; const bom = JSON.parse(readFileSync(path, 'utf8')); if (bom.bomFormat !== 'CycloneDX' || !Array.isArray(bom.components) || bom.components.length === 0) process.exit(1); console.log('React SBOM release input: PASS (' + bom.components.length + ' components)')"
+
+      - name: Build the static legacy distribution in the packaging workspace
+        working-directory: frontend
+        run: npm run build
+
+      - name: Smoke-test the static distribution in the packaging workspace
+        working-directory: frontend
+        run: npm run smoke:packaged
+
+      - name: Generate source integrity manifest
+        run: python3 scripts/generate_package_manifest.py
+
+      - name: Build full-source, legacy-demo and React app release archives
+        working-directory: frontend
+        run: npm run package:release
+
+      - name: Smoke-test the extracted application-demo release archive
+        run: |
+          set -euo pipefail
+          archive="$(find release-artifacts -maxdepth 1 -type f -name 'CYBERAWARE-3D-App-Demo-*.zip' -print -quit)"
+          test -n "$archive"
+          temporary_directory="$(mktemp -d)"
+          trap 'rm -rf "$temporary_directory"' EXIT
+          unzip -q "$archive" -d "$temporary_directory"
+          CYBERAWARE_DIST_DIR="$temporary_directory/frontend/dist" node frontend/scripts/smoke-packaged-dist.mjs
+
+      - name: Smoke-test the extracted React application release archive
+        run: |
+          set -euo pipefail
+          archive="$(find release-artifacts -maxdepth 1 -type f -name 'CYBERAWARE-3D-React-App-*.zip' -print -quit)"
+          test -n "$archive"
+          temporary_directory="$(mktemp -d)"
+          trap 'rm -rf "$temporary_directory"' EXIT
+          unzip -q "$archive" -d "$temporary_directory"
+          CYBERAWARE_REACT_DIST_DIR="$temporary_directory" node frontend/scripts/smoke-react-build.mjs
+
+      - name: Upload release archives and SHA-256 checksums
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: cyberaware3d-release-${{ github.sha }}
+          path: release-artifacts/*
+          if-no-files-found: error
+          retention-days: 30

@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.322
+Scenario: A regular supplier emails an updated invoice with
+
+2
+00:00:03.322 --> 00:00:06.644
+new bank details and says payment must be made
+
+3
+00:00:06.644 --> 00:00:09.966
+today to avoid a penalty. Safest response: Option D:
+
+4
+00:00:09.966 --> 00:00:13.289
+Verify the change through a separately established phone number
+
+5
+00:00:13.289 --> 00:00:16.611
+or approved vendor portal and follow dual-approval controls. Payment
+
+6
+00:00:16.611 --> 00:00:19.933
+changes need independent verification through trusted records and the
+
+7
+00:00:19.933 --> 00:00:23.255
+normal authorization process. Option A is unsafe because The
+
+8
+00:00:23.255 --> 00:00:26.577
+email may provide an attacker-controlled number; use contact details
+
+9
+00:00:26.577 --> 00:00:29.899
+already on file. Option B is unsafe because If
+
+10
+00:00:29.899 --> 00:00:33.221
+the account is compromised, the attacker may confirm their
+
+11
+00:00:33.221 --> 00:00:36.544
+own fraudulent instructions. Option C is unsafe because A
+
+12
+00:00:36.544 --> 00:00:39.866
+test payment still sends funds to an unverified beneficiary
+
+13
+00:00:39.866 --> 00:00:43.188
+and can create loss. In practice: Freeze the change
+
+14
+00:00:43.188 --> 00:00:46.510
+until independently verified using contact information already on file,
+
+15
+00:00:46.510 --> 00:00:49.832
+and apply the organization’s payment authorization controls. Key takeaway:
+
+16
+00:00:49.832 --> 00:00:53.154
+Never trust changed payment instructions solely because they arrive
+
+17
+00:00:53.154 --> 00:00:55.000
+in a familiar email thread.

@@ -1,0 +1,64 @@
+{
+  "videoId": "VIDEO-ATO-I07",
+  "questionId": "ATO-I07",
+  "title": "Signals of account takeover — question explanation",
+  "learningObjective": "Identify account-takeover signals and initiate trusted account-recovery steps",
+  "targetDurationSeconds": 57,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-10s",
+      "visual": "You receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "10-21s",
+      "visual": "Identify account-takeover signals and initiate trusted account-recovery steps",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Account takeover — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "21-34s",
+      "visual": "Option C: Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes. Treat the signals as possible account compromise and use trusted recovery and containment procedures.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: C"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "34-48s",
+      "visual": "Option A: The alert itself may be spoofed; its link should not be trusted without verification. Option B: A single change does not address potentially stolen credentials, active sessions or other persistence. Option D: Waiting may allow the intruder to maintain access or intercept future messages.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "48-57s",
+      "visual": "Contact the service or organizational identity team using a known route. Follow instructions to secure credentials, sessions, recovery methods and mailbox rules. Unexpected logins plus changed recovery settings are strong account-compromise indicators.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Unexpected logins plus changed recovery settings are strong account-compromise indicators."
+    }
+  ],
+  "narration": "Scenario: You receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed. Safest response: Option C: Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes. Treat the signals as possible account compromise and use trusted recovery and containment procedures. Option A is unsafe because The alert itself may be spoofed; its link should not be trusted without verification. Option B is unsafe because A single change does not address potentially stolen credentials, active sessions or other persistence. Option D is unsafe because Waiting may allow the intruder to maintain access or intercept future messages. In practice: Contact the service or organizational identity team using a known route. Follow instructions to secure credentials, sessions, recovery methods and mailbox rules. Key takeaway: Unexpected logins plus changed recovery settings are strong account-compromise indicators.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Account takeover. Scenario: You receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed. Explain why Option C is the safest defensive response: Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes. Contrast the unsafe alternatives with these concise reasons: Option A: The alert itself may be spoofed; its link should not be trusted without verification.; Option B: A single change does not address potentially stolen credentials, active sessions or other persistence.; Option D: Waiting may allow the intruder to maintain access or intercept future messages.. Conclude with: Unexpected logins plus changed recovery settings are strong account-compromise indicators. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[16]",
+    "[17]",
+    "[28]"
+  ],
+  "outputFile": "public/videos/intermediate/ato-i07.mp4"
+}

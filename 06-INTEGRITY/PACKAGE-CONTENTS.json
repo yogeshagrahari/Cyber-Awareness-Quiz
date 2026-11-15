@@ -1,0 +1,15 @@
+{
+  "release": "0.10.0-rc.16",
+  "source_file_count": 1168,
+  "demo_file_count": 505,
+  "standalone_attached_paper_bytes": 764097,
+  "nested_archives": 0,
+  "payload_file_count_excluding_manifest": 1681,
+  "question_bank": {
+    "core": 115,
+    "expert_challenges": 18,
+    "total": 133,
+    "topics": 44
+  },
+  "video_generation": "deferred; no new MP4 assets claimed"
+}

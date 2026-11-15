@@ -1,0 +1,113 @@
+{
+  "videoId": "VIDEO-GOV-E05",
+  "questionId": "GOV-E05",
+  "level": "Expert Challenge",
+  "title": "Expert Challenge explanation: The Board Risk Briefing",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "36c805f05dad671027fade343305e901e0bea470371c2d914cbd4149f071dacf",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 60
+  },
+  "narration": "Scenario: Two hosts are isolated after a suspected platform compromise, but data-access scope and recovery time remain unknown. Safest response: brief the board on verified facts, impacts, containment, uncertainties, owners and the next update. Option A is unsafe because No confirmed exfiltration does not prove that data was not accessed. Option B is unsafe because Leadership needs timely decision-ready information before attribution is complete. Option D is unsafe because Raw logs and attacker speculation can expose sensitive information and mislead leaders. In practice: separate facts, assumptions and unknowns, then record decisions and the update cadence. Key takeaway: communicate uncertainty clearly; do not promise what evidence cannot support.",
+  "script": "# The Board Risk Briefing\n\n**Video ID:** `VIDEO-GOV-E05`  \n**Question ID:** `GOV-E05`  \n**Level:** Expert Challenge  \n**Target duration:** 60 seconds  \n**Status:** Narration, storyboard, generation prompt and caption draft; MP4 not generated.\n\n## Learning objective\nCommunicate incident facts, uncertainty, business impact and decisions to leadership without overstating attribution or assurance.\n\n## Scenario\nA board meeting is scheduled two hours after a suspected compromise of a customer-facing platform. The response team has isolated two hosts, but the scope of data access is still under investigation. The board chair asks for a definitive statement that no customer data was accessed and wants an exact recovery time.\n\n## Narration transcript\nScenario: Two hosts are isolated after a suspected platform compromise, but data-access scope and recovery time remain unknown. Safest response: brief the board on verified facts, impacts, containment, uncertainties, owners and the next update. Option A is unsafe because No confirmed exfiltration does not prove that data was not accessed. Option B is unsafe because Leadership needs timely decision-ready information before attribution is complete. Option D is unsafe because Raw logs and attacker speculation can expose sensitive information and mislead leaders. In practice: separate facts, assumptions and unknowns, then record decisions and the update cadence. Key takeaway: communicate uncertainty clearly; do not promise what evidence cannot support.\n\n## Correct response\nC. Provide verified facts, known business impacts, containment already taken, current unknowns and confidence levels; explain next decision points, accountable owners, communication/legal review paths and a time for the next update rather than making unsupported assurances.\n\n## Option-specific teaching notes\n- **A:** No confirmed exfiltration does not prove that data was not accessed. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.\n- **B:** Leadership needs timely decision-ready information before attribution is complete. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.\n- **C (correct):** Correct. Clear separation of verified facts, assumptions and unknowns supports governance decisions without overstating certainty.\n- **D:** Raw logs and attacker speculation can expose sensitive information and mislead leaders. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.\n\n## Key takeaway\nGood incident governance makes uncertainty visible and assigns decisions; it does not conceal uncertainty or turn it into assurance.\n\n## Recommended defensive action\nUse a structured incident briefing: what happened, what is confirmed, what remains unknown, business impact, actions taken, decisions needed, owner and next update time. Coordinate external and regulatory communications with authorized stakeholders.\n\n## On-screen text sequence\n- **0-12s — Scenario:** Fictional organizational scenario\n- **12-24s — Decision frame:** Governance and risk communication\n- **24-38s — Recommended response:** Safest response: C\n- **38-52s — Trade-offs:** Why the alternatives fail\n- **52-60s — Takeaway:** Good incident governance makes uncertainty visible and assigns decisions; it does not conceal uncertainty or turn it into assurance.\n\n## Research references\n- [17]\n- [28]\n\n## Planned output\n`public/videos/expert/gov-e05.mp4`\n\n## Production status\nProduction draft only; no AI-generated or rendered MP4 is included or claimed. Human expert review and media rendering are required before release.\n",
+  "storyboard": {
+    "videoId": "VIDEO-GOV-E05",
+    "questionId": "GOV-E05",
+    "title": "The Board Risk Briefing",
+    "learningObjective": "Communicate incident facts, uncertainty, business impact and decisions to leadership without overstating attribution or assurance.",
+    "targetDurationSeconds": 60,
+    "format": "16:9 educational motion-graphics explainer with narration, separate captions and no autoplay audio",
+    "visualStyle": "Deep navy/charcoal with restrained cyan/electric-blue highlights, limited purple accents, high contrast, stable typography and reduced-motion transitions.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-12s",
+        "visual": "A board meeting is scheduled two hours after a suspected compromise of a customer-facing platform. The response team has isolated two hosts, but the scope of data access is still under investigation. The board chair asks for a definitive statement that no customer data was accessed and wants an exact recovery time.",
+        "direction": "Use a fictional organization, synthetic people and generic systems. Do not expose real identity, secrets or operational infrastructure.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Decision frame",
+        "time": "12-24s",
+        "visual": "Communicate incident facts, uncertainty, business impact and decisions to leadership without overstating attribution or assurance.",
+        "direction": "Show the decision context and the relevant business/security trade-off. Avoid unsupported claims.",
+        "onScreenText": "Decision frame"
+      },
+      {
+        "name": "Recommended response",
+        "time": "24-38s",
+        "visual": "Option C: Provide verified facts, known business impacts, containment already taken, current unknowns and confidence levels; explain next decision points, accountable owners, communication/legal review paths and a time for the next update rather than making unsupported assurances. Correct. Clear separation of verified facts, assumptions and unknowns supports governance decisions without overstating certainty.",
+        "direction": "Animate a safe, high-level decision sequence; do not provide attack steps or sensitive operational detail.",
+        "onScreenText": "Safest response: C"
+      },
+      {
+        "name": "Trade-offs",
+        "time": "38-52s",
+        "visual": "Option A: No confirmed exfiltration does not prove that data was not accessed. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option B: Leadership needs timely decision-ready information before attribution is complete. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof. Option D: Raw logs and attacker speculation can expose sensitive information and mislead leaders. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.",
+        "direction": "Present the alternatives as decision cards and explain their risks without depicting an actual attack.",
+        "onScreenText": "Why the alternatives fail"
+      },
+      {
+        "name": "Takeaway",
+        "time": "52-60s",
+        "visual": "Use a structured incident briefing: what happened, what is confirmed, what remains unknown, business impact, actions taken, decisions needed, owner and next update time. Coordinate external and regulatory communications with authorized stakeholders. Good incident governance makes uncertainty visible and assigns decisions; it does not conceal uncertainty or turn it into assurance.",
+        "direction": "End with concise defensive action and keep text on screen long enough to read.",
+        "onScreenText": "Defensive next step"
+      }
+    ],
+    "narration": "Scenario: Two hosts are isolated after a suspected platform compromise, but data-access scope and recovery time remain unknown. Safest response: brief the board on verified facts, impacts, containment, uncertainties, owners and the next update. Option A is unsafe because No confirmed exfiltration does not prove that data was not accessed. Option B is unsafe because Leadership needs timely decision-ready information before attribution is complete. Option D is unsafe because Raw logs and attacker speculation can expose sensitive information and mislead leaders. In practice: separate facts, assumptions and unknowns, then record decisions and the update cadence. Key takeaway: communicate uncertainty clearly; do not promise what evidence cannot support.",
+    "audioDirection": "Neutral, clear instructional narration; do not imitate a real person.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Governance and risk communication. Explain the safest defensive decision and the options' trade-offs. Use generic organizational visuals, no recognizable brands, real people, real data, real credentials or operational attack details. Good incident governance makes uncertainty visible and assigns decisions; it does not conceal uncertainty or turn it into assurance.",
+    "generationInstructions": [
+      "Preserve narration meaning and do not add unsupported technical claims.",
+      "Render 16:9 1080p MP4 with safe margins and separate synchronized WebVTT captions.",
+      "Use synthetic fictional names and generic interfaces only.",
+      "Do not use flashing effects, strobing, rapid motion or autoplay audio.",
+      "Human-review technical accuracy, accessibility, captions, pronunciation and timing before marking ready."
+    ],
+    "accessibility": "Separate captions and transcript required. No color-only encoding; preserve readable contrast and provide written explanation if media fails.",
+    "references": [
+      "[17]",
+      "[28]"
+    ],
+    "outputFile": "public/videos/expert/gov-e05.mp4"
+  },
+  "prompt": "Create a fictional 60-second accessible educational motion-graphics explainer for CYBERAWARE 3D. Subject: Governance and risk communication. Use only generic fictional systems and synthetic values. Explain the correct defensive response, contrast the three unsafe alternatives at a high level, and end with: Good incident governance makes uncertainty visible and assigns decisions; it does not conceal uncertainty or turn it into assurance.\n\nNARRATION\nScenario: Two hosts are isolated after a suspected platform compromise, but data-access scope and recovery time remain unknown. Safest response: brief the board on verified facts, impacts, containment, uncertainties, owners and the next update. Option A is unsafe because No confirmed exfiltration does not prove that data was not accessed. Option B is unsafe because Leadership needs timely decision-ready information before attribution is complete. Option D is unsafe because Raw logs and attacker speculation can expose sensitive information and mislead leaders. In practice: separate facts, assumptions and unknowns, then record decisions and the update cadence. Key takeaway: communicate uncertainty clearly; do not promise what evidence cannot support.\n\nFULL TEACHING NOTES\nOption A: No confirmed exfiltration does not prove that data was not accessed. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.\nOption B: Leadership needs timely decision-ready information before attribution is complete. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.\nOption C: Correct. Clear separation of verified facts, assumptions and unknowns supports governance decisions without overstating certainty.\nOption D: Raw logs and attacker speculation can expose sensitive information and mislead leaders. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.\n\nSTYLE: Deep navy, charcoal, restrained cyan/electric blue, accessible typography, 16:9. No recognizable logos, real identities, credentials, live data, operational attack instructions, flashing, rapid motion or autoplay audio. Supply separate synchronized WebVTT and transcript. Human review is mandatory before release.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:05.607\nScenario: Two hosts are isolated after a suspected platform compromise,\n\n2\n00:00:05.607 --> 00:00:11.215\nbut data-access scope and recovery time remain unknown. Safest response:\n\n3\n00:00:11.215 --> 00:00:16.822\nbrief the board on verified facts, impacts, containment, uncertainties, owners\n\n4\n00:00:16.822 --> 00:00:22.430\nand the next update. Option A is unsafe because No\n\n5\n00:00:22.430 --> 00:00:28.037\nconfirmed exfiltration does not prove that data was not accessed.\n\n6\n00:00:28.037 --> 00:00:33.645\nOption B is unsafe because Leadership needs timely decision-ready information\n\n7\n00:00:33.645 --> 00:00:39.252\nbefore attribution is complete. Option D is unsafe because Raw\n\n8\n00:00:39.252 --> 00:00:44.860\nlogs and attacker speculation can expose sensitive information and mislead\n\n9\n00:00:44.860 --> 00:00:50.467\nleaders. In practice: separate facts, assumptions and unknowns, then record\n\n10\n00:00:50.467 --> 00:00:56.075\ndecisions and the update cadence. Key takeaway: communicate uncertainty clearly;\n\n11\n00:00:56.075 --> 00:01:00.000\ndo not promise what evidence cannot support.\n\n",
+  "referenceIds": [
+    "[17]",
+    "[28]"
+  ],
+  "question": {
+    "title": "The Board Risk Briefing",
+    "learningObjective": "Communicate incident facts, uncertainty, business impact and decisions to leadership without overstating attribution or assurance.",
+    "scenario": "A board meeting is scheduled two hours after a suspected compromise of a customer-facing platform. The response team has isolated two hosts, but the scope of data access is still under investigation. The board chair asks for a definitive statement that no customer data was accessed and wants an exact recovery time.",
+    "correctOptionId": "C",
+    "correctAnswer": "Provide verified facts, known business impacts, containment already taken, current unknowns and confidence levels; explain next decision points, accountable owners, communication/legal review paths and a time for the next update rather than making unsupported assurances.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "No confirmed exfiltration does not prove that data was not accessed. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "Leadership needs timely decision-ready information before attribution is complete. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+      },
+      "C": {
+        "isCorrect": true,
+        "explanation": "Correct. Clear separation of verified facts, assumptions and unknowns supports governance decisions without overstating certainty."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Raw logs and attacker speculation can expose sensitive information and mislead leaders. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+      }
+    },
+    "keyTakeaway": "Good incident governance makes uncertainty visible and assigns decisions; it does not conceal uncertainty or turn it into assurance.",
+    "recommendedDefensiveAction": "Use a structured incident briefing: what happened, what is confirmed, what remains unknown, business impact, actions taken, decisions needed, owner and next update time. Coordinate external and regulatory communications with authorized stakeholders."
+  }
+}

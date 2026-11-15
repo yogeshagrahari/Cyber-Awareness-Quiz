@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-RANSOM-A12",
+  "questionId": "RANSOM-A12",
+  "level": "Advanced",
+  "title": "Question explanation: The active ransomware event",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "562944252d1f423f8c7809fb4061645bebed2e766901ae446d5eaf1f45fee3ec",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 60
+  },
+  "narration": "Scenario: A workstation displays a ransom note, and several shared files are becoming inaccessible. The user asks whether to reboot the machine and delete the note. Safest response: Option A: Isolate affected systems in a coordinated manner, activate the response plan and preserve evidence; follow recovery guidance from authorized responders. Containment is urgent, but should be coordinated; evidence and recovery decisions must be handled through incident response. Option B is unsafe because Connecting removable media to a potentially infected machine may expose backups to compromise. Option C is unsafe because Uncoordinated rebooting may destroy volatile evidence and does not reliably stop propagation. Option D is unsafe because Deleting evidence is harmful, and payment is not a reliable recovery strategy or unilateral user decision. In practice: Activate the incident-response process, isolate affected systems as directed, protect clean backups, preserve evidence and involve system owners and authorities as appropriate. Key takeaway: Contain ransomware safely and coordinate response; do not improvise recovery or destroy evidence.",
+  "script": "# The active ransomware event\n\n**Video ID:** `VIDEO-RANSOM-A12`  \n**Question ID:** `RANSOM-A12`  \n**Level:** Advanced  \n**Target duration:** 60 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nPrioritize isolation and incident escalation without destroying evidence or improvising recovery\n\n## Scenario\nA workstation displays a ransom note, and several shared files are becoming inaccessible. The user asks whether to reboot the machine and delete the note.\n\n## Narration transcript\nScenario: A workstation displays a ransom note, and several shared files are becoming inaccessible. The user asks whether to reboot the machine and delete the note. Safest response: Option A: Isolate affected systems in a coordinated manner, activate the response plan and preserve evidence; follow recovery guidance from authorized responders. Containment is urgent, but should be coordinated; evidence and recovery decisions must be handled through incident response. Option B is unsafe because Connecting removable media to a potentially infected machine may expose backups to compromise. Option C is unsafe because Uncoordinated rebooting may destroy volatile evidence and does not reliably stop propagation. Option D is unsafe because Deleting evidence is harmful, and payment is not a reliable recovery strategy or unilateral user decision. In practice: Activate the incident-response process, isolate affected systems as directed, protect clean backups, preserve evidence and involve system owners and authorities as appropriate. Key takeaway: Contain ransomware safely and coordinate response; do not improvise recovery or destroy evidence.\n\n## Correct response\nA. Isolate affected systems in a coordinated manner, activate the response plan and preserve evidence; follow recovery guidance from authorized responders.\n\n## Option-specific teaching notes\n- **A (correct):** Correct. Containment is urgent, but should be coordinated; evidence and recovery decisions must be handled through incident response.\n- **B:** Connecting removable media to a potentially infected machine may expose backups to compromise.\n- **C:** Uncoordinated rebooting may destroy volatile evidence and does not reliably stop propagation.\n- **D:** Deleting evidence is harmful, and payment is not a reliable recovery strategy or unilateral user decision.\n\n## Key takeaway\nContain ransomware safely and coordinate response; do not improvise recovery or destroy evidence.\n\n## Recommended defensive action\nActivate the incident-response process, isolate affected systems as directed, protect clean backups, preserve evidence and involve system owners and authorities as appropriate.\n\n## On-screen text sequence\n- **0-11s — Scenario setup:** Fictional scenario\n- **11-22s — Learning objective and risk cue:** Ransomware response — key cue\n- **22-36s — Recommended response:** Safest response: A\n- **36-50s — Why the other options fail:** Why the alternatives are unsafe\n- **50-60s — Defensive takeaway:** Contain ransomware safely and coordinate response; do not improvise recovery or destroy evidence.\n\n## Research references\n- [17]\n- [28]\n- [35]\n\n## Planned output\n`public/videos/advanced/ransom-a12.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-RANSOM-A12",
+    "questionId": "RANSOM-A12",
+    "title": "The active ransomware event — question explanation",
+    "learningObjective": "Prioritize isolation and incident escalation without destroying evidence or improvising recovery",
+    "targetDurationSeconds": 60,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-11s",
+        "visual": "A workstation displays a ransom note, and several shared files are becoming inaccessible. The user asks whether to reboot the machine and delete the note.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "11-22s",
+        "visual": "Prioritize isolation and incident escalation without destroying evidence or improvising recovery",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Ransomware response — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "22-36s",
+        "visual": "Option A: Isolate affected systems in a coordinated manner, activate the response plan and preserve evidence; follow recovery guidance from authorized responders. Containment is urgent, but should be coordinated; evidence and recovery decisions must be handled through incident response.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: A"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "36-50s",
+        "visual": "Option B: Connecting removable media to a potentially infected machine may expose backups to compromise. Option C: Uncoordinated rebooting may destroy volatile evidence and does not reliably stop propagation. Option D: Deleting evidence is harmful, and payment is not a reliable recovery strategy or unilateral user decision.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "50-60s",
+        "visual": "Activate the incident-response process, isolate affected systems as directed, protect clean backups, preserve evidence and involve system owners and authorities as appropriate. Contain ransomware safely and coordinate response; do not improvise recovery or destroy evidence.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Contain ransomware safely and coordinate response; do not improvise recovery or destroy evidence."
+      }
+    ],
+    "narration": "Scenario: A workstation displays a ransom note, and several shared files are becoming inaccessible. The user asks whether to reboot the machine and delete the note. Safest response: Option A: Isolate affected systems in a coordinated manner, activate the response plan and preserve evidence; follow recovery guidance from authorized responders. Containment is urgent, but should be coordinated; evidence and recovery decisions must be handled through incident response. Option B is unsafe because Connecting removable media to a potentially infected machine may expose backups to compromise. Option C is unsafe because Uncoordinated rebooting may destroy volatile evidence and does not reliably stop propagation. Option D is unsafe because Deleting evidence is harmful, and payment is not a reliable recovery strategy or unilateral user decision. In practice: Activate the incident-response process, isolate affected systems as directed, protect clean backups, preserve evidence and involve system owners and authorities as appropriate. Key takeaway: Contain ransomware safely and coordinate response; do not improvise recovery or destroy evidence.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Ransomware response. Scenario: A workstation displays a ransom note, and several shared files are becoming inaccessible. The user asks whether to reboot the machine and delete the note. Explain why Option A is the safest defensive response: Isolate affected systems in a coordinated manner, activate the response plan and preserve evidence; follow recovery guidance from authorized responders. Contrast the unsafe alternatives with these concise reasons: Option B: Connecting removable media to a potentially infected machine may expose backups to compromise.; Option C: Uncoordinated rebooting may destroy volatile evidence and does not reliably stop propagation.; Option D: Deleting evidence is harmful, and payment is not a reliable recovery strategy or unilateral user decision.. Conclude with: Contain ransomware safely and coordinate response; do not improvise recovery or destroy evidence. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[17]",
+      "[28]",
+      "[35]"
+    ],
+    "outputFile": "public/videos/advanced/ransom-a12.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Ransomware response. Scenario: A workstation displays a ransom note, and several shared files are becoming inaccessible. The user asks whether to reboot the machine and delete the note. Explain why the correct defensive response is: Isolate affected systems in a coordinated manner, activate the response plan and preserve evidence; follow recovery guidance from authorized responders. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Contain ransomware safely and coordinate response; do not improvise recovery or destroy evidence. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.333\nScenario: A workstation displays a ransom note, and several\n\n2\n00:00:03.333 --> 00:00:06.667\nshared files are becoming inaccessible. The user asks whether\n\n3\n00:00:06.667 --> 00:00:10.000\nto reboot the machine and delete the note. Safest\n\n4\n00:00:10.000 --> 00:00:13.333\nresponse: Option A: Isolate affected systems in a coordinated\n\n5\n00:00:13.333 --> 00:00:16.667\nmanner, activate the response plan and preserve evidence; follow\n\n6\n00:00:16.667 --> 00:00:20.000\nrecovery guidance from authorized responders. Containment is urgent, but\n\n7\n00:00:20.000 --> 00:00:23.333\nshould be coordinated; evidence and recovery decisions must be\n\n8\n00:00:23.333 --> 00:00:26.667\nhandled through incident response. Option B is unsafe because\n\n9\n00:00:26.667 --> 00:00:30.000\nConnecting removable media to a potentially infected machine may\n\n10\n00:00:30.000 --> 00:00:33.333\nexpose backups to compromise. Option C is unsafe because\n\n11\n00:00:33.333 --> 00:00:36.667\nUncoordinated rebooting may destroy volatile evidence and does not\n\n12\n00:00:36.667 --> 00:00:40.000\nreliably stop propagation. Option D is unsafe because Deleting\n\n13\n00:00:40.000 --> 00:00:43.333\nevidence is harmful, and payment is not a reliable\n\n14\n00:00:43.333 --> 00:00:46.667\nrecovery strategy or unilateral user decision. In practice: Activate\n\n15\n00:00:46.667 --> 00:00:50.000\nthe incident-response process, isolate affected systems as directed, protect\n\n16\n00:00:50.000 --> 00:00:53.333\nclean backups, preserve evidence and involve system owners and\n\n17\n00:00:53.333 --> 00:00:56.667\nauthorities as appropriate. Key takeaway: Contain ransomware safely and\n\n18\n00:00:56.667 --> 00:01:00.000\ncoordinate response; do not improvise recovery or destroy evidence.\n",
+  "referenceIds": [
+    "[17]",
+    "[28]",
+    "[35]"
+  ],
+  "question": {
+    "title": "The active ransomware event",
+    "learningObjective": "Prioritize isolation and incident escalation without destroying evidence or improvising recovery",
+    "scenario": "A workstation displays a ransom note, and several shared files are becoming inaccessible. The user asks whether to reboot the machine and delete the note.",
+    "correctOptionId": "A",
+    "correctAnswer": "Isolate affected systems in a coordinated manner, activate the response plan and preserve evidence; follow recovery guidance from authorized responders.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": true,
+        "explanation": "Correct. Containment is urgent, but should be coordinated; evidence and recovery decisions must be handled through incident response."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "Connecting removable media to a potentially infected machine may expose backups to compromise."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Uncoordinated rebooting may destroy volatile evidence and does not reliably stop propagation."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Deleting evidence is harmful, and payment is not a reliable recovery strategy or unilateral user decision."
+      }
+    },
+    "keyTakeaway": "Contain ransomware safely and coordinate response; do not improvise recovery or destroy evidence.",
+    "recommendedDefensiveAction": "Activate the incident-response process, isolate affected systems as directed, protect clean backups, preserve evidence and involve system owners and authorities as appropriate."
+  }
+}

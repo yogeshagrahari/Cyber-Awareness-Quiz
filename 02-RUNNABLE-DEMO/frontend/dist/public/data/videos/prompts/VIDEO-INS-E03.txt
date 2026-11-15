@@ -1,0 +1,12 @@
+Create a fictional 60-second accessible educational motion-graphics explainer for CYBERAWARE 3D. Subject: Insider risk and governance. Use only generic fictional systems and synthetic values. Explain the correct defensive response, contrast the three unsafe alternatives at a high level, and end with: Insider-risk indicators require evidence-led assessment, not assumptions about intent or identity.
+
+NARRATION
+Scenario: An employee downloads an unusual volume of project files and connects a removable device before moving teams. Access is authorized, but context is incomplete. Safest response: preserve audit records, validate context and involve designated security, HR, privacy and legal stakeholders. Option A is unsafe because Public accusation and informal searches can violate privacy and compromise evidence. Option B is unsafe because Alerts alone do not establish malicious intent. Option C is unsafe because Authorized access does not make anomalous activity automatically benign. In practice: investigate objectively and apply proportionate, approved controls. Key takeaway: assess insider-risk indicators through evidence and due process.
+
+FULL TEACHING NOTES
+Option A: Public accusation and informal searches can violate privacy and compromise evidence. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option B: Alerts alone do not establish malicious intent. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option C: Authorized access does not make anomalous activity automatically benign. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option D: Correct. Objective validation, evidence preservation, multidisciplinary oversight and proportionate controls protect both the organization and individual rights.
+
+STYLE: Deep navy, charcoal, restrained cyan/electric blue, accessible typography, 16:9. No recognizable logos, real identities, credentials, live data, operational attack instructions, flashing, rapid motion or autoplay audio. Supply separate synchronized WebVTT and transcript. Human review is mandatory before release.

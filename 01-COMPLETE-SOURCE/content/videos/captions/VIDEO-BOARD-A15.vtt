@@ -1,0 +1,77 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.234
+Scenario: A board dashboard reports only course completion and
+
+2
+00:00:03.234 --> 00:00:06.467
+total quiz points. Leadership asks whether the programme has
+
+3
+00:00:06.467 --> 00:00:09.701
+reduced risky behaviour and improved incident readiness. Safest response:
+
+4
+00:00:09.701 --> 00:00:12.934
+Option A: A balanced measurement set: pre/post knowledge, delayed
+
+5
+00:00:12.934 --> 00:00:16.168
+retention, novel-scenario decisions, reporting behaviour, qualitative feedback and incident
+
+6
+00:00:16.168 --> 00:00:19.401
+context, with limitations. A defensible programme uses multiple measures
+
+7
+00:00:19.401 --> 00:00:22.994
+and avoids claiming that quiz scores alone prove real-world competency.
+
+8
+00:00:22.994 --> 00:00:26.228
+Option B is unsafe because Completion is an activity
+
+9
+00:00:26.228 --> 00:00:30.180
+measure and cannot by itself establish behaviour change or risk reduction.
+
+10
+00:00:30.180 --> 00:00:33.413
+Option C is unsafe because Passing a quiz does
+
+11
+00:00:33.413 --> 00:00:36.647
+not demonstrate prevention of real attacks or causal impact
+
+12
+00:00:36.647 --> 00:00:39.880
+on incident rates. Option D is unsafe because A
+
+13
+00:00:39.880 --> 00:00:43.114
+leaderboard may reflect participation or test-taking and does not
+
+14
+00:00:43.114 --> 00:00:46.347
+show organizational risk outcomes. In practice: Report baseline and
+
+15
+00:00:46.347 --> 00:00:49.940
+follow-up measures, delayed retention, scenario transfer, reporting quality and limitations.
+
+16
+00:00:49.940 --> 00:00:53.174
+Use privacy-preserving aggregation and avoid unsupported causal claims. Key
+
+17
+00:00:53.174 --> 00:00:56.407
+takeaway: Measure knowledge, retention and observed decisions with context;
+
+18
+00:00:56.407 --> 00:00:59.641
+do not equate completion or quiz scores with security
+
+19
+00:00:59.641 --> 00:01:00.000
+outcomes.

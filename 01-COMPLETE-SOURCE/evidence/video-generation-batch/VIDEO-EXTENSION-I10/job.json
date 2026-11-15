@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-EXTENSION-I10",
+  "questionId": "EXTENSION-I10",
+  "level": "Intermediate",
+  "title": "Question explanation: The productivity extension",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "443c66f653920e91df4bb0d049468f822e59935e5afdcd31c5b0402a7f801ae9",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 54
+  },
+  "narration": "Scenario: A browser extension promises to summarize every page. It requests permission to read and change all data on every website, including internal work portals. Safest response: Option C: Check organizational approval, publisher provenance, necessity and permission scope before installation. Broad access to every site creates significant data and account exposure and should be justified and approved. Option A is unsafe because Using another person’s profile does not resolve the extension’s access or policy risks. Option B is unsafe because Private mode does not necessarily prevent an extension from accessing permitted page content. Option D is unsafe because Ratings do not establish the publisher’s trustworthiness or justify broad permissions. In practice: Do not install until the extension is approved and its permissions are proportionate to a documented need. Key takeaway: An extension with broad permissions can access sensitive page data; assess source and scope before use.",
+  "script": "# The productivity extension\n\n**Video ID:** `VIDEO-EXTENSION-I10`  \n**Question ID:** `EXTENSION-I10`  \n**Level:** Intermediate  \n**Target duration:** 54 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nEvaluate extension permissions, provenance and necessity before installation\n\n## Scenario\nA browser extension promises to summarize every page. It requests permission to read and change all data on every website, including internal work portals.\n\n## Narration transcript\nScenario: A browser extension promises to summarize every page. It requests permission to read and change all data on every website, including internal work portals. Safest response: Option C: Check organizational approval, publisher provenance, necessity and permission scope before installation. Broad access to every site creates significant data and account exposure and should be justified and approved. Option A is unsafe because Using another person’s profile does not resolve the extension’s access or policy risks. Option B is unsafe because Private mode does not necessarily prevent an extension from accessing permitted page content. Option D is unsafe because Ratings do not establish the publisher’s trustworthiness or justify broad permissions. In practice: Do not install until the extension is approved and its permissions are proportionate to a documented need. Key takeaway: An extension with broad permissions can access sensitive page data; assess source and scope before use.\n\n## Correct response\nC. Check organizational approval, publisher provenance, necessity and permission scope before installation.\n\n## Option-specific teaching notes\n- **A:** Using another person’s profile does not resolve the extension’s access or policy risks.\n- **B:** Private mode does not necessarily prevent an extension from accessing permitted page content.\n- **C (correct):** Correct. Broad access to every site creates significant data and account exposure and should be justified and approved.\n- **D:** Ratings do not establish the publisher’s trustworthiness or justify broad permissions.\n\n## Key takeaway\nAn extension with broad permissions can access sensitive page data; assess source and scope before use.\n\n## Recommended defensive action\nDo not install until the extension is approved and its permissions are proportionate to a documented need.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-19s — Learning objective and risk cue:** Browser security — key cue\n- **19-32s — Recommended response:** Safest response: C\n- **32-45s — Why the other options fail:** Why the alternatives are unsafe\n- **45-54s — Defensive takeaway:** An extension with broad permissions can access sensitive page data; assess source and scope before use.\n\n## Research references\n- [17]\n- [18]\n- [19]\n\n## Planned output\n`public/videos/intermediate/extension-i10.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-EXTENSION-I10",
+    "questionId": "EXTENSION-I10",
+    "title": "The productivity extension — question explanation",
+    "learningObjective": "Evaluate extension permissions, provenance and necessity before installation",
+    "targetDurationSeconds": 54,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "A browser extension promises to summarize every page. It requests permission to read and change all data on every website, including internal work portals.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-19s",
+        "visual": "Evaluate extension permissions, provenance and necessity before installation",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Browser security — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "19-32s",
+        "visual": "Option C: Check organizational approval, publisher provenance, necessity and permission scope before installation. Broad access to every site creates significant data and account exposure and should be justified and approved.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: C"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "32-45s",
+        "visual": "Option A: Using another person’s profile does not resolve the extension’s access or policy risks. Option B: Private mode does not necessarily prevent an extension from accessing permitted page content. Option D: Ratings do not establish the publisher’s trustworthiness or justify broad permissions.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "45-54s",
+        "visual": "Do not install until the extension is approved and its permissions are proportionate to a documented need. An extension with broad permissions can access sensitive page data; assess source and scope before use.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "An extension with broad permissions can access sensitive page data; assess source and scope before use."
+      }
+    ],
+    "narration": "Scenario: A browser extension promises to summarize every page. It requests permission to read and change all data on every website, including internal work portals. Safest response: Option C: Check organizational approval, publisher provenance, necessity and permission scope before installation. Broad access to every site creates significant data and account exposure and should be justified and approved. Option A is unsafe because Using another person’s profile does not resolve the extension’s access or policy risks. Option B is unsafe because Private mode does not necessarily prevent an extension from accessing permitted page content. Option D is unsafe because Ratings do not establish the publisher’s trustworthiness or justify broad permissions. In practice: Do not install until the extension is approved and its permissions are proportionate to a documented need. Key takeaway: An extension with broad permissions can access sensitive page data; assess source and scope before use.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Browser security. Scenario: A browser extension promises to summarize every page. It requests permission to read and change all data on every website, including internal work portals. Explain why Option C is the safest defensive response: Check organizational approval, publisher provenance, necessity and permission scope before installation. Contrast the unsafe alternatives with these concise reasons: Option A: Using another person’s profile does not resolve the extension’s access or policy risks.; Option B: Private mode does not necessarily prevent an extension from accessing permitted page content.; Option D: Ratings do not establish the publisher’s trustworthiness or justify broad permissions.. Conclude with: An extension with broad permissions can access sensitive page data; assess source and scope before use. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[17]",
+      "[18]",
+      "[19]"
+    ],
+    "outputFile": "public/videos/intermediate/extension-i10.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Browser security. Scenario: A browser extension promises to summarize every page. It requests permission to read and change all data on every website, including internal work portals. Explain why the correct defensive response is: Check organizational approval, publisher provenance, necessity and permission scope before installation. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: An extension with broad permissions can access sensitive page data; assess source and scope before use. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.329\nScenario: A browser extension promises to summarize every page.\n\n2\n00:00:03.329 --> 00:00:06.658\nIt requests permission to read and change all data\n\n3\n00:00:06.658 --> 00:00:09.986\non every website, including internal work portals. Safest response:\n\n4\n00:00:09.986 --> 00:00:13.315\nOption C: Check organizational approval, publisher provenance, necessity and\n\n5\n00:00:13.315 --> 00:00:16.644\npermission scope before installation. Broad access to every site\n\n6\n00:00:16.644 --> 00:00:19.973\ncreates significant data and account exposure and should be\n\n7\n00:00:19.973 --> 00:00:23.301\njustified and approved. Option A is unsafe because Using\n\n8\n00:00:23.301 --> 00:00:26.630\nanother person’s profile does not resolve the extension’s access\n\n9\n00:00:26.630 --> 00:00:29.959\nor policy risks. Option B is unsafe because Private\n\n10\n00:00:29.959 --> 00:00:33.288\nmode does not necessarily prevent an extension from accessing\n\n11\n00:00:33.288 --> 00:00:36.616\npermitted page content. Option D is unsafe because Ratings\n\n12\n00:00:36.616 --> 00:00:40.315\ndo not establish the publisher’s trustworthiness or justify broad permissions.\n\n13\n00:00:40.315 --> 00:00:43.644\nIn practice: Do not install until the extension is\n\n14\n00:00:43.644 --> 00:00:47.342\napproved and its permissions are proportionate to a documented need.\n\n15\n00:00:47.342 --> 00:00:50.671\nKey takeaway: An extension with broad permissions can access\n\n16\n00:00:50.671 --> 00:00:54.000\nsensitive page data; assess source and scope before use.\n",
+  "referenceIds": [
+    "[17]",
+    "[18]",
+    "[19]"
+  ],
+  "question": {
+    "title": "The productivity extension",
+    "learningObjective": "Evaluate extension permissions, provenance and necessity before installation",
+    "scenario": "A browser extension promises to summarize every page. It requests permission to read and change all data on every website, including internal work portals.",
+    "correctOptionId": "C",
+    "correctAnswer": "Check organizational approval, publisher provenance, necessity and permission scope before installation.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Using another person’s profile does not resolve the extension’s access or policy risks."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "Private mode does not necessarily prevent an extension from accessing permitted page content."
+      },
+      "C": {
+        "isCorrect": true,
+        "explanation": "Correct. Broad access to every site creates significant data and account exposure and should be justified and approved."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Ratings do not establish the publisher’s trustworthiness or justify broad permissions."
+      }
+    },
+    "keyTakeaway": "An extension with broad permissions can access sensitive page data; assess source and scope before use.",
+    "recommendedDefensiveAction": "Do not install until the extension is approved and its permissions are proportionate to a documented need."
+  }
+}

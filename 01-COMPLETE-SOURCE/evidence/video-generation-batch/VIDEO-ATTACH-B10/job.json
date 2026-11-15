@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-ATTACH-B10",
+  "questionId": "ATTACH-B10",
+  "level": "Beginner",
+  "title": "Question explanation: The unexpected invoice attachment",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "169a151832f533b2729b84d803ad7841e6ad0f7078d972229b58b20807463e83",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 50
+  },
+  "narration": "Scenario: An email appears to come from a classmate and includes an unexpected file named “Updated_Grades.zip.” The classmate has not mentioned sending it. Safest response: Option C: Verify with the classmate using a separate known contact method and report the message if unconfirmed. A known account can be compromised; confirm an unexpected attachment independently. Option A is unsafe because Disabling protections to open an unexpected file increases risk. Option B is unsafe because Opening an unexpected archive may expose the device to malicious content. Option D is unsafe because Forwarding can spread a malicious file to more people. In practice: Do not open or forward the file. Verify with the sender using a previously known contact method and follow reporting procedures. Key takeaway: An attachment from a familiar account can still be unsafe or unexpected.",
+  "script": "# The unexpected invoice attachment\n\n**Video ID:** `VIDEO-ATTACH-B10`  \n**Question ID:** `ATTACH-B10`  \n**Level:** Beginner  \n**Target duration:** 50 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nVerify unexpected attachments through a trusted channel before opening\n\n## Scenario\nAn email appears to come from a classmate and includes an unexpected file named “Updated_Grades.zip.” The classmate has not mentioned sending it.\n\n## Narration transcript\nScenario: An email appears to come from a classmate and includes an unexpected file named “Updated_Grades.zip.” The classmate has not mentioned sending it. Safest response: Option C: Verify with the classmate using a separate known contact method and report the message if unconfirmed. A known account can be compromised; confirm an unexpected attachment independently. Option A is unsafe because Disabling protections to open an unexpected file increases risk. Option B is unsafe because Opening an unexpected archive may expose the device to malicious content. Option D is unsafe because Forwarding can spread a malicious file to more people. In practice: Do not open or forward the file. Verify with the sender using a previously known contact method and follow reporting procedures. Key takeaway: An attachment from a familiar account can still be unsafe or unexpected.\n\n## Correct response\nC. Verify with the classmate using a separate known contact method and report the message if unconfirmed.\n\n## Option-specific teaching notes\n- **A:** Disabling protections to open an unexpected file increases risk.\n- **B:** Opening an unexpected archive may expose the device to malicious content.\n- **C (correct):** Correct. A known account can be compromised; confirm an unexpected attachment independently.\n- **D:** Forwarding can spread a malicious file to more people.\n\n## Key takeaway\nAn attachment from a familiar account can still be unsafe or unexpected.\n\n## Recommended defensive action\nDo not open or forward the file. Verify with the sender using a previously known contact method and follow reporting procedures.\n\n## On-screen text sequence\n- **0-9s — Scenario setup:** Fictional scenario\n- **9-18s — Learning objective and risk cue:** Malicious attachments — key cue\n- **18-30s — Recommended response:** Safest response: C\n- **30-42s — Why the other options fail:** Why the alternatives are unsafe\n- **42-50s — Defensive takeaway:** An attachment from a familiar account can still be unsafe or unexpected.\n\n## Research references\n- [1]\n- [7]\n- [25]\n\n## Planned output\n`public/videos/beginner/attach-b10.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-ATTACH-B10",
+    "questionId": "ATTACH-B10",
+    "title": "The unexpected invoice attachment — question explanation",
+    "learningObjective": "Verify unexpected attachments through a trusted channel before opening",
+    "targetDurationSeconds": 50,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-9s",
+        "visual": "An email appears to come from a classmate and includes an unexpected file named “Updated_Grades.zip.” The classmate has not mentioned sending it.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "9-18s",
+        "visual": "Verify unexpected attachments through a trusted channel before opening",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Malicious attachments — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "18-30s",
+        "visual": "Option C: Verify with the classmate using a separate known contact method and report the message if unconfirmed. A known account can be compromised; confirm an unexpected attachment independently.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: C"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "30-42s",
+        "visual": "Option A: Disabling protections to open an unexpected file increases risk. Option B: Opening an unexpected archive may expose the device to malicious content. Option D: Forwarding can spread a malicious file to more people.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "42-50s",
+        "visual": "Do not open or forward the file. Verify with the sender using a previously known contact method and follow reporting procedures. An attachment from a familiar account can still be unsafe or unexpected.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "An attachment from a familiar account can still be unsafe or unexpected."
+      }
+    ],
+    "narration": "Scenario: An email appears to come from a classmate and includes an unexpected file named “Updated_Grades.zip.” The classmate has not mentioned sending it. Safest response: Option C: Verify with the classmate using a separate known contact method and report the message if unconfirmed. A known account can be compromised; confirm an unexpected attachment independently. Option A is unsafe because Disabling protections to open an unexpected file increases risk. Option B is unsafe because Opening an unexpected archive may expose the device to malicious content. Option D is unsafe because Forwarding can spread a malicious file to more people. In practice: Do not open or forward the file. Verify with the sender using a previously known contact method and follow reporting procedures. Key takeaway: An attachment from a familiar account can still be unsafe or unexpected.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Malicious attachments. Scenario: An email appears to come from a classmate and includes an unexpected file named “Updated_Grades.zip.” The classmate has not mentioned sending it. Explain why Option C is the safest defensive response: Verify with the classmate using a separate known contact method and report the message if unconfirmed. Contrast the unsafe alternatives with these concise reasons: Option A: Disabling protections to open an unexpected file increases risk.; Option B: Opening an unexpected archive may expose the device to malicious content.; Option D: Forwarding can spread a malicious file to more people.. Conclude with: An attachment from a familiar account can still be unsafe or unexpected. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[7]",
+      "[25]"
+    ],
+    "outputFile": "public/videos/beginner/attach-b10.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Malicious attachments. Scenario: An email appears to come from a classmate and includes an unexpected file named “Updated_Grades.zip.” The classmate has not mentioned sending it. Explain why the correct defensive response is: Verify with the classmate using a separate known contact method and report the message if unconfirmed. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: An attachment from a familiar account can still be unsafe or unexpected. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.333\nScenario: An email appears to come from a classmate\n\n2\n00:00:03.333 --> 00:00:06.667\nand includes an unexpected file named “Updated_Grades.zip.” The classmate\n\n3\n00:00:06.667 --> 00:00:10.000\nhas not mentioned sending it. Safest response: Option C:\n\n4\n00:00:10.000 --> 00:00:13.333\nVerify with the classmate using a separate known contact\n\n5\n00:00:13.333 --> 00:00:16.667\nmethod and report the message if unconfirmed. A known\n\n6\n00:00:16.667 --> 00:00:20.000\naccount can be compromised; confirm an unexpected attachment independently.\n\n7\n00:00:20.000 --> 00:00:23.333\nOption A is unsafe because Disabling protections to open\n\n8\n00:00:23.333 --> 00:00:26.667\nan unexpected file increases risk. Option B is unsafe\n\n9\n00:00:26.667 --> 00:00:30.000\nbecause Opening an unexpected archive may expose the device\n\n10\n00:00:30.000 --> 00:00:33.333\nto malicious content. Option D is unsafe because Forwarding\n\n11\n00:00:33.333 --> 00:00:36.667\ncan spread a malicious file to more people. In\n\n12\n00:00:36.667 --> 00:00:40.000\npractice: Do not open or forward the file. Verify\n\n13\n00:00:40.000 --> 00:00:43.333\nwith the sender using a previously known contact method\n\n14\n00:00:43.333 --> 00:00:46.667\nand follow reporting procedures. Key takeaway: An attachment from\n\n15\n00:00:46.667 --> 00:00:50.000\na familiar account can still be unsafe or unexpected.\n",
+  "referenceIds": [
+    "[1]",
+    "[7]",
+    "[25]"
+  ],
+  "question": {
+    "title": "The unexpected invoice attachment",
+    "learningObjective": "Verify unexpected attachments through a trusted channel before opening",
+    "scenario": "An email appears to come from a classmate and includes an unexpected file named “Updated_Grades.zip.” The classmate has not mentioned sending it.",
+    "correctOptionId": "C",
+    "correctAnswer": "Verify with the classmate using a separate known contact method and report the message if unconfirmed.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Disabling protections to open an unexpected file increases risk."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "Opening an unexpected archive may expose the device to malicious content."
+      },
+      "C": {
+        "isCorrect": true,
+        "explanation": "Correct. A known account can be compromised; confirm an unexpected attachment independently."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Forwarding can spread a malicious file to more people."
+      }
+    },
+    "keyTakeaway": "An attachment from a familiar account can still be unsafe or unexpected.",
+    "recommendedDefensiveAction": "Do not open or forward the file. Verify with the sender using a previously known contact method and follow reporting procedures."
+  }
+}

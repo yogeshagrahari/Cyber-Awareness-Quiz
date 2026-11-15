@@ -1,0 +1,12 @@
+Create a fictional 60-second accessible educational motion-graphics explainer for CYBERAWARE 3D. Subject: Governance and risk communication. Use only generic fictional systems and synthetic values. Explain the correct defensive response, contrast the three unsafe alternatives at a high level, and end with: Good incident governance makes uncertainty visible and assigns decisions; it does not conceal uncertainty or turn it into assurance.
+
+NARRATION
+Scenario: Two hosts are isolated after a suspected platform compromise, but data-access scope and recovery time remain unknown. Safest response: brief the board on verified facts, impacts, containment, uncertainties, owners and the next update. Option A is unsafe because No confirmed exfiltration does not prove that data was not accessed. Option B is unsafe because Leadership needs timely decision-ready information before attribution is complete. Option D is unsafe because Raw logs and attacker speculation can expose sensitive information and mislead leaders. In practice: separate facts, assumptions and unknowns, then record decisions and the update cadence. Key takeaway: communicate uncertainty clearly; do not promise what evidence cannot support.
+
+FULL TEACHING NOTES
+Option A: No confirmed exfiltration does not prove that data was not accessed. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option B: Leadership needs timely decision-ready information before attribution is complete. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option C: Correct. Clear separation of verified facts, assumptions and unknowns supports governance decisions without overstating certainty.
+Option D: Raw logs and attacker speculation can expose sensitive information and mislead leaders. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+
+STYLE: Deep navy, charcoal, restrained cyan/electric blue, accessible typography, 16:9. No recognizable logos, real identities, credentials, live data, operational attack instructions, flashing, rapid motion or autoplay audio. Supply separate synchronized WebVTT and transcript. Human review is mandatory before release.

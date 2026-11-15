@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.349
+Scenario: A pop-up email says your laptop is at
+
+2
+00:00:03.349 --> 00:00:06.698
+risk and provides an attached “critical security update” installer.
+
+3
+00:00:06.698 --> 00:00:10.047
+Safest response: Option B: Download the update only through
+
+4
+00:00:10.047 --> 00:00:13.395
+the operating system’s trusted update mechanism or the organization’s
+
+5
+00:00:13.395 --> 00:00:16.744
+managed software portal. Updates should be obtained and authenticated
+
+6
+00:00:16.744 --> 00:00:20.093
+through trusted vendor or managed channels. Option A is
+
+7
+00:00:20.093 --> 00:00:23.442
+unsafe because An unrelated download site may distribute tampered
+
+8
+00:00:23.442 --> 00:00:26.791
+or malicious software. Option C is unsafe because Email
+
+9
+00:00:26.791 --> 00:00:30.884
+attachments are not a trusted update channel and may contain malware.
+
+10
+00:00:30.884 --> 00:00:34.233
+Option D is unsafe because A password-protected archive does
+
+11
+00:00:34.233 --> 00:00:37.581
+not establish provenance or integrity. In practice: Ignore the
+
+12
+00:00:37.581 --> 00:00:40.930
+email attachment and check the device’s built-in update service
+
+13
+00:00:40.930 --> 00:00:44.279
+or your organization’s managed software portal. Key takeaway: Install
+
+14
+00:00:44.279 --> 00:00:47.628
+updates through trusted, authenticated update mechanisms—not unsolicited links or
+
+15
+00:00:47.628 --> 00:00:48.000
+attachments.

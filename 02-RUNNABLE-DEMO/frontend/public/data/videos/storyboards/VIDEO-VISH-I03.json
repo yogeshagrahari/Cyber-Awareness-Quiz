@@ -1,0 +1,65 @@
+{
+  "videoId": "VIDEO-VISH-I03",
+  "questionId": "VISH-I03",
+  "title": "The “IT support” caller — question explanation",
+  "learningObjective": "Verify caller identity and resist verbal pressure to disclose data or approve actions",
+  "targetDurationSeconds": 53,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-10s",
+      "visual": "A caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "10-19s",
+      "visual": "Verify caller identity and resist verbal pressure to disclose data or approve actions",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Vishing — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "19-32s",
+      "visual": "Option C: End the call and contact IT using the organization’s published helpdesk route. Independently verify support requests; never disclose authentication outputs to an unsolicited caller.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: C"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "32-45s",
+      "visual": "Option A: The code may authorize account access even without remote-control software. Option B: Unverified remote access can give the caller control of the device. Option D: A photo can be fabricated or copied and is not reliable identity verification.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "45-53s",
+      "visual": "End the call. Contact the helpdesk using a known directory or portal and report the attempted remote-access and code request. Caller ID, technical language and urgency are not proof that a caller is authorized.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Caller ID, technical language and urgency are not proof that a caller is authorized."
+    }
+  ],
+  "narration": "Scenario: A caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code. Safest response: Option C: End the call and contact IT using the organization’s published helpdesk route. Independently verify support requests; never disclose authentication outputs to an unsolicited caller. Option A is unsafe because The code may authorize account access even without remote-control software. Option B is unsafe because Unverified remote access can give the caller control of the device. Option D is unsafe because A photo can be fabricated or copied and is not reliable identity verification. In practice: End the call. Contact the helpdesk using a known directory or portal and report the attempted remote-access and code request. Key takeaway: Caller ID, technical language and urgency are not proof that a caller is authorized.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Vishing. Scenario: A caller claiming to be IT support says your laptop is infected and asks you to install a remote-access tool and read out an authentication code. Explain why Option C is the safest defensive response: End the call and contact IT using the organization’s published helpdesk route. Contrast the unsafe alternatives with these concise reasons: Option A: The code may authorize account access even without remote-control software.; Option B: Unverified remote access can give the caller control of the device.; Option D: A photo can be fabricated or copied and is not reliable identity verification.. Conclude with: Caller ID, technical language and urgency are not proof that a caller is authorized. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[3]",
+    "[4]",
+    "[16]",
+    "[25]"
+  ],
+  "outputFile": "public/videos/intermediate/vish-i03.mp4"
+}

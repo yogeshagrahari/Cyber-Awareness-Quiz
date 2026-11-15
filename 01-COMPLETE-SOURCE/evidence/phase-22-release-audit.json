@@ -1,0 +1,42 @@
+{
+  "project": "CYBERAWARE 3D",
+  "phase": 22,
+  "version": "0.10.0-rc.15",
+  "decision": "FINAL_LOCAL_HANDOFF_CANDIDATE_NOT_PRODUCTION_APPROVED",
+  "scope": [
+    "RC.14 source audit",
+    "research/implementation consistency",
+    "offline verification",
+    "legacy demonstrator build and smoke",
+    "deployment safeguards",
+    "source inventory and archive integrity"
+  ],
+  "completed": [
+    "49/49 legacy tests",
+    "19/19 React domain/source tests",
+    "content and traceability validator",
+    "offline TypeScript structural check",
+    "secret-pattern guardrail",
+    "copy-based static distribution and 215-route smoke",
+    "Nginx static 10/10 and live 8/8",
+    "backup smoke",
+    "systemd syntax",
+    "1,160-file SHA-256 manifest",
+    "source ZIP and app-demo ZIP",
+    "final source/demo ZIP extraction, checksum and extracted runtime smoke"
+  ],
+  "blocked": [
+    "reviewed React package-lock.json",
+    "npm ci and npm audit",
+    "official TypeScript 7 / Vite production build",
+    "React Playwright and axe acceptance",
+    "manual WCAG 2.2 AA review",
+    "target host TLS/HSTS/monitoring/restore/rollback",
+    "independent SME/instructional-design approval",
+    "learner evaluation and applicable ethics approval",
+    "review of the full CISA 2026 guide PDF",
+    "shared Group E repository integration"
+  ],
+  "video": "Deferred by owner; no video generation or review performed.",
+  "archiveInterpretation": "The full-source archive includes React migration source. The app-demo archive is the dependency-free legacy demonstrator and is not the React/Vite production bundle."
+}

@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.740
+Scenario: A message says you must review a shared document.
+
+2
+00:00:03.740 --> 00:00:07.107
+The visible text says “university portal,” but the underlying
+
+3
+00:00:07.107 --> 00:00:10.473
+link points to a misspelled domain. Safest response: Option
+
+4
+00:00:10.473 --> 00:00:13.840
+B: Do not use the link; open the known
+
+5
+00:00:13.840 --> 00:00:17.206
+portal independently and locate the document there. Independent navigation
+
+6
+00:00:17.206 --> 00:00:20.573
+avoids relying on a potentially deceptive destination. Option A
+
+7
+00:00:20.573 --> 00:00:23.939
+is unsafe because Private browsing does not make a
+
+8
+00:00:23.939 --> 00:00:27.305
+malicious destination safe. Option C is unsafe because Visible
+
+9
+00:00:27.305 --> 00:00:30.672
+link text can conceal a different destination. Option D
+
+10
+00:00:30.672 --> 00:00:34.038
+is unsafe because Search results may include look-alike or
+
+11
+00:00:34.038 --> 00:00:37.405
+sponsored destinations and do not validate the message. In
+
+12
+00:00:37.405 --> 00:00:41.519
+practice: Use a bookmark or manually enter the service’s known address.
+
+13
+00:00:41.519 --> 00:00:44.885
+Report the suspicious message if it is unsolicited. Key
+
+14
+00:00:44.885 --> 00:00:48.252
+takeaway: Treat a link’s actual destination—not its label—as the
+
+15
+00:00:48.252 --> 00:00:49.000
+relevant address.

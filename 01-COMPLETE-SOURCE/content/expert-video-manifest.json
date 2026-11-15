@@ -1,0 +1,485 @@
+{
+  "project": "CYBERAWARE 3D",
+  "manifestVersion": "1.0.0",
+  "status": "video_work_partially_prepared_and_new_items_deferred_by_owner_request",
+  "mediaGenerationClaim": false,
+  "questionCount": 18,
+  "scriptCount": 6,
+  "storyboardCount": 6,
+  "captionFileCount": 6,
+  "entries": [
+    {
+      "videoId": "VIDEO-IR-E01",
+      "questionId": "IR-E01",
+      "level": "Expert Challenge",
+      "title": "Expert Challenge explanation: Containment Under Uncertainty",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-IR-E01.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-IR-E01.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-IR-E01.md",
+      "captionsPath": "content/videos/captions/VIDEO-IR-E01.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-IR-E01.txt",
+      "plannedOutputPath": "public/videos/expert/ir-e01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "notes": "Narration shortened to 105 words for a 60-second target. Full option-specific explanations remain in the script. MP4 not generated or claimed.",
+      "wordCount": 105
+    },
+    {
+      "videoId": "VIDEO-SUP-E02",
+      "questionId": "SUP-E02",
+      "level": "Expert Challenge",
+      "title": "Expert Challenge explanation: The Critical Supplier Component",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-SUP-E02.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-SUP-E02.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-SUP-E02.md",
+      "captionsPath": "content/videos/captions/VIDEO-SUP-E02.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-SUP-E02.txt",
+      "plannedOutputPath": "public/videos/expert/sup-e02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[37]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "notes": "Narration shortened to 110 words for a 60-second target. Full option-specific explanations remain in the script. MP4 not generated or claimed.",
+      "wordCount": 110
+    },
+    {
+      "videoId": "VIDEO-INS-E03",
+      "questionId": "INS-E03",
+      "level": "Expert Challenge",
+      "title": "Expert Challenge explanation: An Insider-Risk Signal",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-INS-E03.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-INS-E03.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-INS-E03.md",
+      "captionsPath": "content/videos/captions/VIDEO-INS-E03.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-INS-E03.txt",
+      "plannedOutputPath": "public/videos/expert/ins-e03.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[32]",
+        "[33]",
+        "[38]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "notes": "Narration shortened to 102 words for a 60-second target. Full option-specific explanations remain in the script. MP4 not generated or claimed.",
+      "wordCount": 102
+    },
+    {
+      "videoId": "VIDEO-BEC-E04",
+      "questionId": "BEC-E04",
+      "level": "Expert Challenge",
+      "title": "Expert Challenge explanation: The Executive Payment Change",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-BEC-E04.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-BEC-E04.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-BEC-E04.md",
+      "captionsPath": "content/videos/captions/VIDEO-BEC-E04.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-BEC-E04.txt",
+      "plannedOutputPath": "public/videos/expert/bec-e04.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[26]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "notes": "Narration shortened to 108 words for a 60-second target. Full option-specific explanations remain in the script. MP4 not generated or claimed.",
+      "wordCount": 108
+    },
+    {
+      "videoId": "VIDEO-GOV-E05",
+      "questionId": "GOV-E05",
+      "level": "Expert Challenge",
+      "title": "Expert Challenge explanation: The Board Risk Briefing",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-GOV-E05.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-GOV-E05.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-GOV-E05.md",
+      "captionsPath": "content/videos/captions/VIDEO-GOV-E05.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-GOV-E05.txt",
+      "plannedOutputPath": "public/videos/expert/gov-e05.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "notes": "Narration shortened to 107 words for a 60-second target. Full option-specific explanations remain in the script. MP4 not generated or claimed.",
+      "wordCount": 107
+    },
+    {
+      "videoId": "VIDEO-REC-E06",
+      "questionId": "REC-E06",
+      "level": "Expert Challenge",
+      "title": "Expert Challenge explanation: Recovering After Ransomware",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-REC-E06.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-REC-E06.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-REC-E06.md",
+      "captionsPath": "content/videos/captions/VIDEO-REC-E06.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-REC-E06.txt",
+      "plannedOutputPath": "public/videos/expert/rec-e06.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[28]",
+        "[35]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "notes": "Narration shortened to 108 words for a 60-second target. Full option-specific explanations remain in the script. MP4 not generated or claimed.",
+      "wordCount": 108
+    },
+    {
+      "videoId": "VIDEO-LIB-IRG-01",
+      "questionId": "LIB-IRG-01",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Incident response governance: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-irg-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-IRG-02",
+      "questionId": "LIB-IRG-02",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Incident response governance: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-irg-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SCG-01",
+      "questionId": "LIB-SCG-01",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Supply-chain risk governance: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-scg-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[37]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SCG-02",
+      "questionId": "LIB-SCG-02",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Supply-chain risk governance: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-scg-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[37]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-IGV-01",
+      "questionId": "LIB-IGV-01",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Insider risk and governance: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-igv-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[32]",
+        "[33]",
+        "[38]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-IGV-02",
+      "questionId": "LIB-IGV-02",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Insider risk and governance: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-igv-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[32]",
+        "[33]",
+        "[38]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-BECG-01",
+      "questionId": "LIB-BECG-01",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Business email compromise and financial controls: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-becg-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[26]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-BECG-02",
+      "questionId": "LIB-BECG-02",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Business email compromise and financial controls: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-becg-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[26]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-GRC-01",
+      "questionId": "LIB-GRC-01",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Governance and risk communication: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-grc-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[28]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-GRC-02",
+      "questionId": "LIB-GRC-02",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Governance and risk communication: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-grc-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[28]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-RCR-01",
+      "questionId": "LIB-RCR-01",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Ransomware recovery and resilience: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-rcr-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[28]",
+        "[35]",
+        "[17]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-RCR-02",
+      "questionId": "LIB-RCR-02",
+      "level": "Expert Challenge",
+      "title": "Question explanation: Ransomware recovery and resilience: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/expert/lib-rcr-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[28]",
+        "[35]",
+        "[17]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    }
+  ],
+  "contentReviewApprovedCount": 0,
+  "pendingContentReviewCount": 18,
+  "importedMediaCount": 0,
+  "readyVideoCount": 0,
+  "ownerDirection": "Do not generate new scripts, storyboards, captions or MP4 files for the added library questions in this update."
+}

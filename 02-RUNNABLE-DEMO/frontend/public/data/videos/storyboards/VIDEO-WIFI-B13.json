@@ -1,0 +1,64 @@
+{
+  "videoId": "VIDEO-WIFI-B13",
+  "questionId": "WIFI-B13",
+  "title": "The open public Wi-Fi network — question explanation",
+  "learningObjective": "Choose safer connection practices and avoid exposing sensitive data on untrusted networks",
+  "targetDurationSeconds": 53,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-10s",
+      "visual": "At an airport, several similarly named free Wi-Fi networks appear. You need to access a sensitive work account.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "10-19s",
+      "visual": "Choose safer connection practices and avoid exposing sensitive data on untrusted networks",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Network security — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "19-32s",
+      "visual": "Option C: Use a personal or organization-approved hotspot, or a verified network with required protections. Prefer a trusted connection; public wireless networks can expose devices and traffic to additional risk.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: C"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "32-45s",
+      "visual": "Option A: HTTPS protects data in transit to a valid site but does not authenticate the Wi-Fi operator or protect against every threat. Option B: Signal strength does not verify who operates the network. Option D: Disabling a security control does not improve trust in the network and increases exposure.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "45-53s",
+      "visual": "Prefer mobile data or an organization-approved hotspot. Follow your organization’s VPN and remote-access requirements. Network names and signal strength do not prove that a Wi-Fi network is legitimate.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Network names and signal strength do not prove that a Wi-Fi network is legitimate."
+    }
+  ],
+  "narration": "Scenario: At an airport, several similarly named free Wi-Fi networks appear. You need to access a sensitive work account. Safest response: Option C: Use a personal or organization-approved hotspot, or a verified network with required protections. Prefer a trusted connection; public wireless networks can expose devices and traffic to additional risk. Option A is unsafe because HTTPS protects data in transit to a valid site but does not authenticate the Wi-Fi operator or protect against every threat. Option B is unsafe because Signal strength does not verify who operates the network. Option D is unsafe because Disabling a security control does not improve trust in the network and increases exposure. In practice: Prefer mobile data or an organization-approved hotspot. Follow your organization’s VPN and remote-access requirements. Key takeaway: Network names and signal strength do not prove that a Wi-Fi network is legitimate.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Network security. Scenario: At an airport, several similarly named free Wi-Fi networks appear. You need to access a sensitive work account. Explain why Option C is the safest defensive response: Use a personal or organization-approved hotspot, or a verified network with required protections. Contrast the unsafe alternatives with these concise reasons: Option A: HTTPS protects data in transit to a valid site but does not authenticate the Wi-Fi operator or protect against every threat.; Option B: Signal strength does not verify who operates the network.; Option D: Disabling a security control does not improve trust in the network and increases exposure.. Conclude with: Network names and signal strength do not prove that a Wi-Fi network is legitimate. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[1]",
+    "[17]",
+    "[30]"
+  ],
+  "outputFile": "public/videos/beginner/wifi-b13.mp4"
+}

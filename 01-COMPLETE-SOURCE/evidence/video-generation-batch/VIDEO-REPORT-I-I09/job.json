@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-REPORT-I-I09",
+  "questionId": "REPORT-I-I09",
+  "level": "Intermediate",
+  "title": "Question explanation: The suspected malware click",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "5699435da7da097b46c7eb537e48acd480d2f85e280fea4c5aca488a3eabb517",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 50
+  },
+  "narration": "Scenario: You opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number. Safest response: Option B: Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to. Prompt reporting and coordinated containment are safer than improvising remediation. Option A is unsafe because Public upload may disclose confidential information and spread malware. Option C is unsafe because Deleting files or logs can destroy evidence needed for investigation. Option D is unsafe because Continuing activity or using unapproved tools can worsen impact or interfere with response. In practice: Contact the organization’s security team immediately. Follow their containment instructions and preserve the device and relevant details. Key takeaway: Report quickly and follow the incident-response plan; do not improvise forensic actions.",
+  "script": "# The suspected malware click\n\n**Video ID:** `VIDEO-REPORT-I-I09`  \n**Question ID:** `REPORT-I-I09`  \n**Level:** Intermediate  \n**Target duration:** 50 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nSelect appropriate reporting, containment and evidence-preservation steps\n\n## Scenario\nYou opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number.\n\n## Narration transcript\nScenario: You opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number. Safest response: Option B: Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to. Prompt reporting and coordinated containment are safer than improvising remediation. Option A is unsafe because Public upload may disclose confidential information and spread malware. Option C is unsafe because Deleting files or logs can destroy evidence needed for investigation. Option D is unsafe because Continuing activity or using unapproved tools can worsen impact or interfere with response. In practice: Contact the organization’s security team immediately. Follow their containment instructions and preserve the device and relevant details. Key takeaway: Report quickly and follow the incident-response plan; do not improvise forensic actions.\n\n## Correct response\nB. Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to.\n\n## Option-specific teaching notes\n- **A:** Public upload may disclose confidential information and spread malware.\n- **B (correct):** Correct. Prompt reporting and coordinated containment are safer than improvising remediation.\n- **C:** Deleting files or logs can destroy evidence needed for investigation.\n- **D:** Continuing activity or using unapproved tools can worsen impact or interfere with response.\n\n## Key takeaway\nReport quickly and follow the incident-response plan; do not improvise forensic actions.\n\n## Recommended defensive action\nContact the organization’s security team immediately. Follow their containment instructions and preserve the device and relevant details.\n\n## On-screen text sequence\n- **0-9s — Scenario setup:** Fictional scenario\n- **9-18s — Learning objective and risk cue:** Incident response — key cue\n- **18-30s — Recommended response:** Safest response: B\n- **30-42s — Why the other options fail:** Why the alternatives are unsafe\n- **42-50s — Defensive takeaway:** Report quickly and follow the incident-response plan; do not improvise forensic actions.\n\n## Research references\n- [1]\n- [17]\n- [28]\n\n## Planned output\n`public/videos/intermediate/report-i-i09.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-REPORT-I-I09",
+    "questionId": "REPORT-I-I09",
+    "title": "The suspected malware click — question explanation",
+    "learningObjective": "Select appropriate reporting, containment and evidence-preservation steps",
+    "targetDurationSeconds": 50,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-9s",
+        "visual": "You opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "9-18s",
+        "visual": "Select appropriate reporting, containment and evidence-preservation steps",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Incident response — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "18-30s",
+        "visual": "Option B: Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to. Prompt reporting and coordinated containment are safer than improvising remediation.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: B"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "30-42s",
+        "visual": "Option A: Public upload may disclose confidential information and spread malware. Option C: Deleting files or logs can destroy evidence needed for investigation. Option D: Continuing activity or using unapproved tools can worsen impact or interfere with response.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "42-50s",
+        "visual": "Contact the organization’s security team immediately. Follow their containment instructions and preserve the device and relevant details. Report quickly and follow the incident-response plan; do not improvise forensic actions.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Report quickly and follow the incident-response plan; do not improvise forensic actions."
+      }
+    ],
+    "narration": "Scenario: You opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number. Safest response: Option B: Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to. Prompt reporting and coordinated containment are safer than improvising remediation. Option A is unsafe because Public upload may disclose confidential information and spread malware. Option C is unsafe because Deleting files or logs can destroy evidence needed for investigation. Option D is unsafe because Continuing activity or using unapproved tools can worsen impact or interfere with response. In practice: Contact the organization’s security team immediately. Follow their containment instructions and preserve the device and relevant details. Key takeaway: Report quickly and follow the incident-response plan; do not improvise forensic actions.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Incident response. Scenario: You opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number. Explain why Option B is the safest defensive response: Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to. Contrast the unsafe alternatives with these concise reasons: Option A: Public upload may disclose confidential information and spread malware.; Option C: Deleting files or logs can destroy evidence needed for investigation.; Option D: Continuing activity or using unapproved tools can worsen impact or interfere with response.. Conclude with: Report quickly and follow the incident-response plan; do not improvise forensic actions. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[17]",
+      "[28]"
+    ],
+    "outputFile": "public/videos/intermediate/report-i-i09.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Incident response. Scenario: You opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number. Explain why the correct defensive response is: Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Report quickly and follow the incident-response plan; do not improvise forensic actions. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.676\nScenario: You opened a suspicious attachment on a managed laptop.\n\n2\n00:00:03.676 --> 00:00:06.985\nThe device is behaving unusually, and your organization has\n\n3\n00:00:06.985 --> 00:00:10.294\nan incident-response number. Safest response: Option B: Immediately follow\n\n4\n00:00:10.294 --> 00:00:13.603\nthe organization’s incident procedure, report the event, and isolate\n\n5\n00:00:13.603 --> 00:00:16.912\nthe device if policy or responders direct you to.\n\n6\n00:00:16.912 --> 00:00:20.588\nPrompt reporting and coordinated containment are safer than improvising remediation.\n\n7\n00:00:20.588 --> 00:00:23.897\nOption A is unsafe because Public upload may disclose\n\n8\n00:00:23.897 --> 00:00:27.206\nconfidential information and spread malware. Option C is unsafe\n\n9\n00:00:27.206 --> 00:00:31.250\nbecause Deleting files or logs can destroy evidence needed for investigation.\n\n10\n00:00:31.250 --> 00:00:34.559\nOption D is unsafe because Continuing activity or using\n\n11\n00:00:34.559 --> 00:00:37.868\nunapproved tools can worsen impact or interfere with response.\n\n12\n00:00:37.868 --> 00:00:41.176\nIn practice: Contact the organization’s security team immediately. Follow\n\n13\n00:00:41.176 --> 00:00:44.853\ntheir containment instructions and preserve the device and relevant details.\n\n14\n00:00:44.853 --> 00:00:48.162\nKey takeaway: Report quickly and follow the incident-response plan;\n\n15\n00:00:48.162 --> 00:00:50.000\ndo not improvise forensic actions.\n",
+  "referenceIds": [
+    "[1]",
+    "[17]",
+    "[28]"
+  ],
+  "question": {
+    "title": "The suspected malware click",
+    "learningObjective": "Select appropriate reporting, containment and evidence-preservation steps",
+    "scenario": "You opened a suspicious attachment on a managed laptop. The device is behaving unusually, and your organization has an incident-response number.",
+    "correctOptionId": "B",
+    "correctAnswer": "Immediately follow the organization’s incident procedure, report the event, and isolate the device if policy or responders direct you to.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Public upload may disclose confidential information and spread malware."
+      },
+      "B": {
+        "isCorrect": true,
+        "explanation": "Correct. Prompt reporting and coordinated containment are safer than improvising remediation."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Deleting files or logs can destroy evidence needed for investigation."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Continuing activity or using unapproved tools can worsen impact or interfere with response."
+      }
+    },
+    "keyTakeaway": "Report quickly and follow the incident-response plan; do not improvise forensic actions.",
+    "recommendedDefensiveAction": "Contact the organization’s security team immediately. Follow their containment instructions and preserve the device and relevant details."
+  }
+}

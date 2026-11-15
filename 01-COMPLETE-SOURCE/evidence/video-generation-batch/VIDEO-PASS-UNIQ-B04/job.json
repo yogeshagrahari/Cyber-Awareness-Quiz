@@ -1,0 +1,114 @@
+{
+  "videoId": "VIDEO-PASS-UNIQ-B04",
+  "questionId": "PASS-UNIQ-B04",
+  "level": "Beginner",
+  "title": "Question explanation: One password, multiple accounts",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "ab66c685463ec044914af315d7a93df6f9162ae2594de2afe88049fae2c27f21",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 54
+  },
+  "narration": "Scenario: You use the same password for a shopping site and your school account. The shopping site reports a data breach. Safest response: Option C: Change the reused password to a unique one and review other accounts where it was reused. A breach at one service can expose a password reused elsewhere; unique credentials limit cross-service compromise. Option A is unsafe because Waiting leaves an exposed credential in use; address the reuse promptly. Option B is unsafe because MFA adds protection but does not make password reuse safe; stolen credentials can still be abused. Option D is unsafe because A predictable minor variation still preserves password reuse and may be guessable. In practice: Change the school password to a unique strong password, change other reused instances, and check account activity. Key takeaway: Use a unique password for every account so one service’s breach does not unlock another.",
+  "script": "# One password, multiple accounts\n\n**Video ID:** `VIDEO-PASS-UNIQ-B04`  \n**Question ID:** `PASS-UNIQ-B04`  \n**Level:** Beginner  \n**Target duration:** 54 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nAvoid password reuse across services and understand credential-stuffing exposure\n\n## Scenario\nYou use the same password for a shopping site and your school account. The shopping site reports a data breach.\n\n## Narration transcript\nScenario: You use the same password for a shopping site and your school account. The shopping site reports a data breach. Safest response: Option C: Change the reused password to a unique one and review other accounts where it was reused. A breach at one service can expose a password reused elsewhere; unique credentials limit cross-service compromise. Option A is unsafe because Waiting leaves an exposed credential in use; address the reuse promptly. Option B is unsafe because MFA adds protection but does not make password reuse safe; stolen credentials can still be abused. Option D is unsafe because A predictable minor variation still preserves password reuse and may be guessable. In practice: Change the school password to a unique strong password, change other reused instances, and check account activity. Key takeaway: Use a unique password for every account so one service’s breach does not unlock another.\n\n## Correct response\nC. Change the reused password to a unique one and review other accounts where it was reused.\n\n## Option-specific teaching notes\n- **A:** Waiting leaves an exposed credential in use; address the reuse promptly.\n- **B:** MFA adds protection but does not make password reuse safe; stolen credentials can still be abused.\n- **C (correct):** Correct. A breach at one service can expose a password reused elsewhere; unique credentials limit cross-service compromise.\n- **D:** A predictable minor variation still preserves password reuse and may be guessable.\n\n## Key takeaway\nUse a unique password for every account so one service’s breach does not unlock another.\n\n## Recommended defensive action\nChange the school password to a unique strong password, change other reused instances, and check account activity.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-19s — Learning objective and risk cue:** Password hygiene — key cue\n- **19-32s — Recommended response:** Safest response: C\n- **32-45s — Why the other options fail:** Why the alternatives are unsafe\n- **45-54s — Defensive takeaway:** Use a unique password for every account so one service’s breach does not unlock another.\n\n## Research references\n- [1]\n- [16]\n\n## Planned output\n`public/videos/beginner/pass-uniq-b04.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-PASS-UNIQ-B04",
+    "questionId": "PASS-UNIQ-B04",
+    "title": "One password, multiple accounts — question explanation",
+    "learningObjective": "Avoid password reuse across services and understand credential-stuffing exposure",
+    "targetDurationSeconds": 54,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "You use the same password for a shopping site and your school account. The shopping site reports a data breach.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-19s",
+        "visual": "Avoid password reuse across services and understand credential-stuffing exposure",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Password hygiene — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "19-32s",
+        "visual": "Option C: Change the reused password to a unique one and review other accounts where it was reused. A breach at one service can expose a password reused elsewhere; unique credentials limit cross-service compromise.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: C"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "32-45s",
+        "visual": "Option A: Waiting leaves an exposed credential in use; address the reuse promptly. Option B: MFA adds protection but does not make password reuse safe; stolen credentials can still be abused. Option D: A predictable minor variation still preserves password reuse and may be guessable.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "45-54s",
+        "visual": "Change the school password to a unique strong password, change other reused instances, and check account activity. Use a unique password for every account so one service’s breach does not unlock another.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Use a unique password for every account so one service’s breach does not unlock another."
+      }
+    ],
+    "narration": "Scenario: You use the same password for a shopping site and your school account. The shopping site reports a data breach. Safest response: Option C: Change the reused password to a unique one and review other accounts where it was reused. A breach at one service can expose a password reused elsewhere; unique credentials limit cross-service compromise. Option A is unsafe because Waiting leaves an exposed credential in use; address the reuse promptly. Option B is unsafe because MFA adds protection but does not make password reuse safe; stolen credentials can still be abused. Option D is unsafe because A predictable minor variation still preserves password reuse and may be guessable. In practice: Change the school password to a unique strong password, change other reused instances, and check account activity. Key takeaway: Use a unique password for every account so one service’s breach does not unlock another.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Password hygiene. Scenario: You use the same password for a shopping site and your school account. The shopping site reports a data breach. Explain why Option C is the safest defensive response: Change the reused password to a unique one and review other accounts where it was reused. Contrast the unsafe alternatives with these concise reasons: Option A: Waiting leaves an exposed credential in use; address the reuse promptly.; Option B: MFA adds protection but does not make password reuse safe; stolen credentials can still be abused.; Option D: A predictable minor variation still preserves password reuse and may be guessable.. Conclude with: Use a unique password for every account so one service’s breach does not unlock another. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[16]"
+    ],
+    "outputFile": "public/videos/beginner/pass-uniq-b04.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Password hygiene. Scenario: You use the same password for a shopping site and your school account. The shopping site reports a data breach. Explain why the correct defensive response is: Change the reused password to a unique one and review other accounts where it was reused. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Use a unique password for every account so one service’s breach does not unlock another. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.306\nScenario: You use the same password for a shopping\n\n2\n00:00:03.306 --> 00:00:06.612\nsite and your school account. The shopping site reports\n\n3\n00:00:06.612 --> 00:00:09.918\na data breach. Safest response: Option C: Change the\n\n4\n00:00:09.918 --> 00:00:13.224\nreused password to a unique one and review other\n\n5\n00:00:13.224 --> 00:00:16.531\naccounts where it was reused. A breach at one\n\n6\n00:00:16.531 --> 00:00:19.837\nservice can expose a password reused elsewhere; unique credentials\n\n7\n00:00:19.837 --> 00:00:23.143\nlimit cross-service compromise. Option A is unsafe because Waiting\n\n8\n00:00:23.143 --> 00:00:26.816\nleaves an exposed credential in use; address the reuse promptly.\n\n9\n00:00:26.816 --> 00:00:30.122\nOption B is unsafe because MFA adds protection but\n\n10\n00:00:30.122 --> 00:00:33.429\ndoes not make password reuse safe; stolen credentials can\n\n11\n00:00:33.429 --> 00:00:36.735\nstill be abused. Option D is unsafe because A\n\n12\n00:00:36.735 --> 00:00:40.776\npredictable minor variation still preserves password reuse and may be guessable.\n\n13\n00:00:40.776 --> 00:00:44.082\nIn practice: Change the school password to a unique\n\n14\n00:00:44.082 --> 00:00:47.755\nstrong password, change other reused instances, and check account activity.\n\n15\n00:00:47.755 --> 00:00:51.061\nKey takeaway: Use a unique password for every account\n\n16\n00:00:51.061 --> 00:00:54.000\nso one service’s breach does not unlock another.\n",
+  "referenceIds": [
+    "[1]",
+    "[16]"
+  ],
+  "question": {
+    "title": "One password, multiple accounts",
+    "learningObjective": "Avoid password reuse across services and understand credential-stuffing exposure",
+    "scenario": "You use the same password for a shopping site and your school account. The shopping site reports a data breach.",
+    "correctOptionId": "C",
+    "correctAnswer": "Change the reused password to a unique one and review other accounts where it was reused.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Waiting leaves an exposed credential in use; address the reuse promptly."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "MFA adds protection but does not make password reuse safe; stolen credentials can still be abused."
+      },
+      "C": {
+        "isCorrect": true,
+        "explanation": "Correct. A breach at one service can expose a password reused elsewhere; unique credentials limit cross-service compromise."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "A predictable minor variation still preserves password reuse and may be guessable."
+      }
+    },
+    "keyTakeaway": "Use a unique password for every account so one service’s breach does not unlock another.",
+    "recommendedDefensiveAction": "Change the school password to a unique strong password, change other reused instances, and check account activity."
+  }
+}

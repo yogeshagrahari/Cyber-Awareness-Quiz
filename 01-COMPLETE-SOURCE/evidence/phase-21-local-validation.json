@@ -1,0 +1,117 @@
+{
+  "project": "CYBERAWARE 3D",
+  "phase": 21,
+  "version": "0.10.0-rc.14",
+  "date": "2026-11-13",
+  "scope": "React accessibility source hardening and research reference verification; video generation/review explicitly deferred",
+  "environment": {
+    "node": "v22.16.0",
+    "npm": "10.9.2",
+    "typescript": "5.8.3",
+    "reactDependenciesInstalled": false,
+    "reactLockfilePresent": false,
+    "chromium": "144.0.7559.96"
+  },
+  "checks": [
+    {
+      "name": "React source/domain test suite",
+      "status": "PASS",
+      "result": "19/19",
+      "scope": "Node TypeScript strip-types tests; not a browser render"
+    },
+    {
+      "name": "Legacy application suite",
+      "status": "PASS",
+      "result": "49/49",
+      "scope": "Existing fallback app, server, data, simulations and release workflow unit tests"
+    },
+    {
+      "name": "Offline TypeScript structural check",
+      "status": "PASS",
+      "result": "tsc -p react-app/tsconfig.local.json",
+      "scope": "TypeScript 5.8.3 with ambient React/Vite shims; not official TypeScript 7"
+    },
+    {
+      "name": "Canonical content and traceability",
+      "status": "PASS",
+      "result": "45 core questions + 6 expert scenarios; 51 explanations; 204 rationales; 38 references",
+      "scope": "Existing validator; no video assets generated or reviewed"
+    },
+    {
+      "name": "High-confidence secret-pattern scan",
+      "status": "PASS",
+      "result": "PASS",
+      "scope": "Guardrail only; not full SAST/secret scanning"
+    },
+    {
+      "name": "npm registry access",
+      "status": "BLOCKED",
+      "result": "EAI_AGAIN resolving registry.npmjs.org",
+      "scope": "Could not create reviewed lockfile or install exact React dependencies"
+    },
+    {
+      "name": "Official React TypeScript/Vite production build",
+      "status": "NOT_RUN",
+      "result": "Dependencies unavailable",
+      "scope": "No false production-build pass claimed"
+    },
+    {
+      "name": "React Playwright/axe browser acceptance",
+      "status": "NOT_RUN",
+      "result": "React dependencies and Vite dist absent",
+      "scope": "Test source updated; not executed"
+    },
+    {
+      "name": "Local Chromium navigation",
+      "status": "BLOCKED",
+      "result": "ERR_BLOCKED_BY_ADMINISTRATOR for loopback URL",
+      "scope": "Browser process available, local navigation policy blocks access"
+    },
+    {
+      "name": "CISA 2026 reference [38]",
+      "status": "PARTIAL",
+      "result": "Official indexed resource listing and release announcement metadata corroborated",
+      "scope": "Linked 21.27 MB PDF not downloaded or independently reviewed"
+    },
+    {
+      "name": "Package source inventory",
+      "status": "PASS",
+      "result": "1,155 tracked files matched SHA-256 and size inventory",
+      "scope": "Deterministic source manifest verifier"
+    },
+    {
+      "name": "Release ZIP integrity and checksum",
+      "status": "PASS",
+      "result": "Both source and app-demo ZIPs passed archive tests and sha256sum verification",
+      "scope": "RC.14 source-only packages; no React built app ZIP created"
+    },
+    {
+      "name": "Extracted app-demo runtime smoke",
+      "status": "PASS",
+      "result": "HTTP health endpoint, root HTML, 45-question data route and RC.14 version label passed",
+      "scope": "Server started from extracted app-demo ZIP"
+    }
+  ],
+  "videoWork": {
+    "generated": false,
+    "reviewed": false,
+    "status": "DEFERRED_BY_OWNER"
+  },
+  "releaseDecision": "NOT_PRODUCTION_APPROVED",
+  "limitations": [
+    "No reviewed package-lock.json",
+    "No npm ci or npm audit",
+    "No official TypeScript 7/Vite build",
+    "No React Playwright/axe execution",
+    "No manual WCAG 2.2 AA review",
+    "No target-host TLS/HSTS/backup/restore/rollback validation",
+    "No independent SME/instructional-design approval or learner study",
+    "Full CISA 2026 guide PDF not reviewed"
+  ],
+  "releaseArtifacts": {
+    "version": "0.10.0-rc.14",
+    "mode": "SOURCE_ONLY_NOT_PRODUCTION",
+    "sourceFileCount": 1155,
+    "reactProductionZipCreated": false
+  }
+}

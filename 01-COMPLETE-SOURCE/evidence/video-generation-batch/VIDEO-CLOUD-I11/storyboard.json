@@ -1,0 +1,65 @@
+{
+  "videoId": "VIDEO-CLOUD-I11",
+  "questionId": "CLOUD-I11",
+  "title": "The anonymous cloud folder — question explanation",
+  "learningObjective": "Configure sharing permissions and expiry consistent with data sensitivity",
+  "targetDurationSeconds": 48,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-9s",
+      "visual": "A team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "9-17s",
+      "visual": "Configure sharing permissions and expiry consistent with data sensitivity",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Cloud security — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "17-29s",
+      "visual": "Option A: Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access. Restrict identities and duration, and review existing permissions according to data sensitivity.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: A"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "29-40s",
+      "visual": "Option B: A folder name does not change who can access its content. Option C: Wider distribution increases exposure and does not establish authorization. Option D: Convenience does not justify indefinite anonymous access.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "40-48s",
+      "visual": "Remove anonymous access, grant only necessary users or groups, set expiry where available and periodically review permissions. Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate."
+    }
+  ],
+  "narration": "Scenario: A team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used. Safest response: Option A: Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access. Restrict identities and duration, and review existing permissions according to data sensitivity. Option B is unsafe because A folder name does not change who can access its content. Option C is unsafe because Wider distribution increases exposure and does not establish authorization. Option D is unsafe because Convenience does not justify indefinite anonymous access. In practice: Remove anonymous access, grant only necessary users or groups, set expiry where available and periodically review permissions. Key takeaway: Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Cloud security. Scenario: A team shares a folder containing internal project documents through an anonymous link that never expires. The folder is no longer being actively used. Explain why Option A is the safest defensive response: Restrict access to named authorized accounts, set an expiry/review date and remove obsolete access. Contrast the unsafe alternatives with these concise reasons: Option B: A folder name does not change who can access its content.; Option C: Wider distribution increases exposure and does not establish authorization.; Option D: Convenience does not justify indefinite anonymous access.. Conclude with: Cloud sharing should be identity-bound, least-privilege and time-limited when appropriate. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[1]",
+    "[17]",
+    "[31]",
+    "[33]"
+  ],
+  "outputFile": "public/videos/intermediate/cloud-i11.mp4"
+}

@@ -1,0 +1,118 @@
+{
+  "videoId": "VIDEO-ATTACH-MACRO-I06",
+  "questionId": "ATTACH-MACRO-I06",
+  "level": "Intermediate",
+  "title": "Question explanation: The macro-enabled invoice",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "44149886a68a91ebb7cf34abe6c5e33facf5ca6bcfa9e879eab97c0ba7c8e23b",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 60
+  },
+  "narration": "Scenario: A supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice. Safest response: Option B: Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content. Unexpected documents and requests to enable active content require independent verification. Option A is unsafe because Disconnecting does not make untrusted active content safe; it may still alter or persist on the device. Option C is unsafe because Uploading a business document publicly may disclose confidential data; use organization-approved analysis channels. Option D is unsafe because Unexpected active content can execute code and should not be enabled simply to view a document. In practice: Close the document without enabling content. Verify with the supplier using a known contact method and use approved security analysis if needed. Key takeaway: Do not enable macros or active content in an unexpected document to reveal what it contains.",
+  "script": "# The macro-enabled invoice\n\n**Video ID:** `VIDEO-ATTACH-MACRO-I06`  \n**Question ID:** `ATTACH-MACRO-I06`  \n**Level:** Intermediate  \n**Target duration:** 60 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nAvoid enabling active content in untrusted documents and verify the sender\n\n## Scenario\nA supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice.\n\n## Narration transcript\nScenario: A supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice. Safest response: Option B: Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content. Unexpected documents and requests to enable active content require independent verification. Option A is unsafe because Disconnecting does not make untrusted active content safe; it may still alter or persist on the device. Option C is unsafe because Uploading a business document publicly may disclose confidential data; use organization-approved analysis channels. Option D is unsafe because Unexpected active content can execute code and should not be enabled simply to view a document. In practice: Close the document without enabling content. Verify with the supplier using a known contact method and use approved security analysis if needed. Key takeaway: Do not enable macros or active content in an unexpected document to reveal what it contains.\n\n## Correct response\nB. Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content.\n\n## Option-specific teaching notes\n- **A:** Disconnecting does not make untrusted active content safe; it may still alter or persist on the device.\n- **B (correct):** Correct. Unexpected documents and requests to enable active content require independent verification.\n- **C:** Uploading a business document publicly may disclose confidential data; use organization-approved analysis channels.\n- **D:** Unexpected active content can execute code and should not be enabled simply to view a document.\n\n## Key takeaway\nDo not enable macros or active content in an unexpected document to reveal what it contains.\n\n## Recommended defensive action\nClose the document without enabling content. Verify with the supplier using a known contact method and use approved security analysis if needed.\n\n## On-screen text sequence\n- **0-11s — Scenario setup:** Fictional scenario\n- **11-22s — Learning objective and risk cue:** Malicious attachments — key cue\n- **22-36s — Recommended response:** Safest response: B\n- **36-50s — Why the other options fail:** Why the alternatives are unsafe\n- **50-60s — Defensive takeaway:** Do not enable macros or active content in an unexpected document to reveal what it contains.\n\n## Research references\n- [1]\n- [7]\n- [17]\n- [25]\n\n## Planned output\n`public/videos/intermediate/attach-macro-i06.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-ATTACH-MACRO-I06",
+    "questionId": "ATTACH-MACRO-I06",
+    "title": "The macro-enabled invoice — question explanation",
+    "learningObjective": "Avoid enabling active content in untrusted documents and verify the sender",
+    "targetDurationSeconds": 60,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-11s",
+        "visual": "A supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "11-22s",
+        "visual": "Avoid enabling active content in untrusted documents and verify the sender",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Malicious attachments — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "22-36s",
+        "visual": "Option B: Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content. Unexpected documents and requests to enable active content require independent verification.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: B"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "36-50s",
+        "visual": "Option A: Disconnecting does not make untrusted active content safe; it may still alter or persist on the device. Option C: Uploading a business document publicly may disclose confidential data; use organization-approved analysis channels. Option D: Unexpected active content can execute code and should not be enabled simply to view a document.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "50-60s",
+        "visual": "Close the document without enabling content. Verify with the supplier using a known contact method and use approved security analysis if needed. Do not enable macros or active content in an unexpected document to reveal what it contains.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Do not enable macros or active content in an unexpected document to reveal what it contains."
+      }
+    ],
+    "narration": "Scenario: A supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice. Safest response: Option B: Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content. Unexpected documents and requests to enable active content require independent verification. Option A is unsafe because Disconnecting does not make untrusted active content safe; it may still alter or persist on the device. Option C is unsafe because Uploading a business document publicly may disclose confidential data; use organization-approved analysis channels. Option D is unsafe because Unexpected active content can execute code and should not be enabled simply to view a document. In practice: Close the document without enabling content. Verify with the supplier using a known contact method and use approved security analysis if needed. Key takeaway: Do not enable macros or active content in an unexpected document to reveal what it contains.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Malicious attachments. Scenario: A supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice. Explain why Option B is the safest defensive response: Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content. Contrast the unsafe alternatives with these concise reasons: Option A: Disconnecting does not make untrusted active content safe; it may still alter or persist on the device.; Option C: Uploading a business document publicly may disclose confidential data; use organization-approved analysis channels.; Option D: Unexpected active content can execute code and should not be enabled simply to view a document.. Conclude with: Do not enable macros or active content in an unexpected document to reveal what it contains. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[7]",
+      "[17]",
+      "[25]"
+    ],
+    "outputFile": "public/videos/intermediate/attach-macro-i06.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Malicious attachments. Scenario: A supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice. Explain why the correct defensive response is: Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Do not enable macros or active content in an unexpected document to reveal what it contains. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:04.049\nScenario: A supplier sends an invoice document you were not expecting.\n\n2\n00:00:04.049 --> 00:00:07.362\nWhen opened in a preview, it asks you to\n\n3\n00:00:07.362 --> 00:00:10.675\n“Enable Content” to display the invoice. Safest response: Option\n\n4\n00:00:10.675 --> 00:00:13.988\nB: Verify the invoice with the supplier through known\n\n5\n00:00:13.988 --> 00:00:18.037\ncontact details and report the suspicious request; do not enable content.\n\n6\n00:00:18.037 --> 00:00:22.086\nUnexpected documents and requests to enable active content require independent verification.\n\n7\n00:00:22.086 --> 00:00:25.399\nOption A is unsafe because Disconnecting does not make\n\n8\n00:00:25.399 --> 00:00:28.712\nuntrusted active content safe; it may still alter or\n\n9\n00:00:28.712 --> 00:00:32.025\npersist on the device. Option C is unsafe because\n\n10\n00:00:32.025 --> 00:00:35.337\nUploading a business document publicly may disclose confidential data;\n\n11\n00:00:35.337 --> 00:00:38.650\nuse organization-approved analysis channels. Option D is unsafe because\n\n12\n00:00:38.650 --> 00:00:41.963\nUnexpected active content can execute code and should not\n\n13\n00:00:41.963 --> 00:00:45.276\nbe enabled simply to view a document. In practice:\n\n14\n00:00:45.276 --> 00:00:48.589\nClose the document without enabling content. Verify with the\n\n15\n00:00:48.589 --> 00:00:51.902\nsupplier using a known contact method and use approved\n\n16\n00:00:51.902 --> 00:00:55.215\nsecurity analysis if needed. Key takeaway: Do not enable\n\n17\n00:00:55.215 --> 00:00:58.528\nmacros or active content in an unexpected document to\n\n18\n00:00:58.528 --> 00:01:00.000\nreveal what it contains.\n",
+  "referenceIds": [
+    "[1]",
+    "[7]",
+    "[17]",
+    "[25]"
+  ],
+  "question": {
+    "title": "The macro-enabled invoice",
+    "learningObjective": "Avoid enabling active content in untrusted documents and verify the sender",
+    "scenario": "A supplier sends an invoice document you were not expecting. When opened in a preview, it asks you to “Enable Content” to display the invoice.",
+    "correctOptionId": "B",
+    "correctAnswer": "Verify the invoice with the supplier through known contact details and report the suspicious request; do not enable content.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Disconnecting does not make untrusted active content safe; it may still alter or persist on the device."
+      },
+      "B": {
+        "isCorrect": true,
+        "explanation": "Correct. Unexpected documents and requests to enable active content require independent verification."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Uploading a business document publicly may disclose confidential data; use organization-approved analysis channels."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Unexpected active content can execute code and should not be enabled simply to view a document."
+      }
+    },
+    "keyTakeaway": "Do not enable macros or active content in an unexpected document to reveal what it contains.",
+    "recommendedDefensiveAction": "Close the document without enabling content. Verify with the supplier using a known contact method and use approved security analysis if needed."
+  }
+}

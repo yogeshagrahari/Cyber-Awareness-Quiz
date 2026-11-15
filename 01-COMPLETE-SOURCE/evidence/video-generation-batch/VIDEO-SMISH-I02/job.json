@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-SMISH-I02",
+  "questionId": "SMISH-I02",
+  "level": "Intermediate",
+  "title": "Question explanation: The delivery-fee text",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "b054cb86029681319f6747041d3ab05bfe0757b39e9d0d0e90f7dcfd2939c2d2",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 54
+  },
+  "narration": "Scenario: You receive an SMS claiming a parcel is held for a small delivery fee. It includes a shortened link and says the parcel will be returned today. Safest response: Option D: Use the courier’s official app or independently located website to check tracking; do not use the SMS link. Verify parcel status independently rather than following an unsolicited link. Option A is unsafe because Providing personal information to an unverified sender creates additional exposure. Option B is unsafe because A small payment request can be a pretext to harvest card details or credentials. Option C is unsafe because Forwarding spreads the lure and does not verify its authenticity. In practice: Open the courier app or enter its known address yourself. Report and delete the suspicious message according to local procedures. Key takeaway: Unexpected delivery texts with short links and urgent fees should be checked independently.",
+  "script": "# The delivery-fee text\n\n**Video ID:** `VIDEO-SMISH-I02`  \n**Question ID:** `SMISH-I02`  \n**Level:** Intermediate  \n**Target duration:** 54 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nIdentify fraudulent SMS requests and verify through independent channels\n\n## Scenario\nYou receive an SMS claiming a parcel is held for a small delivery fee. It includes a shortened link and says the parcel will be returned today.\n\n## Narration transcript\nScenario: You receive an SMS claiming a parcel is held for a small delivery fee. It includes a shortened link and says the parcel will be returned today. Safest response: Option D: Use the courier’s official app or independently located website to check tracking; do not use the SMS link. Verify parcel status independently rather than following an unsolicited link. Option A is unsafe because Providing personal information to an unverified sender creates additional exposure. Option B is unsafe because A small payment request can be a pretext to harvest card details or credentials. Option C is unsafe because Forwarding spreads the lure and does not verify its authenticity. In practice: Open the courier app or enter its known address yourself. Report and delete the suspicious message according to local procedures. Key takeaway: Unexpected delivery texts with short links and urgent fees should be checked independently.\n\n## Correct response\nD. Use the courier’s official app or independently located website to check tracking; do not use the SMS link.\n\n## Option-specific teaching notes\n- **A:** Providing personal information to an unverified sender creates additional exposure.\n- **B:** A small payment request can be a pretext to harvest card details or credentials.\n- **C:** Forwarding spreads the lure and does not verify its authenticity.\n- **D (correct):** Correct. Verify parcel status independently rather than following an unsolicited link.\n\n## Key takeaway\nUnexpected delivery texts with short links and urgent fees should be checked independently.\n\n## Recommended defensive action\nOpen the courier app or enter its known address yourself. Report and delete the suspicious message according to local procedures.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-19s — Learning objective and risk cue:** Smishing — key cue\n- **19-32s — Recommended response:** Safest response: D\n- **32-45s — Why the other options fail:** Why the alternatives are unsafe\n- **45-54s — Defensive takeaway:** Unexpected delivery texts with short links and urgent fees should be checked independently.\n\n## Research references\n- [1]\n- [7]\n- [25]\n\n## Planned output\n`public/videos/intermediate/smish-i02.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-SMISH-I02",
+    "questionId": "SMISH-I02",
+    "title": "The delivery-fee text — question explanation",
+    "learningObjective": "Identify fraudulent SMS requests and verify through independent channels",
+    "targetDurationSeconds": 54,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "You receive an SMS claiming a parcel is held for a small delivery fee. It includes a shortened link and says the parcel will be returned today.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-19s",
+        "visual": "Identify fraudulent SMS requests and verify through independent channels",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Smishing — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "19-32s",
+        "visual": "Option D: Use the courier’s official app or independently located website to check tracking; do not use the SMS link. Verify parcel status independently rather than following an unsolicited link.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: D"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "32-45s",
+        "visual": "Option A: Providing personal information to an unverified sender creates additional exposure. Option B: A small payment request can be a pretext to harvest card details or credentials. Option C: Forwarding spreads the lure and does not verify its authenticity.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "45-54s",
+        "visual": "Open the courier app or enter its known address yourself. Report and delete the suspicious message according to local procedures. Unexpected delivery texts with short links and urgent fees should be checked independently.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Unexpected delivery texts with short links and urgent fees should be checked independently."
+      }
+    ],
+    "narration": "Scenario: You receive an SMS claiming a parcel is held for a small delivery fee. It includes a shortened link and says the parcel will be returned today. Safest response: Option D: Use the courier’s official app or independently located website to check tracking; do not use the SMS link. Verify parcel status independently rather than following an unsolicited link. Option A is unsafe because Providing personal information to an unverified sender creates additional exposure. Option B is unsafe because A small payment request can be a pretext to harvest card details or credentials. Option C is unsafe because Forwarding spreads the lure and does not verify its authenticity. In practice: Open the courier app or enter its known address yourself. Report and delete the suspicious message according to local procedures. Key takeaway: Unexpected delivery texts with short links and urgent fees should be checked independently.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Smishing. Scenario: You receive an SMS claiming a parcel is held for a small delivery fee. It includes a shortened link and says the parcel will be returned today. Explain why Option D is the safest defensive response: Use the courier’s official app or independently located website to check tracking; do not use the SMS link. Contrast the unsafe alternatives with these concise reasons: Option A: Providing personal information to an unverified sender creates additional exposure.; Option B: A small payment request can be a pretext to harvest card details or credentials.; Option C: Forwarding spreads the lure and does not verify its authenticity.. Conclude with: Unexpected delivery texts with short links and urgent fees should be checked independently. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[7]",
+      "[25]"
+    ],
+    "outputFile": "public/videos/intermediate/smish-i02.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Smishing. Scenario: You receive an SMS claiming a parcel is held for a small delivery fee. It includes a shortened link and says the parcel will be returned today. Explain why the correct defensive response is: Use the courier’s official app or independently located website to check tracking; do not use the SMS link. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Unexpected delivery texts with short links and urgent fees should be checked independently. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.329\nScenario: You receive an SMS claiming a parcel is\n\n2\n00:00:03.329 --> 00:00:06.658\nheld for a small delivery fee. It includes a\n\n3\n00:00:06.658 --> 00:00:10.356\nshortened link and says the parcel will be returned today.\n\n4\n00:00:10.356 --> 00:00:13.685\nSafest response: Option D: Use the courier’s official app\n\n5\n00:00:13.685 --> 00:00:17.014\nor independently located website to check tracking; do not\n\n6\n00:00:17.014 --> 00:00:20.342\nuse the SMS link. Verify parcel status independently rather\n\n7\n00:00:20.342 --> 00:00:23.671\nthan following an unsolicited link. Option A is unsafe\n\n8\n00:00:23.671 --> 00:00:27.740\nbecause Providing personal information to an unverified sender creates additional exposure.\n\n9\n00:00:27.740 --> 00:00:31.068\nOption B is unsafe because A small payment request\n\n10\n00:00:31.068 --> 00:00:34.767\ncan be a pretext to harvest card details or credentials.\n\n11\n00:00:34.767 --> 00:00:38.096\nOption C is unsafe because Forwarding spreads the lure\n\n12\n00:00:38.096 --> 00:00:41.425\nand does not verify its authenticity. In practice: Open\n\n13\n00:00:41.425 --> 00:00:44.753\nthe courier app or enter its known address yourself.\n\n14\n00:00:44.753 --> 00:00:48.452\nReport and delete the suspicious message according to local procedures.\n\n15\n00:00:48.452 --> 00:00:51.781\nKey takeaway: Unexpected delivery texts with short links and\n\n16\n00:00:51.781 --> 00:00:54.000\nurgent fees should be checked independently.\n",
+  "referenceIds": [
+    "[1]",
+    "[7]",
+    "[25]"
+  ],
+  "question": {
+    "title": "The delivery-fee text",
+    "learningObjective": "Identify fraudulent SMS requests and verify through independent channels",
+    "scenario": "You receive an SMS claiming a parcel is held for a small delivery fee. It includes a shortened link and says the parcel will be returned today.",
+    "correctOptionId": "D",
+    "correctAnswer": "Use the courier’s official app or independently located website to check tracking; do not use the SMS link.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Providing personal information to an unverified sender creates additional exposure."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "A small payment request can be a pretext to harvest card details or credentials."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "Forwarding spreads the lure and does not verify its authenticity."
+      },
+      "D": {
+        "isCorrect": true,
+        "explanation": "Correct. Verify parcel status independently rather than following an unsolicited link."
+      }
+    },
+    "keyTakeaway": "Unexpected delivery texts with short links and urgent fees should be checked independently.",
+    "recommendedDefensiveAction": "Open the courier app or enter its known address yourself. Report and delete the suspicious message according to local procedures."
+  }
+}

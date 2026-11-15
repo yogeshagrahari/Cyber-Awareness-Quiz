@@ -1,0 +1,118 @@
+{
+  "videoId": "VIDEO-CRED-COMP-A04",
+  "questionId": "CRED-COMP-A04",
+  "level": "Advanced",
+  "title": "Question explanation: The compromised privileged account",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "ac954eb94853350248d0d62307330d26c9c641935bc5a48815b82bc51df5d73c",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 58
+  },
+  "narration": "Scenario: A privileged administrator reports a suspicious login. Audit records show a new session and unfamiliar mailbox forwarding rule. The user’s password may be compromised. Safest response: Option D: Coordinate incident response: contain access, revoke affected sessions/tokens, secure credentials and recovery factors, preserve evidence, and investigate persistence. Account compromise requires coordinated containment and recovery, not only a password change. Option A is unsafe because Deleting evidence can obstruct investigation and may remove only visible indicators. Option B is unsafe because Password change alone may leave active sessions, tokens, forwarding rules or attacker persistence in place. Option C is unsafe because A broad disruptive response without scope assessment may cause unnecessary outage and is not proportionate. In practice: Activate the incident-response process, coordinate identity and system owners, contain the affected account, preserve evidence and verify recovery before restoring access. Key takeaway: After suspected credential compromise, address sessions, tokens, recovery paths and persistence as well as the password.",
+  "script": "# The compromised privileged account\n\n**Video ID:** `VIDEO-CRED-COMP-A04`  \n**Question ID:** `CRED-COMP-A04`  \n**Level:** Advanced  \n**Target duration:** 58 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nPrioritize containment, credential revocation and trusted recovery after suspected compromise\n\n## Scenario\nA privileged administrator reports a suspicious login. Audit records show a new session and unfamiliar mailbox forwarding rule. The user’s password may be compromised.\n\n## Narration transcript\nScenario: A privileged administrator reports a suspicious login. Audit records show a new session and unfamiliar mailbox forwarding rule. The user’s password may be compromised. Safest response: Option D: Coordinate incident response: contain access, revoke affected sessions/tokens, secure credentials and recovery factors, preserve evidence, and investigate persistence. Account compromise requires coordinated containment and recovery, not only a password change. Option A is unsafe because Deleting evidence can obstruct investigation and may remove only visible indicators. Option B is unsafe because Password change alone may leave active sessions, tokens, forwarding rules or attacker persistence in place. Option C is unsafe because A broad disruptive response without scope assessment may cause unnecessary outage and is not proportionate. In practice: Activate the incident-response process, coordinate identity and system owners, contain the affected account, preserve evidence and verify recovery before restoring access. Key takeaway: After suspected credential compromise, address sessions, tokens, recovery paths and persistence as well as the password.\n\n## Correct response\nD. Coordinate incident response: contain access, revoke affected sessions/tokens, secure credentials and recovery factors, preserve evidence, and investigate persistence.\n\n## Option-specific teaching notes\n- **A:** Deleting evidence can obstruct investigation and may remove only visible indicators.\n- **B:** Password change alone may leave active sessions, tokens, forwarding rules or attacker persistence in place.\n- **C:** A broad disruptive response without scope assessment may cause unnecessary outage and is not proportionate.\n- **D (correct):** Correct. Account compromise requires coordinated containment and recovery, not only a password change.\n\n## Key takeaway\nAfter suspected credential compromise, address sessions, tokens, recovery paths and persistence as well as the password.\n\n## Recommended defensive action\nActivate the incident-response process, coordinate identity and system owners, contain the affected account, preserve evidence and verify recovery before restoring access.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-21s — Learning objective and risk cue:** Credential compromise — key cue\n- **21-35s — Recommended response:** Safest response: D\n- **35-49s — Why the other options fail:** Why the alternatives are unsafe\n- **49-58s — Defensive takeaway:** After suspected credential compromise, address sessions, tokens, recovery paths and persistence as well as the password.\n\n## Research references\n- [16]\n- [17]\n- [28]\n- [36]\n\n## Planned output\n`public/videos/advanced/cred-comp-a04.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-CRED-COMP-A04",
+    "questionId": "CRED-COMP-A04",
+    "title": "The compromised privileged account — question explanation",
+    "learningObjective": "Prioritize containment, credential revocation and trusted recovery after suspected compromise",
+    "targetDurationSeconds": 58,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "A privileged administrator reports a suspicious login. Audit records show a new session and unfamiliar mailbox forwarding rule. The user’s password may be compromised.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-21s",
+        "visual": "Prioritize containment, credential revocation and trusted recovery after suspected compromise",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Credential compromise — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "21-35s",
+        "visual": "Option D: Coordinate incident response: contain access, revoke affected sessions/tokens, secure credentials and recovery factors, preserve evidence, and investigate persistence. Account compromise requires coordinated containment and recovery, not only a password change.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: D"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "35-49s",
+        "visual": "Option A: Deleting evidence can obstruct investigation and may remove only visible indicators. Option B: Password change alone may leave active sessions, tokens, forwarding rules or attacker persistence in place. Option C: A broad disruptive response without scope assessment may cause unnecessary outage and is not proportionate.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "49-58s",
+        "visual": "Activate the incident-response process, coordinate identity and system owners, contain the affected account, preserve evidence and verify recovery before restoring access. After suspected credential compromise, address sessions, tokens, recovery paths and persistence as well as the password.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "After suspected credential compromise, address sessions, tokens, recovery paths and persistence as well as the password."
+      }
+    ],
+    "narration": "Scenario: A privileged administrator reports a suspicious login. Audit records show a new session and unfamiliar mailbox forwarding rule. The user’s password may be compromised. Safest response: Option D: Coordinate incident response: contain access, revoke affected sessions/tokens, secure credentials and recovery factors, preserve evidence, and investigate persistence. Account compromise requires coordinated containment and recovery, not only a password change. Option A is unsafe because Deleting evidence can obstruct investigation and may remove only visible indicators. Option B is unsafe because Password change alone may leave active sessions, tokens, forwarding rules or attacker persistence in place. Option C is unsafe because A broad disruptive response without scope assessment may cause unnecessary outage and is not proportionate. In practice: Activate the incident-response process, coordinate identity and system owners, contain the affected account, preserve evidence and verify recovery before restoring access. Key takeaway: After suspected credential compromise, address sessions, tokens, recovery paths and persistence as well as the password.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Credential compromise. Scenario: A privileged administrator reports a suspicious login. Audit records show a new session and unfamiliar mailbox forwarding rule. The user’s password may be compromised. Explain why Option D is the safest defensive response: Coordinate incident response: contain access, revoke affected sessions/tokens, secure credentials and recovery factors, preserve evidence, and investigate persistence. Contrast the unsafe alternatives with these concise reasons: Option A: Deleting evidence can obstruct investigation and may remove only visible indicators.; Option B: Password change alone may leave active sessions, tokens, forwarding rules or attacker persistence in place.; Option C: A broad disruptive response without scope assessment may cause unnecessary outage and is not proportionate.. Conclude with: After suspected credential compromise, address sessions, tokens, recovery paths and persistence as well as the password. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[16]",
+      "[17]",
+      "[28]",
+      "[36]"
+    ],
+    "outputFile": "public/videos/advanced/cred-comp-a04.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Credential compromise. Scenario: A privileged administrator reports a suspicious login. Audit records show a new session and unfamiliar mailbox forwarding rule. The user’s password may be compromised. Explain why the correct defensive response is: Coordinate incident response: contain access, revoke affected sessions/tokens, secure credentials and recovery factors, preserve evidence, and investigate persistence. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: After suspected credential compromise, address sessions, tokens, recovery paths and persistence as well as the password. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.346\nScenario: A privileged administrator reports a suspicious login. Audit\n\n2\n00:00:03.346 --> 00:00:07.064\nrecords show a new session and unfamiliar mailbox forwarding rule.\n\n3\n00:00:07.064 --> 00:00:10.410\nThe user’s password may be compromised. Safest response: Option\n\n4\n00:00:10.410 --> 00:00:13.756\nD: Coordinate incident response: contain access, revoke affected sessions/tokens,\n\n5\n00:00:13.756 --> 00:00:17.474\nsecure credentials and recovery factors, preserve evidence, and investigate persistence.\n\n6\n00:00:17.474 --> 00:00:20.821\nAccount compromise requires coordinated containment and recovery, not only\n\n7\n00:00:20.821 --> 00:00:24.167\na password change. Option A is unsafe because Deleting\n\n8\n00:00:24.167 --> 00:00:27.885\nevidence can obstruct investigation and may remove only visible indicators.\n\n9\n00:00:27.885 --> 00:00:31.231\nOption B is unsafe because Password change alone may\n\n10\n00:00:31.231 --> 00:00:35.321\nleave active sessions, tokens, forwarding rules or attacker persistence in place.\n\n11\n00:00:35.321 --> 00:00:38.667\nOption C is unsafe because A broad disruptive response\n\n12\n00:00:38.667 --> 00:00:42.756\nwithout scope assessment may cause unnecessary outage and is not proportionate.\n\n13\n00:00:42.756 --> 00:00:46.103\nIn practice: Activate the incident-response process, coordinate identity and\n\n14\n00:00:46.103 --> 00:00:49.449\nsystem owners, contain the affected account, preserve evidence and\n\n15\n00:00:49.449 --> 00:00:52.795\nverify recovery before restoring access. Key takeaway: After suspected\n\n16\n00:00:52.795 --> 00:00:56.141\ncredential compromise, address sessions, tokens, recovery paths and persistence\n\n17\n00:00:56.141 --> 00:00:58.000\nas well as the password.\n",
+  "referenceIds": [
+    "[16]",
+    "[17]",
+    "[28]",
+    "[36]"
+  ],
+  "question": {
+    "title": "The compromised privileged account",
+    "learningObjective": "Prioritize containment, credential revocation and trusted recovery after suspected compromise",
+    "scenario": "A privileged administrator reports a suspicious login. Audit records show a new session and unfamiliar mailbox forwarding rule. The user’s password may be compromised.",
+    "correctOptionId": "D",
+    "correctAnswer": "Coordinate incident response: contain access, revoke affected sessions/tokens, secure credentials and recovery factors, preserve evidence, and investigate persistence.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Deleting evidence can obstruct investigation and may remove only visible indicators."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "Password change alone may leave active sessions, tokens, forwarding rules or attacker persistence in place."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "A broad disruptive response without scope assessment may cause unnecessary outage and is not proportionate."
+      },
+      "D": {
+        "isCorrect": true,
+        "explanation": "Correct. Account compromise requires coordinated containment and recovery, not only a password change."
+      }
+    },
+    "keyTakeaway": "After suspected credential compromise, address sessions, tokens, recovery paths and persistence as well as the password.",
+    "recommendedDefensiveAction": "Activate the incident-response process, coordinate identity and system owners, contain the affected account, preserve evidence and verify recovery before restoring access."
+  }
+}

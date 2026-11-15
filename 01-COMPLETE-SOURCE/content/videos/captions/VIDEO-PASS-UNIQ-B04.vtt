@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.306
+Scenario: You use the same password for a shopping
+
+2
+00:00:03.306 --> 00:00:06.612
+site and your school account. The shopping site reports
+
+3
+00:00:06.612 --> 00:00:09.918
+a data breach. Safest response: Option C: Change the
+
+4
+00:00:09.918 --> 00:00:13.224
+reused password to a unique one and review other
+
+5
+00:00:13.224 --> 00:00:16.531
+accounts where it was reused. A breach at one
+
+6
+00:00:16.531 --> 00:00:19.837
+service can expose a password reused elsewhere; unique credentials
+
+7
+00:00:19.837 --> 00:00:23.143
+limit cross-service compromise. Option A is unsafe because Waiting
+
+8
+00:00:23.143 --> 00:00:26.816
+leaves an exposed credential in use; address the reuse promptly.
+
+9
+00:00:26.816 --> 00:00:30.122
+Option B is unsafe because MFA adds protection but
+
+10
+00:00:30.122 --> 00:00:33.429
+does not make password reuse safe; stolen credentials can
+
+11
+00:00:33.429 --> 00:00:36.735
+still be abused. Option D is unsafe because A
+
+12
+00:00:36.735 --> 00:00:40.776
+predictable minor variation still preserves password reuse and may be guessable.
+
+13
+00:00:40.776 --> 00:00:44.082
+In practice: Change the school password to a unique
+
+14
+00:00:44.082 --> 00:00:47.755
+strong password, change other reused instances, and check account activity.
+
+15
+00:00:47.755 --> 00:00:51.061
+Key takeaway: Use a unique password for every account
+
+16
+00:00:51.061 --> 00:00:54.000
+so one service’s breach does not unlock another.

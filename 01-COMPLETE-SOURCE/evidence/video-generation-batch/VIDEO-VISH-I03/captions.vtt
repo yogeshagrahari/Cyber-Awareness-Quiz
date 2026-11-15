@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.359
+Scenario: A caller claiming to be IT support says
+
+2
+00:00:03.359 --> 00:00:06.718
+your laptop is infected and asks you to install
+
+3
+00:00:06.718 --> 00:00:10.077
+a remote-access tool and read out an authentication code.
+
+4
+00:00:10.077 --> 00:00:13.437
+Safest response: Option C: End the call and contact
+
+5
+00:00:13.437 --> 00:00:16.796
+IT using the organization’s published helpdesk route. Independently verify
+
+6
+00:00:16.796 --> 00:00:20.528
+support requests; never disclose authentication outputs to an unsolicited caller.
+
+7
+00:00:20.528 --> 00:00:23.887
+Option A is unsafe because The code may authorize
+
+8
+00:00:23.887 --> 00:00:27.246
+account access even without remote-control software. Option B is
+
+9
+00:00:27.246 --> 00:00:30.606
+unsafe because Unverified remote access can give the caller
+
+10
+00:00:30.606 --> 00:00:33.965
+control of the device. Option D is unsafe because
+
+11
+00:00:33.965 --> 00:00:37.324
+A photo can be fabricated or copied and is
+
+12
+00:00:37.324 --> 00:00:40.683
+not reliable identity verification. In practice: End the call.
+
+13
+00:00:40.683 --> 00:00:44.042
+Contact the helpdesk using a known directory or portal
+
+14
+00:00:44.042 --> 00:00:47.401
+and report the attempted remote-access and code request. Key
+
+15
+00:00:47.401 --> 00:00:50.761
+takeaway: Caller ID, technical language and urgency are not
+
+16
+00:00:50.761 --> 00:00:53.000
+proof that a caller is authorized.

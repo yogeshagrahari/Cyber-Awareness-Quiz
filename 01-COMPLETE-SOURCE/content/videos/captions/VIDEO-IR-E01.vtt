@@ -1,0 +1,46 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.714
+Scenario: Alerts show file encryption, unusual service-account use and unusual
+
+2
+00:00:05.714 --> 00:00:11.429
+outbound traffic. The initial access path is unknown. Safest response:
+
+3
+00:00:11.429 --> 00:00:17.143
+activate the incident plan, isolate confirmed affected assets, preserve evidence
+
+4
+00:00:17.143 --> 00:00:22.857
+and scope related hosts and accounts. Option B is unsafe
+
+5
+00:00:22.857 --> 00:00:28.571
+because A blanket shutdown can destroy volatile evidence and disrupt
+
+6
+00:00:28.571 --> 00:00:34.286
+unaffected services. Option C is unsafe because Waiting for attribution
+
+7
+00:00:34.286 --> 00:00:40.000
+can allow active damage to continue. Option D is unsafe
+
+8
+00:00:40.000 --> 00:00:45.714
+because Direct uncoordinated contact bypasses the authorized response structure. In
+
+9
+00:00:45.714 --> 00:00:51.429
+practice: appoint an incident lead, preserve logs, contain proportionately and
+
+10
+00:00:51.429 --> 00:00:57.143
+record decisions and unknowns. Key takeaway: respond to credible indicators
+
+11
+00:00:57.143 --> 00:01:00.000
+without waiting for perfect attribution.
+

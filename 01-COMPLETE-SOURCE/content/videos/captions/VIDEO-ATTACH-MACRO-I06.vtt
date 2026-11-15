@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.049
+Scenario: A supplier sends an invoice document you were not expecting.
+
+2
+00:00:04.049 --> 00:00:07.362
+When opened in a preview, it asks you to
+
+3
+00:00:07.362 --> 00:00:10.675
+“Enable Content” to display the invoice. Safest response: Option
+
+4
+00:00:10.675 --> 00:00:13.988
+B: Verify the invoice with the supplier through known
+
+5
+00:00:13.988 --> 00:00:18.037
+contact details and report the suspicious request; do not enable content.
+
+6
+00:00:18.037 --> 00:00:22.086
+Unexpected documents and requests to enable active content require independent verification.
+
+7
+00:00:22.086 --> 00:00:25.399
+Option A is unsafe because Disconnecting does not make
+
+8
+00:00:25.399 --> 00:00:28.712
+untrusted active content safe; it may still alter or
+
+9
+00:00:28.712 --> 00:00:32.025
+persist on the device. Option C is unsafe because
+
+10
+00:00:32.025 --> 00:00:35.337
+Uploading a business document publicly may disclose confidential data;
+
+11
+00:00:35.337 --> 00:00:38.650
+use organization-approved analysis channels. Option D is unsafe because
+
+12
+00:00:38.650 --> 00:00:41.963
+Unexpected active content can execute code and should not
+
+13
+00:00:41.963 --> 00:00:45.276
+be enabled simply to view a document. In practice:
+
+14
+00:00:45.276 --> 00:00:48.589
+Close the document without enabling content. Verify with the
+
+15
+00:00:48.589 --> 00:00:51.902
+supplier using a known contact method and use approved
+
+16
+00:00:51.902 --> 00:00:55.215
+security analysis if needed. Key takeaway: Do not enable
+
+17
+00:00:55.215 --> 00:00:58.528
+macros or active content in an unexpected document to
+
+18
+00:00:58.528 --> 00:01:00.000
+reveal what it contains.

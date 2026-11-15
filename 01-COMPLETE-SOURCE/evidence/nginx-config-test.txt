@@ -1,0 +1,8 @@
+Nginx configuration syntax test
+
+Command: nginx -t -p /tmp/cyberaware-nginx-test/ -c /tmp/cyberaware-nginx-test/nginx.conf
+Result: PASS
+Output: nginx: the configuration file /tmp/cyberaware-nginx-test/nginx.conf syntax is ok
+        nginx: configuration file /tmp/cyberaware-nginx-test/nginx.conf test is successful
+
+The test used a temporary wrapper with events/http contexts and rewrote deployment paths to an isolated temporary prefix. This validates syntax, not a live TLS deployment or production traffic behavior.

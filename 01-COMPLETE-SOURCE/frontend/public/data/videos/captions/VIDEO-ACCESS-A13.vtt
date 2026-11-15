@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.329
+Scenario: A data analyst has permanent administrator access to
+
+2
+00:00:03.329 --> 00:00:06.658
+payroll, identity management and production infrastructure, although their role
+
+3
+00:00:06.658 --> 00:00:09.986
+only requires read-only access to one reporting dataset. Safest
+
+4
+00:00:09.986 --> 00:00:13.315
+response: Option B: Remove unnecessary privileges, grant a named
+
+5
+00:00:13.315 --> 00:00:17.014
+read-only role for the required dataset and review access periodically.
+
+6
+00:00:17.014 --> 00:00:20.342
+Access should be limited to the minimum necessary resources
+
+7
+00:00:20.342 --> 00:00:23.671
+and authorizations for assigned tasks. Option A is unsafe
+
+8
+00:00:23.671 --> 00:00:27.000
+because Shared privileged accounts reduce accountability and do not
+
+9
+00:00:27.000 --> 00:00:30.329
+implement least privilege. Option C is unsafe because Trust
+
+10
+00:00:30.329 --> 00:00:33.658
+does not replace role-based need, segregation of duties or
+
+11
+00:00:33.658 --> 00:00:36.986
+periodic authorization review. Option D is unsafe because Unused
+
+12
+00:00:36.986 --> 00:00:40.315
+privilege remains available for accidental misuse or account compromise.
+
+13
+00:00:40.315 --> 00:00:43.644
+In practice: Use named accounts and scoped roles, remove
+
+14
+00:00:43.644 --> 00:00:46.973
+excess privileges, segregate incompatible duties and schedule access recertification.
+
+15
+00:00:46.973 --> 00:00:50.301
+Key takeaway: Grant each identity only the access needed
+
+16
+00:00:50.301 --> 00:00:53.630
+for its assigned function, and review it as roles
+
+17
+00:00:53.630 --> 00:00:54.000
+change.

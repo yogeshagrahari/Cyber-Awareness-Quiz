@@ -1,0 +1,73 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.396
+Scenario: A staff member emails a spreadsheet with personal
+
+2
+00:00:03.396 --> 00:00:06.792
+identifiers to an external recipient with a similar name.
+
+3
+00:00:06.792 --> 00:00:10.189
+The recipient has not yet confirmed deletion. Safest response:
+
+4
+00:00:10.189 --> 00:00:13.585
+Option B: Notify the privacy/security incident channel promptly, preserve
+
+5
+00:00:13.585 --> 00:00:16.981
+message details, request containment through approved procedures and let
+
+6
+00:00:16.981 --> 00:00:20.377
+authorized roles assess notification obligations. Prompt escalation allows the
+
+7
+00:00:20.377 --> 00:00:23.774
+organization to assess exposure, legal/contractual duties and necessary containment.
+
+8
+00:00:23.774 --> 00:00:27.170
+Option A is unsafe because A deletion request may
+
+9
+00:00:27.170 --> 00:00:30.566
+help but does not replace formal incident assessment, notification
+
+10
+00:00:30.566 --> 00:00:33.962
+and evidence preservation. Option C is unsafe because Recall
+
+11
+00:00:33.962 --> 00:00:37.358
+may fail or the recipient may already have accessed
+
+12
+00:00:37.358 --> 00:00:40.755
+or copied the file. Option D is unsafe because
+
+13
+00:00:40.755 --> 00:00:44.528
+Further disclosure increases exposure and is not an incident-response control.
+
+14
+00:00:44.528 --> 00:00:47.925
+In practice: Report immediately, preserve relevant facts without unnecessary
+
+15
+00:00:47.925 --> 00:00:51.321
+copying, request approved recipient-side containment and follow the privacy
+
+16
+00:00:51.321 --> 00:00:54.717
+team’s incident process. Key takeaway: A misdirected data disclosure
+
+17
+00:00:54.717 --> 00:00:58.113
+is an incident to assess even when accidental and
+
+18
+00:00:58.113 --> 00:01:00.000
+even if recall is attempted.

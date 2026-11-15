@@ -1,0 +1,118 @@
+{
+  "videoId": "VIDEO-LOGS-A10",
+  "questionId": "LOGS-A10",
+  "level": "Advanced",
+  "title": "Question explanation: The investigation log request",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "439cbece05227341355a5d9670817fab5c5a9a7bf289091f6caa4dbe55993362",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 53
+  },
+  "narration": "Scenario: During an investigation, a manager asks you to export all employee browsing history and personal messages, although the incident concerns access to one cloud folder. Safest response: Option C: Work with authorized investigators to identify relevant log sources, scope, retention and access controls; preserve integrity and document handling. Evidence collection should be authorized, relevant, minimized and handled with integrity. Option A is unsafe because Authorized, proportionate logs may be necessary for a legitimate investigation. Option B is unsafe because Altering original evidence destroys integrity and undermines investigative reliability. Option D is unsafe because Over-collection creates privacy, security and proportionality risks and may exceed the investigation’s authorization. In practice: Confirm authority and scope, preserve source records, restrict access, record collection metadata and involve privacy/legal roles where required. Key takeaway: Collect the minimum authorized evidence needed, preserve integrity and record chain of handling.",
+  "script": "# The investigation log request\n\n**Video ID:** `VIDEO-LOGS-A10`  \n**Question ID:** `LOGS-A10`  \n**Level:** Advanced  \n**Target duration:** 53 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nUse authorized logs and preserve relevant evidence without over-collecting personal data\n\n## Scenario\nDuring an investigation, a manager asks you to export all employee browsing history and personal messages, although the incident concerns access to one cloud folder.\n\n## Narration transcript\nScenario: During an investigation, a manager asks you to export all employee browsing history and personal messages, although the incident concerns access to one cloud folder. Safest response: Option C: Work with authorized investigators to identify relevant log sources, scope, retention and access controls; preserve integrity and document handling. Evidence collection should be authorized, relevant, minimized and handled with integrity. Option A is unsafe because Authorized, proportionate logs may be necessary for a legitimate investigation. Option B is unsafe because Altering original evidence destroys integrity and undermines investigative reliability. Option D is unsafe because Over-collection creates privacy, security and proportionality risks and may exceed the investigation’s authorization. In practice: Confirm authority and scope, preserve source records, restrict access, record collection metadata and involve privacy/legal roles where required. Key takeaway: Collect the minimum authorized evidence needed, preserve integrity and record chain of handling.\n\n## Correct response\nC. Work with authorized investigators to identify relevant log sources, scope, retention and access controls; preserve integrity and document handling.\n\n## Option-specific teaching notes\n- **A:** Authorized, proportionate logs may be necessary for a legitimate investigation.\n- **B:** Altering original evidence destroys integrity and undermines investigative reliability.\n- **C (correct):** Correct. Evidence collection should be authorized, relevant, minimized and handled with integrity.\n- **D:** Over-collection creates privacy, security and proportionality risks and may exceed the investigation’s authorization.\n\n## Key takeaway\nCollect the minimum authorized evidence needed, preserve integrity and record chain of handling.\n\n## Recommended defensive action\nConfirm authority and scope, preserve source records, restrict access, record collection metadata and involve privacy/legal roles where required.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-19s — Learning objective and risk cue:** Evidence and logging — key cue\n- **19-32s — Recommended response:** Safest response: C\n- **32-45s — Why the other options fail:** Why the alternatives are unsafe\n- **45-53s — Defensive takeaway:** Collect the minimum authorized evidence needed, preserve integrity and record chain of handling.\n\n## Research references\n- [17]\n- [18]\n- [19]\n- [36]\n\n## Planned output\n`public/videos/advanced/logs-a10.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-LOGS-A10",
+    "questionId": "LOGS-A10",
+    "title": "The investigation log request — question explanation",
+    "learningObjective": "Use authorized logs and preserve relevant evidence without over-collecting personal data",
+    "targetDurationSeconds": 53,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "During an investigation, a manager asks you to export all employee browsing history and personal messages, although the incident concerns access to one cloud folder.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-19s",
+        "visual": "Use authorized logs and preserve relevant evidence without over-collecting personal data",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Evidence and logging — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "19-32s",
+        "visual": "Option C: Work with authorized investigators to identify relevant log sources, scope, retention and access controls; preserve integrity and document handling. Evidence collection should be authorized, relevant, minimized and handled with integrity.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: C"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "32-45s",
+        "visual": "Option A: Authorized, proportionate logs may be necessary for a legitimate investigation. Option B: Altering original evidence destroys integrity and undermines investigative reliability. Option D: Over-collection creates privacy, security and proportionality risks and may exceed the investigation’s authorization.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "45-53s",
+        "visual": "Confirm authority and scope, preserve source records, restrict access, record collection metadata and involve privacy/legal roles where required. Collect the minimum authorized evidence needed, preserve integrity and record chain of handling.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Collect the minimum authorized evidence needed, preserve integrity and record chain of handling."
+      }
+    ],
+    "narration": "Scenario: During an investigation, a manager asks you to export all employee browsing history and personal messages, although the incident concerns access to one cloud folder. Safest response: Option C: Work with authorized investigators to identify relevant log sources, scope, retention and access controls; preserve integrity and document handling. Evidence collection should be authorized, relevant, minimized and handled with integrity. Option A is unsafe because Authorized, proportionate logs may be necessary for a legitimate investigation. Option B is unsafe because Altering original evidence destroys integrity and undermines investigative reliability. Option D is unsafe because Over-collection creates privacy, security and proportionality risks and may exceed the investigation’s authorization. In practice: Confirm authority and scope, preserve source records, restrict access, record collection metadata and involve privacy/legal roles where required. Key takeaway: Collect the minimum authorized evidence needed, preserve integrity and record chain of handling.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Evidence and logging. Scenario: During an investigation, a manager asks you to export all employee browsing history and personal messages, although the incident concerns access to one cloud folder. Explain why Option C is the safest defensive response: Work with authorized investigators to identify relevant log sources, scope, retention and access controls; preserve integrity and document handling. Contrast the unsafe alternatives with these concise reasons: Option A: Authorized, proportionate logs may be necessary for a legitimate investigation.; Option B: Altering original evidence destroys integrity and undermines investigative reliability.; Option D: Over-collection creates privacy, security and proportionality risks and may exceed the investigation’s authorization.. Conclude with: Collect the minimum authorized evidence needed, preserve integrity and record chain of handling. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[17]",
+      "[18]",
+      "[19]",
+      "[36]"
+    ],
+    "outputFile": "public/videos/advanced/logs-a10.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Evidence and logging. Scenario: During an investigation, a manager asks you to export all employee browsing history and personal messages, although the incident concerns access to one cloud folder. Explain why the correct defensive response is: Work with authorized investigators to identify relevant log sources, scope, retention and access controls; preserve integrity and document handling. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Collect the minimum authorized evidence needed, preserve integrity and record chain of handling. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.359\nScenario: During an investigation, a manager asks you to\n\n2\n00:00:03.359 --> 00:00:06.718\nexport all employee browsing history and personal messages, although\n\n3\n00:00:06.718 --> 00:00:10.077\nthe incident concerns access to one cloud folder. Safest\n\n4\n00:00:10.077 --> 00:00:13.437\nresponse: Option C: Work with authorized investigators to identify\n\n5\n00:00:13.437 --> 00:00:16.796\nrelevant log sources, scope, retention and access controls; preserve\n\n6\n00:00:16.796 --> 00:00:20.155\nintegrity and document handling. Evidence collection should be authorized,\n\n7\n00:00:20.155 --> 00:00:23.514\nrelevant, minimized and handled with integrity. Option A is\n\n8\n00:00:23.514 --> 00:00:26.873\nunsafe because Authorized, proportionate logs may be necessary for\n\n9\n00:00:26.873 --> 00:00:30.232\na legitimate investigation. Option B is unsafe because Altering\n\n10\n00:00:30.232 --> 00:00:33.592\noriginal evidence destroys integrity and undermines investigative reliability. Option\n\n11\n00:00:33.592 --> 00:00:36.951\nD is unsafe because Over-collection creates privacy, security and\n\n12\n00:00:36.951 --> 00:00:40.310\nproportionality risks and may exceed the investigation’s authorization. In\n\n13\n00:00:40.310 --> 00:00:43.669\npractice: Confirm authority and scope, preserve source records, restrict\n\n14\n00:00:43.669 --> 00:00:47.401\naccess, record collection metadata and involve privacy/legal roles where required.\n\n15\n00:00:47.401 --> 00:00:50.761\nKey takeaway: Collect the minimum authorized evidence needed, preserve\n\n16\n00:00:50.761 --> 00:00:53.000\nintegrity and record chain of handling.\n",
+  "referenceIds": [
+    "[17]",
+    "[18]",
+    "[19]",
+    "[36]"
+  ],
+  "question": {
+    "title": "The investigation log request",
+    "learningObjective": "Use authorized logs and preserve relevant evidence without over-collecting personal data",
+    "scenario": "During an investigation, a manager asks you to export all employee browsing history and personal messages, although the incident concerns access to one cloud folder.",
+    "correctOptionId": "C",
+    "correctAnswer": "Work with authorized investigators to identify relevant log sources, scope, retention and access controls; preserve integrity and document handling.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "Authorized, proportionate logs may be necessary for a legitimate investigation."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "Altering original evidence destroys integrity and undermines investigative reliability."
+      },
+      "C": {
+        "isCorrect": true,
+        "explanation": "Correct. Evidence collection should be authorized, relevant, minimized and handled with integrity."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Over-collection creates privacy, security and proportionality risks and may exceed the investigation’s authorization."
+      }
+    },
+    "keyTakeaway": "Collect the minimum authorized evidence needed, preserve integrity and record chain of handling.",
+    "recommendedDefensiveAction": "Confirm authority and scope, preserve source records, restrict access, record collection metadata and involve privacy/legal roles where required."
+  }
+}

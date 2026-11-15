@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-PRIVACY-B09",
+  "questionId": "PRIVACY-B09",
+  "level": "Beginner",
+  "title": "Question explanation: The unexpected personal-data form",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "f5eac5808f802d66353b8cbff779f6d71776b9a5ed7c2a2a9cc8a8ccd84321de",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 56
+  },
+  "narration": "Scenario: A person claiming to organize a campus event sends a form requesting your ID number, date of birth, home address and bank details to “confirm attendance.” Safest response: Option A: Verify the organizer through the official event channel and ask which fields are necessary before sharing anything. Confirm purpose and legitimacy, then disclose only the minimum required information using an approved channel. Option B is unsafe because A plausible event does not establish the form’s authenticity or justify collecting unrelated sensitive data. Option C is unsafe because False information can create operational problems and still expose you to malicious links or follow-up requests. Option D is unsafe because A different channel does not fix an unverified request or excessive data collection. In practice: Contact the event organizer using a published official channel. Do not submit unnecessary financial or identity data. Key takeaway: Check purpose, legitimacy and necessity before disclosing personal information.",
+  "script": "# The unexpected personal-data form\n\n**Video ID:** `VIDEO-PRIVACY-B09`  \n**Question ID:** `PRIVACY-B09`  \n**Level:** Beginner  \n**Target duration:** 56 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nShare only information necessary for a legitimate and verified purpose\n\n## Scenario\nA person claiming to organize a campus event sends a form requesting your ID number, date of birth, home address and bank details to “confirm attendance.”\n\n## Narration transcript\nScenario: A person claiming to organize a campus event sends a form requesting your ID number, date of birth, home address and bank details to “confirm attendance.” Safest response: Option A: Verify the organizer through the official event channel and ask which fields are necessary before sharing anything. Confirm purpose and legitimacy, then disclose only the minimum required information using an approved channel. Option B is unsafe because A plausible event does not establish the form’s authenticity or justify collecting unrelated sensitive data. Option C is unsafe because False information can create operational problems and still expose you to malicious links or follow-up requests. Option D is unsafe because A different channel does not fix an unverified request or excessive data collection. In practice: Contact the event organizer using a published official channel. Do not submit unnecessary financial or identity data. Key takeaway: Check purpose, legitimacy and necessity before disclosing personal information.\n\n## Correct response\nA. Verify the organizer through the official event channel and ask which fields are necessary before sharing anything.\n\n## Option-specific teaching notes\n- **A (correct):** Correct. Confirm purpose and legitimacy, then disclose only the minimum required information using an approved channel.\n- **B:** A plausible event does not establish the form’s authenticity or justify collecting unrelated sensitive data.\n- **C:** False information can create operational problems and still expose you to malicious links or follow-up requests.\n- **D:** A different channel does not fix an unverified request or excessive data collection.\n\n## Key takeaway\nCheck purpose, legitimacy and necessity before disclosing personal information.\n\n## Recommended defensive action\nContact the event organizer using a published official channel. Do not submit unnecessary financial or identity data.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-20s — Learning objective and risk cue:** Privacy — key cue\n- **20-34s — Recommended response:** Safest response: A\n- **34-47s — Why the other options fail:** Why the alternatives are unsafe\n- **47-56s — Defensive takeaway:** Check purpose, legitimacy and necessity before disclosing personal information.\n\n## Research references\n- [1]\n- [17]\n- [36]\n\n## Planned output\n`public/videos/beginner/privacy-b09.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-PRIVACY-B09",
+    "questionId": "PRIVACY-B09",
+    "title": "The unexpected personal-data form — question explanation",
+    "learningObjective": "Share only information necessary for a legitimate and verified purpose",
+    "targetDurationSeconds": 56,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "A person claiming to organize a campus event sends a form requesting your ID number, date of birth, home address and bank details to “confirm attendance.”",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-20s",
+        "visual": "Share only information necessary for a legitimate and verified purpose",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Privacy — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "20-34s",
+        "visual": "Option A: Verify the organizer through the official event channel and ask which fields are necessary before sharing anything. Confirm purpose and legitimacy, then disclose only the minimum required information using an approved channel.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: A"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "34-47s",
+        "visual": "Option B: A plausible event does not establish the form’s authenticity or justify collecting unrelated sensitive data. Option C: False information can create operational problems and still expose you to malicious links or follow-up requests. Option D: A different channel does not fix an unverified request or excessive data collection.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "47-56s",
+        "visual": "Contact the event organizer using a published official channel. Do not submit unnecessary financial or identity data. Check purpose, legitimacy and necessity before disclosing personal information.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Check purpose, legitimacy and necessity before disclosing personal information."
+      }
+    ],
+    "narration": "Scenario: A person claiming to organize a campus event sends a form requesting your ID number, date of birth, home address and bank details to “confirm attendance.” Safest response: Option A: Verify the organizer through the official event channel and ask which fields are necessary before sharing anything. Confirm purpose and legitimacy, then disclose only the minimum required information using an approved channel. Option B is unsafe because A plausible event does not establish the form’s authenticity or justify collecting unrelated sensitive data. Option C is unsafe because False information can create operational problems and still expose you to malicious links or follow-up requests. Option D is unsafe because A different channel does not fix an unverified request or excessive data collection. In practice: Contact the event organizer using a published official channel. Do not submit unnecessary financial or identity data. Key takeaway: Check purpose, legitimacy and necessity before disclosing personal information.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Privacy. Scenario: A person claiming to organize a campus event sends a form requesting your ID number, date of birth, home address and bank details to “confirm attendance.” Explain why Option A is the safest defensive response: Verify the organizer through the official event channel and ask which fields are necessary before sharing anything. Contrast the unsafe alternatives with these concise reasons: Option B: A plausible event does not establish the form’s authenticity or justify collecting unrelated sensitive data.; Option C: False information can create operational problems and still expose you to malicious links or follow-up requests.; Option D: A different channel does not fix an unverified request or excessive data collection.. Conclude with: Check purpose, legitimacy and necessity before disclosing personal information. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[1]",
+      "[17]",
+      "[36]"
+    ],
+    "outputFile": "public/videos/beginner/privacy-b09.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Privacy. Scenario: A person claiming to organize a campus event sends a form requesting your ID number, date of birth, home address and bank details to “confirm attendance.” Explain why the correct defensive response is: Verify the organizer through the official event channel and ask which fields are necessary before sharing anything. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Check purpose, legitimacy and necessity before disclosing personal information. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.316\nScenario: A person claiming to organize a campus event\n\n2\n00:00:03.316 --> 00:00:06.632\nsends a form requesting your ID number, date of\n\n3\n00:00:06.632 --> 00:00:09.947\nbirth, home address and bank details to “confirm attendance.”\n\n4\n00:00:09.947 --> 00:00:13.263\nSafest response: Option A: Verify the organizer through the\n\n5\n00:00:13.263 --> 00:00:16.579\nofficial event channel and ask which fields are necessary\n\n6\n00:00:16.579 --> 00:00:19.895\nbefore sharing anything. Confirm purpose and legitimacy, then disclose\n\n7\n00:00:19.895 --> 00:00:23.211\nonly the minimum required information using an approved channel.\n\n8\n00:00:23.211 --> 00:00:26.526\nOption B is unsafe because A plausible event does\n\n9\n00:00:26.526 --> 00:00:30.579\nnot establish the form’s authenticity or justify collecting unrelated sensitive data.\n\n10\n00:00:30.579 --> 00:00:33.895\nOption C is unsafe because False information can create\n\n11\n00:00:33.895 --> 00:00:37.211\noperational problems and still expose you to malicious links\n\n12\n00:00:37.211 --> 00:00:40.526\nor follow-up requests. Option D is unsafe because A\n\n13\n00:00:40.526 --> 00:00:43.842\ndifferent channel does not fix an unverified request or\n\n14\n00:00:43.842 --> 00:00:47.158\nexcessive data collection. In practice: Contact the event organizer\n\n15\n00:00:47.158 --> 00:00:50.474\nusing a published official channel. Do not submit unnecessary\n\n16\n00:00:50.474 --> 00:00:53.789\nfinancial or identity data. Key takeaway: Check purpose, legitimacy\n\n17\n00:00:53.789 --> 00:00:56.000\nand necessity before disclosing personal information.\n",
+  "referenceIds": [
+    "[1]",
+    "[17]",
+    "[36]"
+  ],
+  "question": {
+    "title": "The unexpected personal-data form",
+    "learningObjective": "Share only information necessary for a legitimate and verified purpose",
+    "scenario": "A person claiming to organize a campus event sends a form requesting your ID number, date of birth, home address and bank details to “confirm attendance.”",
+    "correctOptionId": "A",
+    "correctAnswer": "Verify the organizer through the official event channel and ask which fields are necessary before sharing anything.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": true,
+        "explanation": "Correct. Confirm purpose and legitimacy, then disclose only the minimum required information using an approved channel."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "A plausible event does not establish the form’s authenticity or justify collecting unrelated sensitive data."
+      },
+      "C": {
+        "isCorrect": false,
+        "explanation": "False information can create operational problems and still expose you to malicious links or follow-up requests."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "A different channel does not fix an unverified request or excessive data collection."
+      }
+    },
+    "keyTakeaway": "Check purpose, legitimacy and necessity before disclosing personal information.",
+    "recommendedDefensiveAction": "Contact the event organizer using a published official channel. Do not submit unnecessary financial or identity data."
+  }
+}

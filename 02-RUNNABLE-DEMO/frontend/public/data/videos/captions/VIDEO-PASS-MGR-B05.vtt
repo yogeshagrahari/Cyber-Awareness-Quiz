@@ -1,0 +1,61 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.333
+Scenario: You have many accounts and struggle to remember
+
+2
+00:00:03.333 --> 00:00:06.667
+a different strong password for each one. Safest response:
+
+3
+00:00:06.667 --> 00:00:10.000
+Option D: Use an organization-approved password manager with a
+
+4
+00:00:10.000 --> 00:00:13.333
+strong protected vault and unique generated passwords. An approved
+
+5
+00:00:13.333 --> 00:00:16.667
+manager helps maintain distinct credentials without requiring people to
+
+6
+00:00:16.667 --> 00:00:20.000
+memorize them all. Option A is unsafe because Reuse
+
+7
+00:00:20.000 --> 00:00:23.333
+creates cross-account risk when any one service is breached.
+
+8
+00:00:23.333 --> 00:00:26.667
+Option B is unsafe because A shared, unprotected note
+
+9
+00:00:26.667 --> 00:00:30.370
+exposes multiple accounts to anyone with access to the device.
+
+10
+00:00:30.370 --> 00:00:33.704
+Option C is unsafe because Email may be accessible
+
+11
+00:00:33.704 --> 00:00:37.407
+to mailbox attackers and is not an appropriate password vault.
+
+12
+00:00:37.407 --> 00:00:40.741
+In practice: Use an organization-approved password manager, secure its
+
+13
+00:00:40.741 --> 00:00:44.815
+master authentication, and never store real passwords in the learning simulation.
+
+14
+00:00:44.815 --> 00:00:48.148
+Key takeaway: A trusted password manager supports unique credentials;
+
+15
+00:00:48.148 --> 00:00:50.000
+protect the vault itself carefully.

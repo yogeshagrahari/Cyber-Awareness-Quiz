@@ -1,0 +1,116 @@
+{
+  "videoId": "VIDEO-ATO-I07",
+  "questionId": "ATO-I07",
+  "level": "Intermediate",
+  "title": "Question explanation: Signals of account takeover",
+  "status": "blocked_pending_human_review",
+  "blockReason": "Question, explanation, narration and storyboard require recorded human approval before provider submission.",
+  "idempotencyKey": "dde4afedb01e453aa54f20a489c3efd65f789e27afee263f9b0c4f4099b6fdaf",
+  "requestedFormat": "mp4",
+  "aspectRatio": "16:9",
+  "targetDurationSeconds": {
+    "min": 30,
+    "max": 60,
+    "estimated": 57
+  },
+  "narration": "Scenario: You receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed. Safest response: Option C: Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes. Treat the signals as possible account compromise and use trusted recovery and containment procedures. Option A is unsafe because The alert itself may be spoofed; its link should not be trusted without verification. Option B is unsafe because A single change does not address potentially stolen credentials, active sessions or other persistence. Option D is unsafe because Waiting may allow the intruder to maintain access or intercept future messages. In practice: Contact the service or organizational identity team using a known route. Follow instructions to secure credentials, sessions, recovery methods and mailbox rules. Key takeaway: Unexpected logins plus changed recovery settings are strong account-compromise indicators.",
+  "script": "# Signals of account takeover\n\n**Video ID:** `VIDEO-ATO-I07`  \n**Question ID:** `ATO-I07`  \n**Level:** Intermediate  \n**Target duration:** 57 seconds  \n**Status:** Script, storyboard, generation prompt and captions drafted; MP4 not generated.\n\n## Learning objective\nIdentify account-takeover signals and initiate trusted account-recovery steps\n\n## Scenario\nYou receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed.\n\n## Narration transcript\nScenario: You receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed. Safest response: Option C: Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes. Treat the signals as possible account compromise and use trusted recovery and containment procedures. Option A is unsafe because The alert itself may be spoofed; its link should not be trusted without verification. Option B is unsafe because A single change does not address potentially stolen credentials, active sessions or other persistence. Option D is unsafe because Waiting may allow the intruder to maintain access or intercept future messages. In practice: Contact the service or organizational identity team using a known route. Follow instructions to secure credentials, sessions, recovery methods and mailbox rules. Key takeaway: Unexpected logins plus changed recovery settings are strong account-compromise indicators.\n\n## Correct response\nC. Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes.\n\n## Option-specific teaching notes\n- **A:** The alert itself may be spoofed; its link should not be trusted without verification.\n- **B:** A single change does not address potentially stolen credentials, active sessions or other persistence.\n- **C (correct):** Correct. Treat the signals as possible account compromise and use trusted recovery and containment procedures.\n- **D:** Waiting may allow the intruder to maintain access or intercept future messages.\n\n## Key takeaway\nUnexpected logins plus changed recovery settings are strong account-compromise indicators.\n\n## Recommended defensive action\nContact the service or organizational identity team using a known route. Follow instructions to secure credentials, sessions, recovery methods and mailbox rules.\n\n## On-screen text sequence\n- **0-10s — Scenario setup:** Fictional scenario\n- **10-21s — Learning objective and risk cue:** Account takeover — key cue\n- **21-34s — Recommended response:** Safest response: C\n- **34-48s — Why the other options fail:** Why the alternatives are unsafe\n- **48-57s — Defensive takeaway:** Unexpected logins plus changed recovery settings are strong account-compromise indicators.\n\n## Research references\n- [16]\n- [17]\n- [28]\n\n## Planned output\n`public/videos/intermediate/ato-i07.mp4`\n\n## Production status\nThis is a production-ready draft, not a generated video. No MP4 is included or claimed. Update the manifest only after the rendered file has been tested and human-reviewed.\n",
+  "storyboard": {
+    "videoId": "VIDEO-ATO-I07",
+    "questionId": "ATO-I07",
+    "title": "Signals of account takeover — question explanation",
+    "learningObjective": "Identify account-takeover signals and initiate trusted account-recovery steps",
+    "targetDurationSeconds": 57,
+    "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+    "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+    "scenes": [
+      {
+        "name": "Scenario setup",
+        "time": "0-10s",
+        "visual": "You receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed.",
+        "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+        "onScreenText": "Fictional scenario"
+      },
+      {
+        "name": "Learning objective and risk cue",
+        "time": "10-21s",
+        "visual": "Identify account-takeover signals and initiate trusted account-recovery steps",
+        "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+        "onScreenText": "Account takeover — key cue"
+      },
+      {
+        "name": "Recommended response",
+        "time": "21-34s",
+        "visual": "Option C: Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes. Treat the signals as possible account compromise and use trusted recovery and containment procedures.",
+        "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+        "onScreenText": "Safest response: C"
+      },
+      {
+        "name": "Why the other options fail",
+        "time": "34-48s",
+        "visual": "Option A: The alert itself may be spoofed; its link should not be trusted without verification. Option B: A single change does not address potentially stolen credentials, active sessions or other persistence. Option D: Waiting may allow the intruder to maintain access or intercept future messages.",
+        "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+        "onScreenText": "Why the alternatives are unsafe"
+      },
+      {
+        "name": "Defensive takeaway",
+        "time": "48-57s",
+        "visual": "Contact the service or organizational identity team using a known route. Follow instructions to secure credentials, sessions, recovery methods and mailbox rules. Unexpected logins plus changed recovery settings are strong account-compromise indicators.",
+        "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+        "onScreenText": "Unexpected logins plus changed recovery settings are strong account-compromise indicators."
+      }
+    ],
+    "narration": "Scenario: You receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed. Safest response: Option C: Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes. Treat the signals as possible account compromise and use trusted recovery and containment procedures. Option A is unsafe because The alert itself may be spoofed; its link should not be trusted without verification. Option B is unsafe because A single change does not address potentially stolen credentials, active sessions or other persistence. Option D is unsafe because Waiting may allow the intruder to maintain access or intercept future messages. In practice: Contact the service or organizational identity team using a known route. Follow instructions to secure credentials, sessions, recovery methods and mailbox rules. Key takeaway: Unexpected logins plus changed recovery settings are strong account-compromise indicators.",
+    "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+    "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Account takeover. Scenario: You receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed. Explain why Option C is the safest defensive response: Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes. Contrast the unsafe alternatives with these concise reasons: Option A: The alert itself may be spoofed; its link should not be trusted without verification.; Option B: A single change does not address potentially stolen credentials, active sessions or other persistence.; Option D: Waiting may allow the intruder to maintain access or intercept future messages.. Conclude with: Unexpected logins plus changed recovery settings are strong account-compromise indicators. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+    "generationInstructions": [
+      "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+      "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+      "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+      "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+      "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+      "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+    ],
+    "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+    "references": [
+      "[16]",
+      "[17]",
+      "[28]"
+    ],
+    "outputFile": "public/videos/intermediate/ato-i07.mp4"
+  },
+  "prompt": "Create a fictional educational explainer for CYBERAWARE 3D about Account takeover. Scenario: You receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed. Explain why the correct defensive response is: Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes. Also contrast the unsafe alternatives using short abstract visual cues. Conclude with: Unexpected logins plus changed recovery settings are strong account-compromise indicators. Use a generic simulated interface, a navy/cyan 3D cyber-learning environment, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.\n\nVISUAL STYLE\nDeep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.\n\nGENERATION INSTRUCTIONS\n- Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.\n- Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.\n- Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.\n- Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.\n- Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.\n- Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated.\n",
+  "captions": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.375\nScenario: You receive an email alert for a successful\n\n2\n00:00:03.375 --> 00:00:06.750\nlogin from an unfamiliar location. Your account recovery email\n\n3\n00:00:06.750 --> 00:00:10.125\nand forwarding rules also appear to have changed. Safest\n\n4\n00:00:10.125 --> 00:00:13.500\nresponse: Option C: Use a known official account-recovery route\n\n5\n00:00:13.500 --> 00:00:17.625\nfrom a trusted device, contact support/security and report the unauthorized changes.\n\n6\n00:00:17.625 --> 00:00:21.000\nTreat the signals as possible account compromise and use\n\n7\n00:00:21.000 --> 00:00:24.375\ntrusted recovery and containment procedures. Option A is unsafe\n\n8\n00:00:24.375 --> 00:00:27.750\nbecause The alert itself may be spoofed; its link\n\n9\n00:00:27.750 --> 00:00:31.125\nshould not be trusted without verification. Option B is\n\n10\n00:00:31.125 --> 00:00:34.500\nunsafe because A single change does not address potentially\n\n11\n00:00:34.500 --> 00:00:37.875\nstolen credentials, active sessions or other persistence. Option D\n\n12\n00:00:37.875 --> 00:00:41.250\nis unsafe because Waiting may allow the intruder to\n\n13\n00:00:41.250 --> 00:00:44.625\nmaintain access or intercept future messages. In practice: Contact\n\n14\n00:00:44.625 --> 00:00:48.375\nthe service or organizational identity team using a known route.\n\n15\n00:00:48.375 --> 00:00:52.500\nFollow instructions to secure credentials, sessions, recovery methods and mailbox rules.\n\n16\n00:00:52.500 --> 00:00:55.875\nKey takeaway: Unexpected logins plus changed recovery settings are\n\n17\n00:00:55.875 --> 00:00:57.000\nstrong account-compromise indicators.\n",
+  "referenceIds": [
+    "[16]",
+    "[17]",
+    "[28]"
+  ],
+  "question": {
+    "title": "Signals of account takeover",
+    "learningObjective": "Identify account-takeover signals and initiate trusted account-recovery steps",
+    "scenario": "You receive an email alert for a successful login from an unfamiliar location. Your account recovery email and forwarding rules also appear to have changed.",
+    "correctOptionId": "C",
+    "correctAnswer": "Use a known official account-recovery route from a trusted device, contact support/security and report the unauthorized changes.",
+    "optionExplanations": {
+      "A": {
+        "isCorrect": false,
+        "explanation": "The alert itself may be spoofed; its link should not be trusted without verification."
+      },
+      "B": {
+        "isCorrect": false,
+        "explanation": "A single change does not address potentially stolen credentials, active sessions or other persistence."
+      },
+      "C": {
+        "isCorrect": true,
+        "explanation": "Correct. Treat the signals as possible account compromise and use trusted recovery and containment procedures."
+      },
+      "D": {
+        "isCorrect": false,
+        "explanation": "Waiting may allow the intruder to maintain access or intercept future messages."
+      }
+    },
+    "keyTakeaway": "Unexpected logins plus changed recovery settings are strong account-compromise indicators.",
+    "recommendedDefensiveAction": "Contact the service or organizational identity team using a known route. Follow instructions to secure credentials, sessions, recovery methods and mailbox rules."
+  }
+}

@@ -1,0 +1,12 @@
+Create a fictional 60-second accessible educational motion-graphics explainer for CYBERAWARE 3D. Subject: Ransomware recovery and resilience. Use only generic fictional systems and synthetic values. Explain the correct defensive response, contrast the three unsafe alternatives at a high level, and end with: Recovery is not simply restoring files; it is returning services to a known-good, validated and monitored state.
+
+NARRATION
+Scenario: Ransomware encrypted production servers. An offline backup exists, but it has not been validated; credentials may be exposed. Safest response: validate clean backups, establish a trusted recovery environment, remediate identities, restore prioritized services, test and monitor. Option B is unsafe because The newest backup may also be encrypted, compromised or contaminated. Option C is unsafe because Payment does not guarantee decryption, recovery or prevention of data disclosure. Option D is unsafe because Stopped encryption does not prove attacker access or persistence is gone. In practice: follow the recovery plan and confirm integrity and security before return to service. Key takeaway: restore only to a known-good, monitored state.
+
+FULL TEACHING NOTES
+Option A: Correct. Recovery depends on trustworthy restoration sources, a clean environment, identity/access remediation, prioritized validation and monitoring.
+Option B: The newest backup may also be encrypted, compromised or contaminated. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option C: Payment does not guarantee decryption, recovery or prevention of data disclosure. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+Option D: Stopped encryption does not prove attacker access or persistence is gone. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof.
+
+STYLE: Deep navy, charcoal, restrained cyan/electric blue, accessible typography, 16:9. No recognizable logos, real identities, credentials, live data, operational attack instructions, flashing, rapid motion or autoplay audio. Supply separate synchronized WebVTT and transcript. Human review is mandatory before release.

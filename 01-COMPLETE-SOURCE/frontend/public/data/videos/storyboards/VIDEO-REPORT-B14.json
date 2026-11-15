@@ -1,0 +1,65 @@
+{
+  "videoId": "VIDEO-REPORT-B14",
+  "questionId": "REPORT-B14",
+  "title": "You clicked a suspicious link — question explanation",
+  "learningObjective": "Report suspected phishing or accidental interaction promptly through the approved channel",
+  "targetDurationSeconds": 51,
+  "format": "16:9 educational motion-graphics video; narration; separate captions; no autoplay with sound",
+  "visualStyle": "Deep navy and charcoal; restrained cyan/electric-blue highlights; limited purple accents; clean typography; purposeful, low-motion transitions; accessible contrast.",
+  "scenes": [
+    {
+      "name": "Scenario setup",
+      "time": "0-9s",
+      "visual": "You clicked a suspicious link and entered your work password before realizing the page was fake.",
+      "direction": "Show a fictional simulated setting. Use generic UI and no actual organization, brand, user identity, credential, real URL or live account.",
+      "onScreenText": "Fictional scenario"
+    },
+    {
+      "name": "Learning objective and risk cue",
+      "time": "9-18s",
+      "visual": "Report suspected phishing or accidental interaction promptly through the approved channel",
+      "direction": "Highlight only observable cues and explain the decision context without implying certainty beyond the scenario.",
+      "onScreenText": "Incident reporting — key cue"
+    },
+    {
+      "name": "Recommended response",
+      "time": "18-31s",
+      "visual": "Option D: Report immediately through the approved security channel and follow instructions to secure the account from a trusted device. Prompt reporting enables the organization to contain possible credential compromise and assess impact.",
+      "direction": "Animate the recommended defensive choice as a clear decision path. Display the action verb and trusted channel/control.",
+      "onScreenText": "Safest response: D"
+    },
+    {
+      "name": "Why the other options fail",
+      "time": "31-43s",
+      "visual": "Option A: Public posting may expose organizational details and does not trigger incident response. Option B: Non-reporting delays containment and may allow the account to be misused. Option C: Waiting can give an attacker more time to use exposed credentials.",
+      "direction": "Show each unsafe alternative separately with a complete, concise reason. Do not depict operational exploitation, malicious code or credential capture.",
+      "onScreenText": "Why the alternatives are unsafe"
+    },
+    {
+      "name": "Defensive takeaway",
+      "time": "43-51s",
+      "visual": "Contact the security/helpdesk team immediately. From a trusted device, follow their direction to reset credentials, revoke sessions and inspect account activity. Fast, accurate reporting helps limit harm; do not hide accidental interaction.",
+      "direction": "Close with one readable takeaway and the next safe action. Keep the final frame long enough for comprehension.",
+      "onScreenText": "Fast, accurate reporting helps limit harm; do not hide accidental interaction."
+    }
+  ],
+  "narration": "Scenario: You clicked a suspicious link and entered your work password before realizing the page was fake. Safest response: Option D: Report immediately through the approved security channel and follow instructions to secure the account from a trusted device. Prompt reporting enables the organization to contain possible credential compromise and assess impact. Option A is unsafe because Public posting may expose organizational details and does not trigger incident response. Option B is unsafe because Non-reporting delays containment and may allow the account to be misused. Option C is unsafe because Waiting can give an attacker more time to use exposed credentials. In practice: Contact the security/helpdesk team immediately. From a trusted device, follow their direction to reset credentials, revoke sessions and inspect account activity. Key takeaway: Fast, accurate reporting helps limit harm; do not hide accidental interaction.",
+  "audioDirection": "Neutral, clear instructional narration at conversational pace. Avoid alarmist sound design and do not imitate any real person’s voice.",
+  "visualPrompt": "Create a fictional educational explainer for CYBERAWARE 3D about Incident reporting. Scenario: You clicked a suspicious link and entered your work password before realizing the page was fake. Explain why Option D is the safest defensive response: Report immediately through the approved security channel and follow instructions to secure the account from a trusted device. Contrast the unsafe alternatives with these concise reasons: Option A: Public posting may expose organizational details and does not trigger incident response.; Option B: Non-reporting delays containment and may allow the account to be misused.; Option C: Waiting can give an attacker more time to use exposed credentials.. Conclude with: Fast, accurate reporting helps limit harm; do not hide accidental interaction. Use generic simulated interfaces, legible labels, restrained camera motion, no recognizable logos, no real personal data, no operational attack instructions, no real credentials or live URLs.",
+  "generationInstructions": [
+    "Use the narration as the voiceover source; preserve its meaning and do not add unsupported technical claims.",
+    "Render a 16:9 MP4 at 1080p or equivalent; keep text inside safe margins.",
+    "Use only fictional names, domains, screens and values. Never render real secrets, OTPs, account data or real target systems.",
+    "Provide a separate WebVTT caption file and transcript; do not rely on burned-in text alone.",
+    "Use no flashing effects, rapid strobing, unnecessary parallax or autoplay audio.",
+    "Human-review the rendered video for factual accuracy, spelling, pronunciation, captions and timing before marking it validated."
+  ],
+  "accessibility": "Separate synchronized captions and transcript required. Written explanation is the fallback. Avoid flashing and color-only information. Provide a static equivalent of all essential 3D visuals.",
+  "references": [
+    "[1]",
+    "[17]",
+    "[24]",
+    "[28]"
+  ],
+  "outputFile": "public/videos/beginner/report-b14.mp4"
+}

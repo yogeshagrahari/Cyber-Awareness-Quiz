@@ -1,0 +1,65 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.329
+Scenario: A browser extension promises to summarize every page.
+
+2
+00:00:03.329 --> 00:00:06.658
+It requests permission to read and change all data
+
+3
+00:00:06.658 --> 00:00:09.986
+on every website, including internal work portals. Safest response:
+
+4
+00:00:09.986 --> 00:00:13.315
+Option C: Check organizational approval, publisher provenance, necessity and
+
+5
+00:00:13.315 --> 00:00:16.644
+permission scope before installation. Broad access to every site
+
+6
+00:00:16.644 --> 00:00:19.973
+creates significant data and account exposure and should be
+
+7
+00:00:19.973 --> 00:00:23.301
+justified and approved. Option A is unsafe because Using
+
+8
+00:00:23.301 --> 00:00:26.630
+another person’s profile does not resolve the extension’s access
+
+9
+00:00:26.630 --> 00:00:29.959
+or policy risks. Option B is unsafe because Private
+
+10
+00:00:29.959 --> 00:00:33.288
+mode does not necessarily prevent an extension from accessing
+
+11
+00:00:33.288 --> 00:00:36.616
+permitted page content. Option D is unsafe because Ratings
+
+12
+00:00:36.616 --> 00:00:40.315
+do not establish the publisher’s trustworthiness or justify broad permissions.
+
+13
+00:00:40.315 --> 00:00:43.644
+In practice: Do not install until the extension is
+
+14
+00:00:43.644 --> 00:00:47.342
+approved and its permissions are proportionate to a documented need.
+
+15
+00:00:47.342 --> 00:00:50.671
+Key takeaway: An extension with broad permissions can access
+
+16
+00:00:50.671 --> 00:00:54.000
+sensitive page data; assess source and scope before use.

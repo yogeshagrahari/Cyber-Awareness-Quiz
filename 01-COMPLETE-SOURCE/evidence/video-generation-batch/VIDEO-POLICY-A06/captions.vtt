@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.375
+Scenario: A product team requests a six-month MFA exception
+
+2
+00:00:03.375 --> 00:00:06.750
+for a production administrator account to simplify deployment. No
+
+3
+00:00:06.750 --> 00:00:10.125
+compensating controls or accountable risk owner are proposed. Safest
+
+4
+00:00:10.125 --> 00:00:13.500
+response: Option C: Require documented business justification, scoped duration,
+
+5
+00:00:13.500 --> 00:00:16.875
+risk-owner approval, compensating controls, monitoring and an expiry/review date
+
+6
+00:00:16.875 --> 00:00:20.250
+before any exception. A controlled exception process preserves accountability
+
+7
+00:00:20.250 --> 00:00:23.625
+and makes residual risk explicit. Option A is unsafe
+
+8
+00:00:23.625 --> 00:00:27.000
+because Schedule pressure alone does not justify accepting an
+
+9
+00:00:27.000 --> 00:00:30.375
+undocumented security risk. Option B is unsafe because Shared
+
+10
+00:00:30.375 --> 00:00:33.750
+privileged accounts weaken accountability and do not solve the
+
+11
+00:00:33.750 --> 00:00:37.125
+underlying control gap. Option D is unsafe because Some
+
+12
+00:00:37.125 --> 00:00:40.500
+exceptions may be justified, but they require formal risk
+
+13
+00:00:40.500 --> 00:00:43.875
+assessment, approval and compensating controls. In practice: Use the
+
+14
+00:00:43.875 --> 00:00:47.250
+organization’s exception workflow, define the account and period in
+
+15
+00:00:47.250 --> 00:00:50.625
+scope, assess residual risk, assign an accountable approver and
+
+16
+00:00:50.625 --> 00:00:54.000
+set a review/expiry date. Key takeaway: An exception is
+
+17
+00:00:54.000 --> 00:00:57.000
+a governed risk decision, not an informal bypass.

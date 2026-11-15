@@ -1,0 +1,228 @@
+{
+  "project": "CYBERAWARE 3D",
+  "phase": 22,
+  "version": "0.10.0-rc.15",
+  "date": "2026-11-13",
+  "scope": "Finalization of all locally executable non-video work; research/implementation reconciliation, tests, static distribution, deployment smoke, source inventory and archived handoff.",
+  "environment": {
+    "os": "Debian GNU/Linux 13 (trixie)",
+    "kernel": "Linux 6.18.57 x86_64",
+    "node": "v22.16.0",
+    "npm": "10.9.2",
+    "typescript": "5.8.3",
+    "chromium": "144.0.7559.96",
+    "nginx": "1.26.3",
+    "requiredProjectNode": "v26.13.1",
+    "requiredProjectNpm": "12.2.2",
+    "reactDependenciesInstalled": false,
+    "reactLockfilePresent": false,
+    "reactProductionDistributionPresent": false,
+    "nodejsOrgDnsResolvable": false,
+    "npmRegistryDnsResolvable": false
+  },
+  "checks": [
+    {
+      "name": "Legacy application tests",
+      "status": "PASS",
+      "result": "49/49",
+      "evidence": "phase-22-local-validation.log: legacy-tests.log",
+      "scope": "Node test suite including core app, server, simulations and release workflow contracts."
+    },
+    {
+      "name": "React domain/source tests",
+      "status": "PASS",
+      "result": "19/19",
+      "evidence": "phase-22-local-validation.log: react-domain-tests.log",
+      "scope": "Node TypeScript strip-types source/domain tests; not React DOM or browser acceptance."
+    },
+    {
+      "name": "Offline TypeScript structural check",
+      "status": "PASS",
+      "result": "tsc --noEmit -p react-app/tsconfig.local.json",
+      "evidence": "react-offline-typecheck.log",
+      "scope": "Global TypeScript 5.8.3 with local ambient shims; not official TypeScript 7 project build."
+    },
+    {
+      "name": "Canonical content and traceability validator",
+      "status": "PASS",
+      "result": "45 core + 6 Expert Challenge; 51 explanations; 204 rationales; 38 references",
+      "evidence": "content-validator.log",
+      "scope": "Structural content, schema, stable ID, question/explanation/reference/caption mapping validation; not human subject-matter approval."
+    },
+    {
+      "name": "High-confidence secret-pattern scan",
+      "status": "PASS",
+      "result": "PASS",
+      "evidence": "security-scan.log",
+      "scope": "Lightweight guardrail; not full SAST or a dedicated secret-scanning product."
+    },
+    {
+      "name": "Dependency-free static distribution build",
+      "status": "PASS",
+      "result": "frontend/dist created",
+      "evidence": "static-build.log",
+      "scope": "Copy-based legacy demonstrator distribution; not a React/Vite bundle."
+    },
+    {
+      "name": "Static distribution smoke",
+      "status": "PASS",
+      "result": "215 routes",
+      "evidence": "static-dist-smoke.log",
+      "scope": "Static content, question scripts/storyboards/prompts/captions, media status HEAD checks, method handling and security headers."
+    },
+    {
+      "name": "Packaged distribution smoke",
+      "status": "PASS",
+      "result": "PASS",
+      "evidence": "static-package-smoke.log",
+      "scope": "Health, root, canonical content, HEAD, 404, method guard, security headers and graceful shutdown."
+    },
+    {
+      "name": "Nginx static deployment smoke",
+      "status": "PASS",
+      "result": "10/10",
+      "evidence": "nginx-static-smoke.log",
+      "scope": "Local Nginx syntax and static content deployment behavior; not target-host TLS/HSTS."
+    },
+    {
+      "name": "Nginx live HTTP smoke",
+      "status": "PASS",
+      "result": "8/8",
+      "evidence": "nginx-live-smoke.log",
+      "scope": "Local proxy/header/media behavior; no public ingress or TLS edge."
+    },
+    {
+      "name": "Backup safeguards",
+      "status": "PASS",
+      "result": "checksum, exclusions, permissions, inside-tree refusal",
+      "evidence": "backup-smoke.log",
+      "scope": "Script safeguards only; no off-host restore exercise."
+    },
+    {
+      "name": "systemd unit syntax",
+      "status": "PASS",
+      "result": "systemd-analyze verify returned 0",
+      "evidence": "systemd-unit-check.log",
+      "scope": "Unit syntax verification only; not installed or started on a target host."
+    },
+    {
+      "name": "Node JavaScript syntax checks",
+      "status": "PASS",
+      "result": "all frontend .mjs and .js files",
+      "evidence": "source-node-syntax.log",
+      "scope": "Node parser syntax checks; not lint/static analysis."
+    },
+    {
+      "name": "Python compilation checks",
+      "status": "PASS",
+      "result": "tests and scripts compile",
+      "evidence": "python-compile.log",
+      "scope": "Python syntax compilation; not type/lint/security analysis."
+    },
+    {
+      "name": "CycloneDX SBOM generation",
+      "status": "PASS_WITH_LIMITATION",
+      "result": "10 direct declared React runtime/development dependencies",
+      "evidence": "evidence/cyberaware3d-sbom.cdx.json",
+      "scope": "Direct package.json declarations only; transitive components and audit findings await reviewed lockfile."
+    },
+    {
+      "name": "Final source and app-demo ZIP integrity",
+      "status": "PASS",
+      "result": "Both RC.15 ZIPs passed unzip archive integrity tests and SHA-256 verification",
+      "scope": "Performed after extracting and checking both final handoff archives."
+    },
+    {
+      "name": "Extracted source archive verification",
+      "status": "PASS",
+      "result": "1,160 files matched package-manifest.json size and SHA-256 inventory",
+      "scope": "Ran the package manifest verifier against the independently extracted final source ZIP."
+    },
+    {
+      "name": "Extracted app-demo runtime smoke",
+      "status": "PASS",
+      "result": "/healthz 200; root 200; canonical question-bank JSON 200 with 45 core questions; visible version RC.15; 4 expected defensive response headers",
+      "scope": "Started the static server from the extracted app-demo archive; local runtime smoke only, not browser E2E."
+    },
+    {
+      "name": "Package source manifest generation and verification",
+      "status": "PASS",
+      "result": "1,160 files match SHA-256 and byte-size inventory",
+      "evidence": "package-manifest.json",
+      "scope": "Source inventory excludes itself; generator rejects symlinks and filters excluded/sensitive paths."
+    },
+    {
+      "name": "React lockfile and npm installation",
+      "status": "BLOCKED",
+      "result": "No package-lock.json; no React node_modules; registry DNS unavailable",
+      "evidence": "container DNS / curl checks and RC.14 phase 21 report",
+      "scope": "Could not run trustworthy npm ci or npm audit; no lockfile was fabricated."
+    },
+    {
+      "name": "Official TypeScript 7 / Vite React production build",
+      "status": "NOT_RUN_BLOCKED",
+      "result": "React dependencies unavailable",
+      "scope": "No React dist artifact is claimed; packager remains fail-closed when React dist is missing."
+    },
+    {
+      "name": "React Playwright / axe browser acceptance",
+      "status": "NOT_RUN_BLOCKED",
+      "result": "Playwright dependencies / React production bundle absent; prior Chromium loopback navigation hit administrator restriction",
+      "scope": "No real-browser or axe result claimed."
+    },
+    {
+      "name": "Manual WCAG 2.2 AA review",
+      "status": "PENDING_EXTERNAL",
+      "result": "Requires keyboard, screen-reader, 200%/400% zoom, contrast and reduced-motion review by a human tester",
+      "scope": "Automated source checks do not establish WCAG conformance."
+    },
+    {
+      "name": "Target-host production operations",
+      "status": "PENDING_EXTERNAL",
+      "result": "TLS/HTTPS, HSTS, host allow-list, monitoring/log retention, off-host restore and rollback not executed",
+      "scope": "Requires target hosting environment and operational owner."
+    },
+    {
+      "name": "Independent security and instructional-design review",
+      "status": "PENDING_EXTERNAL",
+      "result": "No independent sign-off recorded",
+      "scope": "All question stems, answer choices, rationales and citations require human review."
+    },
+    {
+      "name": "Learner evaluation",
+      "status": "PENDING_EXTERNAL",
+      "result": "No pilot or controlled study completed",
+      "scope": "Ethics review/exemption, consent, sample plan and actual outcome data required; no efficacy claims."
+    },
+    {
+      "name": "CISA 2026 guide full review",
+      "status": "PENDING_EXTERNAL",
+      "result": "Reference [38] metadata/resource listing only; full PDF not independently reviewed",
+      "scope": "Do not cite the guide for detailed recommendations/statistics until reviewed."
+    },
+    {
+      "name": "Shared Group E repository integration",
+      "status": "PENDING_EXTERNAL",
+      "result": "CI/integration interfaces documented; no shared repository execution/approval",
+      "scope": "Requires repository access and collaborator agreement."
+    },
+    {
+      "name": "Video generation and media review",
+      "status": "DEFERRED_BY_OWNER",
+      "result": "0 MP4 files generated or reviewed",
+      "scope": "Scripts/storyboards/prompts/captions remain in project; owner will handle video phase later."
+    }
+  ],
+  "videoWork": {
+    "generated": false,
+    "reviewed": false,
+    "status": "DEFERRED_BY_OWNER"
+  },
+  "releaseDecision": "FINAL_LOCAL_HANDOFF_CANDIDATE_NOT_PRODUCTION_APPROVED",
+  "releaseArtifacts": {
+    "version": "0.10.0-rc.15",
+    "mode": "SOURCE_ONLY_NOT_PRODUCTION",
+    "sourceFileCount": 1160,
+    "reactProductionZipCreated": false
+  }
+}

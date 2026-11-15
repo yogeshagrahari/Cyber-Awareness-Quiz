@@ -1,0 +1,136 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:04336c4b-17ac-807c-bad8-a46918702a35",
+  "version": 1,
+  "metadata": {
+    "tools": [
+      {
+        "vendor": "CYBERAWARE 3D",
+        "name": "generate-sbom.mjs",
+        "version": "2.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "cyberaware-3d",
+      "version": "0.10.0-rc.16",
+      "description": "React + TypeScript + Vite learning application with the dependency-free demonstrator retained as a compatibility fallback.",
+      "purl": "pkg:generic/cyberaware-3d@0.10.0-rc.16",
+      "bom-ref": "cyberaware-3d"
+    },
+    "properties": [
+      {
+        "name": "legacy.frontend.version",
+        "value": "0.10.0-rc.16"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "react",
+      "version": "19.3.1",
+      "bom-ref": "pkg:npm/react@19.3.1",
+      "scope": "required",
+      "purl": "pkg:npm/react@19.3.1"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "19.3.1",
+      "bom-ref": "pkg:npm/react-dom@19.3.1",
+      "scope": "required",
+      "purl": "pkg:npm/react-dom@19.3.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "19.3.0",
+      "bom-ref": "pkg:npm/@types/react@19.3.0",
+      "scope": "optional",
+      "purl": "pkg:npm/@types/react@19.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "bom-ref": "pkg:npm/@types/react-dom@19.3.0",
+      "scope": "optional",
+      "purl": "pkg:npm/@types/react-dom@19.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@vitejs/plugin-react",
+      "version": "6.3.0",
+      "bom-ref": "pkg:npm/@vitejs/plugin-react@6.3.0",
+      "scope": "optional",
+      "purl": "pkg:npm/@vitejs/plugin-react@6.3.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "7.0.2",
+      "bom-ref": "pkg:npm/typescript@7.0.2",
+      "scope": "optional",
+      "purl": "pkg:npm/typescript@7.0.2"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "8.3.8",
+      "bom-ref": "pkg:npm/vite@8.3.8",
+      "scope": "optional",
+      "purl": "pkg:npm/vite@8.3.8"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "26.6.6",
+      "bom-ref": "pkg:npm/@types/node@26.6.6",
+      "scope": "optional",
+      "purl": "pkg:npm/@types/node@26.6.6"
+    },
+    {
+      "type": "library",
+      "name": "@playwright/test",
+      "version": "1.65.0",
+      "bom-ref": "pkg:npm/@playwright/test@1.65.0",
+      "scope": "optional",
+      "purl": "pkg:npm/@playwright/test@1.65.0"
+    },
+    {
+      "type": "library",
+      "name": "@axe-core/playwright",
+      "version": "4.14.0",
+      "bom-ref": "pkg:npm/@axe-core/playwright@4.14.0",
+      "scope": "optional",
+      "purl": "pkg:npm/@axe-core/playwright@4.14.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "cyberaware-3d",
+      "dependsOn": [
+        "pkg:npm/react@19.3.1",
+        "pkg:npm/react-dom@19.3.1",
+        "pkg:npm/@types/react@19.3.0",
+        "pkg:npm/@types/react-dom@19.3.0",
+        "pkg:npm/@vitejs/plugin-react@6.3.0",
+        "pkg:npm/typescript@7.0.2",
+        "pkg:npm/vite@8.3.8",
+        "pkg:npm/@types/node@26.6.6",
+        "pkg:npm/@playwright/test@1.65.0",
+        "pkg:npm/@axe-core/playwright@4.14.0"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "subjects": [
+        "cyberaware-3d"
+      ],
+      "text": "This SBOM enumerates direct runtime and development dependencies from frontend/react-app/package.json. A package-lock.json and resolved transitive dependency inventory are pending because the npm registry was unreachable during authoring; regenerate the SBOM after dependency installation and lockfile review."
+    }
+  ]
+}

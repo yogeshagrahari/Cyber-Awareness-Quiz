@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cyberaware3d.example/schemas/expert-challenge.schema.json",
+  "title": "CYBERAWARE 3D Expert Challenge Question Bank",
+  "type": "object",
+  "required": [
+    "project",
+    "schemaVersion",
+    "status",
+    "module",
+    "modulePurpose",
+    "prerequisite",
+    "questionCount",
+    "questions"
+  ],
+  "properties": {
+    "project": {
+      "const": "CYBERAWARE 3D"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string"
+    },
+    "questionCount": {
+      "const": 18
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "required": [
+          "questionId",
+          "level",
+          "category",
+          "title",
+          "learningObjective",
+          "scenario",
+          "question",
+          "options",
+          "correctOptionId",
+          "correctAnswer",
+          "optionExplanations",
+          "explanation",
+          "explanationId",
+          "videoId",
+          "keyTakeaway",
+          "recommendedDefensiveAction",
+          "referenceIds",
+          "estimatedCompletionSeconds"
+        ],
+        "properties": {
+          "questionId": {
+            "type": "string",
+            "pattern": "^[A-Z0-9-]+$"
+          },
+          "level": {
+            "enum": [
+              "Expert Challenge"
+            ]
+          },
+          "category": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "learningObjective": {
+            "type": "string"
+          },
+          "scenario": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          },
+          "options": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "text"
+              ],
+              "properties": {
+                "id": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
+                  ]
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "correctOptionId": {
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "correctAnswer": {
+            "type": "string"
+          },
+          "optionExplanations": {
+            "type": "object",
+            "required": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "properties": {
+              "A": {
+                "type": "object",
+                "required": [
+                  "isCorrect",
+                  "explanation"
+                ],
+                "properties": {
+                  "isCorrect": {
+                    "type": "boolean"
+                  },
+                  "explanation": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "B": {
+                "type": "object",
+                "required": [
+                  "isCorrect",
+                  "explanation"
+                ],
+                "properties": {
+                  "isCorrect": {
+                    "type": "boolean"
+                  },
+                  "explanation": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "C": {
+                "type": "object",
+                "required": [
+                  "isCorrect",
+                  "explanation"
+                ],
+                "properties": {
+                  "isCorrect": {
+                    "type": "boolean"
+                  },
+                  "explanation": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "D": {
+                "type": "object",
+                "required": [
+                  "isCorrect",
+                  "explanation"
+                ],
+                "properties": {
+                  "isCorrect": {
+                    "type": "boolean"
+                  },
+                  "explanation": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "explanation": {
+            "type": "string"
+          },
+          "explanationId": {
+            "type": "string"
+          },
+          "videoId": {
+            "type": "string"
+          },
+          "keyTakeaway": {
+            "type": "string"
+          },
+          "recommendedDefensiveAction": {
+            "type": "string"
+          },
+          "referenceIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^\\[[0-9]+\\]$"
+            }
+          },
+          "estimatedCompletionSeconds": {
+            "type": "integer",
+            "minimum": 60,
+            "maximum": 600
+          },
+          "difficultyRationale": {
+            "type": "string"
+          },
+          "stageCount": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 5
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "module": {
+      "const": "Expert Challenge"
+    },
+    "modulePurpose": {
+      "type": "string",
+      "minLength": 10
+    },
+    "prerequisite": {
+      "type": "string",
+      "minLength": 10
+    }
+  },
+  "additionalProperties": false
+}

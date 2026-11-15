@@ -1,0 +1,46 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.556
+Scenario: Ransomware encrypted production servers. An offline backup exists, but
+
+2
+00:00:05.556 --> 00:00:11.111
+it has not been validated; credentials may be exposed. Safest
+
+3
+00:00:11.111 --> 00:00:16.667
+response: validate clean backups, establish a trusted recovery environment, remediate
+
+4
+00:00:16.667 --> 00:00:22.222
+identities, restore prioritized services, test and monitor. Option B is
+
+5
+00:00:22.222 --> 00:00:27.778
+unsafe because The newest backup may also be encrypted, compromised
+
+6
+00:00:27.778 --> 00:00:33.333
+or contaminated. Option C is unsafe because Payment does not
+
+7
+00:00:33.333 --> 00:00:38.889
+guarantee decryption, recovery or prevention of data disclosure. Option D
+
+8
+00:00:38.889 --> 00:00:44.444
+is unsafe because Stopped encryption does not prove attacker access
+
+9
+00:00:44.444 --> 00:00:50.000
+or persistence is gone. In practice: follow the recovery plan
+
+10
+00:00:50.000 --> 00:00:55.556
+and confirm integrity and security before return to service. Key
+
+11
+00:00:55.556 --> 00:01:00.000
+takeaway: restore only to a known-good, monitored state.
+

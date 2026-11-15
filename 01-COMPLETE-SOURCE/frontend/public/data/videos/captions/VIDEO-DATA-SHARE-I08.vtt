@@ -1,0 +1,69 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.353
+Scenario: A project teammate asks you to upload a
+
+2
+00:00:03.353 --> 00:00:06.706
+spreadsheet containing student IDs and contact details to a
+
+3
+00:00:06.706 --> 00:00:10.059
+folder with “Anyone with the link can view” access.
+
+4
+00:00:10.059 --> 00:00:13.412
+Safest response: Option A: Share only with the verified
+
+5
+00:00:13.412 --> 00:00:16.765
+people who need it, using an approved restricted channel
+
+6
+00:00:16.765 --> 00:00:20.118
+and minimum necessary data. Verify recipients and classification, then
+
+7
+00:00:20.118 --> 00:00:23.471
+apply least privilege to access and content. Option B
+
+8
+00:00:23.471 --> 00:00:26.824
+is unsafe because Temporary broad exposure is still exposure;
+
+9
+00:00:26.824 --> 00:00:30.176
+access should be appropriately restricted before sharing. Option C
+
+10
+00:00:30.176 --> 00:00:33.529
+is unsafe because Renaming does not remove sensitive content
+
+11
+00:00:33.529 --> 00:00:36.882
+or limit access. Option D is unsafe because A
+
+12
+00:00:36.882 --> 00:00:40.235
+personal mailbox may bypass organizational controls and create a
+
+13
+00:00:40.235 --> 00:00:43.588
+new disclosure path. In practice: Confirm the business need
+
+14
+00:00:43.588 --> 00:00:46.941
+and recipient list, use the approved storage service, disable
+
+15
+00:00:46.941 --> 00:00:50.667
+public access, and set access expiry or review where supported.
+
+16
+00:00:50.667 --> 00:00:54.020
+Key takeaway: Share the minimum necessary data with verified
+
+17
+00:00:54.020 --> 00:00:57.000
+recipients using access controls appropriate to its sensitivity.

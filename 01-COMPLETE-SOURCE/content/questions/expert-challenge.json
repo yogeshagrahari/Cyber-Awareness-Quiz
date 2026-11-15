@@ -1,0 +1,1085 @@
+{
+  "project": "CYBERAWARE 3D",
+  "schemaVersion": "1.0.0",
+  "status": "expanded_expert_challenge_draft_pending_expert_review",
+  "module": "Expert Challenge",
+  "modulePurpose": "Optional organizational-level defensive governance, incident prioritization and risk assessment scenarios.",
+  "prerequisite": "Complete at least 10 Advanced first attempts with at least 75% first-attempt accuracy. This is a practice heuristic, not a competency certification.",
+  "questionCount": 18,
+  "questions": [
+    {
+      "questionId": "IR-E01",
+      "level": "Expert Challenge",
+      "category": "Incident response governance",
+      "title": "Containment Under Uncertainty",
+      "learningObjective": "Prioritize coordinated containment, evidence preservation and decision ownership during an active multi-system incident.",
+      "scenario": "At 09:10, the security operations centre receives three correlated alerts: an endpoint has begun encrypting files, a service account has authenticated from an unusual location, and outbound traffic from a file server has increased sharply. The incident commander has not yet confirmed the initial access path. A business unit asks to power off every server immediately.",
+      "question": "What is the strongest first coordinated decision for the incident commander?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declare a major incident, activate the response plan, isolate confirmed affected systems using approved procedures, preserve relevant telemetry, and scope related accounts and hosts before broader disruptive action."
+        },
+        {
+          "id": "B",
+          "text": "Power off every server and workstation immediately, then begin evidence collection after systems restart."
+        },
+        {
+          "id": "C",
+          "text": "Wait until the initial access path is proven before changing any network or account state."
+        },
+        {
+          "id": "D",
+          "text": "Ask the affected business unit to negotiate directly with the suspected attacker while IT investigates."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctAnswer": "Declare a major incident, activate the response plan, isolate confirmed affected systems using approved procedures, preserve relevant telemetry, and scope related accounts and hosts before broader disruptive action.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": true,
+          "explanation": "Correct. Coordinated activation, proportionate containment, evidence preservation and scoping support an informed response while limiting unnecessary operational disruption."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "A blanket shutdown can destroy volatile evidence and disrupt unaffected services. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Waiting for attribution can allow active damage to continue. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Direct uncoordinated contact bypasses the authorized response structure. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        }
+      },
+      "explanation": "Correct. Coordinated activation, proportionate containment, evidence preservation and scoping support an informed response while limiting unnecessary operational disruption.",
+      "explanationId": "EXPL-IR-E01",
+      "videoId": "VIDEO-IR-E01",
+      "keyTakeaway": "Act on credible indicators through the incident plan; do not wait for perfect attribution or take uncontrolled disruptive action.",
+      "recommendedDefensiveAction": "Activate the approved incident-response process, appoint a decision owner, preserve logs and volatile evidence where feasible, isolate confirmed affected assets, scope identity and network activity, and record decisions and uncertainties.",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ],
+      "estimatedCompletionSeconds": 240,
+      "difficultyRationale": "Expert: requires sequencing containment, evidence preservation, uncertainty management and business coordination.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "SUP-E02",
+      "level": "Expert Challenge",
+      "category": "Supply-chain risk governance",
+      "title": "The Critical Supplier Component",
+      "learningObjective": "Prioritize a supplier vulnerability using exposure, exploitability, criticality, provenance and compensating controls.",
+      "scenario": "A supplier notifies the organization that a widely used authentication component has a critical vulnerability. The component appears in the software bill of materials for six services. Two services are internet-facing; one supports payroll. There is no confirmed exploitation in your environment, and the vendor has published a mitigation plus a target patch date.",
+      "question": "Which response best balances urgency, evidence and business continuity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Immediately disable all six services, regardless of exposure or business impact, and defer risk review."
+        },
+        {
+          "id": "B",
+          "text": "Record the notification as informational until the vendor confirms exploitation against your organization."
+        },
+        {
+          "id": "C",
+          "text": "Use the SBOM and asset inventory to identify deployed versions and reachable exposure, prioritize critical services, apply the vendor mitigation or approved compensating controls, test and deploy the patch through change control, and track residual risk."
+        },
+        {
+          "id": "D",
+          "text": "Ask each service owner to independently decide whether the component matters, without central coordination or an owner for remediation."
+        }
+      ],
+      "correctOptionId": "C",
+      "correctAnswer": "Use the SBOM and asset inventory to identify deployed versions and reachable exposure, prioritize critical services, apply the vendor mitigation or approved compensating controls, test and deploy the patch through change control, and track residual risk.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "Disabling every service without triage can cause avoidable business harm. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Waiting for confirmed compromise delays preventive risk treatment. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "C": {
+          "isCorrect": true,
+          "explanation": "Correct. Component inventory, exposure and criticality support defensible prioritization; mitigation, controlled patching and residual-risk tracking maintain accountability."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Uncoordinated service-owner decisions can create remediation gaps. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        }
+      },
+      "explanation": "Correct. Component inventory, exposure and criticality support defensible prioritization; mitigation, controlled patching and residual-risk tracking maintain accountability.",
+      "explanationId": "EXPL-SUP-E02",
+      "videoId": "VIDEO-SUP-E02",
+      "keyTakeaway": "A component inventory becomes actionable when it is connected to deployed assets, exposure, criticality and accountable remediation.",
+      "recommendedDefensiveAction": "Correlate SBOM entries with asset and service inventories; validate affected versions; rank by exposure and business criticality; apply vendor guidance; test patches; coordinate change windows; document residual risk and supplier follow-up.",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[37]"
+      ],
+      "estimatedCompletionSeconds": 240,
+      "difficultyRationale": "Expert: integrates software supply-chain visibility, asset criticality, remediation planning and risk ownership.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "INS-E03",
+      "level": "Expert Challenge",
+      "category": "Insider risk and governance",
+      "title": "An Insider-Risk Signal",
+      "learningObjective": "Respond to potential insider-risk indicators using objective evidence, privacy safeguards, least privilege and authorized processes.",
+      "scenario": "A manager reports that an employee has downloaded an unusually large number of project files shortly before transferring teams. The employee’s role includes legitimate access to many of those files. A second alert shows that a removable device was connected, but the device contents are not yet known.",
+      "question": "What is the most defensible organizational response?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Publicly accuse the employee and ask colleagues to search their personal accounts for evidence."
+        },
+        {
+          "id": "B",
+          "text": "Treat the alerts as a confirmed malicious insider incident and terminate access permanently without review."
+        },
+        {
+          "id": "C",
+          "text": "Ignore the alerts because the employee’s role permits access to the files."
+        },
+        {
+          "id": "D",
+          "text": "Preserve relevant audit records, validate the activity against role and business context, involve the authorized security, HR, privacy and legal stakeholders under policy, and apply proportionate, approved access controls while the facts are assessed."
+        }
+      ],
+      "correctOptionId": "D",
+      "correctAnswer": "Preserve relevant audit records, validate the activity against role and business context, involve the authorized security, HR, privacy and legal stakeholders under policy, and apply proportionate, approved access controls while the facts are assessed.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "Public accusation and informal searches can violate privacy and compromise evidence. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Alerts alone do not establish malicious intent. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Authorized access does not make anomalous activity automatically benign. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "D": {
+          "isCorrect": true,
+          "explanation": "Correct. Objective validation, evidence preservation, multidisciplinary oversight and proportionate controls protect both the organization and individual rights."
+        }
+      },
+      "explanation": "Correct. Objective validation, evidence preservation, multidisciplinary oversight and proportionate controls protect both the organization and individual rights.",
+      "explanationId": "EXPL-INS-E03",
+      "videoId": "VIDEO-INS-E03",
+      "keyTakeaway": "Insider-risk indicators require evidence-led assessment, not assumptions about intent or identity.",
+      "recommendedDefensiveAction": "Preserve relevant logs, validate activity against job duties and approved work, restrict access only when authorized and proportionate, and coordinate with designated security, HR, privacy and legal functions.",
+      "referenceIds": [
+        "[32]",
+        "[33]",
+        "[38]"
+      ],
+      "estimatedCompletionSeconds": 240,
+      "difficultyRationale": "Expert: balances threat detection, due process, privacy, evidence and least-privilege access.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "BEC-E04",
+      "level": "Expert Challenge",
+      "category": "Business email compromise and financial controls",
+      "title": "The Executive Payment Change",
+      "learningObjective": "Interrupt payment diversion using independent verification, separation of duties and timely financial institution notification.",
+      "scenario": "Finance receives an email in an existing supplier thread requesting that a large invoice be paid to a new bank account. The message appears to come from the supplier’s known address. The CFO separately messages the finance lead asking for the payment to be expedited and says the supplier is waiting.",
+      "question": "What is the correct control response before any payment is released?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reply to the email thread asking the sender to confirm the new account number."
+        },
+        {
+          "id": "B",
+          "text": "Pause the payment and verify the change through a previously established, independently sourced supplier contact; require the organization’s documented dual-approval process and report the suspicious request through security and finance channels."
+        },
+        {
+          "id": "C",
+          "text": "Release a small test payment to the new account, then wait for the supplier to confirm receipt."
+        },
+        {
+          "id": "D",
+          "text": "Accept the change because the email is part of a legitimate historical supplier thread and the CFO requested urgency."
+        }
+      ],
+      "correctOptionId": "B",
+      "correctAnswer": "Pause the payment and verify the change through a previously established, independently sourced supplier contact; require the organization’s documented dual-approval process and report the suspicious request through security and finance channels.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A compromised mailbox can control replies in the same email thread. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "B": {
+          "isCorrect": true,
+          "explanation": "Correct. A trusted out-of-band verification path and separation of duties reduce the risk of payment diversion and create an auditable approval trail."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "A test transfer can still be lost without authenticating the new account. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "A familiar thread and executive urgency do not authenticate changed bank details. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        }
+      },
+      "explanation": "Correct. A trusted out-of-band verification path and separation of duties reduce the risk of payment diversion and create an auditable approval trail.",
+      "explanationId": "EXPL-BEC-E04",
+      "videoId": "VIDEO-BEC-E04",
+      "keyTakeaway": "A payment-detail change is a high-risk request even when it arrives inside a familiar email conversation.",
+      "recommendedDefensiveAction": "Place the payment on hold, call a previously verified supplier contact using a trusted directory or existing contract record, follow dual authorization, retain evidence and notify the organization’s security/finance process. If money has already moved, contact the bank immediately and report through the appropriate channels.",
+      "referenceIds": [
+        "[17]",
+        "[26]"
+      ],
+      "estimatedCompletionSeconds": 240,
+      "difficultyRationale": "Expert: combines identity verification, payment controls, executive pressure and incident escalation.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "GOV-E05",
+      "level": "Expert Challenge",
+      "category": "Governance and risk communication",
+      "title": "The Board Risk Briefing",
+      "learningObjective": "Communicate incident facts, uncertainty, business impact and decisions to leadership without overstating attribution or assurance.",
+      "scenario": "A board meeting is scheduled two hours after a suspected compromise of a customer-facing platform. The response team has isolated two hosts, but the scope of data access is still under investigation. The board chair asks for a definitive statement that no customer data was accessed and wants an exact recovery time.",
+      "question": "What should the incident lead present?",
+      "options": [
+        {
+          "id": "A",
+          "text": "State that no data was accessed because no exfiltration has been confirmed, and promise the service will be restored within two hours."
+        },
+        {
+          "id": "B",
+          "text": "Avoid briefing the board until forensic analysis has established the attacker’s identity and complete timeline."
+        },
+        {
+          "id": "C",
+          "text": "Provide verified facts, known business impacts, containment already taken, current unknowns and confidence levels; explain next decision points, accountable owners, communication/legal review paths and a time for the next update rather than making unsupported assurances."
+        },
+        {
+          "id": "D",
+          "text": "Share raw security logs and speculate about the likely attacker to demonstrate technical transparency."
+        }
+      ],
+      "correctOptionId": "C",
+      "correctAnswer": "Provide verified facts, known business impacts, containment already taken, current unknowns and confidence levels; explain next decision points, accountable owners, communication/legal review paths and a time for the next update rather than making unsupported assurances.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "No confirmed exfiltration does not prove that data was not accessed. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Leadership needs timely decision-ready information before attribution is complete. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "C": {
+          "isCorrect": true,
+          "explanation": "Correct. Clear separation of verified facts, assumptions and unknowns supports governance decisions without overstating certainty."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Raw logs and attacker speculation can expose sensitive information and mislead leaders. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        }
+      },
+      "explanation": "Correct. Clear separation of verified facts, assumptions and unknowns supports governance decisions without overstating certainty.",
+      "explanationId": "EXPL-GOV-E05",
+      "videoId": "VIDEO-GOV-E05",
+      "keyTakeaway": "Good incident governance makes uncertainty visible and assigns decisions; it does not conceal uncertainty or turn it into assurance.",
+      "recommendedDefensiveAction": "Use a structured incident briefing: what happened, what is confirmed, what remains unknown, business impact, actions taken, decisions needed, owner and next update time. Coordinate external and regulatory communications with authorized stakeholders.",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ],
+      "estimatedCompletionSeconds": 240,
+      "difficultyRationale": "Expert: tests executive communication, risk governance, uncertainty and decision accountability.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "REC-E06",
+      "level": "Expert Challenge",
+      "category": "Ransomware recovery and resilience",
+      "title": "Recovering After Ransomware",
+      "learningObjective": "Sequence recovery using containment, clean restoration sources, identity assurance, validation and monitored return to service.",
+      "scenario": "A ransomware incident has been contained. Several production servers are encrypted, the backup platform was reachable from part of the affected environment, and an offline backup set is available. Executives want the customer portal restored first. The incident team has not yet validated the backup set or rotated potentially exposed credentials.",
+      "question": "Which recovery sequence is most defensible?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Validate and protect clean backup sources, establish a trusted recovery environment, address compromised identities and access paths, restore prioritized services in a controlled order, test integrity and security, then monitor closely before declaring recovery."
+        },
+        {
+          "id": "B",
+          "text": "Restore the customer portal immediately from the most recent backup, then investigate whether the backup was affected."
+        },
+        {
+          "id": "C",
+          "text": "Pay the ransom first so the attacker can provide a decryption key, then use it as the primary recovery plan."
+        },
+        {
+          "id": "D",
+          "text": "Reconnect all affected servers at once after encryption stops, because the incident is already contained."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctAnswer": "Validate and protect clean backup sources, establish a trusted recovery environment, address compromised identities and access paths, restore prioritized services in a controlled order, test integrity and security, then monitor closely before declaring recovery.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": true,
+          "explanation": "Correct. Recovery depends on trustworthy restoration sources, a clean environment, identity/access remediation, prioritized validation and monitoring."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "The newest backup may also be encrypted, compromised or contaminated. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Payment does not guarantee decryption, recovery or prevention of data disclosure. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Stopped encryption does not prove attacker access or persistence is gone. Review the evidence, use approved organizational controls and avoid treating an alert or familiar message as proof."
+        }
+      },
+      "explanation": "Correct. Recovery depends on trustworthy restoration sources, a clean environment, identity/access remediation, prioritized validation and monitoring.",
+      "explanationId": "EXPL-REC-E06",
+      "videoId": "VIDEO-REC-E06",
+      "keyTakeaway": "Recovery is not simply restoring files; it is returning services to a known-good, validated and monitored state.",
+      "recommendedDefensiveAction": "Follow the organization’s recovery plan, validate offline or otherwise trusted backups, rebuild or restore in a clean environment, reset affected credentials and tokens as appropriate, prioritize services by business impact, test security and integrity, and monitor after restoration.",
+      "referenceIds": [
+        "[28]",
+        "[35]"
+      ],
+      "estimatedCompletionSeconds": 240,
+      "difficultyRationale": "Expert: integrates recovery sequencing, backup assurance, identity remediation, business continuity and validation.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "LIB-IRG-01",
+      "level": "Expert Challenge",
+      "category": "Incident response governance",
+      "title": "Incident response governance: safest response",
+      "learningObjective": "Coordinate incident command, proportionate containment, evidence preservation and business decisions.",
+      "scenario": "An incident commander receives correlated endpoint encryption, unusual service-account sign-in and outbound data-transfer alerts while the initial access path remains unknown.",
+      "question": "Which response is the safest and most appropriate next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the request as routine and complete it without a separate check."
+        },
+        {
+          "id": "B",
+          "text": "Wait until a confirmed loss, outage or policy violation appears before acting."
+        },
+        {
+          "id": "C",
+          "text": "Share the full details with a broad group so others can decide informally."
+        },
+        {
+          "id": "D",
+          "text": "Declare and coordinate the incident, isolate confirmed affected assets using approved procedures, preserve telemetry and scope identities and systems before broader disruptive action."
+        }
+      ],
+      "correctOptionId": "D",
+      "correctAnswer": "Declare and coordinate the incident, isolate confirmed affected assets using approved procedures, preserve telemetry and scope identities and systems before broader disruptive action.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        },
+        "D": {
+          "isCorrect": true,
+          "explanation": "This directly addresses multiple correlated alerts require coordinated response before the full cause is known. The proposed action uses approved, independently verifiable controls: Declare and coordinate the incident, isolate confirmed affected assets using approved procedures, preserve telemetry and scope identities and systems before broader disruptive action."
+        }
+      },
+      "explanation": "This directly addresses multiple correlated alerts require coordinated response before the full cause is known. The proposed action uses approved, independently verifiable controls: Declare and coordinate the incident, isolate confirmed affected assets using approved procedures, preserve telemetry and scope identities and systems before broader disruptive action.",
+      "explanationId": "EXPL-LIB-IRG-01",
+      "videoId": "VIDEO-LIB-IRG-01",
+      "keyTakeaway": "Incident command manages uncertainty through recorded decisions, proportionate containment and evidence.",
+      "recommendedDefensiveAction": "Activate the response plan, appoint decision owners and preserve an auditable timeline.",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: integrate governance, evidence, risk ownership and defensive response across a multi-stage scenario.",
+      "stageCount": 2
+    },
+    {
+      "questionId": "LIB-IRG-02",
+      "level": "Expert Challenge",
+      "category": "Incident response governance",
+      "title": "Incident response governance: evidence check",
+      "learningObjective": "Coordinate incident command, proportionate containment, evidence preservation and business decisions.",
+      "scenario": "During a review of a possible incident response governance issue, the initial report is not sufficient to authorize the next step. The owner must validate multiple correlated alerts require coordinated response before the full cause is known using evidence that does not depend on the original unverified claim.",
+      "question": "Which evidence provides the strongest basis for that decision?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A time-stamped incident record with command ownership, affected assets, containment decisions, evidence sources, scope and unresolved assumptions."
+        },
+        {
+          "id": "B",
+          "text": "A complete attribution report before declaring an incident."
+        },
+        {
+          "id": "C",
+          "text": "A blanket shutdown of every system without scoping or business coordination."
+        },
+        {
+          "id": "D",
+          "text": "A verbal update that has no decision owner or action log."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctAnswer": "A time-stamped incident record with command ownership, affected assets, containment decisions, evidence sources, scope and unresolved assumptions.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for multiple correlated alerts require coordinated response before the full cause is known and supports an auditable decision."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of multiple correlated alerts require coordinated response before the full cause is known or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for multiple correlated alerts require coordinated response before the full cause is known and supports an auditable decision.",
+      "explanationId": "EXPL-LIB-IRG-02",
+      "videoId": "VIDEO-LIB-IRG-02",
+      "keyTakeaway": "Incident command manages uncertainty through recorded decisions, proportionate containment and evidence.",
+      "recommendedDefensiveAction": "Activate the response plan, appoint decision owners and preserve an auditable timeline.",
+      "referenceIds": [
+        "[17]",
+        "[28]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: evaluate evidence sufficiency, governance authority and residual risk in a multi-stage scenario.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "LIB-SCG-01",
+      "level": "Expert Challenge",
+      "category": "Supply-chain risk governance",
+      "title": "Supply-chain risk governance: safest response",
+      "learningObjective": "Make supplier decisions using criticality, evidence, contractual controls and lifecycle oversight.",
+      "scenario": "A critical supplier requests persistent administrator access to a production environment and cannot provide a current security assessment before a renewal deadline.",
+      "question": "Which response is the safest and most appropriate next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the request as routine and complete it without a separate check."
+        },
+        {
+          "id": "B",
+          "text": "Do not grant persistent broad access until risk owners review evidence, define a time-bound least-privilege alternative and record residual-risk acceptance through governance."
+        },
+        {
+          "id": "C",
+          "text": "Wait until a confirmed loss, outage or policy violation appears before acting."
+        },
+        {
+          "id": "D",
+          "text": "Share the full details with a broad group so others can decide informally."
+        }
+      ],
+      "correctOptionId": "B",
+      "correctAnswer": "Do not grant persistent broad access until risk owners review evidence, define a time-bound least-privilege alternative and record residual-risk acceptance through governance.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": true,
+          "explanation": "This directly addresses a supplier with privileged access or sensitive data can create systemic organizational exposure. The proposed action uses approved, independently verifiable controls: Do not grant persistent broad access until risk owners review evidence, define a time-bound least-privilege alternative and record residual-risk acceptance through governance."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        }
+      },
+      "explanation": "This directly addresses a supplier with privileged access or sensitive data can create systemic organizational exposure. The proposed action uses approved, independently verifiable controls: Do not grant persistent broad access until risk owners review evidence, define a time-bound least-privilege alternative and record residual-risk acceptance through governance.",
+      "explanationId": "EXPL-LIB-SCG-01",
+      "videoId": "VIDEO-LIB-SCG-01",
+      "keyTakeaway": "Criticality increases the need for governance; it does not waive supplier controls.",
+      "recommendedDefensiveAction": "Tie supplier access to assessed need, contract terms, least privilege and ongoing monitoring.",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[37]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: integrate governance, evidence, risk ownership and defensive response across a multi-stage scenario.",
+      "stageCount": 2
+    },
+    {
+      "questionId": "LIB-SCG-02",
+      "level": "Expert Challenge",
+      "category": "Supply-chain risk governance",
+      "title": "Supply-chain risk governance: evidence check",
+      "learningObjective": "Make supplier decisions using criticality, evidence, contractual controls and lifecycle oversight.",
+      "scenario": "During a review of a possible supply-chain risk governance issue, the initial report is not sufficient to authorize the next step. The owner must validate a supplier with privileged access or sensitive data can create systemic organizational exposure using evidence that does not depend on the original unverified claim.",
+      "question": "Which evidence provides the strongest basis for that decision?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The supplier has renewed the contract for several years."
+        },
+        {
+          "id": "B",
+          "text": "The supplier promises to provide evidence after receiving access."
+        },
+        {
+          "id": "C",
+          "text": "A current supplier assessment, privileged-access architecture, contractual security obligations, remediation plan and named residual-risk approver."
+        },
+        {
+          "id": "D",
+          "text": "A business sponsor says the service is operationally important."
+        }
+      ],
+      "correctOptionId": "C",
+      "correctAnswer": "A current supplier assessment, privileged-access architecture, contractual security obligations, remediation plan and named residual-risk approver.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "C": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for a supplier with privileged access or sensitive data can create systemic organizational exposure and supports an auditable decision."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of a supplier with privileged access or sensitive data can create systemic organizational exposure or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for a supplier with privileged access or sensitive data can create systemic organizational exposure and supports an auditable decision.",
+      "explanationId": "EXPL-LIB-SCG-02",
+      "videoId": "VIDEO-LIB-SCG-02",
+      "keyTakeaway": "Criticality increases the need for governance; it does not waive supplier controls.",
+      "recommendedDefensiveAction": "Tie supplier access to assessed need, contract terms, least privilege and ongoing monitoring.",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[37]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: evaluate evidence sufficiency, governance authority and residual risk in a multi-stage scenario.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "LIB-IGV-01",
+      "level": "Expert Challenge",
+      "category": "Insider risk and governance",
+      "title": "Insider risk and governance: safest response",
+      "learningObjective": "Govern insider-risk response with objective evidence, privacy safeguards and authorized oversight.",
+      "scenario": "A sensitive-data access alert coincides with an employee’s role change; a manager asks the security team to inspect personal communications without a documented basis.",
+      "question": "Which response is the safest and most appropriate next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the request as routine and complete it without a separate check."
+        },
+        {
+          "id": "B",
+          "text": "Wait until a confirmed loss, outage or policy violation appears before acting."
+        },
+        {
+          "id": "C",
+          "text": "Share the full details with a broad group so others can decide informally."
+        },
+        {
+          "id": "D",
+          "text": "Preserve the objective access records, refer the concern through the authorized insider-risk process and require legal/privacy and HR governance before any intrusive review."
+        }
+      ],
+      "correctOptionId": "D",
+      "correctAnswer": "Preserve the objective access records, refer the concern through the authorized insider-risk process and require legal/privacy and HR governance before any intrusive review.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        },
+        "D": {
+          "isCorrect": true,
+          "explanation": "This directly addresses uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation. The proposed action uses approved, independently verifiable controls: Preserve the objective access records, refer the concern through the authorized insider-risk process and require legal/privacy and HR governance before any intrusive review."
+        }
+      },
+      "explanation": "This directly addresses uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation. The proposed action uses approved, independently verifiable controls: Preserve the objective access records, refer the concern through the authorized insider-risk process and require legal/privacy and HR governance before any intrusive review.",
+      "explanationId": "EXPL-LIB-IGV-01",
+      "videoId": "VIDEO-LIB-IGV-01",
+      "keyTakeaway": "Insider-risk governance must be evidence-based, proportionate, authorized and privacy-aware.",
+      "recommendedDefensiveAction": "Use designated cross-functional governance and restrict investigation to approved evidence and scope.",
+      "referenceIds": [
+        "[32]",
+        "[33]",
+        "[38]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: integrate governance, evidence, risk ownership and defensive response across a multi-stage scenario.",
+      "stageCount": 2
+    },
+    {
+      "questionId": "LIB-IGV-02",
+      "level": "Expert Challenge",
+      "category": "Insider risk and governance",
+      "title": "Insider risk and governance: evidence check",
+      "learningObjective": "Govern insider-risk response with objective evidence, privacy safeguards and authorized oversight.",
+      "scenario": "During a review of a possible insider risk and governance issue, the initial report is not sufficient to authorize the next step. The owner must validate uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation using evidence that does not depend on the original unverified claim.",
+      "question": "Which evidence provides the strongest basis for that decision?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A documented case record showing objective indicators, lawful authority, approvals, access controls and review outcomes."
+        },
+        {
+          "id": "B",
+          "text": "A manager’s personal impression that the employee seems unhappy."
+        },
+        {
+          "id": "C",
+          "text": "A broad search of private communications before authorization."
+        },
+        {
+          "id": "D",
+          "text": "A demographic or personal characteristic treated as a risk indicator."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctAnswer": "A documented case record showing objective indicators, lawful authority, approvals, access controls and review outcomes.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation and supports an auditable decision."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for uncoordinated monitoring or profiling can harm individuals and undermine legitimate investigation and supports an auditable decision.",
+      "explanationId": "EXPL-LIB-IGV-02",
+      "videoId": "VIDEO-LIB-IGV-02",
+      "keyTakeaway": "Insider-risk governance must be evidence-based, proportionate, authorized and privacy-aware.",
+      "recommendedDefensiveAction": "Use designated cross-functional governance and restrict investigation to approved evidence and scope.",
+      "referenceIds": [
+        "[32]",
+        "[33]",
+        "[38]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: evaluate evidence sufficiency, governance authority and residual risk in a multi-stage scenario.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "LIB-BECG-01",
+      "level": "Expert Challenge",
+      "category": "Business email compromise and financial controls",
+      "title": "Business email compromise and financial controls: safest response",
+      "learningObjective": "Govern high-risk payment changes with independent verification, segregation of duties and audit trails.",
+      "scenario": "A finance controller receives an urgent request to change a major supplier’s settlement account. The email thread is genuine but the supplier mailbox may be compromised.",
+      "question": "Which response is the safest and most appropriate next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the request as routine and complete it without a separate check."
+        },
+        {
+          "id": "B",
+          "text": "Freeze the change, verify using an independently sourced supplier contact, require dual approval and reconcile the change in the controlled vendor-master workflow."
+        },
+        {
+          "id": "C",
+          "text": "Wait until a confirmed loss, outage or policy violation appears before acting."
+        },
+        {
+          "id": "D",
+          "text": "Share the full details with a broad group so others can decide informally."
+        }
+      ],
+      "correctOptionId": "B",
+      "correctAnswer": "Freeze the change, verify using an independently sourced supplier contact, require dual approval and reconcile the change in the controlled vendor-master workflow.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": true,
+          "explanation": "This directly addresses a compromised communication channel can redirect payments despite apparently valid correspondence. The proposed action uses approved, independently verifiable controls: Freeze the change, verify using an independently sourced supplier contact, require dual approval and reconcile the change in the controlled vendor-master workflow."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        }
+      },
+      "explanation": "This directly addresses a compromised communication channel can redirect payments despite apparently valid correspondence. The proposed action uses approved, independently verifiable controls: Freeze the change, verify using an independently sourced supplier contact, require dual approval and reconcile the change in the controlled vendor-master workflow.",
+      "explanationId": "EXPL-LIB-BECG-01",
+      "videoId": "VIDEO-LIB-BECG-01",
+      "keyTakeaway": "A compromised mailbox can preserve a convincing thread; financial controls must be independent of email.",
+      "recommendedDefensiveAction": "Require out-of-band verification, segregation of duties and an auditable vendor-master process.",
+      "referenceIds": [
+        "[17]",
+        "[26]",
+        "[28]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: integrate governance, evidence, risk ownership and defensive response across a multi-stage scenario.",
+      "stageCount": 2
+    },
+    {
+      "questionId": "LIB-BECG-02",
+      "level": "Expert Challenge",
+      "category": "Business email compromise and financial controls",
+      "title": "Business email compromise and financial controls: evidence check",
+      "learningObjective": "Govern high-risk payment changes with independent verification, segregation of duties and audit trails.",
+      "scenario": "During a review of a possible business email compromise and financial controls issue, the initial report is not sufficient to authorize the next step. The owner must validate a compromised communication channel can redirect payments despite apparently valid correspondence using evidence that does not depend on the original unverified claim.",
+      "question": "Which evidence provides the strongest basis for that decision?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The request is in the original email thread."
+        },
+        {
+          "id": "B",
+          "text": "The invoice and bank letter contain matching new details."
+        },
+        {
+          "id": "C",
+          "text": "An independently verified supplier callback, authenticated vendor-master change request, dual approval and audit record linking the change to the invoice."
+        },
+        {
+          "id": "D",
+          "text": "The supplier’s display name and signature are unchanged."
+        }
+      ],
+      "correctOptionId": "C",
+      "correctAnswer": "An independently verified supplier callback, authenticated vendor-master change request, dual approval and audit record linking the change to the invoice.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "C": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for a compromised communication channel can redirect payments despite apparently valid correspondence and supports an auditable decision."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of a compromised communication channel can redirect payments despite apparently valid correspondence or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for a compromised communication channel can redirect payments despite apparently valid correspondence and supports an auditable decision.",
+      "explanationId": "EXPL-LIB-BECG-02",
+      "videoId": "VIDEO-LIB-BECG-02",
+      "keyTakeaway": "A compromised mailbox can preserve a convincing thread; financial controls must be independent of email.",
+      "recommendedDefensiveAction": "Require out-of-band verification, segregation of duties and an auditable vendor-master process.",
+      "referenceIds": [
+        "[17]",
+        "[26]",
+        "[28]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: evaluate evidence sufficiency, governance authority and residual risk in a multi-stage scenario.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "LIB-GRC-01",
+      "level": "Expert Challenge",
+      "category": "Governance and risk communication",
+      "title": "Governance and risk communication: safest response",
+      "learningObjective": "Communicate cyber risk with impact, uncertainty, accountable ownership and explicit decisions.",
+      "scenario": "A board briefing states that a cyber incident is “under control” but does not disclose affected services, known data exposure, confidence level or decisions needed.",
+      "question": "Which response is the safest and most appropriate next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the request as routine and complete it without a separate check."
+        },
+        {
+          "id": "B",
+          "text": "Wait until a confirmed loss, outage or policy violation appears before acting."
+        },
+        {
+          "id": "C",
+          "text": "Share the full details with a broad group so others can decide informally."
+        },
+        {
+          "id": "D",
+          "text": "Reframe the briefing around business impact, confirmed facts versus assumptions, response status, options, accountable owners and the specific decisions required."
+        }
+      ],
+      "correctOptionId": "D",
+      "correctAnswer": "Reframe the briefing around business impact, confirmed facts versus assumptions, response status, options, accountable owners and the specific decisions required.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        },
+        "D": {
+          "isCorrect": true,
+          "explanation": "This directly addresses executives may make poor decisions when risk reports omit uncertainty or decision requests. The proposed action uses approved, independently verifiable controls: Reframe the briefing around business impact, confirmed facts versus assumptions, response status, options, accountable owners and the specific decisions required."
+        }
+      },
+      "explanation": "This directly addresses executives may make poor decisions when risk reports omit uncertainty or decision requests. The proposed action uses approved, independently verifiable controls: Reframe the briefing around business impact, confirmed facts versus assumptions, response status, options, accountable owners and the specific decisions required.",
+      "explanationId": "EXPL-LIB-GRC-01",
+      "videoId": "VIDEO-LIB-GRC-01",
+      "keyTakeaway": "Risk communication should make uncertainty and decision ownership explicit.",
+      "recommendedDefensiveAction": "Use concise, evidence-based risk reporting that separates facts, assumptions and decisions.",
+      "referenceIds": [
+        "[17]",
+        "[28]",
+        "[18]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: integrate governance, evidence, risk ownership and defensive response across a multi-stage scenario.",
+      "stageCount": 2
+    },
+    {
+      "questionId": "LIB-GRC-02",
+      "level": "Expert Challenge",
+      "category": "Governance and risk communication",
+      "title": "Governance and risk communication: evidence check",
+      "learningObjective": "Communicate cyber risk with impact, uncertainty, accountable ownership and explicit decisions.",
+      "scenario": "During a review of a possible governance and risk communication issue, the initial report is not sufficient to authorize the next step. The owner must validate executives may make poor decisions when risk reports omit uncertainty or decision requests using evidence that does not depend on the original unverified claim.",
+      "question": "Which evidence provides the strongest basis for that decision?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A decision-oriented incident report with impact, confidence, scope, treatment options, residual risk and action owners."
+        },
+        {
+          "id": "B",
+          "text": "A technical dashboard screenshot without business impact."
+        },
+        {
+          "id": "C",
+          "text": "A single red/green status label without assumptions or scope."
+        },
+        {
+          "id": "D",
+          "text": "A long list of alerts with no ownership or requested decision."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctAnswer": "A decision-oriented incident report with impact, confidence, scope, treatment options, residual risk and action owners.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for executives may make poor decisions when risk reports omit uncertainty or decision requests and supports an auditable decision."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of executives may make poor decisions when risk reports omit uncertainty or decision requests or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for executives may make poor decisions when risk reports omit uncertainty or decision requests and supports an auditable decision.",
+      "explanationId": "EXPL-LIB-GRC-02",
+      "videoId": "VIDEO-LIB-GRC-02",
+      "keyTakeaway": "Risk communication should make uncertainty and decision ownership explicit.",
+      "recommendedDefensiveAction": "Use concise, evidence-based risk reporting that separates facts, assumptions and decisions.",
+      "referenceIds": [
+        "[17]",
+        "[28]",
+        "[18]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: evaluate evidence sufficiency, governance authority and residual risk in a multi-stage scenario.",
+      "stageCount": 3
+    },
+    {
+      "questionId": "LIB-RCR-01",
+      "level": "Expert Challenge",
+      "category": "Ransomware recovery and resilience",
+      "title": "Ransomware recovery and resilience: safest response",
+      "learningObjective": "Coordinate resilient recovery using verified backups, clean restoration and prioritized business services.",
+      "scenario": "After a ransomware event, a business unit asks to restore critical services immediately from the most recent backup, but backup integrity and the attacker’s persistence are not yet assessed.",
+      "question": "Which response is the safest and most appropriate next step?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accept the request as routine and complete it without a separate check."
+        },
+        {
+          "id": "B",
+          "text": "Prioritize recovery with the incident commander, validate backup integrity and isolation, confirm clean recovery infrastructure, address persistence and obtain service-owner approval before restoration."
+        },
+        {
+          "id": "C",
+          "text": "Wait until a confirmed loss, outage or policy violation appears before acting."
+        },
+        {
+          "id": "D",
+          "text": "Share the full details with a broad group so others can decide informally."
+        }
+      ],
+      "correctOptionId": "B",
+      "correctAnswer": "Prioritize recovery with the incident commander, validate backup integrity and isolation, confirm clean recovery infrastructure, address persistence and obtain service-owner approval before restoration.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "A routine-looking request does not establish the source’s identity or the action’s authorization; independent verification is still required."
+        },
+        "B": {
+          "isCorrect": true,
+          "explanation": "This directly addresses restoring too early or from compromised backups can reintroduce malware and data loss. The proposed action uses approved, independently verifiable controls: Prioritize recovery with the incident commander, validate backup integrity and isolation, confirm clean recovery infrastructure, address persistence and obtain service-owner approval before restoration."
+        },
+        "C": {
+          "isCorrect": false,
+          "explanation": "Waiting for visible harm can extend the exposure and delay proportionate prevention, containment or reporting."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "Broad circulation can expose sensitive information or spread unsafe content; use an approved need-to-know process."
+        }
+      },
+      "explanation": "This directly addresses restoring too early or from compromised backups can reintroduce malware and data loss. The proposed action uses approved, independently verifiable controls: Prioritize recovery with the incident commander, validate backup integrity and isolation, confirm clean recovery infrastructure, address persistence and obtain service-owner approval before restoration.",
+      "explanationId": "EXPL-LIB-RCR-01",
+      "videoId": "VIDEO-LIB-RCR-01",
+      "keyTakeaway": "A completed backup job is not proof that a backup is clean, complete or safe to restore.",
+      "recommendedDefensiveAction": "Use tested, protected backups and a governed recovery sequence tied to business priorities.",
+      "referenceIds": [
+        "[28]",
+        "[35]",
+        "[17]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: integrate governance, evidence, risk ownership and defensive response across a multi-stage scenario.",
+      "stageCount": 2
+    },
+    {
+      "questionId": "LIB-RCR-02",
+      "level": "Expert Challenge",
+      "category": "Ransomware recovery and resilience",
+      "title": "Ransomware recovery and resilience: evidence check",
+      "learningObjective": "Coordinate resilient recovery using verified backups, clean restoration and prioritized business services.",
+      "scenario": "During a review of a possible ransomware recovery and resilience issue, the initial report is not sufficient to authorize the next step. The owner must validate restoring too early or from compromised backups can reintroduce malware and data loss using evidence that does not depend on the original unverified claim.",
+      "question": "Which evidence provides the strongest basis for that decision?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The backup job completed successfully last night."
+        },
+        {
+          "id": "B",
+          "text": "A sample file can be opened from the backup."
+        },
+        {
+          "id": "C",
+          "text": "Backup immutability and restore-test records, clean-environment validation, recovery-point data, identity hardening and documented service-owner sign-off."
+        },
+        {
+          "id": "D",
+          "text": "The business unit confirms that it needs the service urgently."
+        }
+      ],
+      "correctOptionId": "C",
+      "correctAnswer": "Backup immutability and restore-test records, clean-environment validation, recovery-point data, identity hardening and documented service-owner sign-off.",
+      "optionExplanations": {
+        "A": {
+          "isCorrect": false,
+          "explanation": "This is a surface cue that can be copied, altered or misunderstood; it does not independently establish the relevant control."
+        },
+        "B": {
+          "isCorrect": false,
+          "explanation": "This information comes from the same source being assessed, so it cannot independently validate the claim."
+        },
+        "C": {
+          "isCorrect": true,
+          "explanation": "This evidence is strongest because it independently verifies the relevant facts for restoring too early or from compromised backups can reintroduce malware and data loss and supports an auditable decision."
+        },
+        "D": {
+          "isCorrect": false,
+          "explanation": "This does not provide an authoritative record of restoring too early or from compromised backups can reintroduce malware and data loss or verify the control that should govern the decision."
+        }
+      },
+      "explanation": "This evidence is strongest because it independently verifies the relevant facts for restoring too early or from compromised backups can reintroduce malware and data loss and supports an auditable decision.",
+      "explanationId": "EXPL-LIB-RCR-02",
+      "videoId": "VIDEO-LIB-RCR-02",
+      "keyTakeaway": "A completed backup job is not proof that a backup is clean, complete or safe to restore.",
+      "recommendedDefensiveAction": "Use tested, protected backups and a governed recovery sequence tied to business priorities.",
+      "referenceIds": [
+        "[28]",
+        "[35]",
+        "[17]"
+      ],
+      "estimatedCompletionSeconds": 120,
+      "difficultyRationale": "Expert-level: evaluate evidence sufficiency, governance authority and residual risk in a multi-stage scenario.",
+      "stageCount": 3
+    }
+  ]
+}

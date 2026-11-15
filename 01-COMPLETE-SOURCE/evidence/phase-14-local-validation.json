@@ -1,0 +1,77 @@
+{
+  "legacy_node_tests": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "ript/storyboard/caption/reference validation\nok 35 - all 51 project video packages pass script/storyboard/caption/reference validation\n  ---\n  duration_ms: 76.82298\n  type: 'test'\n  ...\n# Subtest: provider adapter contract accepts the three required backend methods\nok 36 - provider adapter contract accepts the three required backend methods\n  ---\n  duration_ms: 0.52475\n  type: 'test'\n  ...\n# Subtest: unconfigured provider fails safely without making a network call\nok 37 - unconfigured provider fails safely without making a network call\n  ---\n  duration_ms: 0.297517\n  type: 'test'\n  ...\n1..37\n# tests 37\n# suites 0\n# pass 37\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 537.034374\n"
+  },
+  "react_domain_tests": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "stery flags\nok 15 - quiz progress export round-trips validated records and recomputes mastery flags\n  ---\n  duration_ms: 0.51803\n  type: 'test'\n  ...\n# Subtest: quiz progress import rejects wrong formats, poisoned records and oversized files\nok 16 - quiz progress import rejects wrong formats, poisoned records and oversized files\n  ---\n  duration_ms: 0.435396\n  type: 'test'\n  ...\n# Subtest: imported progress must map to canonical questions, options and scoring\nok 17 - imported progress must map to canonical questions, options and scoring\n  ---\n  duration_ms: 1.736043\n  type: 'test'\n  ...\n1..17\n# tests 17\n# suites 0\n# pass 17\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 190.59138\n"
+  },
+  "offline_structural_typecheck": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "\n> cyberaware-3d-frontend@0.10.0-rc.7 react:offline-typecheck\n> tsc --noEmit -p react-app/tsconfig.local.json\n\n"
+  },
+  "content_validation": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "readsheet_runtime\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 718, in _warm_feature_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 509, in _warm_drawing_and_image_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py\", line 32861, in bring_to_front\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py\", line 764, in __call__\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py\", line 175, in call\nartifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.\n"
+  },
+  "legacy_static_build": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "\n> cyberaware-3d-frontend@0.10.0-rc.7 build\n> node scripts/build.mjs\n\nStatic distribution created at /mnt/data/cyberaware-phase14/CYBERAWARE-3D-v0.10.0-rc.6/frontend/dist\nCanonical question-level video assets synchronized before packaging.\nNote: this is a copy-based static package, not a bundled/minified Vite build.\n"
+  },
+  "distribution_route_smoke": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "\n> cyberaware-3d-frontend@0.10.0-rc.7 smoke:dist\n> node scripts/smoke-dist.mjs\n\nDIST SMOKE: PASS (215 routes, all 51 script/storyboard/prompt/caption records, ready-media HEAD checks, HEAD, security headers, method rejection)\n"
+  },
+  "packaged_distribution_smoke": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "\n> cyberaware-3d-frontend@0.10.0-rc.7 smoke:packaged\n> node scripts/smoke-packaged-dist.mjs\n\nPACKAGED DIST SMOKE: PASS (health, root, canonical content, HEAD, 404, method guard, security headers, graceful shutdown)\n"
+  },
+  "secret_scan": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "readsheet_runtime\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 718, in _warm_feature_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 509, in _warm_drawing_and_image_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py\", line 32861, in bring_to_front\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py\", line 764, in __call__\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py\", line 175, in call\nartifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.\n"
+  },
+  "backup_smoke": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "BACKUP SMOKE: PASS (checksum, exclusions, permissions, inside-tree refusal)\n"
+  },
+  "nginx_live_smoke": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "readsheet_runtime\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 718, in _warm_feature_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py\", line 509, in _warm_drawing_and_image_flows\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py\", line 32861, in bring_to_front\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py\", line 764, in __call__\n  File \"/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py\", line 175, in call\nartifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.\n"
+  },
+  "systemd_unit": {
+    "passed": true,
+    "returncode": 0,
+    "tail": ""
+  },
+  "backup_script_syntax": {
+    "passed": true,
+    "returncode": 0,
+    "tail": ""
+  },
+  "release_script_syntax": {
+    "passed": true,
+    "returncode": 0,
+    "tail": ""
+  },
+  "workflow_yaml": {
+    "passed": true,
+    "returncode": 0,
+    "tail": ""
+  },
+  "sbom": {
+    "passed": true,
+    "returncode": 0,
+    "tail": "\n> cyberaware-3d-frontend@0.10.0-rc.7 sbom\n> node scripts/generate-sbom.mjs\n\nWrote evidence/cyberaware3d-sbom.cdx.json (10 declared direct React toolchain dependencies; transitive resolution pending lockfile).\n"
+  }
+}

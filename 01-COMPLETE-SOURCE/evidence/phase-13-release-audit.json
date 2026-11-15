@@ -1,0 +1,66 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.6",
+  "phase": 13,
+  "date": "2026-11-12",
+  "scope": "Supported Node LTS CI, browser acceptance, learner progress portability and service/deployment hardening. Video generation and media review excluded.",
+  "dependencyPins": {
+    "nodeDevelopmentBaseline": "26.13.1",
+    "nodeCiMatrix": [
+      "24.22.3",
+      "26.13.1"
+    ],
+    "npm": "12.2.2",
+    "react": "19.3.1",
+    "reactDom": "19.3.1",
+    "typescript": "7.0.2",
+    "vite": "8.3.8",
+    "viteReactPlugin": "6.3.0",
+    "playwrightTest": "1.65.0",
+    "axeCorePlaywright": "4.14.0"
+  },
+  "locallyPassed": {
+    "legacyNodeTests": "37/37",
+    "reactDomainDataTests": "17/17",
+    "offlineStructuralTypecheck": "PASS (TypeScript 5.8 + ambient shims)",
+    "contentValidation": "PASS (45 core + 6 Expert, 204 rationales, 38 references)",
+    "legacyStaticBuild": "PASS (copy-based; not Vite)",
+    "legacyDistributionSmoke": "PASS (215 routes)",
+    "nginxLiveSmoke": "PASS (8/8)",
+    "systemdUnitSyntax": "PASS",
+    "backupSmoke": "PASS",
+    "ciAndDependabotYaml": "PASS",
+    "highConfidenceSecretScan": "PASS",
+    "cycloneDxSbom": "PASS (10 direct React toolchain dependencies; transitive lockfile resolution pending)",
+    "releaseArchiveIntegrity": "PASS (full source and runnable demo archives verified)",
+    "localValidationBatch": "PASS (13 checks; see evidence/phase-13-local-validation.json)"
+  },
+  "implementedButNotRun": {
+    "officialReactTypecheckAndViteBuild": "Configured in network-enabled CI; blocked locally by npm registry DNS.",
+    "npmAudit": "Configured at high severity; requires npm registry access.",
+    "playwrightAndAxe": "5 desktop/mobile browser profiles and WCAG-tagged scans configured; browser launch blocked locally.",
+    "exactNodeCiMatrix": "Targets 24.22.3 and 26.13.1; local runtime is 22.16.0."
+  },
+  "outstanding": [
+    "review and commit generated frontend/react-app/package-lock.json from CI artifact",
+    "green CI build and npm audit",
+    "green Playwright/axe browser acceptance and manual WCAG checks",
+    "production TLS/HSTS, monitoring, off-host backup, restore/rollback test on target host",
+    "independent expert review and learner evaluation"
+  ],
+  "learnerData": {
+    "exportFormat": "cyberaware3d-quiz-progress",
+    "formatVersion": 1,
+    "maximumFileBytes": 2000000,
+    "importRequiresConfirmation": true,
+    "validatedAgainstCanonicalQuestions": true,
+    "includesSimulationLab": false,
+    "cloudSync": false
+  },
+  "deferredByOwner": [
+    "video provider integration",
+    "MP4 generation",
+    "video caption/media review"
+  ],
+  "releaseDecision": "VERIFIED_LEGACY_DEMONSTRATOR; REACT_MIGRATION_CANDIDATE_NOT_PRODUCTION_APPROVED"
+}

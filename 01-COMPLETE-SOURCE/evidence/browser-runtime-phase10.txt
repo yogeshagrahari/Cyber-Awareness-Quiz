@@ -1,0 +1,6 @@
+CYBERAWARE 3D Phase 10 browser runtime availability
+Date: 2026-11-12
+
+System Chromium is present (Chromium 144.0.7559.96). Python Playwright is installed, but the Playwright-managed browser binaries are not present in the configured cache. Attempting Playwright navigation to data:, file:, localhost and 127.0.0.1 URLs returned net::ERR_BLOCKED_BY_ADMINISTRATOR before page content loaded, including with the system Chromium executable.
+
+Result: browser runtime and visual/interactive checks NOT VERIFIED. This is an execution-environment policy restriction, not a passing browser test. Run Chromium, Firefox and WebKit browser acceptance in an authorized CI or desktop environment. Accessibility tree, screen reader, keyboard, viewport and WCAG 2.2 AA verification remain pending.

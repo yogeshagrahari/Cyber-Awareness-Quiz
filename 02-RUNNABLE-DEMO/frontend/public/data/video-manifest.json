@@ -1,0 +1,3050 @@
+{
+  "project": "CYBERAWARE 3D",
+  "manifestVersion": "1.2.0",
+  "status": "video_work_partially_prepared_and_new_items_deferred_by_owner_request",
+  "mediaGenerationClaim": false,
+  "questionCount": 115,
+  "scriptCount": 45,
+  "storyboardCount": 45,
+  "captionFileCount": 45,
+  "entries": [
+    {
+      "videoId": "VIDEO-PHISH-B01",
+      "questionId": "PHISH-B01",
+      "level": "Beginner",
+      "title": "Question explanation: The urgent account warning",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-PHISH-B01.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-PHISH-B01.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-PHISH-B01.md",
+      "captionsPath": "content/videos/captions/VIDEO-PHISH-B01.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-PHISH-B01.txt",
+      "plannedOutputPath": "public/videos/beginner/phish-b01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[6]",
+        "[7]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 59
+      },
+      "wordCount": 160,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-SENDER-B02",
+      "questionId": "SENDER-B02",
+      "level": "Beginner",
+      "title": "Question explanation: The familiar display name",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-SENDER-B02.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-SENDER-B02.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-SENDER-B02.md",
+      "captionsPath": "content/videos/captions/VIDEO-SENDER-B02.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-SENDER-B02.txt",
+      "plannedOutputPath": "public/videos/beginner/sender-b02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[6]",
+        "[7]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 57
+      },
+      "wordCount": 154,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-LINK-B03",
+      "questionId": "LINK-B03",
+      "level": "Beginner",
+      "title": "Question explanation: The look-alike sign-in link",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-LINK-B03.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-LINK-B03.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-LINK-B03.md",
+      "captionsPath": "content/videos/captions/VIDEO-LINK-B03.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-LINK-B03.txt",
+      "plannedOutputPath": "public/videos/beginner/link-b03.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[6]",
+        "[16]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 49
+      },
+      "wordCount": 133,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-PASS-UNIQ-B04",
+      "questionId": "PASS-UNIQ-B04",
+      "level": "Beginner",
+      "title": "Question explanation: One password, multiple accounts",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-PASS-UNIQ-B04.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-PASS-UNIQ-B04.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-PASS-UNIQ-B04.md",
+      "captionsPath": "content/videos/captions/VIDEO-PASS-UNIQ-B04.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-PASS-UNIQ-B04.txt",
+      "plannedOutputPath": "public/videos/beginner/pass-uniq-b04.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[16]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 54
+      },
+      "wordCount": 147,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-PASS-MGR-B05",
+      "questionId": "PASS-MGR-B05",
+      "level": "Beginner",
+      "title": "Question explanation: Managing unique passwords",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-PASS-MGR-B05.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-PASS-MGR-B05.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-PASS-MGR-B05.md",
+      "captionsPath": "content/videos/captions/VIDEO-PASS-MGR-B05.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-PASS-MGR-B05.txt",
+      "plannedOutputPath": "public/videos/beginner/pass-mgr-b05.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[16]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 50
+      },
+      "wordCount": 135,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-OTP-B06",
+      "questionId": "OTP-B06",
+      "level": "Beginner",
+      "title": "Question explanation: The one-time code request",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-OTP-B06.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-OTP-B06.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-OTP-B06.md",
+      "captionsPath": "content/videos/captions/VIDEO-OTP-B06.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-OTP-B06.txt",
+      "plannedOutputPath": "public/videos/beginner/otp-b06.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[16]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 58
+      },
+      "wordCount": 157,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-MFA-B07",
+      "questionId": "MFA-B07",
+      "level": "Beginner",
+      "title": "Question explanation: An unexpected sign-in prompt",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-MFA-B07.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-MFA-B07.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-MFA-B07.md",
+      "captionsPath": "content/videos/captions/VIDEO-MFA-B07.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-MFA-B07.txt",
+      "plannedOutputPath": "public/videos/beginner/mfa-b07.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[16]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 50
+      },
+      "wordCount": 135,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-BROWSE-B08",
+      "questionId": "BROWSE-B08",
+      "level": "Beginner",
+      "title": "Question explanation: The browser certificate warning",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-BROWSE-B08.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-BROWSE-B08.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-BROWSE-B08.md",
+      "captionsPath": "content/videos/captions/VIDEO-BROWSE-B08.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-BROWSE-B08.txt",
+      "plannedOutputPath": "public/videos/beginner/browse-b08.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 51
+      },
+      "wordCount": 139,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-PRIVACY-B09",
+      "questionId": "PRIVACY-B09",
+      "level": "Beginner",
+      "title": "Question explanation: The unexpected personal-data form",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-PRIVACY-B09.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-PRIVACY-B09.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-PRIVACY-B09.md",
+      "captionsPath": "content/videos/captions/VIDEO-PRIVACY-B09.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-PRIVACY-B09.txt",
+      "plannedOutputPath": "public/videos/beginner/privacy-b09.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[36]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 56
+      },
+      "wordCount": 152,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-ATTACH-B10",
+      "questionId": "ATTACH-B10",
+      "level": "Beginner",
+      "title": "Question explanation: The unexpected invoice attachment",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-ATTACH-B10.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-ATTACH-B10.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-ATTACH-B10.md",
+      "captionsPath": "content/videos/captions/VIDEO-ATTACH-B10.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-ATTACH-B10.txt",
+      "plannedOutputPath": "public/videos/beginner/attach-b10.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[7]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 50
+      },
+      "wordCount": 137,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-UPDATE-B11",
+      "questionId": "UPDATE-B11",
+      "level": "Beginner",
+      "title": "Question explanation: The update link in an email",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-UPDATE-B11.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-UPDATE-B11.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-UPDATE-B11.md",
+      "captionsPath": "content/videos/captions/VIDEO-UPDATE-B11.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-UPDATE-B11.txt",
+      "plannedOutputPath": "public/videos/beginner/update-b11.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[34]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 48
+      },
+      "wordCount": 130,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-SOCIAL-B12",
+      "questionId": "SOCIAL-B12",
+      "level": "Beginner",
+      "title": "Question explanation: The authority and urgency trick",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-SOCIAL-B12.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-SOCIAL-B12.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-SOCIAL-B12.md",
+      "captionsPath": "content/videos/captions/VIDEO-SOCIAL-B12.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-SOCIAL-B12.txt",
+      "plannedOutputPath": "public/videos/beginner/social-b12.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[3]",
+        "[4]",
+        "[25]",
+        "[26]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 49
+      },
+      "wordCount": 131,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-WIFI-B13",
+      "questionId": "WIFI-B13",
+      "level": "Beginner",
+      "title": "Question explanation: The open public Wi-Fi network",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-WIFI-B13.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-WIFI-B13.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-WIFI-B13.md",
+      "captionsPath": "content/videos/captions/VIDEO-WIFI-B13.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-WIFI-B13.txt",
+      "plannedOutputPath": "public/videos/beginner/wifi-b13.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[30]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 53
+      },
+      "wordCount": 142,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-REPORT-B14",
+      "questionId": "REPORT-B14",
+      "level": "Beginner",
+      "title": "Question explanation: You clicked a suspicious link",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-REPORT-B14.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-REPORT-B14.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-REPORT-B14.md",
+      "captionsPath": "content/videos/captions/VIDEO-REPORT-B14.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-REPORT-B14.txt",
+      "plannedOutputPath": "public/videos/beginner/report-b14.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[24]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 51
+      },
+      "wordCount": 138,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-QR-B15",
+      "questionId": "QR-B15",
+      "level": "Beginner",
+      "title": "Question explanation: The unexpected QR code",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-QR-B15.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-QR-B15.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-QR-B15.md",
+      "captionsPath": "content/videos/captions/VIDEO-QR-B15.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-QR-B15.txt",
+      "plannedOutputPath": "public/videos/beginner/qr-b15.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[7]",
+        "[27]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 57
+      },
+      "wordCount": 155,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-SPEAR-I01",
+      "questionId": "SPEAR-I01",
+      "level": "Intermediate",
+      "title": "Question explanation: The targeted project request",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-SPEAR-I01.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-SPEAR-I01.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-SPEAR-I01.md",
+      "captionsPath": "content/videos/captions/VIDEO-SPEAR-I01.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-SPEAR-I01.txt",
+      "plannedOutputPath": "public/videos/intermediate/spear-i01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[7]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "wordCount": 163,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-SMISH-I02",
+      "questionId": "SMISH-I02",
+      "level": "Intermediate",
+      "title": "Question explanation: The delivery-fee text",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-SMISH-I02.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-SMISH-I02.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-SMISH-I02.md",
+      "captionsPath": "content/videos/captions/VIDEO-SMISH-I02.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-SMISH-I02.txt",
+      "plannedOutputPath": "public/videos/intermediate/smish-i02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[7]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 54
+      },
+      "wordCount": 146,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-VISH-I03",
+      "questionId": "VISH-I03",
+      "level": "Intermediate",
+      "title": "Question explanation: The “IT support” caller",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-VISH-I03.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-VISH-I03.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-VISH-I03.md",
+      "captionsPath": "content/videos/captions/VIDEO-VISH-I03.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-VISH-I03.txt",
+      "plannedOutputPath": "public/videos/intermediate/vish-i03.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[3]",
+        "[4]",
+        "[16]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 53
+      },
+      "wordCount": 142,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-QUISH-I04",
+      "questionId": "QUISH-I04",
+      "level": "Intermediate",
+      "title": "Question explanation: The meeting-room QR login",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-QUISH-I04.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-QUISH-I04.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-QUISH-I04.md",
+      "captionsPath": "content/videos/captions/VIDEO-QUISH-I04.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-QUISH-I04.txt",
+      "plannedOutputPath": "public/videos/intermediate/quish-i04.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[7]",
+        "[27]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 53
+      },
+      "wordCount": 142,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-MFA-FATIGUE-I05",
+      "questionId": "MFA-FATIGUE-I05",
+      "level": "Intermediate",
+      "title": "Question explanation: Repeated MFA prompts",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-MFA-FATIGUE-I05.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-MFA-FATIGUE-I05.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-MFA-FATIGUE-I05.md",
+      "captionsPath": "content/videos/captions/VIDEO-MFA-FATIGUE-I05.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-MFA-FATIGUE-I05.txt",
+      "plannedOutputPath": "public/videos/intermediate/mfa-fatigue-i05.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[16]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 56
+      },
+      "wordCount": 152,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-ATTACH-MACRO-I06",
+      "questionId": "ATTACH-MACRO-I06",
+      "level": "Intermediate",
+      "title": "Question explanation: The macro-enabled invoice",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-ATTACH-MACRO-I06.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-ATTACH-MACRO-I06.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-ATTACH-MACRO-I06.md",
+      "captionsPath": "content/videos/captions/VIDEO-ATTACH-MACRO-I06.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-ATTACH-MACRO-I06.txt",
+      "plannedOutputPath": "public/videos/intermediate/attach-macro-i06.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[7]",
+        "[17]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "wordCount": 163,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-ATO-I07",
+      "questionId": "ATO-I07",
+      "level": "Intermediate",
+      "title": "Question explanation: Signals of account takeover",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-ATO-I07.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-ATO-I07.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-ATO-I07.md",
+      "captionsPath": "content/videos/captions/VIDEO-ATO-I07.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-ATO-I07.txt",
+      "plannedOutputPath": "public/videos/intermediate/ato-i07.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[16]",
+        "[17]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 57
+      },
+      "wordCount": 153,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-DATA-SHARE-I08",
+      "questionId": "DATA-SHARE-I08",
+      "level": "Intermediate",
+      "title": "Question explanation: The broad sharing link",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-DATA-SHARE-I08.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-DATA-SHARE-I08.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-DATA-SHARE-I08.md",
+      "captionsPath": "content/videos/captions/VIDEO-DATA-SHARE-I08.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-DATA-SHARE-I08.txt",
+      "plannedOutputPath": "public/videos/intermediate/data-share-i08.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[31]",
+        "[33]",
+        "[36]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 57
+      },
+      "wordCount": 153,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-REPORT-I-I09",
+      "questionId": "REPORT-I-I09",
+      "level": "Intermediate",
+      "title": "Question explanation: The suspected malware click",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-REPORT-I-I09.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-REPORT-I-I09.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-REPORT-I-I09.md",
+      "captionsPath": "content/videos/captions/VIDEO-REPORT-I-I09.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-REPORT-I-I09.txt",
+      "plannedOutputPath": "public/videos/intermediate/report-i-i09.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 50
+      },
+      "wordCount": 136,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-EXTENSION-I10",
+      "questionId": "EXTENSION-I10",
+      "level": "Intermediate",
+      "title": "Question explanation: The productivity extension",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-EXTENSION-I10.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-EXTENSION-I10.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-EXTENSION-I10.md",
+      "captionsPath": "content/videos/captions/VIDEO-EXTENSION-I10.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-EXTENSION-I10.txt",
+      "plannedOutputPath": "public/videos/intermediate/extension-i10.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[19]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 54
+      },
+      "wordCount": 146,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-CLOUD-I11",
+      "questionId": "CLOUD-I11",
+      "level": "Intermediate",
+      "title": "Question explanation: The anonymous cloud folder",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-CLOUD-I11.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-CLOUD-I11.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-CLOUD-I11.md",
+      "captionsPath": "content/videos/captions/VIDEO-CLOUD-I11.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-CLOUD-I11.txt",
+      "plannedOutputPath": "public/videos/intermediate/cloud-i11.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[31]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 48
+      },
+      "wordCount": 129,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-PAYMENT-I12",
+      "questionId": "PAYMENT-I12",
+      "level": "Intermediate",
+      "title": "Question explanation: The changed supplier bank account",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-PAYMENT-I12.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-PAYMENT-I12.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-PAYMENT-I12.md",
+      "captionsPath": "content/videos/captions/VIDEO-PAYMENT-I12.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-PAYMENT-I12.txt",
+      "plannedOutputPath": "public/videos/intermediate/payment-i12.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[7]",
+        "[17]",
+        "[26]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 55
+      },
+      "wordCount": 149,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-RESET-I13",
+      "questionId": "RESET-I13",
+      "level": "Intermediate",
+      "title": "Question explanation: The unsolicited password-reset link",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-RESET-I13.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-RESET-I13.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-RESET-I13.md",
+      "captionsPath": "content/videos/captions/VIDEO-RESET-I13.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-RESET-I13.txt",
+      "plannedOutputPath": "public/videos/intermediate/reset-i13.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[16]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 54
+      },
+      "wordCount": 145,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-REMOTE-I14",
+      "questionId": "REMOTE-I14",
+      "level": "Intermediate",
+      "title": "Question explanation: The shared-space work session",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-REMOTE-I14.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-REMOTE-I14.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-REMOTE-I14.md",
+      "captionsPath": "content/videos/captions/VIDEO-REMOTE-I14.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-REMOTE-I14.txt",
+      "plannedOutputPath": "public/videos/intermediate/remote-i14.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[30]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 52
+      },
+      "wordCount": 140,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-QR-APP-I15",
+      "questionId": "QR-APP-I15",
+      "level": "Intermediate",
+      "title": "Question explanation: The QR-code APK download",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-QR-APP-I15.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-QR-APP-I15.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-QR-APP-I15.md",
+      "captionsPath": "content/videos/captions/VIDEO-QR-APP-I15.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-QR-APP-I15.txt",
+      "plannedOutputPath": "public/videos/intermediate/qr-app-i15.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[18]",
+        "[27]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 58
+      },
+      "wordCount": 156,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-BEC-A01",
+      "questionId": "BEC-A01",
+      "level": "Advanced",
+      "title": "Question explanation: The executive payment exception",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-BEC-A01.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-BEC-A01.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-BEC-A01.md",
+      "captionsPath": "content/videos/captions/VIDEO-BEC-A01.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-BEC-A01.txt",
+      "plannedOutputPath": "public/videos/advanced/bec-a01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[7]",
+        "[17]",
+        "[26]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 59
+      },
+      "wordCount": 160,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-DEEPFAKE-A02",
+      "questionId": "DEEPFAKE-A02",
+      "level": "Advanced",
+      "title": "Question explanation: The executive voice instruction",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-DEEPFAKE-A02.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-DEEPFAKE-A02.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-DEEPFAKE-A02.md",
+      "captionsPath": "content/videos/captions/VIDEO-DEEPFAKE-A02.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-DEEPFAKE-A02.txt",
+      "plannedOutputPath": "public/videos/advanced/deepfake-a02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[15]",
+        "[17]",
+        "[29]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 57
+      },
+      "wordCount": 153,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-INSIDER-A03",
+      "questionId": "INSIDER-A03",
+      "level": "Advanced",
+      "title": "Question explanation: Unusual data exports",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-INSIDER-A03.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-INSIDER-A03.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-INSIDER-A03.md",
+      "captionsPath": "content/videos/captions/VIDEO-INSIDER-A03.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-INSIDER-A03.txt",
+      "plannedOutputPath": "public/videos/advanced/insider-a03.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[32]",
+        "[36]",
+        "[38]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "wordCount": 164,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-CRED-COMP-A04",
+      "questionId": "CRED-COMP-A04",
+      "level": "Advanced",
+      "title": "Question explanation: The compromised privileged account",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-CRED-COMP-A04.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-CRED-COMP-A04.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-CRED-COMP-A04.md",
+      "captionsPath": "content/videos/captions/VIDEO-CRED-COMP-A04.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-CRED-COMP-A04.txt",
+      "plannedOutputPath": "public/videos/advanced/cred-comp-a04.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[16]",
+        "[17]",
+        "[28]",
+        "[36]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 58
+      },
+      "wordCount": 157,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-IR-PRIORITY-A05",
+      "questionId": "IR-PRIORITY-A05",
+      "level": "Advanced",
+      "title": "Question explanation: Two competing incidents",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-IR-PRIORITY-A05.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-IR-PRIORITY-A05.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-IR-PRIORITY-A05.md",
+      "captionsPath": "content/videos/captions/VIDEO-IR-PRIORITY-A05.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-IR-PRIORITY-A05.txt",
+      "plannedOutputPath": "public/videos/advanced/ir-priority-a05.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[28]",
+        "[35]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 57
+      },
+      "wordCount": 154,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-POLICY-A06",
+      "questionId": "POLICY-A06",
+      "level": "Advanced",
+      "title": "Question explanation: The emergency MFA exception",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-POLICY-A06.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-POLICY-A06.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-POLICY-A06.md",
+      "captionsPath": "content/videos/captions/VIDEO-POLICY-A06.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-POLICY-A06.txt",
+      "plannedOutputPath": "public/videos/advanced/policy-a06.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[18]",
+        "[19]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 57
+      },
+      "wordCount": 154,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-RISK-A07",
+      "questionId": "RISK-A07",
+      "level": "Advanced",
+      "title": "Question explanation: The risk register decision",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-RISK-A07.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-RISK-A07.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-RISK-A07.md",
+      "captionsPath": "content/videos/captions/VIDEO-RISK-A07.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-RISK-A07.txt",
+      "plannedOutputPath": "public/videos/advanced/risk-a07.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[36]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 56
+      },
+      "wordCount": 150,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-SUPPLIER-A08",
+      "questionId": "SUPPLIER-A08",
+      "level": "Advanced",
+      "title": "Question explanation: The vendor integration request",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-SUPPLIER-A08.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-SUPPLIER-A08.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-SUPPLIER-A08.md",
+      "captionsPath": "content/videos/captions/VIDEO-SUPPLIER-A08.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-SUPPLIER-A08.txt",
+      "plannedOutputPath": "public/videos/advanced/supplier-a08.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[19]",
+        "[31]",
+        "[33]",
+        "[37]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 57
+      },
+      "wordCount": 153,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-PRIVACY-INC-A09",
+      "questionId": "PRIVACY-INC-A09",
+      "level": "Advanced",
+      "title": "Question explanation: The misdirected personal-data file",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-PRIVACY-INC-A09.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-PRIVACY-INC-A09.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-PRIVACY-INC-A09.md",
+      "captionsPath": "content/videos/captions/VIDEO-PRIVACY-INC-A09.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-PRIVACY-INC-A09.txt",
+      "plannedOutputPath": "public/videos/advanced/privacy-inc-a09.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[28]",
+        "[36]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "wordCount": 161,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-LOGS-A10",
+      "questionId": "LOGS-A10",
+      "level": "Advanced",
+      "title": "Question explanation: The investigation log request",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-LOGS-A10.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-LOGS-A10.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-LOGS-A10.md",
+      "captionsPath": "content/videos/captions/VIDEO-LOGS-A10.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-LOGS-A10.txt",
+      "plannedOutputPath": "public/videos/advanced/logs-a10.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[19]",
+        "[36]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 53
+      },
+      "wordCount": 143,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-AI-CONTENT-A11",
+      "questionId": "AI-CONTENT-A11",
+      "level": "Advanced",
+      "title": "Question explanation: The AI-generated incident advisory",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-AI-CONTENT-A11.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-AI-CONTENT-A11.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-AI-CONTENT-A11.md",
+      "captionsPath": "content/videos/captions/VIDEO-AI-CONTENT-A11.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-AI-CONTENT-A11.txt",
+      "plannedOutputPath": "public/videos/advanced/ai-content-a11.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[15]",
+        "[17]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "wordCount": 165,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-RANSOM-A12",
+      "questionId": "RANSOM-A12",
+      "level": "Advanced",
+      "title": "Question explanation: The active ransomware event",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-RANSOM-A12.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-RANSOM-A12.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-RANSOM-A12.md",
+      "captionsPath": "content/videos/captions/VIDEO-RANSOM-A12.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-RANSOM-A12.txt",
+      "plannedOutputPath": "public/videos/advanced/ransom-a12.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[28]",
+        "[35]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "wordCount": 162,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-ACCESS-A13",
+      "questionId": "ACCESS-A13",
+      "level": "Advanced",
+      "title": "Question explanation: The over-privileged analyst",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-ACCESS-A13.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-ACCESS-A13.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-ACCESS-A13.md",
+      "captionsPath": "content/videos/captions/VIDEO-ACCESS-A13.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-ACCESS-A13.txt",
+      "plannedOutputPath": "public/videos/advanced/access-a13.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[17]",
+        "[19]",
+        "[31]",
+        "[33]",
+        "[36]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 54
+      },
+      "wordCount": 146,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-MFA-POLICY-A14",
+      "questionId": "MFA-POLICY-A14",
+      "level": "Advanced",
+      "title": "Question explanation: Choosing authentication for high-risk administrators",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-MFA-POLICY-A14.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-MFA-POLICY-A14.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-MFA-POLICY-A14.md",
+      "captionsPath": "content/videos/captions/VIDEO-MFA-POLICY-A14.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-MFA-POLICY-A14.txt",
+      "plannedOutputPath": "public/videos/advanced/mfa-policy-a14.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[16]",
+        "[17]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 58
+      },
+      "wordCount": 156,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-BOARD-A15",
+      "questionId": "BOARD-A15",
+      "level": "Advanced",
+      "title": "Question explanation: The board awareness report",
+      "status": "scripted_storyboard_caption_draft_media_not_generated",
+      "scriptPath": "content/videos/scripts/VIDEO-BOARD-A15.md",
+      "storyboardPath": "content/videos/storyboards/VIDEO-BOARD-A15.json",
+      "transcriptPath": "content/videos/scripts/VIDEO-BOARD-A15.md",
+      "captionsPath": "content/videos/captions/VIDEO-BOARD-A15.vtt",
+      "promptPath": "content/videos/prompts/VIDEO-BOARD-A15.txt",
+      "plannedOutputPath": "public/videos/advanced/board-a15.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "pending_security_and_pedagogical_review",
+      "referenceIds": [
+        "[1]",
+        "[4]",
+        "[5]",
+        "[7]",
+        "[17]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": 60
+      },
+      "wordCount": 168,
+      "notes": "Complete narration now includes a concise reason for every incorrect option; complete option-specific teaching notes remain in the script. Storyboard, visual prompt and synchronized VTT captions updated. No rendered MP4 exists or is claimed."
+    },
+    {
+      "videoId": "VIDEO-LIB-AIM-01",
+      "questionId": "LIB-AIM-01",
+      "level": "Beginner",
+      "title": "Question explanation: AI-enabled impersonation: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-aim-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[15]",
+        "[29]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-AIM-02",
+      "questionId": "LIB-AIM-02",
+      "level": "Intermediate",
+      "title": "Question explanation: AI-enabled impersonation: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-aim-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[15]",
+        "[29]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-AIT-01",
+      "questionId": "LIB-AIT-01",
+      "level": "Beginner",
+      "title": "Question explanation: AI-enabled threats: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-ait-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[15]",
+        "[14]",
+        "[29]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-AIT-02",
+      "questionId": "LIB-AIT-02",
+      "level": "Intermediate",
+      "title": "Question explanation: AI-enabled threats: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-ait-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[15]",
+        "[14]",
+        "[29]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-ACG-01",
+      "questionId": "LIB-ACG-01",
+      "level": "Beginner",
+      "title": "Question explanation: Access governance: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-acg-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[31]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-ACG-02",
+      "questionId": "LIB-ACG-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Access governance: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-acg-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[31]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-REC-01",
+      "questionId": "LIB-REC-01",
+      "level": "Beginner",
+      "title": "Question explanation: Account recovery: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-rec-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[24]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-REC-02",
+      "questionId": "LIB-REC-02",
+      "level": "Advanced",
+      "title": "Question explanation: Account recovery: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-rec-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[24]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-ATO-01",
+      "questionId": "LIB-ATO-01",
+      "level": "Beginner",
+      "title": "Question explanation: Account takeover: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-ato-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[25]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-ATO-02",
+      "questionId": "LIB-ATO-02",
+      "level": "Advanced",
+      "title": "Question explanation: Account takeover: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-ato-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[25]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-AUTH-01",
+      "questionId": "LIB-AUTH-01",
+      "level": "Advanced",
+      "title": "Question explanation: Authentication: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-auth-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-AA-01",
+      "questionId": "LIB-AA-01",
+      "level": "Beginner",
+      "title": "Question explanation: Authentication architecture: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-aa-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[31]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-AA-02",
+      "questionId": "LIB-AA-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Authentication architecture: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-aa-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[31]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-BRS-01",
+      "questionId": "LIB-BRS-01",
+      "level": "Beginner",
+      "title": "Question explanation: Browser security: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-brs-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[19]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-BRS-02",
+      "questionId": "LIB-BRS-02",
+      "level": "Advanced",
+      "title": "Question explanation: Browser security: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-brs-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[19]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-BEC-01",
+      "questionId": "LIB-BEC-01",
+      "level": "Beginner",
+      "title": "Question explanation: Business email compromise: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-bec-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[26]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-CLD-01",
+      "questionId": "LIB-CLD-01",
+      "level": "Beginner",
+      "title": "Question explanation: Cloud security: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-cld-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[31]",
+        "[33]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-CLD-02",
+      "questionId": "LIB-CLD-02",
+      "level": "Advanced",
+      "title": "Question explanation: Cloud security: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-cld-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[31]",
+        "[33]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-CCR-01",
+      "questionId": "LIB-CCR-01",
+      "level": "Beginner",
+      "title": "Question explanation: Credential compromise: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-ccr-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[25]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-CCR-02",
+      "questionId": "LIB-CCR-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Credential compromise: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-ccr-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[25]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-DAT-01",
+      "questionId": "LIB-DAT-01",
+      "level": "Beginner",
+      "title": "Question explanation: Data protection: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-dat-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[33]",
+        "[36]",
+        "[20]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-DAT-02",
+      "questionId": "LIB-DAT-02",
+      "level": "Advanced",
+      "title": "Question explanation: Data protection: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-dat-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[33]",
+        "[36]",
+        "[20]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-DEV-01",
+      "questionId": "LIB-DEV-01",
+      "level": "Intermediate",
+      "title": "Question explanation: Device security: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-dev-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[34]",
+        "[30]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-DEV-02",
+      "questionId": "LIB-DEV-02",
+      "level": "Advanced",
+      "title": "Question explanation: Device security: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-dev-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[34]",
+        "[30]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-LOG-01",
+      "questionId": "LIB-LOG-01",
+      "level": "Beginner",
+      "title": "Question explanation: Evidence and logging: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-log-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[28]",
+        "[18]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-LOG-02",
+      "questionId": "LIB-LOG-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Evidence and logging: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-log-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[28]",
+        "[18]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-IRP-01",
+      "questionId": "LIB-IRP-01",
+      "level": "Intermediate",
+      "title": "Question explanation: Incident reporting: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-irp-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[1]",
+        "[7]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-IRP-02",
+      "questionId": "LIB-IRP-02",
+      "level": "Advanced",
+      "title": "Question explanation: Incident reporting: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-irp-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[1]",
+        "[7]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-IR-01",
+      "questionId": "LIB-IR-01",
+      "level": "Beginner",
+      "title": "Question explanation: Incident response: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-ir-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[28]",
+        "[35]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-INS-01",
+      "questionId": "LIB-INS-01",
+      "level": "Beginner",
+      "title": "Question explanation: Insider threat: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-ins-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[32]",
+        "[38]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-INS-02",
+      "questionId": "LIB-INS-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Insider threat: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-ins-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[32]",
+        "[38]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-ATT-01",
+      "questionId": "LIB-ATT-01",
+      "level": "Advanced",
+      "title": "Question explanation: Malicious attachments: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-att-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[25]",
+        "[19]",
+        "[28]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-MOB-01",
+      "questionId": "LIB-MOB-01",
+      "level": "Beginner",
+      "title": "Question explanation: Mobile application security: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-mob-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[19]",
+        "[27]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-MOB-02",
+      "questionId": "LIB-MOB-02",
+      "level": "Advanced",
+      "title": "Question explanation: Mobile application security: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-mob-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[19]",
+        "[27]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-NET-01",
+      "questionId": "LIB-NET-01",
+      "level": "Intermediate",
+      "title": "Question explanation: Network security: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-net-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[30]",
+        "[31]",
+        "[19]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-NET-02",
+      "questionId": "LIB-NET-02",
+      "level": "Advanced",
+      "title": "Question explanation: Network security: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-net-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[30]",
+        "[31]",
+        "[19]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-PWD-01",
+      "questionId": "LIB-PWD-01",
+      "level": "Intermediate",
+      "title": "Question explanation: Password hygiene: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-pwd-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[16]",
+        "[1]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-PHI-01",
+      "questionId": "LIB-PHI-01",
+      "level": "Intermediate",
+      "title": "Question explanation: Phishing indicators: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-phi-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[7]",
+        "[25]",
+        "[6]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-PRI-01",
+      "questionId": "LIB-PRI-01",
+      "level": "Intermediate",
+      "title": "Question explanation: Privacy: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-pri-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[36]",
+        "[33]",
+        "[20]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-PRI-02",
+      "questionId": "LIB-PRI-02",
+      "level": "Advanced",
+      "title": "Question explanation: Privacy: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-pri-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[36]",
+        "[33]",
+        "[20]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-PIR-01",
+      "questionId": "LIB-PIR-01",
+      "level": "Beginner",
+      "title": "Question explanation: Privacy incident response: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-pir-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[36]",
+        "[28]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-PIR-02",
+      "questionId": "LIB-PIR-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Privacy incident response: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-pir-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[36]",
+        "[28]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-QPH-01",
+      "questionId": "LIB-QPH-01",
+      "level": "Beginner",
+      "title": "Question explanation: QR-code phishing: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-qph-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[27]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-QPH-02",
+      "questionId": "LIB-QPH-02",
+      "level": "Advanced",
+      "title": "Question explanation: QR-code phishing: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-qph-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[27]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-QRS-01",
+      "questionId": "LIB-QRS-01",
+      "level": "Intermediate",
+      "title": "Question explanation: QR-code safety: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-qrs-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[27]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-QRS-02",
+      "questionId": "LIB-QRS-02",
+      "level": "Advanced",
+      "title": "Question explanation: QR-code safety: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-qrs-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[27]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-RAN-01",
+      "questionId": "LIB-RAN-01",
+      "level": "Beginner",
+      "title": "Question explanation: Ransomware response: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-ran-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[35]",
+        "[28]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-RAN-02",
+      "questionId": "LIB-RAN-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Ransomware response: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-ran-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[35]",
+        "[28]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-REM-01",
+      "questionId": "LIB-REM-01",
+      "level": "Beginner",
+      "title": "Question explanation: Remote-work security: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-rem-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[30]",
+        "[31]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-REM-02",
+      "questionId": "LIB-REM-02",
+      "level": "Advanced",
+      "title": "Question explanation: Remote-work security: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-rem-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[30]",
+        "[31]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-RISK-01",
+      "questionId": "LIB-RISK-01",
+      "level": "Beginner",
+      "title": "Question explanation: Risk management: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-risk-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-RISK-02",
+      "questionId": "LIB-RISK-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Risk management: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-risk-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SFB-01",
+      "questionId": "LIB-SFB-01",
+      "level": "Intermediate",
+      "title": "Question explanation: Safe browsing: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-sfb-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[25]",
+        "[19]",
+        "[20]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SFB-02",
+      "questionId": "LIB-SFB-02",
+      "level": "Advanced",
+      "title": "Question explanation: Safe browsing: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-sfb-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[25]",
+        "[19]",
+        "[20]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SGV-01",
+      "questionId": "LIB-SGV-01",
+      "level": "Beginner",
+      "title": "Question explanation: Security governance: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-sgv-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SGV-02",
+      "questionId": "LIB-SGV-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Security governance: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-sgv-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[17]",
+        "[18]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SPG-01",
+      "questionId": "LIB-SPG-01",
+      "level": "Beginner",
+      "title": "Question explanation: Security programme governance: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-spg-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SPG-02",
+      "questionId": "LIB-SPG-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Security programme governance: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-spg-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[1]",
+        "[17]",
+        "[18]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SMI-01",
+      "questionId": "LIB-SMI-01",
+      "level": "Beginner",
+      "title": "Question explanation: Smishing: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-smi-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[25]",
+        "[24]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SMI-02",
+      "questionId": "LIB-SMI-02",
+      "level": "Advanced",
+      "title": "Question explanation: Smishing: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-smi-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[25]",
+        "[24]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SOC-01",
+      "questionId": "LIB-SOC-01",
+      "level": "Intermediate",
+      "title": "Question explanation: Social engineering: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-soc-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[3]",
+        "[7]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SOC-02",
+      "questionId": "LIB-SOC-02",
+      "level": "Advanced",
+      "title": "Question explanation: Social engineering: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-soc-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[3]",
+        "[7]",
+        "[25]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SPR-01",
+      "questionId": "LIB-SPR-01",
+      "level": "Beginner",
+      "title": "Question explanation: Spear phishing: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-spr-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[25]",
+        "[26]",
+        "[7]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-SPR-02",
+      "questionId": "LIB-SPR-02",
+      "level": "Advanced",
+      "title": "Question explanation: Spear phishing: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-spr-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[25]",
+        "[26]",
+        "[7]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-LNK-01",
+      "questionId": "LIB-LNK-01",
+      "level": "Intermediate",
+      "title": "Question explanation: Suspicious links: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-lnk-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[7]",
+        "[25]",
+        "[19]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-LNK-02",
+      "questionId": "LIB-LNK-02",
+      "level": "Advanced",
+      "title": "Question explanation: Suspicious links: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-lnk-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[7]",
+        "[25]",
+        "[19]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-TPR-01",
+      "questionId": "LIB-TPR-01",
+      "level": "Beginner",
+      "title": "Question explanation: Third-party risk: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-tpr-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[37]",
+        "[17]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-TPR-02",
+      "questionId": "LIB-TPR-02",
+      "level": "Intermediate",
+      "title": "Question explanation: Third-party risk: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/intermediate/lib-tpr-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[37]",
+        "[17]",
+        "[33]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-VIS-01",
+      "questionId": "LIB-VIS-01",
+      "level": "Beginner",
+      "title": "Question explanation: Vishing: safest response",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/beginner/lib-vis-01.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[25]",
+        "[24]",
+        "[16]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    },
+    {
+      "videoId": "VIDEO-LIB-VIS-02",
+      "questionId": "LIB-VIS-02",
+      "level": "Advanced",
+      "title": "Question explanation: Vishing: evidence check",
+      "status": "deferred_by_owner_request",
+      "scriptPath": null,
+      "storyboardPath": null,
+      "transcriptPath": null,
+      "captionsPath": null,
+      "promptPath": null,
+      "plannedOutputPath": "public/videos/advanced/lib-vis-02.mp4",
+      "mediaFileExists": false,
+      "reviewStatus": "deferred_by_owner_request",
+      "referenceIds": [
+        "[25]",
+        "[24]",
+        "[16]"
+      ],
+      "targetDurationSeconds": {
+        "min": 30,
+        "max": 60,
+        "estimated": null
+      },
+      "notes": "Video creation, script, storyboard and captions intentionally deferred by project owner; written question explanation remains available."
+    }
+  ],
+  "contentReviewApprovedCount": 0,
+  "pendingContentReviewCount": 115,
+  "importedMediaCount": 0,
+  "readyVideoCount": 0,
+  "ownerDirection": "Do not generate new scripts, storyboards, captions or MP4 files for the added library questions in this update."
+}

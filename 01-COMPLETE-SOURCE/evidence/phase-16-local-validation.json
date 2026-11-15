@@ -1,0 +1,119 @@
+{
+  "project": "CYBERAWARE 3D",
+  "release": "0.10.0-rc.9",
+  "phase": 16,
+  "date": "2026-11-13",
+  "runtime": {
+    "node": "v22.16.0",
+    "npm": "10.9.2",
+    "localTypeScript": "5.8.3",
+    "declaredNodeMinimum": ">=22.23.5",
+    "runtimeCaveat": "The local runtime is below the repository's declared Node.js engine floor; supported-version verification is configured in GitHub Actions but was not executed in this authoring environment."
+  },
+  "checks": {
+    "legacyNodeTests": {
+      "passed": true,
+      "result": "41/41",
+      "detail": "Includes four CI/release contract regressions; no video or MP4 generation was run."
+    },
+    "reactDomainAndSourceAccessibilityTests": {
+      "passed": true,
+      "result": "17/17",
+      "detail": "Domain, data-validation and source assertions only; not browser accessibility results."
+    },
+    "offlineStructuralTypecheck": {
+      "passed": true,
+      "result": "TypeScript 5.8.3 with local ambient shims",
+      "detail": "Not the declared TypeScript 7 project-reference typecheck."
+    },
+    "canonicalContentValidation": {
+      "passed": true,
+      "result": "45 core questions, 6 Expert Challenge scenarios, 51 explanation mappings, 204 option rationales, 38 reference mappings."
+    },
+    "highConfidenceSecretPatternScan": {
+      "passed": true,
+      "detail": "Pattern scan only; not a comprehensive secret scanner, SAST or independent security audit."
+    },
+    "legacyStaticBuild": {
+      "passed": true,
+      "detail": "Copy-based compatibility distribution; not a Vite production build."
+    },
+    "legacyDistributionSmoke": {
+      "passed": true,
+      "result": "215 routes"
+    },
+    "packagedServerSmoke": {
+      "passed": true,
+      "detail": "Actual legacy dist server process verified for readiness, content, headers, GET/HEAD, 404, method guard and graceful shutdown."
+    },
+    "nginxLiveHttpSmoke": {
+      "passed": true,
+      "result": "8/8"
+    },
+    "backupSmoke": {
+      "passed": true,
+      "detail": "Checksum, exclusions, restrictive permissions and inside-tree refusal."
+    },
+    "systemdUnitSyntax": {
+      "passed": true
+    },
+    "javascriptAndShellSyntax": {
+      "passed": true
+    },
+    "workflowYamlAndTopology": {
+      "passed": true,
+      "detail": "Both GitHub Actions YAML workflows parsed; release dependencies, manual refresh trigger, and stable gate names checked."
+    },
+    "releaseWorkflowRegressionTests": {
+      "passed": true,
+      "result": "4/4 included in the 41 legacy tests",
+      "detail": "Artifact upload path, downstream gates, required React acceptance order and manual-only lock refresh."
+    },
+    "lockfileVerifierFixtures": {
+      "passed": true,
+      "result": "6 fixture checks",
+      "detail": "Valid lock accepted; malformed SRI, workspace link, unapproved registry, root metadata mismatch and missing-lock cases rejected. Uses a synthetic one-package fixture only; no real lockfile is present."
+    },
+    "directDependencySbom": {
+      "passed": true,
+      "result": "10 declared direct React dependencies; deterministic across repeated generation",
+      "detail": "Not a resolved/transitive dependency SBOM. The full SBOM is only generated in network-enabled CI after npm ci."
+    },
+    "fullReleasePackagingFixture": {
+      "passed": true,
+      "detail": "Temporary synthetic dist-react fixture verified generation of all three ZIPs and SHA-256 sidecar; fixture and archives were deleted after test. This does not represent a React production build."
+    },
+    "strictProductionPackagingGate": {
+      "passed": true,
+      "detail": "Correctly refused to create release archives because the actual React dist-react build is absent."
+    },
+    "sourceOnlyReleasePackage": {
+      "passed": true,
+      "detail": "Full-source and legacy application demo ZIPs generated with explicit --source-only mode; ZIP integrity and SHA-256 sidecar verified. Not a React production release."
+    }
+  },
+  "notRun": [
+    "Real package-lock generation and maintainer review/commit",
+    "npm ci from the committed lockfile",
+    "npm audit --audit-level=high",
+    "Official TypeScript 7 project build",
+    "Vite production build and real React distribution smoke",
+    "Playwright Chromium/Firefox/WebKit desktop and Pixel/iPhone mobile browser acceptance",
+    "Browser axe scans and manual accessibility review",
+    "Production TLS/HSTS and monitoring validation",
+    "Off-host backup and production restore/rollback drill",
+    "Independent cybersecurity/instructional-design review and learner evaluation",
+    "Remote GitHub Actions run and branch-protection configuration"
+  ],
+  "environmentBlockers": [
+    "registry.npmjs.org DNS resolution is unavailable in the authoring runtime.",
+    "Local Node.js v22.16.0 is below the declared minimum v22.23.5.",
+    "No committed React package-lock.json or real frontend/dist-react build artifact exists in this handoff."
+  ],
+  "releaseState": "SOURCE_ONLY_HANDOFF; REACT_CANDIDATE_BLOCKED; NOT_PRODUCTION_APPROVED",
+  "deferredByOwner": [
+    "Video provider integration",
+    "MP4 generation",
+    "Media/video review"
+  ]
+}
